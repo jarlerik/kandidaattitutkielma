@@ -1,0 +1,177 @@
+% --- Template for thesis / report with tktltiki2 class ---
+
+\documentclass[finnish]{tktltiki2}
+
+% tktltiki2 automatically loads babel, so you can simply
+% give the language parameter (e.g. finnish, swedish, english, british) as
+% a parameter for the class: \documentclass[finnish]{tktltiki2}.
+% The information on title and abstract is generated automatically depending on
+% the language, see below if you need to change any of these manually.
+% 
+% Class options:
+% - grading                 -- Print labels for grading information on the front page.
+% - disablelastpagecounter  -- Disables the automatic generation of page number information
+%                              in the abstract. See also \numberofpagesinformation{} command below.
+%
+% The class also respects the following options of article class:
+%   10pt, 11pt, 12pt, final, draft, oneside, twoside,
+%   openright, openany, onecolumn, twocolumn, leqno, fleqn
+%
+% The default font size is 11pt. The paper size used is A4, other sizes are not supported.
+%
+% rubber: module pdftex
+
+% --- General packages ---
+
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{amsfonts,amsmath,amssymb,amsthm,booktabs,color,enumitem,graphicx}
+\usepackage[pdftex,hidelinks]{hyperref}
+
+% Automatically set the PDF metadata fields
+\makeatletter
+\AtBeginDocument{\hypersetup{pdftitle = {\@title}, pdfauthor = {\@author}}}
+\makeatother
+
+% --- Language-related settings ---
+%
+% these should be modified according to your language
+
+% babelbib for non-english bibliography using bibtex
+\usepackage[fixlanguage]{babelbib}
+\selectbiblanguage{finnish}
+
+% add bibliography to the table of contents
+\usepackage[nottoc,numbib]{tocbibind}
+% tocbibind renames the bibliography, use the following to change it back
+\settocbibname{Lähteet}
+
+% --- Theorem environment definitions ---
+
+\newtheorem{lau}{Lause}
+\newtheorem{lem}[lau]{Lemma}
+\newtheorem{kor}[lau]{Korollaari}
+
+\theoremstyle{definition}
+\newtheorem{maar}[lau]{Määritelmä}
+\newtheorem{ong}{Ongelma}
+\newtheorem{alg}[lau]{Algoritmi}
+\newtheorem{esim}[lau]{Esimerkki}
+
+\theoremstyle{remark}
+\newtheorem*{huom}{Huomautus}
+
+
+% --- tktltiki2 options ---
+%
+% The following commands define the information used to generate title and
+% abstract pages. The following entries should be always specified:
+
+\title{Miten avoimen lähdekoodin kehitys ja ketterät menetelmät kohtaavat?}
+\author{Jarl-Erik Malmström}
+\date{\today}
+\level{Referaatti}
+\abstract{Tiivistelmä.}
+
+% The following can be used to specify keywords and classification of the paper:
+
+\keywords{agile, ketterä, open source, avoin}
+\classification{} % classification according to ACM Computing Classification System (http://www.acm.org/about/class/)
+                  % This is probably mostly relevant for computer scientists
+
+% If the automatic page number counting is not working as desired in your case,
+% uncomment the following to manually set the number of pages displayed in the abstract page:
+%
+% \numberofpagesinformation{16 sivua + 10 sivua liitteissä}
+%
+% If you are not a computer scientist, you will want to uncomment the following by hand and specify
+% your department, faculty and subject by hand:
+%
+% \faculty{Matemaattis-luonnontieteellinen}
+% \department{Tietojenkäsittelytieteen laitos}
+% \subject{Tietojenkäsittelytiede}
+%
+% If you are not from the University of Helsinki, then you will most likely want to set these also:
+%
+% \university{Helsingin Yliopisto}
+% \universitylong{HELSINGIN YLIOPISTO --- HELSINGFORS UNIVERSITET --- UNIVERSITY OF HELSINKI} % displayed on the top of the abstract page
+% \city{Helsinki}
+%
+
+
+\begin{document}
+
+% --- Front matter ---
+
+\maketitle        % title page
+\makeabstract     % abstract page
+
+\tableofcontents  % table of contents
+\newpage          % clear page after the table of contents
+
+
+% --- Main matter ---
+
+\section{Johdanto}
+
+Avoimen lähdekoodin (open source software) kehittäjäyhteisö on tyypillisesti maantieteellisesti hajaantunut. Yhteisön jäsenten etäisyys vaikeuttaa jäsenten välistä kommunikaatiota. Verrattuna perinteiseen työyhteisöön, minkä jäsenet työskentelevät yleensä samassa tilassa.
+
+Ketterät ohjelmistotuotantomenetelmät (agile methods) eivät vaikuta sopivilta hierarkiseen ja hajaantuneeseen organisaatiorakenteeseen. Mutta avoimen lähdekoodin projektit toteuttavat usein ketterien menetelmien periaatteita. Projektit ovat valmiita muutoksille, vastaavat jatkuvaan palautteeseen toimittamalla uusia toiminnallisuuksia, arvostavat yhteistyötä ja kohtaavat haasteita. 
+
+Linux käyttöjärjestelmän levinneisyys ja ohjelmistoalan muutos kohti ketteriä menetelmiä ovat osoittaneet, että avoimilla projekteilla ja ketterillä menetelmillä molemmilla on etunsa. kumpikaan ei ole tarjonnut yksiselitteistä ratkaisua ohjelmistotuotannon ongelmiin. Referoidussa  artikkelissa\cite{COG08} Hugo Corbucci ja Alfredo Goldman pyrkimys yhdistämään molempien menetelmien edut.
+
+\section{Avoimen lähdekoodin ketterät menetelmät}
+
+Miten ketterät menetelmät toteutuvat avoimen lähdekoodin projekteissa?
+
+Hugo Corbucci ja Alfredo Goldman esittävät, että avoimen lähdekoodin projekteissa toteutetaan ketteryyttä ja monien avoimen kehityksen ominaisuuksia voidaan suoraan liittää ketterään julistukseen (agile manifesto). 
+
+He pitävät ketteränä sellaisia ohjelmistosuunnittelun metodeja, mitkä seuraavat ketterän julistuksen periaatteita: yksilöt ja vuorovaikutus yli prosessien ja työkalujen, toimiva ohjelmisto yli kattavan dokumentaation, asiakasyhteistyö yli sopimusneuvottelun ja muutoksiin sopeutuminen yli suunnitelman seuraamisen.
+
+\subsection{yksilöt ja vuorovaikutus}
+
+Kirjoittajat väittävät avoimen lähdekoodin projektien olevan lähes poikkeuksetta ketteriä. He kirjoittavat että useissa tutkimuksissa on havaittu avoimen lähdekoodin ohjelmistokehityksessä käytettävän kohtuullisesti työkaluja yhteisön kommunikaation ylläpitämiseksi. Versionhallinta, projektin kotisivu ja postituslistat olivat pääasialliset yhteydenpitovälineet käyttäjien ja kehittäjien keskuudessa. 
+Yhteisön yksilöt ja sen vuorovaikutus kiinnostavan asian ympärillä ovat koko avoimen kehityksen ydin. Yhteistoiminta liittyy useimmiten lähdekoodin ympärille ja dokumentaation laadintaan. Yhteistoiminta vie prosesseja eteenpäin ja muokkaa yhä paremmin yhteisön tarpeisiin sopiviksi. 
+
+\subsection{Toimiva ohjelmisto}
+
+Hieman yli puolet avoimen lähdekoodin projekteista päivittävät ja tarkistavat dokumentaatiota usein ja kolmannes ylläpitää dokumentteja kertoakseen kuinka ohjelmiston osat toimivat ja kuinka se on organisoitu. Kirjoittajat näkevät dokumentoinnin tukevan projekteja eikä olevan projektien pääasiallinen tarkoitus.
+
+\subsection{Asiakasyhteistyö}
+
+Asiakassopimukset ovat harvoin ongelma avoimissa projekteissa. Asiakas palkkaa kehittäjän tai organisaation kehittämään toiminnallisuuden. Liiketoimintamalli ei takaa yhteistyötä asiakkaan kanssa, mutta yhteistoiminta on kuitenkin koko avoimen kehityksen perusta. Asiakas on yhteistyössä toiveidensa mukaan.
+
+\subsection{Muutoksiin sopeutuminen}
+
+Avoimen lähdekoodin projekteilla on yleensä virstanpylväitä (milestone) ja julkaisuja (releses). Monilla projekteilla on vain lyhyen ajan suunnitelmia. Jos pitkän ajan suunnitelmia on, ne ovat tavoitteita ilman painetta niiden toteuttamiseen. Hugo Corbucci ja Alfredo Goldman kirjoittavat sopeutumisen olevan välttämätöntä kilpailuhenkisessä ympäristössä. Projektien on vastattava käyttäjien muuttuviin tarpeisiin.
+
+\section{Mitä ketterät menetelmät voisivat oppia avoimista projekteista?}
+
+\subsection{Tallettajan rooli}
+
+Monilla avoimen lähdekoodin projekteilla on pieni määrä henkilöitä, joilla on oikeus lisätä koodia runkohaaraan (trunk branch). Runkohaara muodostaa uuden julkaistavan ohjelmiston. Yhteisö luottaa tallettajien (committer) koodiarviointiin. Ketterässä ohjelmistokehityksessä kaikilla kehittäjillä on oikeus lisätä koodia runkohaaraan.
+
+Hugo Corbucci ja Alfredo Goldman esittävät valvontaa tuotantokoodin yksinkertaisuuden takaamiseksi. Useimmilla kettterillä menetelmillä on kehittäjätiimeissä johtaja tai valmentaja, joka on yleensä muita jäseniä kokeneempi. Valvontatehtävä voisi olla tiimin johtajalla ellei se aiheuta viivästystä tuotannossa tai häiritsisi muita hänen tehtäviään. Toinen vaihtoehto olisi vuorotella valvontavastuuta osalla kehittäjiä.
+
+\subsection{Tulokset julki}
+
+Kirjoittajien mielestä suljetun lähdekoodin ohjelmistot voisivat hyötyä julkisista vianseurantajärjestelmistä (bug tracking) ja testituloksista. Ohjelmistojen tuottajien olisi hyväksyttävä siten koodia julkaistavaksi. Julkiset työkalut kannustaisivat käyttäjiä osallistumaan tuotantoprosessiin.
+
+Ketterässä kehityksessä vianseuranta ja testit ovat tärkeitä työkaluja. Ketterät menetelmät  eivät sano, että asiakkaan tulisi käyttää näitä työkaluja. Kuitenkin useimmissa menetelmissä asiakasta pitäisi pitää osana kehitystiimiä.
+
+% --- Back matter ---
+%
+% bibtex is used to generate the bibliography. The babplain style
+% will generate numeric references (e.g. [1]) appropriate for theoretical
+% computer science. If you need alphanumeric references (e.g [Tur90]), use
+%
+% \bibliographystyle{babalpha}
+%
+% instead.
+
+\bibliographystyle{babplain}
+\bibliography{references-fi}
+
+
+\end{document}
