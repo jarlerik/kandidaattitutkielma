@@ -4,7 +4,7 @@
 <h3>Tulokset</h3>
 <p>
 Iteratiivisuus on ollut keskeinen menettelytapa ohjelmistotuotannossa kautta historian. Jopa vesiputousmallin luoneen 
-winston Roycen ajatuksena oli iteratiivinen ohjelmistokehitys. Royce kuvaa vesiputousmallin toimivan vain yksinkertaisimpiin projekteihin. Yhdysvaltain hallituksen sopimusmallit sisälsivät tiukkoja rajoituksia ja vaatimuksia. Työssään Royce kuvasi vesiputousmallin lisäksi iteratiivisten käytänteiden toteuttamista tiukkojen rajojen puitteissa.
+Winston Roycen pääajatuksena oli iteratiivinen ohjelmistokehitys. Royce kuvaa vesiputousmallin toimivan vain yksinkertaisimpiin projekteihin. Yhdysvaltain hallituksen sopimusmallit sisälsivät tiukkoja rajoituksia ja vaatimuksia. Työssään Royce kuvasi vesiputousmallin lisäksi iteratiivisten käytänteiden toteuttamista tiukkojen rajojen puitteissa.
 </p>
 <p>
 Monet kriittisissä ohjelmistotuotantoprojekteissa, joissa oli suuri suunnitteluvaihe ennen toteutusta, käytettiin iteraatiivisia menetelmiä. Vesiputousmalli Nähtiin hyvin varhain vääränlaisena mallina ohjelmistokehitykselle. Malli sopi ideaalitilanteeseen, jossa vaatimusmäärittely voitiin tyhjentävästi toteuttaa. 
