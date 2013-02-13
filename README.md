@@ -37,17 +37,37 @@ Tarkastella mitä ohjelmistotuotannon ketterät kehitysmenetelmät ovat. Tuoda e
 <h3>Yleinen kuvaus</h3>
 
 <p>
-Artikkeli kuvaa keskustelua ketterien menetelmien ympärillä 2000-luvulla. Tuo esiin miten käytänteitä on otettu käyttöön ja miten ne ovat organisaatioissa vaikuttaneet
+Artikkeli kuvaa keskustelua ketterien menetelmien ympärillä 2000-luvulla ja keskustelun painopistettä vuosikymmenellä. Tuo esiin miten käytänteitä on otettu käyttöön ja miten ne ovat organisaatioissa vaikuttaneet.
 </p>
 
 <h2>Agile Software Development: The Business of Innovation</h2>
+
 <h3>Tulokset</h3>
+
+<p>
+Ohjelmistotuotannon ketterät menetelmät ovat luovaa yhteistyötä painopiste tehokkuudella ja liikkuvuudella. 
+</p>
+
 <h3>Päätavoitteet</h3>
+<p>
+Määrittää ongelman, johon  ohjelmistotuotannon ketterät kehitysmenetelmät pyrkivät vastaamaan. Esittää miksi ketterät kehitysmentelmät parantavat ohjelmistotuotannon käytänteitä.
+</p>
+
 <h3>Yleinen kuvaus</h3>	
 
 <h2>Get Ready for Agile Methods, with Care</h2>
 <h3>Tulokset</h3>
+<p>
+Todellisia esimerkkejä on jotka vakuuttavat ketterien menetelmien puolesta, joissa on onnistuneesti vastattu muutoksiin. Ja on olemassa epäonnistuneita projekteja, joissa muutoksiin liiallinen sopeutuminen on tullut kalliiksi. Molemmille sekä ketterille menetelmille että suunnitelmaperustaisella lähestymistavalla on omat etunsa. Joissain tapauksissa molempien menetelmien käytänteitä voidaan yhdistää tehokkaasti.
+</p>
+
+<p>
+Hyvillä, pienellä määrällä kehittäjiä sekä pienellä projektilla ketterät menetelmät toimivat. Suunnitelmaperustainen kehitys skaalautuu paremmin isoihin  projekteihin.
+</p>
 <h3>Päätavoitteet</h3>
+<p>
+Osoittaa, että suunnitteluperusteisella ohjelmistotuotantomentelmillä on tarvetta. 
+</p>
 <h3>Yleinen kuvaus</h3>
 
 <h2>Agile Software Development: The People Factor</h2>
