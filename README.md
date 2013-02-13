@@ -15,13 +15,30 @@ ohjelmistoprojekteissa. Seuraavien vuosikymmenten ohjelmistosuunnittelun näkyvi
 ohjelmistokäytänteitä.</p>
 <h3>Yleinen kuvaus</h3>
 <p>
-Artikkeli kuvaa ohjelmistotuotannon kehitystä vesiputousmallista kohti ketteriä kehitysmenetelmiä. Konkreettisten 			ohjelmistotuotantoprojektien kautta artikkeli pyrkii näyttämään, että ohjelmistokehitys on ollut aina iteratiivista prosessia.
+Artikkeli kuvaa ohjelmistotuotannon kehitystä vesiputousmallista kohti ketteriä kehitysmenetelmiä. Konkreettisten ohjelmistotuotantoprojektien kautta artikkeli pyrkii näyttämään, että ohjelmistokehitys on ollut aina iteratiivista prosessia.
 </p>
 
 <h2>Agile Software Development: It’s about Feedback and Change</h2>
+
 <h3>Tulokset</h3>
+
+<p>Ohjelmistotuontannon ketterät kehitysmenetelmät toimivat sopivissa olosuhteissa: vaihtuvat vaatimukset, ei-kriittinen ohjelmisto sekä pieni ja taitava yhdessä toimiva ryhmä. Ketterät menetelmät toimivat parhaiten alle 50 hengen organisaatiossa, joissa kehittäjillä on hyvä yhteys asiakkaisiin ja liiketoiminnan asiantuntijoihin. Menetelmiä voidaan omaksua ja mukauttaa muihin olosuhteisiin, mutta täyden ketterien menetelmien reunaehdot ovat selvät.
+</p>
+
+<p>
+Ketteriä käytäntöjä toteutetaan useissa hankkeissa ja organisaatioissa. Monet laatustandardeja (CMM, ISO 9000) toteuttavat organisaatiot ovat omaksuneet ketteriä käytänteitä ja huomanneet niiden lisänneen tehokkuutta ilman sertifionnista luopumista.
+</p>
+
 <h3>Päätavoitteet</h3>
-<h3>Yleinen kuvaus</h3>	
+
+<p>
+Tarkastella mitä ohjelmistotuotannon ketterät kehitysmenetelmät ovat. Tuoda esille, miten perinteisen insinöörityön käytänteissä voidaan omaksua ketteriä menetelmiä. 
+</p>
+<h3>Yleinen kuvaus</h3>
+
+<p>
+Artikkeli kuvaa keskustelua ketterien menetelmien ympärillä 2000-luvulla. Tuo esiin miten käytänteitä on otettu käyttöön ja miten ne ovat organisaatioissa vaikuttaneet
+</p>
 
 <h2>Agile Software Development: The Business of Innovation</h2>
 <h3>Tulokset</h3>
