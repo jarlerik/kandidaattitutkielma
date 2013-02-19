@@ -66,11 +66,29 @@ Hyvillä, pienellä määrällä kehittäjiä sekä pienellä projektilla ketter
 </p>
 <h3>Päätavoitteet</h3>
 <p>
-Osoittaa, että suunnitteluperusteisella ohjelmistotuotantomentelmillä on tarvetta. 
+Osoittaa, että suunnitteluperusteisella ohjelmistotuotantomentelmillä on tarvetta edelleen tarvetta. 
 </p>
 <h3>Yleinen kuvaus</h3>
-
+Ketterät kehitysmenetelmät vaativat osaavan kehittäjätiimin. Kaikki kehittäjät eivät voi tilastollisesti huomioiden osaavia, joten ohjelmistokehityksessä on edelleen tarvetta suunnittelulle. Ketterät kehitymenetelmät luottavat kehittäjien ja tiimin hiljaiseen tietoon, sen sjaan että dokumentoitaisiin suunnitelmaa. Kehittäjät saattavat tehdä peruuttamattomia arkitehtuurisia päätöksiä perustuen vajavaiseen tietoon. Suunnitelmaperustainen kehitys vähentää riskiä.
+	
 <h2>Agile Software Development: The People Factor</h2>
+
 <h3>Tulokset</h3>
+Ketterässä kehityksessä kantavana ajatuksena on kehittäjätiimin kyky vastata muutoksiin: helpottamalla tiedonsiirtoa ihmisten välillä sekä pienentämällä aikaa päätöksenteon ja toteutuksen välillä.
+Tämä saavutetaan tekemällä liiketoimialueen asiantuntijoista osa kehitystiimiä ja työskentelemällä inkrementaalisesti. Ketterän kehitystiimin yksilöiden taito on kriittinen tekijä projektien onnistumiselle. Jos ihmiset ovat taitavia, he voivat saavuttaa tavoitteensa prosesseista riippumatta. Taitamattomien riittämättömyyttä ei mikään prosessi voi korvata.
+
 <h3>Päätavoitteet</h3>
-<h3>Yleinen kuvaus</h3>	
+Osoittaa, että hmiset yhdessä saavuttavat, hyvällä viestinnän ja vuorovaikutuksen avulla, enemmän kuin yksilöinä. Prosessit luovat puitteet ryhmille ja yksilöille, mutta prosessi ei itsessään korvaa pätevyyden puutetta. Pätevyys sen sijaan voi ylittää prosessien aiheuttamat vaikeudet. 
+
+<h3>Yleinen kuvaus</h3>
+Ketterä kehitys keskittyy yksilön kykyyn ja taitoon. Prosesseja tulee muokata yksilöiden ja tiimien mukaan. 
+
+
+<h2>Empirical studies of agile software development: A systematic review</h2>
+
+<h3>Tulokset</h3>
+
+<h3>Päätavoitteet</h3>
+
+<h3>Yleinen kuvaus</h3>
+
