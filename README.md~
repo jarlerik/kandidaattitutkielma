@@ -90,7 +90,7 @@ Osoittaa, että hmiset yhdessä saavuttavat, hyvällä viestinnän ja vuorovaiku
 Ketterä kehitys keskittyy yksilön kykyyn ja taitoon. Prosesseja tulee muokata yksilöiden ja tiimien mukaan. 
 </p>
 
-<h2>6) Empirical studies of agile software development: A systematic	 review</h2>
+<h2>6) Empirical studies of agile software development: A systematic review</h2>
 
 <h3>Tulokset</h3>
 
@@ -153,8 +153,9 @@ Kustannukset ja laatu eivät ole internet-ohjelmistojen kehitystä ohjaavia mä�
 
 <h3>Tulokset</h3>
 <p>
-Vesiputousmallin pääasiallinen ongelma on loppuun asti laadittujen asiakirjojen Korostuminen. Laaditut dokumentit ovat merkkinä vaatimusmäärittelyn ja suunnitteluvaiheen valmistumiselle. Vaikka joillekin ohjelmistoille vesiputousmalli on tehokkain tapa, niin interaktiivisille ja loppukäyttäjille suunnitelluille ohjelmistoille vesiputousmalli ei toimi hyvin. 
+Ohjelmistuotannon riskeihin perustuva spiraalimalli on mukautuvampi erilaisiin ohjelmistotuotantoprojekteihin kun vesiputousmalli tai koodiin perustuva menetelmä. Se on erityisen käyttökelpoinen laajoihin ja monimutkaisiin ohjelmistoihin. 
 </p>
+
 <p>Riskiin perustuva lähestymistapa mahdollistaa spriraalimallin mukautumaan yhdistelemällä spesifiointia, prototyypitystä, simulointia tai muita ohjelmistokehityksen menetelmiä.
 </p>
 
@@ -165,12 +166,11 @@ Perinteiset ohjelmistoprosessit ehkäisevät tehokkaampia ohjelmistotuotantoment
 
 <h3>Yleinen kuvaus</h3>
 <p>
-
+Vesiputousmallin pääasiallinen ongelma on loppuun asti laadittujen asiakirjojen Korostuminen. Laaditut dokumentit ovat merkkinä vaatimusmäärittelyn ja suunnitteluvaiheen valmistumiselle. Vaikka joillekin ohjelmistoille vesiputousmalli on tehokkain tapa, niin interaktiivisille ja loppukäyttäjille suunnitelluille ohjelmistoille vesiputousmalli ei toimi hyvin. 
 </p>
 
 
-
-<h2>Web-based Agile software development</h2>
+<h2>11)Web-based Agile software development</h2>
 
 <h3>Tulokset</h3>
 Kehityksen syklin lyhentäminen on ohjelmistoinsinöörin yksi tärkeimmistä tehtävistä. Nykyinen nopea liiketoimintaympäristö vaatii sopeutumista vaatimusten muutoksiin kehityksen aikana sekä sen jälkeen. Asiakkaiden lisääntyvät vaatimukset toiminnallisuuksista edellyttää nopeatahtista päivitystä toimitettuihin ohjelmistoihin.
@@ -179,18 +179,18 @@ Kehityksen syklin lyhentäminen on ohjelmistoinsinöörin yksi tärkeimmistä te
 Monet ohjelmistokehitysorganisaatiot ovat hajaantuneet maantieteellisesti. Hajaantunut ja viivästynyt viestintä hidastaa ohjelmistokehitystä. Artikkelissa ehdotetaan perustavanlaatuista ohjelmistonkehitysprosessin perustavanlaatuista muutosta - ketterää ohjelmistoprosessia. 
 
 <h3>Yleinen kuvaus</h3>
-Tavanomaiset prosessinhallintamenetelmät perustuvat vaatimusten määrään. Mitä suurempi vaatimuksen toiminnallisuus sitä pidempi hankkeen toimitusaika, sekä sitä vähemmän joustavuutta ja tuottavuutta. 
+Tavanomaiset prosessinhallintamenetelmät perustuvat vaatimusten määrään. Mitä vaativampi toiminnallisuus sitä pidempi hankkeen toimitusaika, sekä sitä vähemmän joustavuutta ja tuottavuutta. 
 
-<h2>On the effectiveness of the test-first approach to programming</h2>
+<h2>12) On the effectiveness of the test-first approach to programming</h2>
 
 <h3>Tulokset</h3> 
-TDD-mentelmää käyttävät opiskelijat kirjoittivat keskimäärin enemmän testejä sekä olivat tuottavampia. Kirjoittajat havaitsivat, että vähimmäislaatuvaatimukset kasvoivat lineaarisesti suhteessa testien määrään
+TDD-mentelmää käyttävät opiskelijat kirjoittivat keskimäärin enemmän testejä sekä olivat tuottavampia. 
 <h3>Päätavoitteet</h3>
 Esitellä formaali tutkimus TDD:n vahvuuksista ja heikkouksista.
 <h3>Yleinen kuvaus</h3>
-Artikkelissa kuvataan kokeilua TDD:n (Test-Driven Development) eli "testit ensin"-kehitysmenetelmän arvioimiseksi: TDD:ssä ohjelmoijat kirjoittaa toiminnallisuuden testit ennen vastaavaa varsinaista toiminnallisuutta. Koe suoritettiin opiskelijoilla. Molemmat testiryhmät käyttivät iteratiivista prosessia lisäämällä uusia toiminnallisuuksia sekä tekemällä regressiotestejä näille.
+Artikkelissa kuvataan kokeilua TDD:n (Test-Driven Development) kehitysmenetelmän arvioimiseksi: TDD:ssä ohjelmoijat kirjoittaa toiminnallisuuden testit ennen vastaavaa varsinaista toiminnallisuutta. Koe suoritettiin opiskelijoilla. Molemmat testiryhmät käyttivät iteratiivista prosessia lisäämällä uusia toiminnallisuuksia sekä tekemällä regressiotestejä näille.
 
-<h2>Embracing Change with Extreme Programming</h2>
+<h2>13) Embracing Change with Extreme Programming</h2>
 
 <h3>Tulokset<h3>
 

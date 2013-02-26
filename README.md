@@ -120,6 +120,9 @@ Artikkeli esittelee ohjelmistotuotannossa esiintyviä muuttujia, joiden perustee
 
 <h3>Tulokset</h3>
 <p>
+XP (extreme programming) muuttaa perinteistä ohjelmistotuotannon prossesseja. XP pyrkii vähentämään ohjelmiston muuttamisen kustannuksia luonnnostelemalla, analysoimalla ja suunnittelemalla koko kehitysprosessin ajan. 
+</p>
+<p>
 
 </p>
 
@@ -129,7 +132,7 @@ Artikkeli esittelee ohjelmistotuotannossa esiintyviä muuttujia, joiden perustee
 </p>
 <h3>Yleinen kuvaus</h3>
 <p>
-
+Artikkeli kuvaa XP:n (extreme programming) käytänteitä ja miten ne vastaavat ohjelmistotuotannon ongelmiin. 
 </p>
 
 <h2>9) Is Internet-Speed Software Development Different?</h2>
@@ -170,30 +173,78 @@ Vesiputousmallin pääasiallinen ongelma on loppuun asti laadittujen asiakirjoje
 </p>
 
 
-<h2>11)Web-based Agile software development</h2>
+<h2>11)The Agile Manifesto</h2>
 
 <h3>Tulokset</h3>
-Kehityksen syklin lyhentäminen on ohjelmistoinsinöörin yksi tärkeimmistä tehtävistä. Nykyinen nopea liiketoimintaympäristö vaatii sopeutumista vaatimusten muutoksiin kehityksen aikana sekä sen jälkeen. Asiakkaiden lisääntyvät vaatimukset toiminnallisuuksista edellyttää nopeatahtista päivitystä toimitettuihin ohjelmistoihin.
+<p>
+Asiakkaita tyydyttääkseen on toimitettava toimivaa ohjelmistoa mahdollisimman aikaisin ja jatkuvasti. Kasvava tulevaisuuden ennakoimattomuus on nykyisen talouden haastellisimpia näkökohtia. Muuttuvat vaatimukset ovat toivottavia ja ne on käännettävä asiakkaan kilpailueduksi. 
+</p>
 
 <h3>Päätavoitteet</h3>
-Monet ohjelmistokehitysorganisaatiot ovat hajaantuneet maantieteellisesti. Hajaantunut ja viivästynyt viestintä hidastaa ohjelmistokehitystä. Artikkelissa ehdotetaan perustavanlaatuista ohjelmistonkehitysprosessin perustavanlaatuista muutosta - ketterää ohjelmistoprosessia. 
-
+<p>
+Artikkeli formalisoi useita kevyitä ohjelmistotuotannon kevyitä menetelmiä.
+</p>
 <h3>Yleinen kuvaus</h3>
-Tavanomaiset prosessinhallintamenetelmät perustuvat vaatimusten määrään. Mitä vaativampi toiminnallisuus sitä pidempi hankkeen toimitusaika, sekä sitä vähemmän joustavuutta ja tuottavuutta. 
-
+<p>
+Artikkelissa määritellään kevyiden ohjelmistotuotantomenetelmien periaatteita ja arvoja. 
+</p>
 <h2>12) On the effectiveness of the test-first approach to programming</h2>
 
-<h3>Tulokset</h3> 
-TDD-mentelmää käyttävät opiskelijat kirjoittivat keskimäärin enemmän testejä sekä olivat tuottavampia. 
+<h3>Tulokset</h3>
+<p>
+TDD-mentelmää käyttävät opiskelijat kirjoittivat keskimäärin enemmän testejä sekä olivat tuottavampia.
+</p>
 <h3>Päätavoitteet</h3>
+<p>
 Esitellä formaali tutkimus TDD:n vahvuuksista ja heikkouksista.
+</p>
 <h3>Yleinen kuvaus</h3>
+<p>
 Artikkelissa kuvataan kokeilua TDD:n (Test-Driven Development) kehitysmenetelmän arvioimiseksi: TDD:ssä ohjelmoijat kirjoittaa toiminnallisuuden testit ennen vastaavaa varsinaista toiminnallisuutta. Koe suoritettiin opiskelijoilla. Molemmat testiryhmät käyttivät iteratiivista prosessia lisäämällä uusia toiminnallisuuksia sekä tekemällä regressiotestejä näille.
+</p>
 
-<h2>13) Embracing Change with Extreme Programming</h2>
+<h2>13) Coordination in Software development</h2>
 
 <h3>Tulokset<h3>
+<p>
+Ohjelmistokehitys vaatii viestintää eri toimintojen välillä. Hallinnollisia sekä teknisiä ongelmia tulee esiin jatkuvasti. Jotkin ongelmat vaativat tieto ja yhteistyötä toisilta ihmisiltä. Henkilökohtainen viestintä on tärkeää menestymiselle, mutta saattaa olla liian kallista, lyhytaikaista tai paikallista ollakseen tehokasta. Ihmistenvälistä viestintää pitää tehostaa ja tehdä siitä vaikuttavampaa. 
+</p>
 
 <h3>Päätavoitteet</h3>
+
 	
 <h3>Yleinen kuvaus</h3>
+<p>
+Suurten ohjelmistotuotantoprojektien aikaansaaminen johtaa työn erikoistumiseen ja jakautumiseen. Organisaatiossa tämä johtaa yhteenliittyvien toimijoiden lokerointiin maantieteellisesti ja sosiaalisesti erillisiin alaorganisaatioihin.  Tämä luo esteitä ja vähentää halua jakaa tietoa sekä oppia kollegoilta. Työn osastoiminen isossa organisaatiossa vähentää tarpeettoman tiedon määrää, mutta luo koordinointiin liittyviä ongelmia.
+</p>
+<h2>14) Managing the development of large software</h2>
+
+<h3>Tulokset</h3>
+<p>
+Ohjelmistotuotannon hallinassa on vaadittava paljon dokumentointia. Ohjelmistontuotannnon hallinta ei ole mahdollista ilman kattavaa dokumentointia. Hyväksyttävä kirjallinen kuvaus pakottaa yksiselitteiseen mielipiteeseen ja tarjoaa konkreettisen todisteen valmistumisesta.
+</p>
+<h3>Päätavoitteet</h3>
+<p>
+Kuvata suuriin ohjelmistojärjestelmien kehitykseen sopivan ohjelmistotuotantomenetelmän. 
+</p>
+<h3>Yleinen kuvaus</h3>
+<p>
+Artikkeli kuvaa ohjelmistotuotannossa käytettävän vesiputousmallin. 
+</p>
+<h2>15) The new methodology</h2>
+
+<h3>Tulokset</h3>
+<p>
+Kevyet ohjelmistotuotantomenetelmät eivät sovi kaikkiin projekteihin. Tämän päivän yleisin ohjelmistotuotannnon lähestymistapa on: ensin koodaa ja sitten korjaa (code and fix). Kevyiden ohjelmistotuotantomenetelmien käyttöönotto on helpompaa kuin raskaiden menetelmien ohjelmistoprojektien läpiviemiseen. Helpompia menetelmiä noudatetaan todennäköisemmin jos organisaatiossa ei olla aikaisemmin noudatettu mitään menetelmiä.
+</p>
+<p>
+Kevyiden ohjelmistotuotantomenetelmien sopivuudesta suurempiin projekteihin ei ole riittävästi näyttöä. 
+</p>
+<h3>Päätavoitteet</h3>
+<p>
+Selvittää milloin ohjelmistotuotantoprojekteissa on välttämätöntä käyttää kevyempiä ohjelmistotuotantomenetelmiä ja milloin raskaammat menetelmät ova sopivampia. 
+</p>
+<h3>Yleinen kuvaus</h3>
+<p>
+Artikkelissa kuvataan syitä kevyille ohjelmistotuotantomenetelmille keskittyen niiden mukautuvaan luonteeseen ja ihmiskeskeiseen lähestymistapaan.
+</p>
