@@ -15,7 +15,8 @@ url="http://dx.doi.org/10.1007/BF03160222",
 publisher="Wuhan University",
 keywords="lightweight method; people-first orietation; TP 311. 5",
 author="Fowler, Martin",
-pages=12-24)
+pages=12-24,
+language="English")
 
 @article{KRSL95,
  author = {Kraut, Robert E. and Streeter, Lynn A.},

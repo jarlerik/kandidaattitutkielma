@@ -68,7 +68,7 @@
 % The following commands define the information used to generate title and
 % abstract pages. The following entries should be always specified:
 
-\title{Ketterä ohjelmistotuotanto}
+\title{Ohejlmistojen laatu ja ketterä ohjelmistotuotanto}
 \author{Jarl-Erik Malmström}
 \date{\today}
 \level{Aine}
@@ -114,11 +114,36 @@
 % --- Main matter ---
 
 \section{Johdanto}
-
-
+Artikkeli1\cite{Roy70}
+Artikkeli2\cite{Fom01}
 \section{Ohjelmistotuotantomenetelmät}
+
 \subsection{Vesiputousmalli}
-artikkeli1\cite{roy70}
+
+\subsection{Itratiivinen menetelmä}
+
+\subsection{Ketterät kehitysmenetelmät}
+
+\section{Ohjelmistojen laadun varmistus}
+
+\subsection{Laadun varmistus vesiputousmallissa}
+
+\subsection{Laadun varmistus ketterissä menetelmissä}
+
+\section{Ohjelmistotuotantomenetelmän valinta}
+
+\subsection{Ohjelmistotuotannon riskit}
+
+\subsection{Ennustettavuus}
+
+\subsection{Muuttuva liiketoimintaympäristö}
+
+\subsection{Organisaation koko}
+
+\subsection{Kehittäjien taidot}
+
+\subsection{}
+
 \section{}
 
 \section{}
