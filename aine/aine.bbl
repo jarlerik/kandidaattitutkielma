@@ -1,0 +1,33 @@
+\begin{thebibliography}{1}
+  \providebibliographyfont{name}{}%
+  \providebibliographyfont{lastname}{}%
+  \providebibliographyfont{title}{\emph}%
+  \providebibliographyfont{jtitle}{\btxtitlefont}%
+  \providebibliographyfont{etal}{\emph}%
+  \providebibliographyfont{journal}{}%
+  \providebibliographyfont{volume}{}%
+  \providebibliographyfont{ISBN}{\MakeUppercase}%
+  \providebibliographyfont{ISSN}{\MakeUppercase}%
+  \providebibliographyfont{url}{\url}%
+  \providebibliographyfont{numeral}{}%
+  \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+
+\expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {BOE88}
+\btxnamefont {\btxlastnamefont {Boehm}, B.\btxfnamespacelong
+  W.}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {A spiral model of
+  software development and enhancement}{A spiral model of software development
+  and enhancement}}.
+\newblock \btxjournalfont {Computer}, 21:61--72,
+  \btxprintmonthyear{.}{may}{1988}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
+\bibitem {Roy70}
+\btxnamefont {\btxlastnamefont {Royce}, Winston\btxfnamespacelong
+  W}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Managing the development
+  of large software systems}{Managing the development of large software
+  systems}}.
+\newblock \Btxinlong {}\ \btxtitlefont {proceedings of IEEE WESCON},
+  \btxvolumelong {}~\btxvolumefont {26}. Los Angeles, 1970.
+
+\end{thebibliography}

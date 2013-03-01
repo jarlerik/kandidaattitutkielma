@@ -1,0 +1,49 @@
+This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: aine.aux
+The style file: babplain.bst
+Database file #1: references-fi.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Warning--empty language in BOE88
+You've used 2 entries,
+            2788 wiz_defined-function locations,
+            649 strings with 6121 characters,
+and the built_in function-call counts, 704 in all, are:
+= -- 62
+> -- 14
+< -- 1
++ -- 7
+- -- 4
+* -- 68
+:= -- 107
+add.period$ -- 5
+call.type$ -- 2
+change.case$ -- 8
+chr.to.int$ -- 0
+cite$ -- 3
+duplicate$ -- 37
+empty$ -- 73
+format.name$ -- 6
+if$ -- 146
+int.to.chr$ -- 0
+int.to.str$ -- 2
+missing$ -- 3
+newline$ -- 24
+num.names$ -- 4
+pop$ -- 13
+preamble$ -- 1
+purify$ -- 6
+quote$ -- 0
+skip$ -- 16
+stack$ -- 0
+substring$ -- 26
+swap$ -- 11
+text.length$ -- 1
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 8
+warning$ -- 1
+while$ -- 5
+width$ -- 3
+write$ -- 37
+(There was 1 warning)

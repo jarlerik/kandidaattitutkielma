@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  1 MAR 2013 14:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  1 MAR 2013 12:09
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**aine.tex
-(./aine.tex
+**aine/aine.tex
+(./aine/aine.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
 hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
@@ -868,53 +868,70 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
  [2
 
-] [3]
-[4]
-Overfull \hbox (4.51735pt too wide) in paragraph at lines 165--166
+]
+
+LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 117.
+
+
+LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 119.
+
+
+LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 126.
+
+
+LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 129.
+
+
+LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 131.
+
+[3]
+
+LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 134.
+
+
+LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 136.
+
+
+LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 138.
+
+
+Overfull \hbox (4.51735pt too wide) in paragraph at lines 138--139
 []\OT1/lmr/m/n/10.95 (-20) Dokumentti hel-pot-taa oh-jel-mis-ton k[]aytt[]o[]on
 ottoa ope-ra-tii-vi-nen hen-kil[]ost[]on
  []
 
-[5] (./aine.bbl
-babelbib: Using the BibTeX style's default font for `name'.
-babelbib: Using the BibTeX style's default font for `lastname'.
-babelbib: Using the BibTeX style's default font for `title'.
-babelbib: Using the BibTeX style's default font for `jtitle'.
-babelbib: Using the BibTeX style's default font for `etal'.
-babelbib: Using the BibTeX style's default font for `journal'.
-babelbib: Using the BibTeX style's default font for `volume'.
-babelbib: Using the BibTeX style's default font for `ISBN'.
-babelbib: Using the BibTeX style's default font for `ISSN'.
-babelbib: Using the BibTeX style's default font for `url'.
-babelbib: Using the BibTeX style's default font for `numeral'.
-)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 231.
- [6]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 231.
+[4]
+No file aine.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
  (./aine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 231.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 231.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
 Package rerunfilecheck Info: File `aine.out' has not changed.
-(rerunfilecheck)             Checksum: 9B1742825ACBF06BB10779FE460345D3;1610.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 231.
+(rerunfilecheck)             Checksum: 6214393991DD837A64543012E1901C9C;1563.
+
+
+LaTeX Warning: There were undefined references.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
  ) 
 Here is how much of TeX's memory you used:
- 9320 strings out of 493481
- 137452 string characters out of 3143393
- 270014 words of memory out of 3000000
- 12359 multiletter control sequences out of 15000+200000
- 41302 words of font info for 75 fonts, out of 3000000 for 9000
+ 9298 strings out of 493481
+ 137204 string characters out of 3143393
+ 269960 words of memory out of 3000000
+ 12353 multiletter control sequences out of 15000+200000
+ 36537 words of font info for 69 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,8n,35p,830b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,35p,868b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmri10.pfb>
-Output written on aine.pdf (7 pages, 176310 bytes).
+/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb>
+Output written on aine.pdf (6 pages, 153795 bytes).
 PDF statistics:
- 207 PDF objects out of 1000 (max. 8388607)
- 190 compressed objects within 2 object streams
- 34 named destinations out of 1000 (max. 500000)
- 11457 words of extra memory for PDF output out of 12000 (max. 10000000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 162 compressed objects within 2 object streams
+ 30 named destinations out of 1000 (max. 500000)
+ 9401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
