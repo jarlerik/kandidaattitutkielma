@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  1 MAR 2013 12:09
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  6 MAR 2013 10:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**aine/aine.tex
+**aine/aine
 (./aine/aine.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
@@ -870,68 +870,84 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ]
 
-LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 117.
+LaTeX Warning: Citation `ROY70' on page 3 undefined on input line 126.
 
 
-LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 119.
+LaTeX Warning: Citation `BOE88' on page 3 undefined on input line 132.
 
 
-LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 126.
+LaTeX Warning: Citation `BOE88' on page 3 undefined on input line 141.
 
 
-LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 129.
-
-
-LaTeX Warning: Citation `Roy70' on page 3 undefined on input line 131.
+LaTeX Warning: Citation `ROY70' on page 3 undefined on input line 141.
 
 [3]
 
-LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 134.
+LaTeX Warning: Citation `ROY70' on page 4 undefined on input line 145.
 
 
-LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 136.
+LaTeX Warning: Citation `ROY70' on page 4 undefined on input line 149.
 
 
-LaTeX Warning: Citation `Roy70' on page 4 undefined on input line 138.
+LaTeX Warning: Citation `ROY70' on page 4 undefined on input line 153.
 
 
-Overfull \hbox (4.51735pt too wide) in paragraph at lines 138--139
+LaTeX Warning: Citation `ROY70' on page 4 undefined on input line 155.
+
+
+LaTeX Warning: Citation `ROY70' on page 4 undefined on input line 157.
+
+
+Overfull \hbox (4.51735pt too wide) in paragraph at lines 157--158
 []\OT1/lmr/m/n/10.95 (-20) Dokumentti hel-pot-taa oh-jel-mis-ton k[]aytt[]o[]on
 ottoa ope-ra-tii-vi-nen hen-kil[]ost[]on
  []
 
 [4]
-No file aine.bbl.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 198.
+
+LaTeX Warning: Citation `ROY70' on page 5 undefined on input line 163.
+
+
+LaTeX Warning: Citation `ROY70' on page 5 undefined on input line 172.
+
+
+LaTeX Warning: Citation `ROY70' on page 5 undefined on input line 176.
+
 [5]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 198.
+
+LaTeX Warning: Citation `BOE88' on page 6 undefined on input line 182.
+
+No file aine.bbl.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 225.
+[6]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 225.
  (./aine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 198.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 198.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 225.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 225.
 Package rerunfilecheck Info: File `aine.out' has not changed.
-(rerunfilecheck)             Checksum: 6214393991DD837A64543012E1901C9C;1563.
+(rerunfilecheck)             Checksum: 679D2143FBFCD9D45F41A3249C30C9CA;1564.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 198.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 225.
  ) 
 Here is how much of TeX's memory you used:
  9298 strings out of 493481
- 137204 string characters out of 3143393
+ 137195 string characters out of 3143393
  269960 words of memory out of 3000000
- 12353 multiletter control sequences out of 15000+200000
- 36537 words of font info for 69 fonts, out of 3000000 for 9000
+ 12354 multiletter control sequences out of 15000+200000
+ 36454 words of font info for 68 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,8n,35p,868b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,35p,840b,495s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public
 /lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb>
-Output written on aine.pdf (6 pages, 153795 bytes).
+Output written on aine.pdf (7 pages, 157003 bytes).
 PDF statistics:
- 177 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 184 PDF objects out of 1000 (max. 8388607)
+ 168 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  9401 words of extra memory for PDF output out of 10000 (max. 10000000)
 

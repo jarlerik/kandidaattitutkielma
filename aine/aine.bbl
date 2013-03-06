@@ -22,7 +22,16 @@
   \btxprintmonthyear{.}{may}{1988}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
-\bibitem {Roy70}
+\bibitem {LAB03}
+\btxnamefont {\btxlastnamefont {Larman}, C.} \btxandlong {}\ \btxnamefont {V.R.
+  \btxlastnamefont {Basili}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {Iterative and incremental developments. a brief history}{Iterative and
+  incremental developments. a brief history}}.
+\newblock \btxjournalfont {Computer}, 36(6):47 --56,
+  \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
+\bibitem {ROY70}
 \btxnamefont {\btxlastnamefont {Royce}, Winston\btxfnamespacelong
   W}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Managing the development
   of large software systems}{Managing the development of large software
