@@ -4,9 +4,9 @@
 \contentsline {subsection}{\numberline {2.1}Vesiputousmalli}{4}{subsection.2.1}
 \contentsline {subsubsection}{\numberline {2.1.1}Vaiheet}{4}{subsubsection.2.1.1}
 \contentsline {subsubsection}{\numberline {2.1.2}Ohjelmiston suunnittelu}{4}{subsubsection.2.1.2}
-\contentsline {subsubsection}{\numberline {2.1.3}Dokumentointi}{4}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.3}Dokumentointi}{5}{subsubsection.2.1.3}
 \contentsline {subsubsection}{\numberline {2.1.4}Toinen versio}{5}{subsubsection.2.1.4}
-\contentsline {subsubsection}{\numberline {2.1.5}Testaus}{5}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.5}Testaus}{6}{subsubsection.2.1.5}
 \contentsline {subsubsection}{\numberline {2.1.6}Asiakas}{6}{subsubsection.2.1.6}
 \contentsline {subsection}{\numberline {2.2}Iteratiiviset menetelm\IeC {\"a}t}{6}{subsection.2.2}
 \contentsline {subsubsection}{\numberline {2.2.1}Vesiputousmallin heikkous}{6}{subsubsection.2.2.1}
@@ -14,18 +14,20 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Spiraalimalli}{7}{subsubsection.2.2.3}
 \contentsline {subsection}{\numberline {2.3}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{9}{subsection.2.3}
 \contentsline {section}{\numberline {3}Ohjelmistojen laadun varmistus}{9}{section.3}
-\contentsline {subsection}{\numberline {3.1}Laadun varmistus vesiputousmallissa}{9}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Laadun varmistus ketteriss\IeC {\"a} menetelmiss\IeC {\"a}}{9}{subsection.3.2}
-\contentsline {section}{\numberline {4}Ohjelmistotuotantomenetelm\IeC {\"a}n valinta}{9}{section.4}
-\contentsline {subsection}{\numberline {4.1}Ohjelmistotuotannon riskit}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Ennustettavuus}{9}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{9}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Organisaation koko}{9}{subsection.4.4}
-\contentsline {subsection}{\numberline {4.5}Kehitt\IeC {\"a}jien taidot}{9}{subsection.4.5}
-\contentsline {subsection}{\numberline {4.6}}{9}{subsection.4.6}
-\contentsline {section}{\numberline {5}}{9}{section.5}
-\contentsline {section}{\numberline {6}}{9}{section.6}
-\contentsline {section}{\numberline {7}L\IeC {\"a}hteet}{9}{section.7}
+\contentsline {subsection}{\numberline {3.1}Ohjelmistotuotannon ominaispiirteet}{9}{subsection.3.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Ep\IeC {\"a}varmuus}{9}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.2}Keskin\IeC {\"a}iset riipuvuudet}{10}{subsubsection.3.1.2}
+\contentsline {subsubsection}{\numberline {3.1.3}Ep\IeC {\"a}virallinen keskustelu}{10}{subsubsection.3.1.3}
+\contentsline {subsubsection}{\numberline {3.1.4}Kymmenen ohjelmistotuotannon riski\IeC {\"a}}{10}{subsubsection.3.1.4}
+\contentsline {section}{\numberline {4}Ohjelmistotuotantomenetelm\IeC {\"a}n valinta}{11}{section.4}
+\contentsline {subsection}{\numberline {4.1}Ennustettavuus}{11}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{11}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Organisaation koko}{11}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Kehitt\IeC {\"a}jien taidot}{11}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.5}}{11}{subsection.4.5}
+\contentsline {section}{\numberline {5}}{11}{section.5}
+\contentsline {section}{\numberline {6}}{11}{section.6}
+\contentsline {section}{\numberline {7}L\IeC {\"a}hteet}{11}{section.7}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}

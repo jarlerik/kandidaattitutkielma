@@ -139,10 +139,12 @@ Ohjelmistot olivat usein kalliita korjata koska muutoksiin ja testaamiseen oli v
 
 \subsection{Vesiputousmalli}
 
-\subsubsection{Vaiheet}
-1970-luvulla vesiputousmalli vaikutti suuresti eri vaiheisiin perustuviin ohjelmistotuotannon malleihin. Vesiputousmallin lähestymistapa auttoi poistamaan monia aiemmin ohjelmistotuotantoa vaivanneita ongelmia. Vesiputousmallista tuli perusta monille teollisuuden ja hallituksen ohjelmistohankintojen standardeille. \cite{BOE88}
+\includegraphics[width=\textwidth]{waterfall}
 
-Tarkemmin Winston W. Roycen malli sisältää seuraavat vaiheet: järjestelmä- ja ohjelmistovaatimusmäärittely, analyysi, ohjelmistonrakenteen suunnittelu, rakennus, testaus ja ohjelmiston käyttäminen.\cite{ROY70} 
+\subsubsection{Vaiheet}
+1970-luvulla vesiputousmalli vaikutti suuresti lineaarisiin ohjelmistotuotannon malleihin. Vesiputousmallin lähestymistapa auttoi poistamaan monia aiemmin ohjelmistotuotantoa vaivanneita ongelmia. Vesiputousmallista tuli perusta monille teollisuuden ja hallituksen ohjelmistohankintojen standardeille. \cite{BOE88}
+
+Tarkemmin Winston W. Roycen malli sisältää seuraavat vaiheet: järjestelmä- ja ohjelmistovaatimusmäärittely, analyysi, ohjelmistonrakenteen suunnittelu, ohjelmointi, testaus ja ohjelmiston käyttäminen.\cite{ROY70} 
 
 Perättäisten ohjelmistotuotantovaiheiden välillä on iteraatiota järjestelmän rakenteen tarkentuessa yksityiskohtaisemmaksi tuotannon edetessä. Iteraatioiden tarkoituksena on suunnitelman edetessä pitää muutosvauhti käsiteltävän kokoisena.\cite{ROY70}
 
@@ -207,7 +209,7 @@ IBM:n FSD (Federal System Division) yksikkö käytti 1970-luvulla laajasti ja on
 
 Vuonna 1972 miljoonan koodirivin Trident-sukellusveneen komento- ja ohjausjärjestelmän kehityksessä osasto organisoi projektin neljään noin kuuden kuukauden iteraatioon. Projektissa oli merkittävä suunnittelu- ja määrittelyvaihe sekä iteraatiot olivat nykyisen ketterän kehityksen (agile methods) suosituksia pidempiä. Vaatimus\-määrittely kuitenkin kehittyi palautteen ohjaamana. Iteratiivisella ja inkrementaalisella lähestymistavalla hallittiin monimutkaisuutta sekä riskejä suuren mittakaavan ohjelmistoprojektissa. Toimittajaa uhkasi myöhästymisestä 100 000\$ uhkasakko per päivä.\cite{LAB03}
 
-IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjestelmän iteratiivisella ja inkrementaalisella mentelmällä. neljän vuoden, 200 henkilötyövuoden ja miljoonien ohjelmarivien projekti toteutettiin 45:ssä yhden kuukauden mittaisissa aikarajoitetuissa (time-boxed) iteraatiossa. Tämä oli ensimmäisiä ohjelmistoprojekteja, joka käytti nykyisten ketterien menetelmien suosittelemia iteraatiojaksojen pituutta.\cite{LAB03}
+IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjestelmän iteratiivisella ja inkrementaalisella mentelmällä. neljän vuoden, 200 henkilötyövuoden ja miljoonien ohjelmarivien projekti toteutettiin 45:ssä yhden kuukauden mittaisissa aikarajoitetuissa (time-boxed) iteraatiossa. Tämä oli ensimmäisiä ohjelmistoprojekteja, joka käytti nykyisten ketterien menetelmien suosittelemia iteraatiojakson pituutta.\cite{LAB03}
 
 \subsubsection{Spiraalimalli}
 
@@ -217,26 +219,79 @@ Jokainen vaihe aloitetaan tunnistamalla:
 \begin{itemize}
   \item laadittavien ohjelmisto-osien suorituskykyyn, toiminnallisuuteen sekä sopeutumiskykyyn liittyvät tavoitteet
   \item vaihtoehtoiset toteutustavat (ohjelmiston osto, ohjelmiston uudelleenkäyttö, vaihtoehtoiset ohjelmat)
-  \item Ohjelmiston eri vaihtoehdoille asettamien rajoitteet(rajapinnat, aikataulu, kustannukset)
+  \item ohjelmiston eri vaihtoehdoille asettamien rajoitteet (rajapinnat, aikataulu, kustannukset).
 \end{itemize}\cite{BOE88}
 
 \includegraphics[width=\textwidth]{spiral}
 
 Seuraava askel on arvioida vaihtoehtoja suhteessa ohjelmiston tavoitteisiin ja rajoitteisiin. Usein tämä prosessi tunnistaa epävarmoja alueita, jotka ovat merkittäviä riskin lähteitä. Riskien löytyessä, seuraava askel pitää sisällään kustannustehokkaan strategian muotoilun riskien ratkaisemiseksi. Tähän voi liittyä prototyyppien valmistamista, simulointia, vertailuanalyysia, kyselylomakkeita, analyyttista mallinnusta, tai näiden yhdistelmiä sekä muita riskien ratkaisumenetelmiä.\cite{BOE88}
 
-Jos suorituskykyyn tai käyttöliittymään liittyvät riskit voimakkaasti hallitsevat ohjelman kehittämistä, seuraavassa vaiheessa kehityksellisesti (evolutionary), mahdollisimman vaivattomasti, määritellään ohjelmiston yleistä luonnetta, suunnitellaan seuraavan tason prototyyppia ja kehitetään yksityiskohtaisempaa prototyyppia riskien ratkaisemiseksi.  
+
+Jos suorituskykyyn tai käyttöliittymään liittyvät riskit voimakkaasti hallitsevat ohjelman kehittämistä, seuraavassa vaiheessa kehityksellisesti (evolutionary), mahdollisimman vaivattomasti, määritellään ohjelmiston yleistä luonnetta, suunnitellaan seuraavan tason prototyyppia ja kehitetään yksityiskohtaisempaa prototyyppia riskien ratkaisemiseksi.\cite{BOE88}
+
+Spriraalimalli on jaoteltu vaiheisiin riskiperusteisesti. Tämä mahdollistaa mallin mukautumaan sopivasti yhdistelemällä erittelyä (specification), prototyyppien valmistusta, simulointia tai muita lähestymistapoja ohjelmiston suunnitteluun.\cite{BOE88}
+
+Riskinhallinta huomioiden voidaan määritellä kiinnitettävä aika ja työmäärä toiminnan suunnitteluun (planning), asetuksien hallintaan (configuration management), laadun varmistukseen(quality assurance), muodolliseen todentamiseen (formal verification) ja testaukseen.\cite{BOE88}
+
+Spiraalimallin tärkeä ominaisuus on, että jokainen iteraatio päätetään katselmukseen tuotteeseen liittyvän henkilöstön tai organisaation kanssa.\cite{BOE88}
 
 \subsection{Ketterät kehitysmenetelmät}
 
 \section{Ohjelmistojen laadun varmistus}
 
-\subsection{Laadun varmistus vesiputousmallissa}
+\subsection{Ohjelmistotuotannon ominaispiirteet}
 
-\subsection{Laadun varmistus ketterissä menetelmissä}
+Onnistunut ohjelmistojärjestelmä vaatii erilaisten pyrkimysten koordinointia ohjelmistokehityksen aikana. Ohjelmistojärjestelmien perustavanlaatuinen ominaisuus on niiden suuri koko. Yksilöiden tai pienten ryhmien on mahdotonta luoda tai ymmärtää suuria ohjelmistoja yksityiskohtaisesti.\cite{KES95}
+
+Suuret projektit onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston toimialalta sekä ohjelmistolalta.\cite{KES95}
+
+Tällainen ideaalitilanne on usein mahdotonta suurille ohjelmistojärjestelmille, jonka koko voi olla miljoonia tai kymmeniä miljoonia ohjelmarivejä sekä projektin kesto useita vuosia.\cite{KES95}
+
+Suuren kokoluokan pyrkimykset johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken.\cite{KES95}
+
+\subsubsection{Epävarmuus}
+Luontainen epävarmuus lisää koordinointiongelmaa. Toisin kuin teollinen valmistus, ohjelmistokehitys ei ole rutiininomainen toimi. Monet ohjelmistojärjestelmät ovat yksilöllisiä projekteja, ilman olemassa olevaa prototyyppiä, tai muokattavaa ohjelmistoa.\cite{KES95}
+
+
+Lisäksi epävarmuus lisääntyy, koska ohjelmiston toimintaan liittyvät vaatimukset muuttuvat. 
+
+Muutoksia ohjelmiston vaatimuksiin esiintyy, koska ympäristö mihin ohjelmisto suunniteltiin muuttuu. Liiketoiminta, käyttäjien toiveet, tietokoneympäristö, ohjelmiston syötteet ja fyysinen maailma itsessään muuttuvat. 
+
+Muutostarpeiden ilmaantumisen todennäköisyys on suurin ohjelmistoa käytettäessä. Tällöin käyttäjät usein ymmärtävät ohjelmiston rajoitteet ja mahdollisuudet. Kun ohjelmistoa käytetään olosuhteissa, johon sitä ei ollut alunperin kuviteltu alkuperäistä suunnitelmaa tehtäessä, niin käyttäjät todennäköisesti vaativat uusia toiminnallisuuksia. \cite{KES95}
+
+Ohjelmistokehitys on epävarmaa, koska vaatimukset ovat poikkeuksetta epätäydellisiä. Epätäydellisyys aiheutuu osittain rajallisista toimialan tiedoista ja ohjelmistoprojektin tyypillisestä työn jakamisesta. Liian vähällä, projektissa työskentelevillä ihmisillä, on riittävää tuntemusta toimialasta. \cite{KES95}
+
+Tyypillisesti analyytikko vaihtelevalla toimialan tuntemuksella haastattelee asiakkaita ja käyttäjiä. Tämän jälkeen analyytikko kirjoittaa vaatimukset ohjelmistoarkkitehdeille ja -suunnittelijoille. Tässä prosessissa merkityksellistä toimialatietoa poikkeuksetta katoaa.\cite{KES95}
+
+Kaikkia käyttäjien tarpeita analyytikko ei löydä ja jotkin tarpeet jäävät kirjaamatta vaatimusmäärittelyyn. Suuri koordinointiongelma ohjelmistokehityksessä on, että ohjelmistoarkkitehtien ja -suunnittelijoiden päätöksentekoon tarvitsema tieto ei ole saatavilla käytettävissä olevissa dokumenteissa.\cite{KES95}
+
+\subsubsection{Keskinäiset riipuvuudet}
+Suuri kokoluokka ja epävarmuus olisivat vähäisempiä ongelmia, jos ohjelmisto ei vaatisi sen osajärjestelmien täsmällistä integraatiota. Ohjelmistot pääasiallisesti ovat rakennettu useista osista, jotka on kytkettävä yhteen, jotta ohjelmisto toimisi oikein.\cite{KES95}
+
+\subsubsection{Epävirallinen keskustelu}
+Käytännön kokemus ja organisaatio teoria osoittavat, että aikaisemmat ohjelmistotuotannon aikaansaannokset eivät ole onnistuneet ratkaisemaan suurien ohjelmistoprojektien kooridinointiongelmia. 
+Voidaan sanoa, että aikaisemmat ehdotetut korjaustoimenpiteet ovat lähestyneet ongelmaa seuraavasti: 
+\begin{itemize}
+ \item Tekniset työkalut, kuten tekstimuokkain (editor) tai korkean tason kielet
+ \item Ohjelmiston jakaminen osiin (modularization) teknisesti, esimerkiksi olio-ohjelmoinnilla (object-oriented programming). Tai hallinnollisesti vaatimusmäärittelyn, ohjelmoinnin ja testaus toimintojen eriyttämisellä.
+ \item Teknisillä formaaleilla menettelytavoilla,esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit.
+\end{itemize}
+\subsubsection{Kymmenen ohjelmistotuotannon riskiä}
+
+\begin{enumerate}
+  \item Henkilöstö vaje.
+  \item Epärealistinen aikataulu ja budjetti.
+  \item Väärien ohjelmiston toiminnallisuuksien kehitys.
+  \item Vääränlaisen käyttöliittymän kehitys.
+  \item Ohjelmiston ominaisuuksien parantelu vaatimusten täytyttyä.
+  \item Jatkuvasti vaihtuvat vaatimukset.
+  \item Puutteet ulkoisesti toimitetuissa ohjelmiston osissa.
+  \item Puutteet ulkoisesti suoritetuissa tehtävissä.
+  \item Puutteet reaaliaikaisuuden suorituskyvyssä.
+  \item Tietojenkäsittelytieteen valmiuksien ylikuormitus.
+\end{enumerate}\cite{BOE88}
 
 \section{Ohjelmistotuotantomenetelmän valinta}
-
-\subsection{Ohjelmistotuotannon riskit}
 
 \subsection{Ennustettavuus}
 

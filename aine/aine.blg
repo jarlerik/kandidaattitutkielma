@@ -5,45 +5,45 @@ The style file: babplain.bst
 Database file #1: references-fi.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in BOE88
-You've used 3 entries,
+You've used 4 entries,
             2788 wiz_defined-function locations,
-            657 strings with 6229 characters,
-and the built_in function-call counts, 1098 in all, are:
-= -- 97
-> -- 27
+            669 strings with 6405 characters,
+and the built_in function-call counts, 1501 in all, are:
+= -- 136
+> -- 40
 < -- 1
-+ -- 12
-- -- 8
-* -- 119
-:= -- 164
-add.period$ -- 7
-call.type$ -- 3
-change.case$ -- 13
++ -- 17
+- -- 12
+* -- 169
+:= -- 223
+add.period$ -- 10
+call.type$ -- 4
+change.case$ -- 18
 chr.to.int$ -- 0
-cite$ -- 4
-duplicate$ -- 55
-empty$ -- 110
-format.name$ -- 14
-if$ -- 228
+cite$ -- 5
+duplicate$ -- 73
+empty$ -- 146
+format.name$ -- 22
+if$ -- 310
 int.to.chr$ -- 0
-int.to.str$ -- 3
-missing$ -- 5
-newline$ -- 28
-num.names$ -- 6
-pop$ -- 17
+int.to.str$ -- 4
+missing$ -- 7
+newline$ -- 33
+num.names$ -- 8
+pop$ -- 20
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 14
 quote$ -- 0
-skip$ -- 26
+skip$ -- 36
 stack$ -- 0
-substring$ -- 49
-swap$ -- 17
+substring$ -- 73
+swap$ -- 23
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 12
+type$ -- 16
 warning$ -- 1
-while$ -- 8
-width$ -- 4
-write$ -- 48
+while$ -- 12
+width$ -- 5
+write$ -- 61
 (There was 1 warning)
