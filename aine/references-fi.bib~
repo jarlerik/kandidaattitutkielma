@@ -1,3 +1,22 @@
+@inproceedings(BOE06,
+ author = "Boehm, Barry",
+ title = "A view of 20th and 21st century software engineering",
+ booktitle = "Proceedings of the 28th international conference on Software engineering",
+ series = "ICSE '06",
+ year = "2006",
+ isbn = "1-59593-375-1",
+ location = "Shanghai, China",
+ pages = "12--29",
+ numpages = 18,
+ url = "http://doi.acm.org/10.1145/1134285.1134288",
+ doi = "10.1145/1134285.1134288",
+ acmid = "1134288",
+ publisher = "ACM",
+ address = "New York, NY, USA",
+ keywords = "software engineering, software futures, software history")
+
+
+
 @inproceedings(ROY70,
   title="Managing the development of large software systems",
   author="Royce, Winston W",
@@ -5,6 +24,7 @@
   volume=26,
   year=1970,
   organization="Los Angeles")
+
 @article(FOM01,
 year=2001,
 journal="Wuhan University Journal of Natural Sciences",

@@ -22,6 +22,23 @@
   \btxprintmonthyear{.}{may}{1988}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
+\bibitem {BOE06}
+\btxnamefont {\btxlastnamefont {Boehm}, Barry}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {A view of 20th and 21st century software engineering}{A
+  view of 20th and 21st century software engineering}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 28th international
+  conference on Software engineering}, ICSE '06, \btxpageslong {}\ 12--29, New
+  York, NY, USA, 2006. \btxpublisherfont {ACM}\ifbtxprintISBN {,
+  \mbox{\btxISBN~\btxISBNfont {1-59593-375-1}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1134285.1134288}}.
+
+\bibitem {FOM01}
+\btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {The new methodology}{The new methodology}}.
+\newblock \btxjournalfont {Wuhan University Journal of Natural Sciences},
+  6:12--24, 2001.
+\newblock {\latintext \btxurlfont{http://dx.doi.org/10.1007/BF03160222}}.
+
 \bibitem {KES95}
 \btxnamefont {\btxlastnamefont {Kraut}, Robert\btxfnamespacelong E.}
   \btxandlong {}\ \btxnamefont {Lynn\btxfnamespacelong A. \btxlastnamefont
