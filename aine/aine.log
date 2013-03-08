@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  8 MAR 2013 10:02
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  8 MAR 2013 10:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -914,37 +914,37 @@ mistavoilla oli yh-teist[]a v[]altt[]a[]a,
  []
 
 [6] [7]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 228.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 230.
 
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 228.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 230.
 
-Overfull \hbox (17.50238pt too wide) in paragraph at lines 229--230
+Overfull \hbox (17.50238pt too wide) in paragraph at lines 231--232
 []\OT1/lmr/m/n/10.95 (-20) vaihtoehtoiset to-teu-tus-ta-vat (oh-jel-mis-ton os-
 to, oh-jel-mis-ton uu-del-leenk[]aytt[]o,
  []
 
-<spiral.png, id=243, 1141.26375pt x 994.71625pt>
+<spiral.png, id=244, 1141.26375pt x 994.71625pt>
 File: spiral.png Graphic file (type png)
  <use spiral.png>
-Package pdftex.def Info: spiral.png used on input line 233.
+Package pdftex.def Info: spiral.png used on input line 235.
 (pdftex.def)             Requested size: 360.0pt x 313.76227pt.
 
-Overfull \hbox (17.0pt too wide) in paragraph at lines 233--234
+Overfull \hbox (17.0pt too wide) in paragraph at lines 235--236
 [][] 
  []
 
 [8 <./spiral.png>]
-Overfull \hbox (9.02441pt too wide) in paragraph at lines 242--243
+Overfull \hbox (9.02441pt too wide) in paragraph at lines 244--245
 []\OT1/lmr/m/n/10.95 (-20) Riskinhallinta huo-mioi-den voi-daan m[]a[]aritell[]
 a kiin-ni-tett[]av[]a ai-ka ja ty[]om[]a[]ar[]a
  []
 
 
-Overfull \hbox (13.46803pt too wide) in paragraph at lines 256--257
+Overfull \hbox (13.46803pt too wide) in paragraph at lines 258--259
 []\OT1/lmr/m/n/10.95 (-20) T[]allainen ide-aa-li-ti-lan-ne on usein mah-do-ton-
 ta suu-ril-le oh-jel-mis-toj[]arjestelmille,
  []
@@ -966,15 +966,15 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 33.
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [11])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 333.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 335.
  [12]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 333.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 335.
  (./aine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 333.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 333.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 335.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 335.
 Package rerunfilecheck Info: File `aine.out' has not changed.
 (rerunfilecheck)             Checksum: 96AD91C914E402ABB9C03364E9C6883D;2120.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 333.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 335.
  ) 
 Here is how much of TeX's memory you used:
  9442 strings out of 493481
@@ -983,7 +983,7 @@ Here is how much of TeX's memory you used:
  12436 multiletter control sequences out of 15000+200000
  42028 words of font info for 81 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,8n,35p,657b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,35p,657b,594s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
@@ -992,10 +992,10 @@ f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on aine.pdf (14 pages, 364894 bytes).
+Output written on aine.pdf (14 pages, 365531 bytes).
 PDF statistics:
- 348 PDF objects out of 1000 (max. 8388607)
- 315 compressed objects within 4 object streams
+ 349 PDF objects out of 1000 (max. 8388607)
+ 316 compressed objects within 4 object streams
  58 named destinations out of 1000 (max. 500000)
  12027 words of extra memory for PDF output out of 14400 (max. 10000000)
 

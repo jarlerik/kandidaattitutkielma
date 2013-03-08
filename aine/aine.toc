@@ -16,7 +16,7 @@
 \contentsline {subsection}{\numberline {2.3}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{9}{subsection.2.3}
 \contentsline {section}{\numberline {3}Ohjelmistojen laadun varmistus}{9}{section.3}
 \contentsline {subsection}{\numberline {3.1}Ohjelmistotuotannon ominaispiirteet}{9}{subsection.3.1}
-\contentsline {subsubsection}{\numberline {3.1.1}Ep\IeC {\"a}varmuus}{9}{subsubsection.3.1.1}
+\contentsline {subsubsection}{\numberline {3.1.1}Ep\IeC {\"a}varmuus}{10}{subsubsection.3.1.1}
 \contentsline {subsubsection}{\numberline {3.1.2}Keskin\IeC {\"a}iset riipuvuudet}{10}{subsubsection.3.1.2}
 \contentsline {subsubsection}{\numberline {3.1.3}Ep\IeC {\"a}virallinen keskustelu}{10}{subsubsection.3.1.3}
 \contentsline {subsubsection}{\numberline {3.1.4}Kymmenen ohjelmistotuotannon riski\IeC {\"a}}{11}{subsubsection.3.1.4}

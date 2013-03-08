@@ -219,6 +219,8 @@ Vuonna 1972 miljoonan koodirivin Trident-sukellusveneen komento- ja ohjausjärje
 
 IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjestelmän iteratiivisella ja inkrementaalisella mentelmällä. neljän vuoden, 200 henkilötyövuoden ja miljoonien ohjelmarivien projekti toteutettiin 45:ssä yhden kuukauden mittaisissa aikarajoitetuissa (time-boxed) iteraatiossa. Tämä oli ensimmäisiä ohjelmistoprojekteja, joka käytti nykyisten ketterien menetelmien suosittelemia iteraatiojakson pituutta.\cite{LAB03}
 
+Toinen aikainen ja huomiota herättävä esimerkki iteratiivisen ja inkrementaalisen (IDD) ohjelmistotuotannon mentelmien käytöstä oli NASA:n avaruussukkulan ohjelmistojärjestelmä, minkä FSD-osasto rakensi vuosina 1977-1980. Osasto sovelsi IID:tä 17:ssä iteraatiossa 31:n kuukauden aikana, keskimäärin kahdeksan viikon iteraatioissa. Heidän motivaationaan välttää vesiputousmallia oli avaruussukkulaohjelmiston vaihtuvat vaatimukset ohjelmistokehityksen aikana.\cite{LAB03}
+
 \subsubsection{Spiraalimalli}
 
 Spriraalimalli on kehitetty vesiputousmallista saatujen  useiden vuosien kokemuksien perusteella. Malli kuvastaa taustalla olevaa käsitettä, että jokainen vaihe sisältää saman sarjan toimenpiteitä.\cite{BOE88}
