@@ -127,11 +127,11 @@ Tällaisesta ohjelmistokehityksestä myös asiakkaat ovat valmiita maksamaan, si
 
 Suuremman ohjelmistotuotantoprojektin täytäntöönpano vaatii lisäksi muita vaiheita, jotka eivät suoraan edistä tuotettavaa ohjelmistoa ja lisäksi kasvattavat ohjelmistotuotannon kustannuksia.\cite{ROY70}
 
-Ohjelmistotuotannon alkuaikoina käytetty ''ohjelmoi ja korjaa'' -mallin sisältää kaksi vaihetta. Ohjelmoidaan ensin ja mietitään vaatimuksia, rakennetta sekä testausta myöhemmin. Mallilla oli useita heikkouksia. Usean korjausvaiheen jälkeen ohjelmakoodi oli niin vaikeasti rakennettu, että oli hyvin kallista muuttaa koodia. Tämä korosti tarvetta suunnitteluvaiheelle ennen ohjelmointia.\cite{BOE88}
+Ohjelmistotuotannon alkuaikoina käytetty ''ohjelmoi ja korjaa'' (''code and fix'') -mallin sisältää kaksi vaihetta. Ohjelmoidaan ensin ja mietitään vaatimuksia, rakennetta sekä testausta myöhemmin. Mallilla oli useita heikkouksia. Usean korjausvaiheen jälkeen ohjelmakoodi oli niin vaikeasti rakennettu, että oli hyvin kallista muuttaa koodia. Tämä korosti tarvetta suunnitteluvaiheelle ennen ohjelmointia.\cite{BOE88}
 
 Usein hyvin suunniteltu ohjelmisto ei vastannut käyttäjien toiveita. Joten syntyi tarve vaatimusmäärittelylle ennen suunnitteluvaihetta.\cite{BOE88} 
 
-Ohjelmistot olivat usein kalliita korjata koska muutoksiin ja testaamiseen oli valmistauduttu huonosti. Tämä osoitti tarpeen eri vaiheiden tunnistamiselle, sekä tarpeen huomioida testaus ja ohjelmiston muuttuminen jo hyvin varhaisessa vaiheessa.\cite{BOE88} 
+Ohjelmistot olivat usein kalliita korjata, koska muutoksiin ja testaamiseen oli valmistauduttu huonosti. Tämä osoitti tarpeen eri vaiheiden tunnistamiselle, sekä tarpeen huomioida testaus ja ohjelmiston muuttuminen jo hyvin varhaisessa vaiheessa.\cite{BOE88} 
 
    
 
@@ -176,7 +176,7 @@ Dokumentti helpottaa ohjelmiston käyttöönottoa operatiivinen henkilöstön ka
 
 \subsubsection{Toinen versio}
 
-Dokumentoinnin jälkeen toinen ohjelmistoprojektin onnistumiseen vaikuttava tärkein tekijä on sen alkuperäisyys. Jos kyseessä olevaa ohjelmistoa kehitetään ensimmäistä kertaa, on asiakkaalle toimitettava käyttöönotettava versio oltava toinen versio, mikäli kriittiset rakenteelliset ja operatiiviset vaatimukset on huomioitu.\cite{ROY70} 
+Dokumentoinnin jälkeen toinen ohjelmistoprojektin onnistumiseen vaikuttava tärkein tekijä on ohjelmiston alkuperäisyys. Jos kyseessä olevaa ohjelmistoa kehitetään ensimmäistä kertaa, on asiakkaalle toimitettava käyttöönotettava versio oltava toinen versio, mikäli kriittiset rakenteelliset ja operatiiviset vaatimukset on huomioitu.\cite{ROY70} 
 
 Lyhyessä ajassa suhteessa varsinaiseen aikatauluun suunnitellaan ja rakennetaan prototyyppiversio ennen varsinaista rakennettavaa ohjelmistoa. Jos suunniteltu aikataulu on 30 kuukautta, niin pilottiversion aikataulu on esimerkiksi 10 kuukautta. Ensimmäinen versio tarjoaa aikaisen vaiheen simulaation varsinaisesta tuotteesta.\cite{ROY70}
 
@@ -247,7 +247,7 @@ Spiraalimallin tärkeä ominaisuus on, että jokainen iteraatio päätetään ka
 
 \subsection{Ketterät kehitysmenetelmät}
 
-\section{Ohjelmistojen laadun varmistus}
+\section{Ohjelmistotuotannon ongelmat}
 
 \subsection{Ohjelmistotuotannon ominaispiirteet}
 
@@ -255,7 +255,7 @@ Onnistunut ohjelmistojärjestelmä vaatii erilaisten pyrkimysten koordinointia o
 
 Suuret projektit onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston toimialalta sekä ohjelmistolalta.\cite{KES95}
 
-Tällainen ideaalitilanne on usein mahdotonta suurille ohjelmistojärjestelmille, jonka koko voi olla miljoonia tai kymmeniä miljoonia ohjelmarivejä sekä projektin kesto useita vuosia.\cite{KES95}
+Tällainen ideaalitilanne on usein mahdotonta suurille ohjelmistojärjestelmille, joiden koko voi olla miljoonia tai kymmeniä miljoonia ohjelmarivejä sekä projektin kesto useita vuosia.\cite{KES95}
 
 Suuren kokoluokan pyrkimykset johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken.\cite{KES95}
 
