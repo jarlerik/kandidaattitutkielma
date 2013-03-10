@@ -115,27 +115,54 @@ g% --- Template for thesis / report with tktltiki2 class ---
 
 \section{Johdanto}
 
-Tässä kirjoitelmassa tarkastelemme ohjelmistotuotannon iteratiivisia menetelmiä. Käymme läpi erilaisten ohjelmistotuotantomenetelmien historiaa, niiden lähestymistapaa ohjelmistotuotantoon ja menetelmien heikkouksia sekä vahvuuksia. 
+Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen (software develop\-ment) iteratiivisia menetelmiä. Käymme läpi erilaisten ohjelmistokehityksen menetelmien (software development methodologies) historiaa sekä menetelmien heikkouksia ja vahvuuksia. 
 
-Käymme lyhyesti läpi erilaisia lähestymistapoja ohjelmistotuotantoon. Lisäksi tarkastelemme ohjelmistotuotantoprojektien erityispiirteitä ja ohjelmistotuotannon riskien tunnistamista, sekä miten nämä vaikuttavat menetelmän valintaan. 
+Ohjelmistojen parissa työskentelevät olivat muiden alojen insinöörejä ja matemaatikkoja 1950-luvulla. Myös menetelmät olivat omaksuttu muista insinööritieteistä. Tietokoneet olivat kookkaita sekä käyttökustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Koska ohjelmistojen suorittaminen tietokoneilla oli kallista, ohjelmistokehitys vaati tiukkaa suunnittelua sekä järjestelmällisiä käytäntöjä\cite{BOE06}.   
 
-Ohjelmistotuotantoa voidaan pitää kaaottisena toimintana. Ohjelmakoodia usein kirjoitetaan ilman taustalla olevaa suunnitelmaa. Termi ''ohjelmoi ja korjaa'' (''code and fix'') on kuvaava ilmaus tällaisesta prosessista. Tällainen menetelmä saattaa toimia jos tuottettava ohjelmisto on pieni, mutta järjestelmän kasvaessa on yhä vaikeampaa lisätä uusia toiminnallisuuksia järjestelmään. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}.
+Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotetaan voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOM01}.
 
-Menetelmät (methodologies) ovat tuoneet vaihtoehtoisen tavan  ohjelmiston tuottamiseen. Menetelmät ovat tuoneet ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät ovat yksityiskohtaisia prosessikuvauksia, joissa painotetaan voimakkaasti suunnittelua\cite{FOM01}.
+Kunnianhimoisin tietojenkäsittelyntieteen projekti 1950-luvulla oli SAGE-järjestelmä (Semi-Automated Ground Environment) Yhdysvaltojen ja Kanadan puolustusvoimille. Projekti kokosi yhteen tutka-, viestintä- ja tietokoneinsinöörejä sekä myös ensimmäisiä ohjelmistoinsinöörejä. Ohjelmiston tuotannossa käytettävä menetelmä oli vaiheesta seuraavaan etenevä lineaarinen prosessi. Täytettyään vaatimukset ohjelmisto valmistui vuoden aikataulusta myöhässä. Ohjelmistoprojektin koettiin myöhästymisestä huolimatta onnistuneen, ja suurimpana onnistumiseen vaikuttavana tekijänä nähtiin insinööritieteistä omaksutut käytänteet\cite{BOE06}. 
 
-Ohjelmistojen hankintasopimukset, erityisesti Yhdysvaltain hallituksen kanssa, rajoittivat ohjelmistotuotantoa. Yhdysvaltain hallituksen ja puolustusministeriön vaatimien menetelmien, ohjelmistojen tuottamiseksi, tuli koostua puhtaasti peräkkäisistä prosesseista. Suunnittelua ei voitu aloittaa ennen kuin ohjelmiston vaatimukset oli täydellisesti kirjattu. Ohjelmointia ei voitu aloittaa ennen suunnitelman tyhjentävää ja kriittistä tarkastelua. Yhdysvaltain hallituksen luomat standardit prosesseille aiheuttivat tulkinnan, että ohjelmistotuotannon menetelmän täytyy olla vaiheesta seuraavaan etenevä lineaarinen prosessi\cite{BOE06}.
+Vuoteen 1960 mennessä ohjelmistojen parissa toimiville ihmisille alkoi selvitä, että ohjelmistoihin liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Ohjelmistoja oli paljon helpompi muuttaa kuin laitteistoja eikä ohjelmistojen kopioiminen vaatinut kalliita tuotantolinjoja. Ohjelmistojen helppo muokattavuus sai monet ihmiset ja organisaatiot omaksumaan ''ohjelmoi ja korjaa'' (''code and fix'') menetelmän\cite{BOE06}.
 
-Winston Roycen ajatukset, artikkelissa “Managing the Development of Large Software Systems”, loivat perustan vesiputousmallille (waterfall), menetelmän joka vastasi valtionhallinnon sopimusten vaatimuksiin. Monet pitävät virheellisesti Roycen artikkelia lineaarisen vesiputousmallin esikuvana. Roycen artikkelin iteratiivinen ja palautteenohjaama ohjelmistokehitys, jossa onjelmisto toteutetaan kahdesti, on unohtunut useista menetelmän kuvauksista\cite{LAB03}.
+Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa on yhä vaikeampaa lisätä uusia toiminnallisuuksia järjestelmään. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}. Ohjelmistolla on yleensä paljon erilaisia ohjelmakoodin polkuja (path), mitkä johtavat erilaisiin tiloihin (state). Tämä tekee tietojen erittelystä (specification) ja ohjelmiston testaamisesta vaikeaa\cite{BOE06}.
+
+Ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän ohjelmistoissa. Tietokonelaitteistojen merkitys väheni. Monet ohjelmistotuotantoprojektit vaativat yhä enemmän ihmisiä tuottavaan ja luovaan työhön. Muista insinööritieteistä omaksutuilla menetelmillä ei voitu arvioida ohjelmistojen luotettavuutta kattavasti. Ohjelmistotuotannon kustannukset alkoivat kasvaa. Ohjelmistoprojektien aikatauluja oli vaikea ennakoida, ja henkilöstön lisääminen aikataulun nopeuttamiseksi saattoi myöhästyttää projektia entisestään\cite{BOE06}.
+
+Ohjelmistojen merkityksen kasvaessa tarvittiin enemmän insinöörejä ja matemaatikkoja kuin oli saatavilla. Ohjelmistotuotantoprojekteihin palkattiin yhä enemmän myös muiden alojen asiantuntijoita, jotka omaksuivat helposti ''ohjelmoi ja korjaa''-käytännöt insinöörimenetelmien sijasta. Suuri ero perinteisten insinöörimenetelmien ja ''ohjelmoi ja korjaa'' asenteen välillä loi uutta ''hakkeri kulttuuria'' merkittävien yliopistojen tietojenkäsittelylaitoksille. Nämä auktoriteetteja vastustavat luovat ''sankari ohjelmoijat'' tekivät usein vaikeasti muutettavaa ja ylläpidettävää ohjelmakoodia\cite{BOE06}.
+
+Ennen 1960-luvun loppua NATO:n tiedekomitea järjesti kaksi ohjelmistotekniikan (software engineering) suurta konferenssia, johon osallistui monia alan ammattilaisia ja johtavia tutkijoita. Nämä konferenssit loivat vahvan pohjan ohjelmistotekniikalle ja -tuotannolle, joita teollisuus ja julkishallinnon organisaatiot käyttivät perustana vaatimuksilleen ohjelmistotuotantoprojekteissa käytettävistä menetelmistä. Oli selvää, että tarvit\-tiin organisoituja ja kurinalaisia käytäntöjä yhä suuremmille projekteille ja tuotteille\cite{BOE06}.
+
+Reaktiona 1960-luvun ''ohjelmoi ja korjaa'' lähestymistapaan, laadittiin menetelmiä, joiden prosessit olivat tarkemmin organisoituja. Menetelmissä varsinaista ohjelmointia edelsi tarkka vaatimusmäärittely ja suunnitteluvaihe\cite{BOE06}.
+
+Ohjelmistojen hankintasopimukset, erityisesti Yhdysvaltain hallituksen kanssa, asettivat ohjelmistotuotannon menetelmille selkeät vaatimukset. Yhdysvaltain hallituksen ja puolustusministeriön vaatimien menetelmien, ohjelmistojen tuottamiseksi, tuli koostua puhtaasti peräkkäisistä prosesseista. Suunnittelua ei voitu aloittaa ennen kuin ohjelmiston vaatimukset oli täydellisesti kirjattu eikä ohjelmointia ennen suunnitelman tyhjentävää ja kriittistä tarkastelua. Yhdysvaltain hallituksen luomat standardit prosesseille aiheuttivat tulkinnan, että ohjelmistotuotannon menetelmän täytyy olla vaiheesta seuraavaan etenevä lineaarinen prosessi\cite{BOE06}.
+
+Winston Roycen ajatuksia, artikkelissa “Managing the Development of Large Software Systems”, pidetään vesiputousmallin (waterfall) perustana - menetelmän joka vastasi valtionhallinnon sopimusten vaatimuksiin. Monet pitävät virheellisesti Roycen artikkelia lineaarisen menetelmän esikuvana. Roycen artikkelin iteratiivinen ja palautteen ohjaama ohjelmistokehitys, jossa ohjelmisto toteutetaan kahdesti, on unohtunut useista menetelmän kuvauksista\cite{LAB03}.
 
 Menetelmät ovat olleet ohjelmistoja tuotettaessa käytössä pitkään. Nykyisin menetelmiä kritisoidaan byrokraattiksi. Menetelmien toteuttaminen ja seuraaminen vaatii paljon aikaa sekä työtä, ja tästä johtuen ohjelmistokehitysprosessi hidastuu\cite{FOM01}.
 
-Uusia menetelmiä on ilmaantunut haastajina paljon suunnittelua ja dokumentaatiota vaativille menetelmille. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOM01}.
+Uusia menetelmiä on kehitetty paljon suunnittelua ja dokumentaatiota vaativien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOM01}.
 
-Vaikka monet pitävät iteratiivisia ohjelmistotuotantomenetelmiä nykyaikaisina menetelminä, on niitä sovellettu ohjelmistokehityksessä 1950-luvulta lähtien\cite{LAB03}. 
+Vaikka monet pitävät iteratiivisia ohjelmistotuotantomenetelmiä nykyaikaisina menetelminä, on niitä sovellettu ohjelmistokehityksessä 1950-luvulta lähtien\cite{LAB03}.
 
-Ohjelmistotuotannossa on kaksi perustavanlaatuista vaihetta: analysointivaihe ja rakennusvaihe. Nämä kaksi vaihetta riittävät ohjelmiston totetuttamiseen, jos ohjelmisto on pieni ja tuotettavan ohjelmiston käyttäjät ovat itse toteuttajia\cite{ROY70}. 
+NASA:n käytti iteratiivista ja inkrementaalista (IID) ohjelmistotuotantomentelmää Mercury-projektissa 1960-luvulla. Mercury-projekti toteutettiin puolen päivän iteraatioissa. Kehitystiimi sovelsi Extreme programming (yksi nykyisistä ketteristä menetelmistä) käytänteitä tekemällä testit ennen jokaista inkremen\-taatiota\cite{LAB03}.
 
-Tällaisesta ohjelmistokehityksestä myös asiakkaat ovat valmiita maksamaan, sillä vaiheet pitävät sisällään aidosti luovaa työtä, joka suoraan edistää tuotettavan ohjelmiston käytettävyyttä\cite{ROY70}.
+IBM:n FSD-yksikkö (Federal System Division) käytti 1970-luvulla laajasti ja onnistuneesti iteratiivisia ja inkrementaalisia menetelmiä kriittisissä Yhdysvaltain puolustusministeriön avaruus- ja ilmailujärjestelmien kehityksessä\cite{LAB03}.
+
+Vuonna 1972 miljoonan koodirivin Trident-sukellusveneen komento- ja ohjausjärjestelmän kehityksessä FSD-osasto organisoi projektin neljään noin kuuden kuukauden iteraatioon. Projektissa oli merkittävä suunnittelu- ja määrittelyvaihe sekä iteraatiot olivat nykyisen ketterän kehityksen (agile methods) suosituksia pidempiä. Vaatimus\-määrittely kuitenkin kehittyi palautteen ohjaamana. Iteratiivisella ja inkrementaalisella lähestymistavalla hallittiin monimutkaisuutta sekä riskejä suuren mittakaavan ohjelmistoprojektissa. Toimittajaa uhkasi myöhästymisestä 100 000\$ uhkasakko per päivä\cite{LAB03}.
+
+IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjestelmän iteratiivisella ja inkrementaalisella menetelmällä. Neljän vuoden, 200 henkilötyövuoden ja miljoonien ohjelmarivien projekti toteutettiin 45:ssä, yhden kuukauden mittaisissa, aikarajoitetuissa (time-box) iteraatiossa. Tämä oli ensimmäisiä ohjelmistoprojekteja, joka käytti nykyisten ketterien menetelmien suosittelemia iteraatiojakson pituutta\cite{LAB03}.
+
+Toinen aikainen ja huomiota herättävä esimerkki iteratiivisen ja inkrementaalisen (IDD) ohjelmistotuotannon menetelmien käytöstä oli NASA:n avaruussukkulan ohjelmistojärjestelmä, minkä FSD-osasto rakensi vuosina 1977-1980. Osasto sovelsi IID:tä 17 iteraatiossa 31 kuukauden aikana, keskimäärin kahdeksan viikon iteraatioissa. Heidän motivaationaan välttää vesiputousmallia oli avaruussukkulaohjelmiston vaihtuvat vaatimukset ohjelmistokehityksen aikana\cite{LAB03}.
+  
+Käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon. Lisäksi tarkastelemme menetelmien erityispiirteitä sekä ohjelmistotuotantoon liittyvien erilaisten riskien tunnistamista. Tutkimme myös, miten ohjelmistotuotantoprojektien riskien tunnistaminen helpottaa projektille sopivan menetelmän valinnassa.
+
+
+\section{Ohjelmistotuotantomenetelmät}
+
+\subsection{Vesiputousmalli}
+
+Ohjelmistotuotannossa on kaksi perustavanlaatuista vaihetta: analysointivaihe ja rakennusvaihe. Nämä kaksi vaihetta riittävät ohjelmiston totetuttamiseen, jos ohjelmisto on pieni ja tuotettavan ohjelmiston käyttäjät ovat itse toteuttajia. Vaiheet pitävät sisällään aidosti luovaa työtä, joka suoraan edistää tuotettavaa ohjelmistoa\cite{ROY70}.
 
 Suuremman ohjelmistotuotantoprojektin täytäntöönpano vaatii lisäksi muita vaiheita, jotka eivät suoraan edistä tuotettavaa ohjelmistoa ja lisäksi kasvattavat ohjelmistotuotannon kustannuksia\cite{ROY70}.
 
@@ -144,12 +171,6 @@ Ohjelmistotuotannon alkuaikoina käytetty ''ohjelmoi ja korjaa''-mallin sisält�
 Usein hyvin suunniteltu ohjelmisto ei vastannut käyttäjien toiveita. Joten syntyi tarve vaatimusmäärittelylle ennen suunnitteluvaihetta\cite{BOE88}. 
 
 Ohjelmistot olivat usein kalliita korjata, koska muutoksiin ja testaamiseen oli valmistauduttu huonosti. Tämä osoitti tarpeen eri vaiheiden tunnistamiselle, sekä tarpeen huomioida testaus ja ohjelmiston muuttuminen jo hyvin varhaisessa vaiheessa\cite{BOE88}. 
-
-   
-
-\section{Ohjelmistotuotantomenetelmät}
-
-\subsection{Vesiputousmalli}
 
 1970-luvulla vesiputousmalli vaikutti suuresti lineaarisiin ohjelmistotuotannon malleihin. Vesiputousmallin lähestymistapa auttoi poistamaan monia aiemmin ohjelmistotuotantoa vaivanneita ongelmia. Vesiputousmallista tuli perusta monille teollisuuden ja Yhdysvaltain hallituksen ohjelmistohankintojen standardeille\cite{BOE88}.
 
@@ -215,15 +236,7 @@ Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomentelmä ei sovi er
 
 Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.
 
-NASA:n käytti iteratiivista ja inkrementaalista (IID) ohjelmistotuotantomentelmää Mercury-projektissa 1960-luvulla. Mercury-projekti toteutettiin puolen päivän iteraatioissa. Kehitystiimi sovelsi Extreme programming-menetelmän käytänteitä tekemällä testit ennen jokaista pientä inkremen\-taatiota\cite{LAB03}.
 
-IBM:n FSD-yksikkö (Federal System Division) käytti 1970-luvulla laajasti ja onnistuneesti iteratiivisia ja inkrementaalisia menetelmiä kriittisissä Yhdysvaltain puolustusministeriön avaruus- ja ilmailujärjestelmien kehityksessä\cite{LAB03}.
-
-Vuonna 1972 miljoonan koodirivin Trident-sukellusveneen komento- ja ohjausjärjestelmän kehityksessä FSD-osasto organisoi projektin neljään noin kuuden kuukauden iteraatioon. Projektissa oli merkittävä suunnittelu- ja määrittelyvaihe sekä iteraatiot olivat nykyisen ketterän kehityksen (agile methods) suosituksia pidempiä. Vaatimus\-määrittely kuitenkin kehittyi palautteen ohjaamana. Iteratiivisella ja inkrementaalisella lähestymistavalla hallittiin monimutkaisuutta sekä riskejä suuren mittakaavan ohjelmistoprojektissa. Toimittajaa uhkasi myöhästymisestä 100 000\$ uhkasakko per päivä\cite{LAB03}.
-
-IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjestelmän iteratiivisella ja inkrementaalisella mentelmällä. neljän vuoden, 200 henkilötyövuoden ja miljoonien ohjelmarivien projekti toteutettiin 45:ssä yhden kuukauden mittaisissa aikarajoitetuissa (time-boxed) iteraatiossa. Tämä oli ensimmäisiä ohjelmistoprojekteja, joka käytti nykyisten ketterien menetelmien suosittelemia iteraatiojakson pituutta\cite{LAB03}.
-
-Toinen aikainen ja huomiota herättävä esimerkki iteratiivisen ja inkrementaalisen (IDD) ohjelmistotuotannon mentelmien käytöstä oli NASA:n avaruussukkulan ohjelmistojärjestelmä, minkä FSD-osasto rakensi vuosina 1977-1980. Osasto sovelsi IID:tä 17:ssä iteraatiossa 31:n kuukauden aikana, keskimäärin kahdeksan viikon iteraatioissa. Heidän motivaationaan välttää vesiputousmallia oli avaruussukkulaohjelmiston vaihtuvat vaatimukset ohjelmistokehityksen aikana\cite{LAB03}.
 
 Spriraalimalli on kehitetty vesiputousmallista saatujen  useiden vuosien kokemuksien perusteella. Malli kuvastaa taustalla olevaa käsitettä, että jokainen vaihe sisältää saman sarjan toimenpiteitä\cite{BOE88}.
 
