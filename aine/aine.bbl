@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
   \providebibliographyfont{name}{}%
   \providebibliographyfont{lastname}{}%
   \providebibliographyfont{title}{\emph}%
@@ -13,6 +13,25 @@
   \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
 
 \expandafter\btxselectlanguage\expandafter {\btxfallbacklanguage}
+\bibitem {BRL03}
+\btxnamefont {\btxlastnamefont {Baskerville}, R.}, \btxnamefont {B.
+  \btxlastnamefont {Ramesh}}, \btxnamefont {L. \btxlastnamefont {Levine}},
+  \btxnamefont {J. \btxlastnamefont {Pries-Heje}}\btxandcomma {} \btxandlong
+  {}\ \btxnamefont {S. \btxlastnamefont {Slaughter}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {Is ''internet-speed'' software development
+  different?}{Is ''Internet-speed'' software development different?}}
+\newblock \btxjournalfont {Software, IEEE}, 20(6):70 -- 77,
+  \btxprintmonthyear{.}{nov.-dec.}{2003}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0740-7459}}}.
+
+\bibitem {BEC99}
+\btxnamefont {\btxlastnamefont {Beck}, K.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Embracing change with extreme programming}{Embracing
+  change with extreme programming}}.
+\newblock \btxjournalfont {Computer}, 32(10):70--77,
+  \btxprintmonthyear{.}{oct}{1999}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
 \bibitem {BOE88}
 \btxnamefont {\btxlastnamefont {Boehm}, B.\btxfnamespacelong
   W.}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {A spiral model of
@@ -39,6 +58,15 @@
   6:12--24, 2001.
 \newblock {\latintext \btxurlfont{http://dx.doi.org/10.1007/BF03160222}}.
 
+\bibitem {HIC01}
+\btxnamefont {\btxlastnamefont {Highsmith}, J.} \btxandlong {}\ \btxnamefont
+  {A. \btxlastnamefont {Cockburn}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Agile software development: the business of
+  innovation}{Agile software development: the business of innovation}}.
+\newblock \btxjournalfont {Computer}, 34(9):120 --127,
+  \btxprintmonthyear{.}{sep}{2001}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
 \bibitem {KES95}
 \btxnamefont {\btxlastnamefont {Kraut}, Robert\btxfnamespacelong E.}
   \btxandlong {}\ \btxnamefont {Lynn\btxfnamespacelong A. \btxlastnamefont
@@ -58,6 +86,15 @@
   \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
+\bibitem {MWR84}
+\btxnamefont {\btxlastnamefont {Madden}, William\btxfnamespacelong A}
+  \btxandlong {}\ \btxnamefont {Kyle\btxfnamespacelong Y \btxlastnamefont
+  {Rone}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Design,
+  development, integration: space shuttle primary flight software
+  system}{Design, development, integration: space shuttle primary flight
+  software system}}.
+\newblock \btxjournalfont {Communications of the ACM}, 27:914--925, 1984.
+
 \bibitem {ROY70}
 \btxnamefont {\btxlastnamefont {Royce}, Winston\btxfnamespacelong
   W}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Managing the development
@@ -65,5 +102,14 @@
   systems}}.
 \newblock \Btxinlong {}\ \btxtitlefont {proceedings of IEEE WESCON},
   \btxvolumelong {}~\btxvolumefont {26}. Los Angeles, 1970.
+
+\bibitem {WIC03}
+\btxnamefont {\btxlastnamefont {Williams}, L.} \btxandlong {}\ \btxnamefont {A.
+  \btxlastnamefont {Cockburn}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase
+  {Agile software development: it's about feedback and change}{Agile software
+  development: it's about feedback and change}}.
+\newblock \btxjournalfont {Computer}, 36(6):39--43,
+  \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
 \end{thebibliography}
