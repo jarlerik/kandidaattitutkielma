@@ -11,6 +11,7 @@
 \contentsline {subsection}{\numberline {4.2}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{13}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Organisaation koko}{13}{subsection.4.3}
 \contentsline {subsection}{\numberline {4.4}Kehitt\IeC {\"a}jien taidot}{13}{subsection.4.4}
+\contentsline {section}{\numberline {5}L\IeC {\"a}hteet}{13}{section.5}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}
