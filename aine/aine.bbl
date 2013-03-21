@@ -103,6 +103,11 @@
 \newblock \Btxinlong {}\ \btxtitlefont {proceedings of IEEE WESCON},
   \btxvolumelong {}~\btxvolumefont {26}. Los Angeles, 1970.
 
+\bibitem {SCH09}
+\btxnamefont {\btxlastnamefont {Schwaber}, Ken}\btxauthorcolon\ \btxtitlefont
+  {Agile project management with Scrum}.
+\newblock \btxpublisherfont {Microsoft Press}, 2009.
+
 \bibitem {WIC03}
 \btxnamefont {\btxlastnamefont {Williams}, L.} \btxandlong {}\ \btxnamefont {A.
   \btxlastnamefont {Cockburn}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase

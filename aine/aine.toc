@@ -1,16 +1,15 @@
 \select@language {finnish}
 \contentsline {section}{\numberline {1}Johdanto}{3}{section.1}
-\contentsline {section}{\numberline {2}Ohjelmistotuotantomenetelm\IeC {\"a}t}{6}{section.2}
-\contentsline {subsection}{\numberline {2.1}Vesiputousmalli}{6}{subsection.2.1}
-\contentsline {subsection}{\numberline {2.2}Iteratiiviset menetelm\IeC {\"a}t}{9}{subsection.2.2}
-\contentsline {subsection}{\numberline {2.3}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{11}{subsection.2.3}
-\contentsline {section}{\numberline {3}Ohjelmistotuotannon ongelmat}{12}{section.3}
-\contentsline {subsection}{\numberline {3.1}Ohjelmistotuotannon ominaispiirteet}{12}{subsection.3.1}
+\contentsline {section}{\numberline {2}Ohjelmistotuotantomenetelm\IeC {\"a}t}{4}{section.2}
+\contentsline {subsection}{\numberline {2.1}Vesiputousmalli}{4}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.2}Iteratiiviset menetelm\IeC {\"a}t}{7}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{9}{subsection.2.3}
+\contentsline {section}{\numberline {3}Ohjelmistotuotannon ongelmat}{11}{section.3}
+\contentsline {subsection}{\numberline {3.1}Ohjelmistotuotannon ominaispiirteet}{11}{subsection.3.1}
 \contentsline {section}{\numberline {4}Ohjelmistotuotantomenetelm\IeC {\"a}n valinta}{14}{section.4}
 \contentsline {subsection}{\numberline {4.1}Ennustettavuus}{14}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{14}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Organisaation koko}{14}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Kehitt\IeC {\"a}jien taidot}{14}{subsection.4.4}
 \contentsline {section}{\numberline {5}L\IeC {\"a}hteet}{14}{section.5}
 \select@language {finnish}
 \select@language {finnish}

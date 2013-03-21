@@ -86,6 +86,12 @@ keywords="Best practices;Collaboration;Companies;Internet;Logic testing;Programm
 doi="10.1109/MS.2003.1241369", 
 ISSN="0740-7459")
 
+@book{,
+  title="Agile project management with Scrum",
+  author="Schwaber, Ken",
+  year="2009",
+  publisher="Microsoft Press")
+
 @article(BEC99, 
 author="Beck, K.", 
 journal="Computer", 
