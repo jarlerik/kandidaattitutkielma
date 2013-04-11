@@ -1,5 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2012/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: aine.aux
 The style file: babplain.bst
 Database file #1: references-fi.bib
@@ -7,11 +6,10 @@ I was expecting a `,' or a `}'---line 93 of file references-fi.bib
  :   publisher="Microsoft Press"
  :                              )
 I'm skipping whatever remains of this entry
-Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in BRL03
 You've used 12 entries,
             2788 wiz_defined-function locations,
-            728 strings with 7446 characters,
+            728 strings with 7460 characters,
 and the built_in function-call counts, 4624 in all, are:
 = -- 422
 > -- 135

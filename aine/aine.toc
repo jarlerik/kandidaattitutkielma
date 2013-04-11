@@ -10,7 +10,6 @@
 \contentsline {subsection}{\numberline {4.1}Ennustettavuus}{14}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{14}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Organisaation koko}{14}{subsection.4.3}
-\contentsline {section}{\numberline {5}L\IeC {\"a}hteet}{14}{section.5}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}
