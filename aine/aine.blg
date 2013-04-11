@@ -3,10 +3,6 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: aine.aux
 The style file: babplain.bst
 Database file #1: references-fi.bib
-I was expecting a `,' or a `}'---line 93 of file references-fi.bib
- :   publisher="Microsoft Press"
- :                              )
-I'm skipping whatever remains of this entry
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Warning--empty language in BRL03
 You've used 12 entries,
@@ -50,4 +46,4 @@ warning$ -- 1
 while$ -- 37
 width$ -- 14
 write$ -- 152
-(There was 1 error message)
+(There was 1 warning)

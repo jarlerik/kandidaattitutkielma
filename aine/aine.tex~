@@ -117,7 +117,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
  
 Menetelmät ovat olleet ohjelmistoja tuotettaessa käytössä pitkään. Ohjelmistojen parissa työskentelevät olivat muiden alojen insinöörejä ja matemaatikkoja 1950-luvulla. Myös menetelmät olivat omaksuttu muista insinööritieteistä. Tietokoneet olivat kookkaita sekä käyttökustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Koska ohjelmistojen suorittaminen tietokoneilla oli kallista, ohjelmistokehitys vaati tiukkaa suunnittelua sekä järjestelmällisiä käytäntöjä\cite{BOE06}.   
 
-Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotetaan voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOM01}.
+Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotettiin voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOM01}.
 
 Vuoteen 1960 mennessä ohjelmistojen parissa toimiville ihmisille alkoi selvitä, että ohjelmistoihin liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Ohjelmistoja oli paljon helpompi muuttaa kuin laitteistoja eikä ohjelmistojen kopioiminen vaatinut kalliita tuotantolinjoja. Ohjelmistojen helppo muokattavuus sai monet ihmiset ja organisaatiot omaksumaan ''ohjelmoi ja korjaa'' (''code and fix'') menetelmän\cite{BOE06}.
 
@@ -134,6 +134,94 @@ Uusia menetelmiä on kehitetty, vesiputousmallin mukaisille, paljon suunnittelua
 Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen (software develop\-ment) iteratiivisia menetelmiä. Käymme läpi erilaisten ohjelmistokehityksen menetelmien (software development methodologies) historiaa sekä menetelmien heikkouksia ja vahvuuksia. 
 
 Käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon. Lisäksi tarkastelemme menetelmien erityispiirteitä sekä ohjelmistotuotantoon liittyvien erilaisten riskien tunnistamista. Tutkimme myös, miten ohjelmistotuotantoprojektien riskien tunnistaminen helpottaa projektille sopivan menetelmän valinnassa.
+
+\section{Ohjelmistotuotannon ongelmat}
+
+\subsection{Ohjelmistotuotannon ominaispiirteet}
+
+Kunnianhimoisin tietojenkäsittelyntieteen projekti 1950-luvulla oli SAGE-järjestelmä (Semi-Automated Ground Environment) Yhdysvaltojen ja Kanadan puolustusvoimille. Projekti kokosi yhteen tutka-, viestintä- ja tietokoneinsinöörejä sekä myös ensimmäisiä ohjelmistoinsinöörejä. Ohjelmiston tuotannossa käytettävä menetelmä oli vaiheesta seuraavaan etenevä lineaarinen prosessi. Vaatimukset täyttävä ohjelmisto valmistui vuoden aikataulusta myöhässä. Ohjelmistoprojektin koettiin myöhästymisestä huolimatta onnistuneen, ja suurimpana onnistumiseen vaikuttavana tekijänä nähtiin insinööritieteistä omaksutut käytänteet\cite{BOE06}.
+
+\subsection*{Ohjelmistojen merkitys lisääntyy}
+
+Ohjelmistot merkityksen kasvaessa ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän. Tietokonelaitteistojen merkitys väheni. Monet ohjelmistotuotantoprojektit vaativat yhä enemmän ihmisiä tuottavaan ja luovaan työhön. Muista insinööritieteistä omaksutuilla menetelmillä ei voitu arvioida ohjelmistojen luotettavuutta kattavasti. Ohjelmistotuotannon kustannukset alkoivat kasvaa. Ohjelmistoprojektien aikatauluja oli vaikea ennakoida, ja henkilöstön lisääminen aikataulun nopeuttamiseksi saattoi myöhästyttää projektia entisestään\cite{BOE06}.
+
+Ohjelmistotuotantoon tarvittiin enemmän insinöörejä ja matemaatikkoja kuin oli saatavilla. Ohjelmistotuotantoprojekteihin palkattiin yhä enemmän myös muiden alojen asiantuntijoita, jotka omaksuivat helposti ''ohjelmoi ja korjaa''-käytännöt insinöörimenetelmien sijasta. Suuri ero perinteisten insinöörimenetelmien ja ''ohjelmoi ja korjaa'' asenteen välillä loi uutta ''hakkeri kulttuuria'' merkittävien yliopistojen tietojenkäsittelylaitoksille. Nämä auktoriteetteja vastustavat luovat ''sankari ohjelmoijat'' tekivät usein vaikeasti muutettavaa ja ylläpidettävää ohjelmakoodia\cite{BOE06}.
+
+Ennen 1960-luvun loppua NATO:n tiedekomitea järjesti kaksi ohjelmistotekniikan (software engineering) suurta konferenssia, johon osallistui monia alan ammattilaisia ja johtavia tutkijoita. Nämä konferenssit loivat vahvan pohjan ohjelmistotekniikalle ja -tuotannolle, joita teollisuus ja julkishallinnon organisaatiot käyttivät perustana vaatimuksilleen ohjelmistotuotantoprojekteissa käytettävistä menetelmistä. Oli selvää, että tarvit\-tiin organisoituja ja kurinalaisia käytäntöjä yhä suuremmille projekteille ja tuotteille\cite{BOE06}.
+
+Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutuu. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}.
+
+\subsection*{Koordinointi}
+
+Onnistunut ohjelmistojärjestelmä vaatii erilaisten pyrkimysten koordinointia ohjelmistokehityksen aikana. Ohjelmistojärjestelmien perustavanlaatuinen ominaisuus on niiden suuri koko. Yksilöiden tai pienten ryhmien on mahdotonta luoda tai ymmärtää suuria ohjelmistoja yksityiskohtaisesti\cite{KES95}.
+
+Ohjelmistolla on yleensä paljon erilaisia ohjelmakoodin polkuja (path), jotka johtavat erilaisiin tiloihin (state). Tämä tekee tietojen määrittelystä (specification) ja ohjelmiston testaamisesta vaikeaa\cite{BOE06}.
+
+Suuret projektit onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston toimialalta sekä ohjelmistolalta\cite{KES95}.
+
+Tällainen ideaalitilanne on usein mahdotonta suurille ohjelmistojärjestelmille, joiden koko voi olla miljoonia tai kymmeniä miljoonia ohjelmarivejä sekä projektin kesto useita vuosia\cite{KES95}.
+
+Suuren kokoluokan pyrkimykset johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken\cite{KES95}.
+
+Ohjelmistotuotannon luontainen epävarmuus lisää koordinointiongelmaa. Toisin kuin teollinen valmistus, ohjelmistokehitys ei ole rutiininomainen toimi. Monet ohjelmistojärjestelmät ovat yksilöllisiä projekteja, ilman olemassa olevaa prototyyppiä, tai muokattavaa ohjelmistoa\cite{KES95}.
+
+\subsection*{Muuttuvat vaatimukset}
+
+Lisäksi epävarmuus lisääntyy, koska ohjelmiston toimintaan liittyvät vaatimukset muuttuvat\cite{KES95}.
+
+Muutoksia ohjelmiston vaatimuksiin esiintyy, koska ympäristö mihin ohjelmisto suunniteltiin muuttuu. Liiketoiminta, käyttäjien toiveet, tietokoneympäristö, ohjelmiston syötteet ja fyysinen maailma itsessään muuttuvat\cite{KES95}.
+
+Muutostarpeiden ilmaantumisen todennäköisyys on suurin ohjelmistoa käytettäessä. Tällöin käyttäjät usein ymmärtävät ohjelmiston rajoitteet ja mahdollisuudet. Kun ohjelmistoa käytetään olosuhteissa, johon sitä ei ollut alunperin kuviteltu alkuperäistä suunnitelmaa tehtäessä, niin käyttäjät todennäköisesti vaativat uusia toiminnallisuuksia\cite{KES95}.
+
+Ohjelmistokehitys on epävarmaa, koska vaatimukset ovat poikkeuksetta epätäydellisiä. Epätäydellisyys aiheutuu osittain rajallisista toimialan tiedoista ja ohjelmistoprojektin tyypillisestä työn jakamisesta. Liian vähällä, projektissa työskentelevillä ihmisillä, on riittävää tuntemusta toimialasta\cite{KES95}.
+
+Ohjelmistojen vaatimusten muuttuminen projektin edetessä ei ole ohjelmistotuotannossa kuitenkaan uusi ongelma. Royce vuonna 1970 ja Boehm vuonna 1988 artikkeleissaan\cite{ROY70}\cite{BOE88} käsittelivät ohjelmistokehityksen muuuttuvaa luonnetta. 
+
+Avaruussukkulajärjestelmän kehityksessä 70-ja 80-luvulla, aikaisempien kokemuksien perusteella, NASA ja IBM osasivat odottaa muuttuvia vaatimuksia\cite{MWR84}. Sukkulaohjelman ohjelmistokehityksessä muun muassa seuraavat tavoitteet otettiin huomioon: 
+
+\begin{itemize}
+ \item Toteutetaan ensimmäiseksi kehittyneimmät vaatimukset
+ \item Maksimaalisen testauksen varmistamiseksi julkaistaan ohjelmistoa mahdollisimman nopeasti\cite{MWR84}.
+\end{itemize}
+
+Tyypillisesti analyytikko vaihtelevalla toimialan tuntemuksella haastattelee asiakkaita ja käyttäjiä. Tämän jälkeen analyytikko kirjoittaa vaatimukset ohjelmistoarkkitehdeille ja -suunnittelijoille. Tässä prosessissa merkityksellistä toimialatietoa poikkeuksetta katoaa\cite{KES95}.
+
+Kaikkia käyttäjien tarpeita analyytikko ei löydä ja jotkin tarpeet jäävät kirjaamatta vaatimusmäärittelyyn. Suuri koordinointiongelma ohjelmistokehityksessä on, että ohjelmistoarkkitehtien ja -suunnittelijoiden päätöksentekoon tarvitsema tieto ei ole saatavilla käytettävissä olevissa dokumenteissa\cite{KES95}.
+
+Suuri kokoluokka ja epävarmuus olisivat vähäisempiä ongelmia, jos ohjelmisto ei vaatisi sen osajärjestelmien täsmällistä integraatiota. Ohjelmistot pääasiallisesti ovat rakennettu useista osista, jotka on kytkettävä yhteen, jotta ohjelmisto toimisi oikein\cite{KES95}.
+
+\subsection*{Liiketoimintaympäristö ja internet}
+
+Liiketoimintaympäristö muuttuu nykyisin nopeassa tahdissa. Teknologian ja liiketoiminnan vaatimusten muuttuessa tehdyt vaatimusmäärittelyt ja suunnitelmat vanhentuvat nopeasti\cite{WIC03}. Alkuperäisen vaatimusmäärittelyn ja suunnitelman seuraaminen ei ole ohjelmistoprojektien pääasiallinen päämäärä. Sen sijaan toimitettavan ohjelmiston tarkoitus on asiakkaan, mahdollisesti vaihtuvien, tarpeiden tyydyttäminen\cite{HIC01}.
+
+Internet liiketoimintaympäristönä vahvistaa ohjelmistotuotannon ongelmia korostamalla nopeutta. Asiakkaat vaativat liiketoiminnalle arvoa tuottavia ominaisuuksia nopeammassa tahdissa kuin koskaan aikaisemmin\cite{BRL03}.
+
+\subsection*{Tekninen kehitys}
+
+Käytännön kokemus osoittaa, että aikaisemmat ohjelmistotuotannon aikaansaannokset eivät ole onnistuneet ratkaisemaan suurien ohjelmistoprojektien kooridinointiongelmia. 
+Voidaan sanoa, että aikaisemmat ehdotetut korjaustoimenpiteet ovat lähestyneet ongelmaa seuraavasti: 
+\begin{itemize}
+ \item Tekniset työkalut, kuten tekstimuokkain (editor) tai korkean tason kielet
+ \item Ohjelmiston jakaminen osiin (modularization) teknisesti, esimerkiksi olio-ohjelmoinnilla (object-oriented programming). Tai hallinnollisesti vaatimusmäärittelyn, ohjelmoinnin ja testaus toimintojen eriyttämisellä.
+ \item Teknisillä formaaleilla menettelytavoilla,esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit\cite{KES95}.
+\end{itemize}
+
+\subsection*{Ohjelmistotuotannon riskit}
+
+Barry Boehm artikkelissaan ''A spiral model of software development and enhancement'' listaa ohjelmistotuotannon kymmennen suurinta riskiä: 
+
+\begin{enumerate}
+  \item Henkilöstö vaje.
+  \item Epärealistinen aikataulu ja budjetti.
+  \item Väärien ohjelmiston toiminnallisuuksien kehitys.
+  \item Vääränlaisen käyttöliittymän kehitys.
+  \item Ohjelmiston ominaisuuksien parantelu vaatimusten täytyttyä.
+  \item Jatkuvasti vaihtuvat vaatimukset.
+  \item Puutteet ulkoisesti toimitetuissa ohjelmiston osissa.
+  \item Puutteet ulkoisesti suoritetuissa tehtävissä.
+  \item Puutteet reaaliaikaisuuden suorituskyvyssä.
+  \item Tietojenkäsittelytieteen valmiuksien ylikuormitus\cite{BOE88}.
+\end{enumerate}
 
 \section{Ohjelmistotuotantomenetelmät}
 
@@ -157,7 +245,9 @@ Tarkemmin Winston W. Roycen malli sisältää seuraavat vaiheet: järjestelmä- 
 
 Perättäisten ohjelmistotuotantovaiheiden välillä on iteraatiota järjestelmän rakenteen tarkentuessa yksityiskohtaisemmaksi tuotannon edetessä. Iteraatioiden tarkoituksena on suunnitelman edetessä pitää muutosvauhti käsiteltävän kokoisena\cite{ROY70}.
 
+\subsection{Vesiputousmallin vaiheet}
 
+Kuvassa 1. on yleisin kuvaus lineaarisesta vesiputousmallista. Roycen kuvaama prosessi, tässä yksinkertaisessa muodossa, oli tarkoitettu vain suoraviivaisimmille projekteille. Royce oli iteratiivisten, inkrementaalisten ja kehityksellisten (evolutionary) menetelmien kannattaja. Artikkelissa “Managing the Development of Large Software Systems”, 1960-1970 lukujen Yhdysvaltain hallituksen sopimusten vaatimat rajoitteet huomioiden, Royce kuvaa ohjelmistotuotannon iteratiivista prosessia\cite{LAB03}. 
 
 \begin{figure}[h!]
   \caption{Lineaarinen ohjelmistotuotantoprosessi}
@@ -165,7 +255,25 @@ Perättäisten ohjelmistotuotantovaiheiden välillä on iteraatiota järjestelm�
     \includegraphics[width=\textwidth]{waterfall}
 \end{figure}
 
-Kuvassa 1. on yleisin kuvaus lineaarisesta vesiputousmallista. Roycen kuvaama prosessi, tässä yksinkertaisessa muodossa, oli tarkoitettu vain suoraviivaisimmille projekteille. Royce oli iteratiivisten, inkrementaalisten ja kehityksellisten (evolutionary) menetelmien kannattaja. Artikkelissa “Managing the Development of Large Software Systems”, 1960-1970 lukujen Yhdysvaltain hallituksen sopimusten vaatimat rajoitteet huomioiden, Royce kuvaa ohjelmistotuotannon iteratiivista prosessia\cite{LAB03}. 
+\subsection*{Järjestelmän ja ohjelmiston vaatimukset}
+Tässä vaiheessa kehitettävän järjestelmän ja ohjelmiston kaikki mahdolliset vaatimukset ja rajoitteet tuodaan esiin. Vaatimukset ovat joukko toiminnallisuuksia joita loppukäyttäjä odottaa ohjelmistolta. Järjestelmän ja laitteiston asettamat rajoitteet ohjelmiston suorituskyvylle on otettava huomioon.
+
+\subsection*{Analyysi}
+Ennen ohjelmiston rakenteen suunnittelua vaatimukset ovat analysoitava. Vaatimukset selvitetään loppukäyttäjältä ohjelmistokehityksen alussa. Loppukäyttäjien vaatimuksien ja liiketoimintaympäristön analysointi on edellytys ohjelmiston rakenteen suunnittelulle.  
+
+ \subsection*{Ohjelmiston rakenne}
+Ohjelmiston rakenteen suunnittelussa on otettava huomioon ohjelmiston erilaisten osien yhteensopivuus, ohjelmiston arkkitehtuuri ja erilaisten luokkien rakenne ja toiminnallisuus.  
+
+ \subsection*{Ohjelmointi}
+Ohjelmoijat kirjoittavat ohjelmiston ohjelmakoodin suunnitelmien perusteella.
+
+ \subsection*{Testaus}
+Testaajat varmistavat, että ohjelmisto toimii vaatimusten mukaan. Royce kirjoittaa, että testauksen tulisi tehdä siihen erikoistuneet henkilöt, jotka eivät välttämättä ohjelmoineet itse alkuperäistä ohjelmiston osaa. Royce painottaa dokumentin tärkeyttä, jotta testaaja voisi ymmärtää ohjelmiston toimintaa\cite{ROY70}. Useimmat virheet ovat luonteeltaan ilmiselviä, jotka voidaan löytää visuaalisella tarkastelulla. Jokaisen analyysin ja ohjelmakoodin tulee tarkastaa toinen henkilö, joka ei osallistunut varsinaiseen työhön. Jokainen tietokoneohjelman looginen polku on testattava ainakin kerran\cite{ROY70}.
+
+ \subsection*{Toiminta}
+Ohjelmiston operatiivinen käyttö.
+
+\subsection*{Lineaarisen mallin riskit}
 
 Royce huomioi lineearisen ohjelmistotuotantoprosessin sisältämän huomattavan riskin. Vasta testivaiheessa, menetelmän loppupuolella, saattaa tulla esille ilmiöitä, joita ei ollut mahdollista tarkalleen analysoida aikaisemmassa vaiheessa. Ellei pieni muutos koodissa korjaa ohjelmistoa vastaamaan oletettua käytöstä, vaadittavat muutokset ohjelmiston rakenteeseen saattavat olla niin häiritseviä, että muutokset rikkovat ohjelmistolle asetettuja vaatimuksia. Tällöin joko vaatimuksia tai suunnitelmaa on muutettava. Tässä tapauksessa tuotantoprosessi on palannut alkuun ja kustannusten voidaan olettaa nousevan jopa 100\%\cite{ROY70}.
 
@@ -173,25 +281,24 @@ Ongelman korjaamiseksi vaatimusmäärittelyn jälkeen - ennen analyysia - on teh
 
 Näin voidaan tunnistaa projektille varatut alimitoitetut kokonaisresurssit tai virheelliset operatiiviset vaatimukset aikaisessa vaiheessa. Vaatimukset ja alustava suunnitelma voidaan iteroida ennen lopullista suunnitelmaa, ohjelmointia ja testausvaihetta\cite{ROY70}.
 
+\subsection*{Dokumentointi}
+
 Artikkelissaan Royce painottaa kattavan dokumentoinnin tärkeyttä: On laadittava ymmärrettävä, valaiseva ja ajantasainen dokumentti, jonka jokaisen työntekijän on sisäistettävä. Vähintään yhden työntekijällä on oltava syvällinen ymmärrys koko järjestelmästä, mikä on osaltaan saavutettavissa dokumentin laadinnalla\cite{ROY70}.
 
 Ohjelmistosuunnittelijoiden on kommunikoitava rajapintojen(interface) suunnittelijoiden, ja johdon kanssa. Dokumentti antaa ymmärrettävän perustan rajapintojen suunnitteluun ja hallinnollisiin ratkaisuihin. Kirjallinen kuvaus pakottaa ohjelmistosuunnittelijan yksiselitteiseen ratkaisuun ja tarjoaa konkreettisen todistuksen työn valmistumisesta\cite{ROY70}.
 
 Hyvän dokumentoinnin todellinen arvo ilmenee tuotannossa myöhemmin testausvaiheessa, ohjelmistoa käytettäessä sekä uudelleen suunniteltaessa. Hyvän dokumentin avulla esimies voi keskittää henkilöstön ohjelmistossa ilmenneisiin virheisiin. Ilman hyvää dokumenttia, ainoastaan ohjelmistovirheen alkuperäinen tekijä kykenee analysoimaan kyseessä olevan virheen\cite{ROY70}.
 
-Dokumentti helpottaa ohjelmiston käyttöönottoa operatiivinen henkilöstön kanssa. Käyttöönotossa ilmenneiden mahdollisten ohjelmistovirheiden korjaamisessa selkeä dokumentti on välttämätön\cite{ROY70}.   
+Dokumentti helpottaa ohjelmiston käyttöönottoa operatiivinen henkilöstön kanssa. Käyttöönotossa ilmenneiden mahdollisten ohjelmistovirheiden korjaamisessa selkeä dokumentti on välttämätön\cite{ROY70}.
 
-Dokumentoinnin jälkeen toinen ohjelmistoprojektin onnistumiseen vaikuttava tärkein tekijä on ohjelmiston alkuperäisyys. Jos kyseessä olevaa ohjelmistoa kehitetään ensimmäistä kertaa, on asiakkaalle toimitettava käyttöönotettava versio oltava toinen versio, mikäli kriittiset rakenteelliset ja operatiiviset vaatimukset on huomioitu\cite{ROY70}. 
+\subsection*{Prototyyppi}
+
+Dokumentoinnin jälkeen toinen ohjelmistoprojektin onnistumiseen vaikuttava tärkein tekijä on ohjelmiston alkuperäisyys. Jos kyseessä olevaa ohjelmistoa kehitetään ensimmäistä kertaa, on asiakkaalle toimitettava käyttöönotettava versio oltava toinen versio, mikäli kriittiset rakenteelliset ja operatiiviset vaatimukset on huomioitu\cite{ROY70}.
 
 Lyhyessä ajassa suhteessa varsinaiseen aikatauluun suunnitellaan ja rakennetaan prototyyppiversio ennen varsinaista rakennettavaa ohjelmistoa. Jos suunniteltu aikataulu on 30 kuukautta, niin pilottiversion aikataulu on esimerkiksi 10 kuukautta. Ensimmäinen versio tarjoaa aikaisen vaiheen simulaation varsinaisesta tuotteesta\cite{ROY70}.
 
 Testaus on projektin resursseja vaativin vaihe. Testausvaiheessa vallitsee suurin riski taloudellisesti ja ajallisesti. Loppuvaiheessa aikataulua on vähän varasuunnitelmia tai vaihtoehtoja. Alustava suunnitelma ennen analysointia ja ohjelmointia sekä prototyypin valmistaminen ovat ratkaisuja ongelmien löytämiseen ja ratkaisemiseen ennen varsinaiseen testivaiheeseen siirtymistä\cite{ROY70}.
 
-Testivaiheen tulee pääasiallisesti suorittaa siihen erikoistunut asiantuntija, joka ei välttämättä osallistunut varsinaiseen ohjelmointiin. Väite, että ohjelmistosuunnittelija on paras henkilö      
-testaamaan suunnitelemansa ohjelmiston, koska ymmärtää aihealueen parhaiten, on merkki siitä että dokumentointi ei ole ollut riittävää\cite{ROY70}. 
-
-Useimmat virheet ovat luonteeltaan ilmiselviä, jotka voidaan löytää visuaalisella tarkastelulla. Jokaisen analyysin ja ohjelmakoodin tulee tarkastaa toinen henkilö, joka ei osallistunut varsinaiseen työhön. Jokainen tietokoneohjelman looginen polku on testattava ainakin kerran\cite{ROY70}.
- 
 Jostain syystä ohjelmiston suunnitelmaan ja aiottuun toimintaan sovelletaan laajaa tulkintaa, jopa aikasemman yhteisymmärryksen jälkeen. On tärkeää sitouttaa asiakas formaalilla tavalla mahdollisimman aikaisessa vaiheessa projektia, näin asiakkaan näkemys, harkinta ja sitoumus vahvistaa kehitystyötä\cite{ROY70}.
 
 Lineaaristen ohjelmistotuotantomenetelmien ongelmana oli, että tuottevien ohjelmistojen käyttäjät eivät kyenneet tyhjentävästi kertomaan mitä toiminnallisuuksia he ohjelmistolta halusivat. Asiakas saattaa muuttaa mielensä. Tai hän osaa usein sanoa, nähdessään valmiin tuotteen, mitä olisi ohjelmistolta halunnut\cite{BEC99}. Ongelmana ohjelmistotuotannossa on, että muutosten kustannukset kasvavat ohjelmiston elinkaaren aikana. Mitä pidemmälle projekti etenee sitä kalliimpaa muutosten tekeminen on\cite{HIC01}. 	  
@@ -210,7 +317,9 @@ IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjest
 
 Yksi aikainen ja huomiota herättävä esimerkki iteratiivisen ja inkrementaalisen (IDD) ohjelmistotuotannon menetelmien käytöstä oli NASA:n avaruussukkulan ohjelmistojärjestelmä, minkä FSD-osasto rakensi vuosina 1977-1980. Osasto sovelsi IID:tä 17 iteraatiossa 31 kuukauden aikana, keskimäärin kahdeksan viikon iteraatioissa. Heidän motivaationaan välttää vesiputousmallia oli avaruussukkulaohjelmiston vaihtuvat vaatimukset ohjelmistokehityksen aikana\cite{LAB03}.
 
-Barry Boehm artikkelissaan ''A Spiral Model of Software Development and Enhancement'' esittelee spiraalimallin (spiral model). Mallin tarkoitus oli edistää ohjelmistotuotantoprosessia lähestymällä ohjelmistoa riskiperustaisesti. Tämä mahdollistaa mallin mukautumaan, kohdattavien riskien mukaan, sopivasti yhdistelemällä määrittelyä(specification), prototyyppien valmistusta, simulointia tai muita lähestymistapoja ohjelmiston suunnitteluun\cite{BOE88}.
+\subsection*{Spiraalimalli}
+
+Barry Boehm esittelee artikkelissaan ''A Spiral Model of Software Development and Enhancement'' spiraalimallin (spiral model). Mallin tarkoitus oli edistää ohjelmistotuotantoprosessia lähestymällä ohjelmistoa riskiperustaisesti. Tämä mahdollistaa mallin mukautumaan, kohdattavien riskien mukaan, sopivasti yhdistelemällä määrittelyä(specification), prototyyppien valmistusta, simulointia tai muita lähestymistapoja ohjelmiston suunnitteluun\cite{BOE88}.
 
 Spiraalimallissa jokainen vaihe aloitetaan tunnistamalla:
 \begin{itemize}
@@ -246,20 +355,9 @@ Eroavaisuuksista huolimatta, kaikilla lähestymistavoilla oli yhteistä välttä
 
 Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomentelmä ei sovi erityisesti interaktiivisiin loppukäyttäjien sovelluksiin. Suunnitelmaperustaiset standardit pakottavat dokumentoimaan yksityiskohtaisesti heikosti ymmärretyt käyttöliittymien vaatimukset\cite{BOE88}.
 
-Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.  
+Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.
 
-Liiketoimintaympäristö muuttuu nykyisin nopeassa tahdissa. Teknologian ja liiketoiminnan vaatimusten muuttuessa tehdyt vaatimusmäärittelyt ja suunnitelmat vanhentuvat nopeasti\cite{WIC03}. Alkuperäisen vaatimusmäärittelyn ja suunnitelman seuraaminen ei ole ohjelmistoprojektien pääasiallinen päämäärä. Sen sijaan toimitettavan ohjelmiston tarkoitus on asiakkaan, mahdollisesti vaihtuvien, tarpeiden tyydyttäminen\cite{HIC01}.
-
-Internet liiketoimintaympäristönä vahvistaa ohjelmistotuotannon ongelmia korostamalla nopeutta. Asiakkaat vaativat liiketoiminnalle arvoa tuottavia ominaisuuksia nopeammassa tahdissa kuin koskaan aikaisemmin\cite{BRL03}.
-
-Ohjelmistojen vaatimusten muuttuminen projektin edetessä ei ole ohjelmistotuotannossa kuitenkaan uusi ongelma. Royce vuonna 1970 ja Boehm vuonna 1988 artikkeleissaan\cite{ROY70}\cite{BOE88} käsittelivät ohjelmistokehityksen muuuttuvaa luonnetta. 
-
-Avaruussukkulajärjestelmän kehityksessä 70-ja 80-luvulla, aikaisempien kokemuksien perusteella, NASA ja IBM osasivat odottaa muuttuvia vaatimuksia\cite{MWR84}. Sukkulaohjelman ohjelmistokehityksessä muun muassa seuraavat tavoitteet otettiin huomioon: 
-
-\begin{itemize}
- \item Toteutetaan ensimmäiseksi kehittyneimmät vaatimukset
- \item Maksimaalisen testauksen varmistamiseksi julkaistaan ohjelmistoa mahdollisimman nopeasti\cite{MWR84}.
-\end{itemize}
+\subsection*{Ketterät mallit}
 
 Seurauksena muuttuvista vaatimuksista useat ohjelmistoalan ihmiset ja organisaatiot kehittivät menetelmiä ja käytäntöjä, joille muutokset ovat hyväksyttyjä. Nämä uudet menetelmät toivottavat muutokset tervetulleiksi, ja ohjelmisto kehittyy uusiin vaatimuksiin ja muutoksiin mukautuen\cite{WIC03}. Perinteinen lähestymistapa perustui oletukselle, että aikaisella ja täydellisellä vaatimusmäärittelyllä voidaan pienentää kustannuksia vähentämällä muutoksia. Nykyään muutosten kieltäminen merkitsee reagoimattomuutta liiketoimitaympäristön kehitykselle\cite{HIC01}.
 
@@ -267,7 +365,7 @@ Menetelmiä kehitettiin useita ja eri maissa:
 \begin{itemize}
  \item Taipuisa järjestelmän kehitysmenetelmä (Dynamic Systems Development) Euroopassa
  \item toiminnallisuus perustainen kehitysmenetelmä (Feature-Driven Development) Australiassa
- \item ja XP (Extreme Programming), Crystal, mukautuva ohjelmistokehitys (Adaptive Software Development) ja Scrum Yhdysvalloissa\cite{WIC03}.
+ \item ja XP (Extreme Programming)\cite{BEC99}, Crystal, mukautuva ohjelmistokehitys (Adaptive Software Development) ja Scrum\cite{SCH09} Yhdysvalloissa\cite{WIC03}.
 \end{itemize}
 
 Helmikuussa 2001 17 menetelmien kehittäjää tapasi keskustellakseen kevyistä menetelmistä ja kokemuksiensa yhtäläisyyksistä. Huomatessaan, että heidän käytänteillään oli paljon yhteistä, ja että heidän prosessinsa tarjosivat keinoja saavuttaa merkityksellinen päämäärä: asiakkaan tyytyväisyys ja korkea laatu\cite{WIC03}. 
@@ -282,69 +380,54 @@ Osallistujat kirjoittivat ''Manifesto for Agile Software Development''-julistuks
  \item Muutoksiin vastaaminen ennen suunnitelman seuraamista\cite{WIC03}.
 \end{itemize}
 
-Ohjelmistotuotannossa huomattiin, että ohjelmistoinsinööritieteet erosivat huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet\cite{WIC03}.
+Ohjelmistotuotannossa huomattiin, että ohjelmistoinsinööritieteet erosivat huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet. Empiirinen prosessi, kuten ohjelmistotuotanto, vaatii "tarkkaile ja mukaudu" tyyppisen lähestymistavan. Tiheästi kiertävät iteraatiot auttavat ketteriä menetelmiä mukautumaan ja muuttamaan ohjelmistoteollisuuden ennustamattomien vaatimukien mukaan.\cite{WIC03}.
 
-\section{Ohjelmistotuotannon ongelmat}
+\subsection{eXreme programming}
 
-\subsection{Ohjelmistotuotannon ominaispiirteet}
+XP (Extreme Programming) vähentää ohjelmiston vaatimusten muuttumisen kustannuksia tekemällä koko kehityskaaren aikaisia toimintoja jatkuvasti ohjelmistokehityksen aikana. Perinteisen ohjelmistotuotantoprosessin sijaan suunnitellaan, analysoidaan ja muotoillaan rakennetta vähän kerrallaan\cite{BEC99}.
 
-Kunnianhimoisin tietojenkäsittelyntieteen projekti 1950-luvulla oli SAGE-järjestelmä (Semi-Automated Ground Environment) Yhdysvaltojen ja Kanadan puolustusvoimille. Projekti kokosi yhteen tutka-, viestintä- ja tietokoneinsinöörejä sekä myös ensimmäisiä ohjelmistoinsinöörejä. Ohjelmiston tuotannossa käytettävä menetelmä oli vaiheesta seuraavaan etenevä lineaarinen prosessi. Täytettyään vaatimukset ohjelmisto valmistui vuoden aikataulusta myöhässä. Ohjelmistoprojektin koettiin myöhästymisestä huolimatta onnistuneen, ja suurimpana onnistumiseen vaikuttavana tekijänä nähtiin insinööritieteistä omaksutut käytänteet\cite{BOE06}.
+Asiakas valitsee seuraavan iteraation eniten arvoa tuottavan tarinan (story). Ohjelmoijat jakavat tarinan pieniksi tehtäviksi (task), jotka he henkilökohtaisesti ottavat vastuulleen. Ohjelmoija muuttaa tehtävät joukoksi testejä, jotka voivat osoittaa tehtävän valmistuneen. Parin kanssa työskentelemällä ohjelmoija ajaa testejä ja kehittää mahdollisimman yksinkertaisen suunnitelman     
 
-Ohjelmistot merkityksen kasvaessa ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän. Tietokonelaitteistojen merkitys väheni. Monet ohjelmistotuotantoprojektit vaativat yhä enemmän ihmisiä tuottavaan ja luovaan työhön. Muista insinööritieteistä omaksutuilla menetelmillä ei voitu arvioida ohjelmistojen luotettavuutta kattavasti. Ohjelmistotuotannon kustannukset alkoivat kasvaa. Ohjelmistoprojektien aikatauluja oli vaikea ennakoida, ja henkilöstön lisääminen aikataulun nopeuttamiseksi saattoi myöhästyttää projektia entisestään\cite{BOE06}.
+\subsection*{XP:n Tarinat}
 
-Ohjelmistotuotantoon tarvittiin enemmän insinöörejä ja matemaatikkoja kuin oli saatavilla. Ohjelmistotuotantoprojekteihin palkattiin yhä enemmän myös muiden alojen asiantuntijoita, jotka omaksuivat helposti ''ohjelmoi ja korjaa''-käytännöt insinöörimenetelmien sijasta. Suuri ero perinteisten insinöörimenetelmien ja ''ohjelmoi ja korjaa'' asenteen välillä loi uutta ''hakkeri kulttuuria'' merkittävien yliopistojen tietojenkäsittelylaitoksille. Nämä auktoriteetteja vastustavat luovat ''sankari ohjelmoijat'' tekivät usein vaikeasti muutettavaa ja ylläpidettävää ohjelmakoodia\cite{BOE06}.
+Ohjelmistoa suunniteltaessa on päätettävä mitä ohjelman voi tehdä ja mitä sen on tehtävä ensin. Analyysin perusteella muodostetaan tarina (story) - käyttötapaus - joka voidaan kirjoittaa pienelle kortille. Jokainen tarina on oltava arvoa tuottava toiminnallisuus, joka voidaan testata ja arvioida\cite{BEC99}. 
 
-Ennen 1960-luvun loppua NATO:n tiedekomitea järjesti kaksi ohjelmistotekniikan (software engineering) suurta konferenssia, johon osallistui monia alan ammattilaisia ja johtavia tutkijoita. Nämä konferenssit loivat vahvan pohjan ohjelmistotekniikalle ja -tuotannolle, joita teollisuus ja julkishallinnon organisaatiot käyttivät perustana vaatimuksilleen ohjelmistotuotantoprojekteissa käytettävistä menetelmistä. Oli selvää, että tarvit\-tiin organisoituja ja kurinalaisia käytäntöjä yhä suuremmille projekteille ja tuotteille\cite{BOE06}.
+\subsection*{Suunnittelu}
 
-Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutuu. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}.
+Asiakas päättää julkaisun laajuuden ja ajankohdan ohjelmoijien antaman arvion perusteella. Ohjelmoijat toteuttavat vain iteraatioiden vaatimien 
 
-Onnistunut ohjelmistojärjestelmä vaatii erilaisten pyrkimysten koordinointia ohjelmistokehityksen aikana. Ohjelmistojärjestelmien perustavanlaatuinen ominaisuus on niiden suuri koko. Yksilöiden tai pienten ryhmien on mahdotonta luoda tai ymmärtää suuria ohjelmistoja yksityiskohtaisesti\cite{KES95}.
+\subsection*{Pienet julkaisut}
 
-Ohjelmistolla on yleensä paljon erilaisia ohjelmakoodin polkuja (path), mitkä johtavat erilaisiin tiloihin (state). Tämä tekee tietojen määrittelystä (specification) ja ohjelmiston testaamisesta vaikeaa\cite{BOE06}.
+\subsection*{Yksinkertainen suunnitelma}
 
-Suuret projektit onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston toimialalta sekä ohjelmistolalta\cite{KES95}.
+\subsection*{Testit}
 
-Tällainen ideaalitilanne on usein mahdotonta suurille ohjelmistojärjestelmille, joiden koko voi olla miljoonia tai kymmeniä miljoonia ohjelmarivejä sekä projektin kesto useita vuosia\cite{KES95}.
+\subsection*{Refaktorointi}
 
-Suuren kokoluokan pyrkimykset johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken\cite{KES95}.
+\subsection*{Pari ohjelmointi}
 
-Ohjelmistotuotannon luontainen epävarmuus lisää koordinointiongelmaa. Toisin kuin teollinen valmistus, ohjelmistokehitys ei ole rutiininomainen toimi. Monet ohjelmistojärjestelmät ovat yksilöllisiä projekteja, ilman olemassa olevaa prototyyppiä, tai muokattavaa ohjelmistoa\cite{KES95}.
+\subsection*{Jatkuva integrointi}
 
-Lisäksi epävarmuus lisääntyy, koska ohjelmiston toimintaan liittyvät vaatimukset muuttuvat\cite{KES95}.
+\subsection*{Yhteisöllinen omistajuus}
 
-Muutoksia ohjelmiston vaatimuksiin esiintyy, koska ympäristö mihin ohjelmisto suunniteltiin muuttuu. Liiketoiminta, käyttäjien toiveet, tietokoneympäristö, ohjelmiston syötteet ja fyysinen maailma itsessään muuttuvat\cite{KES95}.
+\subsection*{Asiakas yhteistyö}
 
-Muutostarpeiden ilmaantumisen todennäköisyys on suurin ohjelmistoa käytettäessä. Tällöin käyttäjät usein ymmärtävät ohjelmiston rajoitteet ja mahdollisuudet. Kun ohjelmistoa käytetään olosuhteissa, johon sitä ei ollut alunperin kuviteltu alkuperäistä suunnitelmaa tehtäessä, niin käyttäjät todennäköisesti vaativat uusia toiminnallisuuksia\cite{KES95}.
+\subsection*{40 viikkotuntia}
 
-Ohjelmistokehitys on epävarmaa, koska vaatimukset ovat poikkeuksetta epätäydellisiä. Epätäydellisyys aiheutuu osittain rajallisista toimialan tiedoista ja ohjelmistoprojektin tyypillisestä työn jakamisesta. Liian vähällä, projektissa työskentelevillä ihmisillä, on riittävää tuntemusta toimialasta\cite{KES95}.
+\subsection*{Avoin työtila}
 
-Tyypillisesti analyytikko vaihtelevalla toimialan tuntemuksella haastattelee asiakkaita ja käyttäjiä. Tämän jälkeen analyytikko kirjoittaa vaatimukset ohjelmistoarkkitehdeille ja -suunnittelijoille. Tässä prosessissa merkityksellistä toimialatietoa poikkeuksetta katoaa\cite{KES95}.
 
-Kaikkia käyttäjien tarpeita analyytikko ei löydä ja jotkin tarpeet jäävät kirjaamatta vaatimusmäärittelyyn. Suuri koordinointiongelma ohjelmistokehityksessä on, että ohjelmistoarkkitehtien ja -suunnittelijoiden päätöksentekoon tarvitsema tieto ei ole saatavilla käytettävissä olevissa dokumenteissa\cite{KES95}.
+\subsection{Scrum}
 
-Suuri kokoluokka ja epävarmuus olisivat vähäisempiä ongelmia, jos ohjelmisto ei vaatisi sen osajärjestelmien täsmällistä integraatiota. Ohjelmistot pääasiallisesti ovat rakennettu useista osista, jotka on kytkettävä yhteen, jotta ohjelmisto toimisi oikein\cite{KES95}.
+Scrum perustaaa kaiken käytännön iteratiiviselle ja inkrementaaliselle prosessille. Jokaisen iteraation tulos on ohjelmistotuotteen inkrementaalinen lisäys. Iteraatioita vie eteenpäin lista vaatimuksista. Iteraatio syklejä toistetaan kunnes projektin rahoitus lopetetaan\cite{SCH09}. 
 
-Käytännön kokemus osoittaa, että aikaisemmat ohjelmistotuotannon aikaansaannokset eivät ole onnistuneet ratkaisemaan suurien ohjelmistoprojektien kooridinointiongelmia. 
-Voidaan sanoa, että aikaisemmat ehdotetut korjaustoimenpiteet ovat lähestyneet ongelmaa seuraavasti: 
-\begin{itemize}
- \item Tekniset työkalut, kuten tekstimuokkain (editor) tai korkean tason kielet
- \item Ohjelmiston jakaminen osiin (modularization) teknisesti, esimerkiksi olio-ohjelmoinnilla (object-oriented programming). Tai hallinnollisesti vaatimusmäärittelyn, ohjelmoinnin ja testaus toimintojen eriyttämisellä.
- \item Teknisillä formaaleilla menettelytavoilla,esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit\cite{KES95}.
-\end{itemize}
+Iteraation alussa tiimi selvittää mitä sen on tehtävä. Tiimi harkitsee saatavilla olevia teknologioita, arvio omia taitojaan ja kykyjään. Tiimi yhdessä päättää miten uusi toiminnallisuus toteutetaan, mukautuen vaikeuksiin ja yllätyksiin. Tiimi työskentelee rauhassa parhaan kykynsä mukaan lopun iteraation ajan. Iteraation lopussa tiimi esittelee toiminnallisuuden sidosryhmille, jotka tarkastelevat toiminnallisuutta ja tarvittavat muutokset voidaan tehdä riittävän ajoissa\cite{SCH09}.
 
-ohjelmistotuotannon riskit
-\begin{enumerate}
-  \item Henkilöstö vaje.
-  \item Epärealistinen aikataulu ja budjetti.
-  \item Väärien ohjelmiston toiminnallisuuksien kehitys.
-  \item Vääränlaisen käyttöliittymän kehitys.
-  \item Ohjelmiston ominaisuuksien parantelu vaatimusten täytyttyä.
-  \item Jatkuvasti vaihtuvat vaatimukset.
-  \item Puutteet ulkoisesti toimitetuissa ohjelmiston osissa.
-  \item Puutteet ulkoisesti suoritetuissa tehtävissä.
-  \item Puutteet reaaliaikaisuuden suorituskyvyssä.
-  \item Tietojenkäsittelytieteen valmiuksien ylikuormitus\cite{BOE88}.
-\end{enumerate}
+\subsection*{Scrum roolit}
+
+Scrum määrittää kolme eri roolia: tuotteen omistaja (Product owner), kehittäjätiimi (Team) ja scrum mestari (Scrum master). Kaikki projektin hallinnolliset vastuut on jaettu näiden roolien kesken. Tuotteen omistajan vastuu on esitellä sidosryhmän, projektin lopulliselle tuotteelle asetettavat, vaatimukset. Tuotteen omistaja laatii alustavan vaatimusmäärittelyn, sijoitettavalle pääomalle asetettavat tavoitteet (ROI) ja julkaisu suunnitelmat (relese plans). Tuotteen omistaja vastaa, että vaatimuslistan (Product backlog) eniten arvoa tuottavat toiminnallisuudet toteutetaan ensin. Tuotteen omistaja priorisoi vaatimuslistan toiminnallisuuksia. Näin seuraavassa iteraatiossa lisätään eniten arvoa tuottavat toiminnallisuudet ensin\cite{SCH09}. 
+
+Tiimin vastuulla on toiminnallisuuksien kehittäminen. Tiimi on monipuolisesti eri alojen asiantuntemuksen omaamista ihmisistä koostuva ryhmä ja se on itse-organisoituva. Heidän tehtävä on vaatimuslistan toiminnallisuuksien lisääminen inkrementaalisesti iteraation aikana. Tiimi on yhdessä vastuussa jokaisen iteraation onnistumisesta. Scrum mestari on vastuussa itse Scrum prosessista. Hänen tehtävänä on esitellä Scrumin periaatteet jokaiselle projektiin osallistuvalle, sekä toteuttaa Scrumia niin, että se sopii organisaation kulttuuriin ja toteuttaa odotetut hyödyt. Scrum mestari valvoo, että jokainen toteuttaa ja seuraa Scrumin periaatteita\cite{SCH09}.
 
 \section{Ohjelmistotuotantomenetelmän valinta}
 
