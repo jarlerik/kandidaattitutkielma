@@ -51,6 +51,11 @@
   \mbox{\btxISBN~\btxISBNfont {1-59593-375-1}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1134285.1134288}}.
 
+\bibitem {COC05}
+\btxnamefont {\btxlastnamefont {Cockburn}, Alistair}\btxauthorcolon\
+  \btxtitlefont {Crystal clear: a human-powered methodology for small teams}.
+\newblock \btxpublisherfont {Addison-Wesley Professional}, 2005.
+
 \bibitem {FOM01}
 \btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {The new methodology}{The new methodology}}.

@@ -86,11 +86,17 @@ keywords="Best practices;Collaboration;Companies;Internet;Logic testing;Programm
 doi="10.1109/MS.2003.1241369", 
 ISSN="0740-7459")
 
-@book{SCH09,
+@book(SCH09,
   title="Agile project management with Scrum",
   author="Schwaber, Ken",
   year="2009",
   publisher="Microsoft Press")
+
+@book(COC05,
+  title="Crystal clear: a human-powered methodology for small teams",
+  author="Cockburn, Alistair",
+  year="2005",
+  publisher="Addison-Wesley Professional")
 
 @article(BEC99, 
 author="Beck, K.", 
@@ -130,6 +136,14 @@ pages="39-43",
 keywords="Automotive engineering;Collaborative software;Collaborative tools;Customer satisfaction;Documentation;Dynamic programming;Feedback;Flexible manufacturing systems;Robotic assembly;Software tools;", 
 doi="10.1109/MC.2003.1204373", 
 ISSN="0018-9162")
+
+@article(COC00,
+  title="The costs and benefits of pair programming",
+  author="Cockburn, Alistair and Williams, Laurie",
+  journal="Extreme programming examined",
+  pages="223--247",
+  year="2000",
+  publisher="Addison--Wesley Publishing Co., Reading, MA, USA")
 
 @article{COC00, 
 author={Cockburn, A.}, 

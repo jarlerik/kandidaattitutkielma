@@ -137,11 +137,7 @@ Käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotan
 
 \section{Ohjelmistotuotannon ongelmat}
 
-\subsection{Ohjelmistotuotannon ominaispiirteet}
-
 Kunnianhimoisin tietojenkäsittelyntieteen projekti 1950-luvulla oli SAGE-järjestelmä (Semi-Automated Ground Environment) Yhdysvaltojen ja Kanadan puolustusvoimille. Projekti kokosi yhteen tutka-, viestintä- ja tietokoneinsinöörejä sekä myös ensimmäisiä ohjelmistoinsinöörejä. Ohjelmiston tuotannossa käytettävä menetelmä oli vaiheesta seuraavaan etenevä lineaarinen prosessi. Vaatimukset täyttävä ohjelmisto valmistui vuoden aikataulusta myöhässä. Ohjelmistoprojektin koettiin myöhästymisestä huolimatta onnistuneen, ja suurimpana onnistumiseen vaikuttavana tekijänä nähtiin insinööritieteistä omaksutut käytänteet\cite{BOE06}.
-
-\subsection*{Ohjelmistojen merkitys lisääntyy}
 
 Ohjelmistot merkityksen kasvaessa ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän. Tietokonelaitteistojen merkitys väheni. Monet ohjelmistotuotantoprojektit vaativat yhä enemmän ihmisiä tuottavaan ja luovaan työhön. Muista insinööritieteistä omaksutuilla menetelmillä ei voitu arvioida ohjelmistojen luotettavuutta kattavasti. Ohjelmistotuotannon kustannukset alkoivat kasvaa. Ohjelmistoprojektien aikatauluja oli vaikea ennakoida, ja henkilöstön lisääminen aikataulun nopeuttamiseksi saattoi myöhästyttää projektia entisestään\cite{BOE06}.
 
@@ -151,7 +147,7 @@ Ennen 1960-luvun loppua NATO:n tiedekomitea järjesti kaksi ohjelmistotekniikan 
 
 Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutuu. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}.
 
-\subsection*{Koordinointi}
+\subsection{Koordinointi}
 
 Onnistunut ohjelmistojärjestelmä vaatii erilaisten pyrkimysten koordinointia ohjelmistokehityksen aikana. Ohjelmistojärjestelmien perustavanlaatuinen ominaisuus on niiden suuri koko. Yksilöiden tai pienten ryhmien on mahdotonta luoda tai ymmärtää suuria ohjelmistoja yksityiskohtaisesti\cite{KES95}.
 
@@ -165,7 +161,7 @@ Suuren kokoluokan pyrkimykset johtavat erikoistumiseen ja työn jakamiseen. Orga
 
 Ohjelmistotuotannon luontainen epävarmuus lisää koordinointiongelmaa. Toisin kuin teollinen valmistus, ohjelmistokehitys ei ole rutiininomainen toimi. Monet ohjelmistojärjestelmät ovat yksilöllisiä projekteja, ilman olemassa olevaa prototyyppiä, tai muokattavaa ohjelmistoa\cite{KES95}.
 
-\subsection*{Muuttuvat vaatimukset}
+\subsection{Muuttuvat vaatimukset}
 
 Lisäksi epävarmuus lisääntyy, koska ohjelmiston toimintaan liittyvät vaatimukset muuttuvat\cite{KES95}.
 
@@ -190,23 +186,24 @@ Kaikkia käyttäjien tarpeita analyytikko ei löydä ja jotkin tarpeet jäävät
 
 Suuri kokoluokka ja epävarmuus olisivat vähäisempiä ongelmia, jos ohjelmisto ei vaatisi sen osajärjestelmien täsmällistä integraatiota. Ohjelmistot pääasiallisesti ovat rakennettu useista osista, jotka on kytkettävä yhteen, jotta ohjelmisto toimisi oikein\cite{KES95}.
 
-\subsection*{Liiketoimintaympäristö ja internet}
+\subsection{Liiketoimintaympäristö ja internet}
 
 Liiketoimintaympäristö muuttuu nykyisin nopeassa tahdissa. Teknologian ja liiketoiminnan vaatimusten muuttuessa tehdyt vaatimusmäärittelyt ja suunnitelmat vanhentuvat nopeasti\cite{WIC03}. Alkuperäisen vaatimusmäärittelyn ja suunnitelman seuraaminen ei ole ohjelmistoprojektien pääasiallinen päämäärä. Sen sijaan toimitettavan ohjelmiston tarkoitus on asiakkaan, mahdollisesti vaihtuvien, tarpeiden tyydyttäminen\cite{HIC01}.
 
 Internet liiketoimintaympäristönä vahvistaa ohjelmistotuotannon ongelmia korostamalla nopeutta. Asiakkaat vaativat liiketoiminnalle arvoa tuottavia ominaisuuksia nopeammassa tahdissa kuin koskaan aikaisemmin\cite{BRL03}.
 
-\subsection*{Tekninen kehitys}
+\subsection{Tekninen kehitys}
 
-Käytännön kokemus osoittaa, että aikaisemmat ohjelmistotuotannon aikaansaannokset eivät ole onnistuneet ratkaisemaan suurien ohjelmistoprojektien kooridinointiongelmia. 
+
+Käytännön kokemus osoittaa, että aikaisempi ohjelmistotuotannon kehitys ei ole onnistunut ratkaisemaan suurien ohjelmistoprojektien kooridinointiongelmia. 
 Voidaan sanoa, että aikaisemmat ehdotetut korjaustoimenpiteet ovat lähestyneet ongelmaa seuraavasti: 
 \begin{itemize}
  \item Tekniset työkalut, kuten tekstimuokkain (editor) tai korkean tason kielet
  \item Ohjelmiston jakaminen osiin (modularization) teknisesti, esimerkiksi olio-ohjelmoinnilla (object-oriented programming). Tai hallinnollisesti vaatimusmäärittelyn, ohjelmoinnin ja testaus toimintojen eriyttämisellä.
- \item Teknisillä formaaleilla menettelytavoilla,esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit\cite{KES95}.
+ \item Teknisillä formaaleilla menettelytavoilla, esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit\cite{KES95}.
 \end{itemize}
 
-\subsection*{Ohjelmistotuotannon riskit}
+\subsection{Ohjelmistotuotannon riskit}
 
 Barry Boehm artikkelissaan ''A spiral model of software development and enhancement'' listaa ohjelmistotuotannon kymmennen suurinta riskiä: 
 
@@ -357,7 +354,7 @@ Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomentelmä ei sovi er
 
 Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.
 
-\subsection*{Ketterät mallit}
+\subsection*{Erilaisia ketteriä menetelmiä}
 
 Seurauksena muuttuvista vaatimuksista useat ohjelmistoalan ihmiset ja organisaatiot kehittivät menetelmiä ja käytäntöjä, joille muutokset ovat hyväksyttyjä. Nämä uudet menetelmät toivottavat muutokset tervetulleiksi, ja ohjelmisto kehittyy uusiin vaatimuksiin ja muutoksiin mukautuen\cite{WIC03}. Perinteinen lähestymistapa perustui oletukselle, että aikaisella ja täydellisellä vaatimusmäärittelyllä voidaan pienentää kustannuksia vähentämällä muutoksia. Nykyään muutosten kieltäminen merkitsee reagoimattomuutta liiketoimitaympäristön kehitykselle\cite{HIC01}.
 
@@ -365,7 +362,7 @@ Menetelmiä kehitettiin useita ja eri maissa:
 \begin{itemize}
  \item Taipuisa järjestelmän kehitysmenetelmä (Dynamic Systems Development) Euroopassa
  \item toiminnallisuus perustainen kehitysmenetelmä (Feature-Driven Development) Australiassa
- \item ja XP (Extreme Programming)\cite{BEC99}, Crystal, mukautuva ohjelmistokehitys (Adaptive Software Development) ja Scrum\cite{SCH09} Yhdysvalloissa\cite{WIC03}.
+ \item ja XP (Extreme Programming)\cite{BEC99}, Crystal\cite{COC05}, mukautuva ohjelmistokehitys (Adaptive Software Development) ja Scrum\cite{SCH09} Yhdysvalloissa\cite{WIC03}.
 \end{itemize}
 
 Helmikuussa 2001 17 menetelmien kehittäjää tapasi keskustellakseen kevyistä menetelmistä ja kokemuksiensa yhtäläisyyksistä. Huomatessaan, että heidän käytänteillään oli paljon yhteistä, ja että heidän prosessinsa tarjosivat keinoja saavuttaa merkityksellinen päämäärä: asiakkaan tyytyväisyys ja korkea laatu\cite{WIC03}. 
@@ -380,56 +377,78 @@ Osallistujat kirjoittivat ''Manifesto for Agile Software Development''-julistuks
  \item Muutoksiin vastaaminen ennen suunnitelman seuraamista\cite{WIC03}.
 \end{itemize}
 
-Ohjelmistotuotannossa huomattiin, että ohjelmistoinsinööritieteet erosivat huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet. Empiirinen prosessi, kuten ohjelmistotuotanto, vaatii "tarkkaile ja mukaudu" tyyppisen lähestymistavan. Tiheästi kiertävät iteraatiot auttavat ketteriä menetelmiä mukautumaan ja muuttamaan ohjelmistoteollisuuden ennustamattomien vaatimukien mukaan.\cite{WIC03}.
 
-\subsection{eXtreme programming}
+
+Ohjelmistotuotannon parissa työskentelevät huomasivat, että ohjelmistoinsinööritieteet erosivat huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet\cite{WIC03}. Ohjelmistotuotantoprojektit ovat luonteeltaan empiirisiä prosesseja, joiden lopputuloksena syntyy uusia tuotteita. Projektin aikana on oleellista oppia prossessin edetessä ja mukautua, eikä määritellä kaikkea alussa kattavasti. Empiirinen prosessi vaatii "tarkkaile ja mukaudu"-tyyppisen lähestymistavan. Lyhyet iteraatiot auttavat ketteriä menetelmiä mukautumaan ja muuttamaan ohjelmistoteollisuuden ennustamattomien vaatimuksien mukaan\cite{WIC03}.
+
+\subsection{Extreme programming}
 
 XP (Extreme Programming) vähentää ohjelmiston vaatimusten muuttumisen kustannuksia tekemällä koko kehityskaaren aikaisia toimintoja jatkuvasti ohjelmistokehityksen aikana. Perinteisen ohjelmistotuotantoprosessin sijaan suunnitellaan, analysoidaan ja muotoillaan rakennetta vähän kerrallaan\cite{BEC99}.
 
-Asiakas valitsee seuraavan iteraation eniten arvoa tuottavan tarinan (story). Ohjelmoijat jakavat tarinan pieniksi tehtäviksi (task), jotka he henkilökohtaisesti ottavat vastuulleen. Ohjelmoija muuttaa tehtävät joukoksi testejä, jotka voivat osoittaa tehtävän valmistuneen. Parin kanssa työskentelemällä ohjelmoija ajaa testejä ja kehittää mahdollisimman yksinkertaisen suunnitelman     
+Asiakas valitsee seuraavan iteraation eniten arvoa tuottavan tarinan (story). Ohjelmoijat jakavat tarinan pieniksi tehtäviksi (task). Ohjelmoijat muuttavat tehtävät joukoksi testejä, jotka osoittavat tehtävän valmistuneen. Parin kanssa työskentelemällä ohjelmoija ajaa testejä ja kehittää samalla mahdollisimman yksinkertaista suunnitelmaa tehtävän ratkaisemiseksi\cite{BEC99}.
 
-\subsection*{XP:n Tarinat}
+\subsection*{Julkaisu}
 
-Ohjelmistoa suunniteltaessa on päätettävä mitä ohjelman voi tehdä ja mitä sen on tehtävä ensin. Analyysin perusteella muodostetaan tarina (story) - käyttötapaus - joka voidaan kirjoittaa pienelle kortille. Jokainen tarina on oltava arvoa tuottava toiminnallisuus, joka voidaan testata ja arvioida\cite{BEC99}. 
+Asiakas valitsee mahdollisimman pienen määrän toiminnallisuuksia, jotka tuottavat eniten arvoa ohjelmistolle ja toimivat julkaistavana ohjelmistona. Määrätyt toiminnallisuudet toteutetaan ensin ja ohjelmisto julkaistaan. Asiakkaan on priorisoitava tärkeimmät toiminnallisuudet, jotka hän haluaa ohjelmistoon toteutettavan ensimmäisenä\cite{BEC99}. 
 
-\subsection*{Suunnittelu}
+Suunnitteluprossessin aikana tiimi määrittää toiminnallisuuksille hinnan - aika-arvion. Arvio saadaan jakamalla tiimin tekemät toiminnallisuudet toteutukseen vaaditulla aikayksiköllä. Julkaisun budjetti lasketaan toivottujen toiminnalisuuksien aika-arvioden perusteella. Asiakas voi valita halutut toiminnalisuudet ja pyytää tiimiä laskemaan julkaisupäivän. Tai asiakas voi valita julkaisupäivän ja valita tarinoita julkaisuun kunnes budjetti täyttyy.\cite{BEC99}.
 
-Asiakas päättää julkaisun laajuuden ja ajankohdan ohjelmoijien antaman arvion perusteella. Ohjelmoijat toteuttavat vain iteraatioiden vaatimien 
 
-\subsection*{Pienet julkaisut}
+\subsection*{Iteraatio}
 
-\subsection*{Yksinkertainen suunnitelma}
+Jokaisen iteraation tarkoituksena on lisätä ohjelmistoon uusia toiminnallisuuksia, jotka ovat testattuja ja valmiita. Prosessi alussa asiakas ja ohjelmoijat suunnittelevat joukon tarinoita, jotka toteutetaan ohjelmistoon. Iteraatiota suunniteltaessa asiakas valitsee eniten arvoa tuottavat toiminnallisuudet. Tiimi pilkkoo toiminnallisuudet pienemmiksi tehtäviksi. Tehtävät ovat toiminnallisuuden osia, jotka yksi ohjelmoija voi toteuttaa muutamassa päivässä. Asiakas laatii hyväksymistestit tarinalle (functional test) ja tiimi toteuttaa vaaditun toiminnallisuuden. Iteraation lopussa testit ajetaan hyväksytysti ja prosessi on valmis seuraavaan iteraatioon\cite{BEC99}.
+
+
+
+\subsection*{Tarina}
+
+Ohjelmistoa suunniteltaessa on päätettävä mitä ohjelman voi tehdä ja mitä sen on tehtävä ensin. Analyysin perusteella muodostetaan tarina (story) - käyttötapaus - joka voidaan kirjoittaa pienelle kortille. Jokainen tarina on oltava arvoa tuottava toiminnallisuus, joka on testattavissa ja arvioitavissa\cite{BEC99}. 
 
 \subsection*{Testit}
 
-\subsection*{Refaktorointi}
+XP:ssä testausta painotetaan paljon. Kaikki ohjelmoijat testaavat tehdessään tuotantokoodia. Ohjelmoijat liittävät uudet testitapaukset ja tuotetut toiminnallisuudet ohjelmistoon. Tämä varmistaa jatkuvan integraation ja vaakaan rakennusprosessin\cite{FOM01}.
 
-\subsection*{Pari ohjelmointi}
-
-\subsection*{Jatkuva integrointi}
-
-\subsection*{Yhteisöllinen omistajuus}
-
-\subsection*{Asiakas yhteistyö}
-
-\subsection*{40 viikkotuntia}
-
-\subsection*{Avoin työtila}
-
+Ohjelmoijat kirjoittavat testin toiminnallisuudelle ennen tuotantokoodia. Testit ovat jatkuvasti osana ohjelmistoa. Iteraation alussa asiakas päättää miten vakuuttaa, että uusi tarina on lisätty onnistuneesti ohjelmistoon. Hänen päätökset, uuden toiminnallisuuden toimivuudesta, muutetaan koko järjestelmän laajuisiksi testeiksi. Testit takaavat ohjelmoijílle ja sidosryhmille, että ohjelmisto toimii ja täyttää odotetut vaatimukset. Testit ovat ajettavissa koko ohjelmiston kehityskaaren ajan, mikä takaa ohjelmiston toimivuuden, kun lisätään uusia toiminnallisuuksia tai ohjelmakoodia refaktoroidaan\cite{BEC99}.
 
 \subsection{Scrum}
 
-Scrum perustaaa kaiken käytännön iteratiiviselle ja inkrementaaliselle prosessille. Jokaisen iteraation tulos on ohjelmistotuotteen inkrementaalinen lisäys. Iteraatioita vie eteenpäin lista vaatimuksista. Iteraatio syklejä toistetaan kunnes projektin rahoitus lopetetaan\cite{SCH09}. 
+Scrum lähestyy ohjelmistotuotantoprojektin monimutkaisuutta joukolla yksinkertaisia käytänteitä ja sääntöjä. Scrum on tarkasteleva, mukautuva ja empiirinen prosessi. Scrum perustaa kaiken käytännön iteratiiviselle ja inkrementaaliselle prosessille. Jokaisen iteraation tulos on ohjelmistotuotteen inkrementaalinen edistyminen. Iteraatioita vie eteenpäin lista vaatimuksista\cite{SCH09}. 
 
 Iteraation alussa tiimi selvittää mitä sen on tehtävä. Tiimi harkitsee saatavilla olevia teknologioita, arvio omia taitojaan ja kykyjään. Tiimi yhdessä päättää miten uusi toiminnallisuus toteutetaan, mukautuen vaikeuksiin ja yllätyksiin. Tiimi työskentelee rauhassa parhaan kykynsä mukaan lopun iteraation ajan. Iteraation lopussa tiimi esittelee toiminnallisuuden sidosryhmille, jotka tarkastelevat toiminnallisuutta ja tarvittavat muutokset voidaan tehdä riittävän ajoissa\cite{SCH09}.
 
 \subsection*{Scrum roolit}
 
-Scrum määrittää kolme eri roolia: tuotteen omistaja (Product owner), kehittäjätiimi (Team) ja scrum mestari (Scrum master). Kaikki projektin hallinnolliset vastuut on jaettu näiden roolien kesken. Tuotteen omistajan vastuu on esitellä sidosryhmän, projektin lopulliselle tuotteelle asetettavat, vaatimukset. Tuotteen omistaja laatii alustavan vaatimusmäärittelyn, sijoitettavalle pääomalle asetettavat tavoitteet (ROI) ja julkaisu suunnitelmat (relese plans). Tuotteen omistaja vastaa, että vaatimuslistan (Product backlog) eniten arvoa tuottavat toiminnallisuudet toteutetaan ensin. Tuotteen omistaja priorisoi vaatimuslistan toiminnallisuuksia. Näin seuraavassa iteraatiossa lisätään eniten arvoa tuottavat toiminnallisuudet ensin\cite{SCH09}. 
+Scrum määrittää kolme eri roolia: tuoteomistaja (Product owner), kehittäjätiimi (Team) ja scrummaster (Scrum master). Kaikki projektin hallinnolliset vastuut on jaettu näiden roolien kesken. Tuoteomistajan vastuu on esitellä sidosryhmän, projektin lopulliselle tuotteelle asetettavat, vaatimukset. Tuoteomistaja laatii alustavan vaatimusmäärittelyn, sijoitettavalle pääomalle asetettavat tavoitteet (ROI) ja julkaisu suunnitelmat (relese plans). Tuoteomistaja vastaa, että vaatimuslistan (Product backlog) eniten arvoa tuottavat toiminnallisuudet toteutetaan ensin. Tuoteomistaja priorisoi vaatimuslistan toiminnallisuuksia. Näin seuraavassa iteraatiossa lisätään eniten arvoa tuottavat toiminnallisuudet ensin\cite{SCH09}. 
 
-Tiimin vastuulla on toiminnallisuuksien kehittäminen. Tiimi on monipuolisesti eri alojen asiantuntemuksen omaamista ihmisistä koostuva ryhmä ja se on itse-organisoituva. Heidän tehtävä on vaatimuslistan toiminnallisuuksien lisääminen inkrementaalisesti iteraation aikana. Tiimi on yhdessä vastuussa jokaisen iteraation onnistumisesta. Scrum mestari on vastuussa itse Scrum prosessista. Hänen tehtävänä on esitellä Scrumin periaatteet jokaiselle projektiin osallistuvalle, sekä toteuttaa Scrumia niin, että se sopii organisaation kulttuuriin ja toteuttaa odotetut hyödyt. Scrum mestari valvoo, että jokainen toteuttaa ja seuraa Scrumin periaatteita\cite{SCH09}.
+Tiimin vastuulla on toiminnallisuuksien kehittäminen. Tiimi on monipuolisesti eri alojen asiantuntemuksen omaamista ihmisistä koostuva ryhmä ja se on itse-organisoituva. Heidän tehtävä on vaatimuslistan toiminnallisuuksien lisääminen inkrementaalisesti iteraation aikana. Tiimi on yhdessä vastuussa jokaisen iteraation onnistumisesta. Scrummaster on vastuussa itse Scrum prosessista. Hänen tehtävänä on esitellä Scrumin periaatteet jokaiselle projektiin osallistuvalle, sekä toteuttaa Scrumia niin, että se sopii organisaation kulttuuriin ja toteuttaa odotetut hyödyt. Scrummaster valvoo, että jokainen toteuttaa ja seuraa Scrumin periaatteita\cite{SCH09}.
+
+\subsection*{Tuotteen kehitysjono}
+
+Tuoteomistajalla on olemassa tuotettavasta ohjelmistosta näkemys. Tuoteomistajan visio konkretisoituu listana vaatimuksista tuotteen kehitysjonona (product backlog). tuotteen kehitysjono on priorisoitu: toiminnallisuudet jotka tuottavat arvoa ovat ylimpänä listassa. Tuotteen kehitysjono on projektin lähtökohta ja sen sisältö, prioriteetit ja ryhmittely julkaisuihin yleensä muuttuvat projektin käynnistyttyä. Muutokset tuotteen kehitysjonossa heijastavat muuttuvaa liiketoimintaympäristöä ja tiiimin nopeutta toteuttaa toiminnallisuuksia\cite{SCH09}.
+
+\subsection*{Sprintti}
+
+Kaikki työ tehdään 30 päivän iteraatioissa (Sprint). Jokainen sprintti alkaa iteraation suunnittelupalaverilla (Sprint planning meeting), jossa tuoteomistaja ja tiimi yhteistyössä päättävät mitä toteutetaan. Valitsemalla tuotteen kehitysjonosta korkeimman prioriteetin toiminnnallisuudet tuoteomistaja kertoo mitä hän toivoo ja tiimi selvittää miten paljon toivomuksista he voivat muuttaa toiminnallisuuksiksi seuraavassa sprintissä\cite{SCH09}.
+
+Joka päivä tiimi kokoontuu 15 minuutin tapaamiseen - päiväpalaveriin (Daily Scrum). Jokainen tiimin jäsen vastaa kolmeen kysymykseen: Mitä olen tehnyt viimeisen tapaamisen jälkeen? Mitä ajattelin tehdä seuraavaksi? Mikä estää minua saavuttamasta tavoitteitani? Tapaamisen tarkoituksena on synkronoida tiimin työ päivittäin ja sopia taapamisista, joita tiimi tarvitsee edetäkseen työssään\cite{SCH09}.
+
+Iteraation lopussa pidetään sprinttikatselmus ( Sprint review meeting), jossa tiimi esittelee tuoteomistajalle ja muille sidosrymille, jotka haluavat osallistua, mitä tiimi on kehittänyt iteraation aikana. Tapaamisen tarkoituksena on tuoda ihmiset yhteen, esitellä ohjelmiston toiminnallisuudet ja auttaa osallistujia yhdessä päättämään, mitä tiimin tulisi seuraavaksi tehdä\cite{SCH09}. 
+
+Sprinttikatselmuksen jälkeen ja ennen seuraavan sprintin suunnittelupalaveria, scrummaster ja tiimi pitää sprintin retrospektiivin (Sprint retrospective meeting). Scrummaster rohkaisee tiimiä kertaamaan kehitysprosessiaan, tehdäkseen siitä tehokkaampaa ja nautittavampaa seuraavaan iteraatioon\cite{SCH09}.
+
+Yhdessä sprintin suunnittelupalaveri, päiväpalaveri, sprinttikatselmus ja sprintin retrospektiivi muodostavat scrumista empiirisen, tarkastelevan ja sopeutuvan projektinhallintakehyksen\cite{SCH09}.
 
 \section{Ohjelmistotuotantomenetelmän valinta}
+
+***** Mihin Barry Boehmin listaamiin ohjelmistotuotannon ongelmiin ketterät menetelmät vastaavat? *****
+
+2. Epärealistinen aikataulu ja budjetti.
+3. Väärien ohjelmiston toiminnallisuuksien kehitys.
+4. Vääränlaisen käyttöliittymän kehitys.
+5. Ohjelmiston ominaisuuksien parantelu vaatimusten täytyttyä.
+6. Jatkuvasti vaihtuvat vaatimukset.
+
+
 
 \subsection{Ennustettavuus}
 
