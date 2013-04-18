@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  17 APR 2013 12:58
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  18 APR 2013 19:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -890,32 +890,32 @@ musm[]a[]arittely ja suunnitteluvaihe[[]].
  []
 
 [3] [4]
-Overfull \hbox (13.46803pt too wide) in paragraph at lines 158--159
+Overfull \hbox (13.46803pt too wide) in paragraph at lines 156--157
 []\OT1/lmr/m/n/10.95 (-20) T[]allainen ide-aa-li-ti-lan-ne on usein mah-do-ton-
 ta suu-ril-le oh-jel-mis-toj[]arjestelmille,
  []
 
 [5]
-Overfull \hbox (27.32016pt too wide) in paragraph at lines 176--177
+Overfull \hbox (27.32016pt too wide) in paragraph at lines 174--175
 \OT1/lmr/m/n/10.95 (-20) ko-ke-muk-sien pe-rus-teel-la, NA-SA ja IBM osa-si-vat
  odot-taa muut-tu-via vaatimuksia[[]].
  []
 
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 179.
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 177.
 
 (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 179.
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 177.
  [6] [7]
-Overfull \hbox (8.97049pt too wide) in paragraph at lines 241--242
+Overfull \hbox (8.97049pt too wide) in paragraph at lines 239--240
 []\OT1/lmr/m/n/10.95 (-20) Tarkemmin Wins-ton W. Ro-ycen mal-li sis[]alt[]a[]a 
 seu-raa-vat vai-heet: j[]arjestelm[]a-
  []
 
 
-Overfull \hbox (4.00323pt too wide) in paragraph at lines 243--244
+Overfull \hbox (4.00323pt too wide) in paragraph at lines 241--242
 []\OT1/lmr/m/n/10.95 (-20) Per[]att[]aisten oh-jel-mis-to-tuo-tan-to-vai-hei-de
 n v[]alill[]a on ite-raa-tio-ta j[]arjestelm[]an
  []
@@ -923,48 +923,58 @@ n v[]alill[]a on ite-raa-tio-ta j[]arjestelm[]an
 <waterfall.png, id=210, 686.565pt x 423.5825pt>
 File: waterfall.png Graphic file (type png)
  <use waterfall.png>
-Package pdftex.def Info: waterfall.png used on input line 252.
+Package pdftex.def Info: waterfall.png used on input line 250.
 (pdftex.def)             Requested size: 360.0pt x 222.09975pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [8] [9 <./waterfall.png>] [10]
-Overfull \hbox (4.51735pt too wide) in paragraph at lines 289--290
+Overfull \hbox (4.51735pt too wide) in paragraph at lines 287--288
 []\OT1/lmr/m/n/10.95 (-20) Dokumentti hel-pot-taa oh-jel-mis-ton k[]aytt[]o[]on
 ottoa ope-ra-tii-vi-nen hen-kil[]ost[]on
  []
 
-[11] [12]
-Overfull \hbox (17.50238pt too wide) in paragraph at lines 324--325
+[11] <spiral.png, id=264, 1141.26375pt x 994.71625pt>
+File: spiral.png Graphic file (type png)
+ <use spiral.png>
+Package pdftex.def Info: spiral.png used on input line 322.
+(pdftex.def)             Requested size: 360.0pt x 313.76227pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[12]
+Overfull \hbox (17.50238pt too wide) in paragraph at lines 330--331
 []\OT1/lmr/m/n/10.95 (-20) vaihtoehtoiset to-teu-tus-ta-vat (oh-jel-mis-ton os-
 to, oh-jel-mis-ton uu-del-leenk[]aytt[]o,
  []
 
-<spiral.png, id=269, 1141.26375pt x 994.71625pt>
-File: spiral.png Graphic file (type png)
- <use spiral.png>
-Package pdftex.def Info: spiral.png used on input line 331.
-(pdftex.def)             Requested size: 360.0pt x 313.76227pt.
- [13 <./spiral.png>]
-Overfull \hbox (9.02441pt too wide) in paragraph at lines 341--342
+[13 <./spiral.png>]
+Overfull \hbox (9.02441pt too wide) in paragraph at lines 342--343
 []\OT1/lmr/m/n/10.95 (-20) Riskinhallinta huo-mioi-den voi-daan m[]a[]aritell[]
 a kiin-ni-tett[]av[]a ai-ka ja ty[]om[]a[]ar[]a
  []
 
 
-Overfull \hbox (3.82552pt too wide) in paragraph at lines 351--352
+Overfull \hbox (17.09071pt too wide) in paragraph at lines 350--351
+\OT1/lmr/m/n/10.95 (-20) Barry Boeh-min ku-vaa-mas-sa spri-raa-li-mal-lis-sa yk
+-sikk[]o-, integraatio- ja hyv[]aksymis-
+ []
+
+[14]
+Overfull \hbox (3.82552pt too wide) in paragraph at lines 358--359
 []\OT1/lmr/m/n/10.95 (-20) Eroavaisuuksista huo-li-mat-ta, kai-kil-la l[]ahesty
 mistavoilla oli yh-teist[]a v[]altt[]a[]a,
  []
 
-[14] [15] [16]
-Overfull \hbox (9.21156pt too wide) in paragraph at lines 421--422
+[15] [16] [17]
+Overfull \hbox (9.21156pt too wide) in paragraph at lines 431--432
 \OT1/lmr/m/n/10.95 (-20) Scrum m[]a[]aritt[]a[]a kol-me eri roo-lia: tuo-teo-mi
 s-ta-ja (Pro-duct ow-ner), ke-hitt[]aj[]atiimi
  []
 
-[17] [18] (./aine.bbl
+[18] [19] (./aine.bbl [20]
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -980,25 +990,25 @@ LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 52.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [19])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 473.
- [20]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 473.
+) [21])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 487.
+ [22]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 487.
  (./aine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 473.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 473.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 487.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 487.
 Package rerunfilecheck Info: File `aine.out' has not changed.
-(rerunfilecheck)             Checksum: 5970191581218736162CDB265512566B;1293.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 473.
+(rerunfilecheck)             Checksum: 6C5542F28EE35EDF17C1D9C5CE16802B;1236.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 487.
  ) 
 Here is how much of TeX's memory you used:
- 9488 strings out of 493481
- 139421 string characters out of 3143393
- 271329 words of memory out of 3000000
- 12440 multiletter control sequences out of 15000+200000
- 42824 words of font info for 89 fonts, out of 3000000 for 9000
+ 9500 strings out of 493481
+ 139534 string characters out of 3143393
+ 272384 words of memory out of 3000000
+ 12441 multiletter control sequences out of 15000+200000
+ 42951 words of font info for 90 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,8n,35p,835b,596s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,8n,35p,835b,600s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}</usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
@@ -1007,10 +1017,10 @@ f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on aine.pdf (22 pages, 400276 bytes).
+Output written on aine.pdf (24 pages, 408291 bytes).
 PDF statistics:
- 415 PDF objects out of 1000 (max. 8388607)
- 374 compressed objects within 4 object streams
- 84 named destinations out of 1000 (max. 500000)
+ 440 PDF objects out of 1000 (max. 8388607)
+ 397 compressed objects within 4 object streams
+ 93 named destinations out of 1000 (max. 500000)
  11939 words of extra memory for PDF output out of 12000 (max. 10000000)
 

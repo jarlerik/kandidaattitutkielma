@@ -56,7 +56,13 @@
   \btxtitlefont {Crystal clear: a human-powered methodology for small teams}.
 \newblock \btxpublisherfont {Addison-Wesley Professional}, 2005.
 
-\bibitem {FOM01}
+\bibitem {FOW01b}
+\btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Is design dead?}{Is design dead?}}
+\newblock \btxjournalfont {SOFTWARE DEVELOPMENT-SAN FRANCISCO-}, 9(4):42--47,
+  2001.
+
+\bibitem {FOW01a}
 \btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {The new methodology}{The new methodology}}.
 \newblock \btxjournalfont {Wuhan University Journal of Natural Sciences},

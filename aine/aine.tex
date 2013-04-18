@@ -68,7 +68,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
 % The following commands define the information used to generate title and
 % abstract pages. The following entries should be always specified:
 
-\title{Iteratiiviset menetelmät}
+\title{Ketterät menetelmät}
 \author{Jarl-Erik Malmström}
 \date{\today}
 \level{Aine}
@@ -76,7 +76,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
 
 % The following can be used to specify keywords and classification of the paper:
 
-\keywords{agile, ketterä, iteraatiivinen, inkrementaalinen}
+\keywords{agile, ketterä, iteraatiivinen, inkrementaalinen, ohjelmistotuotantomenetelmät}
 \classification{} % classification according to ACM Computing Classification System (http://www.acm.org/about/class/)
                   % This is probably mostly relevant for computer scientists
 
@@ -117,7 +117,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
  
 Menetelmät ovat olleet ohjelmistoja tuotettaessa käytössä pitkään. Ohjelmistojen parissa työskentelevät olivat muiden alojen insinöörejä ja matemaatikkoja 1950-luvulla. Myös menetelmät olivat omaksuttu muista insinööritieteistä. Tietokoneet olivat kookkaita sekä käyttökustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Koska ohjelmistojen suorittaminen tietokoneilla oli kallista, ohjelmistokehitys vaati tiukkaa suunnittelua sekä järjestelmällisiä käytäntöjä\cite{BOE06}.   
 
-Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotettiin voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOM01}.
+Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotettiin voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOW01a}.
 
 Vuoteen 1960 mennessä ohjelmistojen parissa toimiville ihmisille alkoi selvitä, että ohjelmistoihin liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Ohjelmistoja oli paljon helpompi muuttaa kuin laitteistoja eikä ohjelmistojen kopioiminen vaatinut kalliita tuotantolinjoja. Ohjelmistojen helppo muokattavuus sai monet ihmiset ja organisaatiot omaksumaan ''ohjelmoi ja korjaa'' (''code and fix'') menetelmän\cite{BOE06}.
 
@@ -127,13 +127,11 @@ Ohjelmistojen hankintasopimukset, erityisesti Yhdysvaltain hallituksen kanssa, a
 
 Winston Roycen ajatuksia, artikkelissa “Managing the Development of Large Software Systems”, pidetään vesiputousmallin (waterfall) perustana - menetelmän joka vastasi valtionhallinnon sopimusten vaatimuksiin\cite{LAB03}.
 
-Nykyisin vesiputousmallin mukaisia menetelmiä kritisoidaan byrokraattiksi. Menetelmien toteuttaminen ja seuraaminen vaatii paljon aikaa sekä työtä, ja tästä johtuen ohjelmistokehitysprosessi hidastuu\cite{FOM01}.
+Nykyisin vesiputousmallin mukaisia menetelmiä kritisoidaan byrokraattiksi. Menetelmien toteuttaminen ja seuraaminen vaatii paljon aikaa sekä työtä, ja tästä johtuen ohjelmistokehitysprosessi hidastuu\cite{FOW01a}.
 
-Uusia menetelmiä on kehitetty, vesiputousmallin mukaisille, paljon suunnittelua ja dokumentaatiota vaativien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOM01}.
+Uusia menetelmiä on kehitetty, vesiputousmallin mukaisille, paljon suunnittelua ja dokumentaatiota vaativien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOW01a}.
 
-Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen (software develop\-ment) iteratiivisia menetelmiä. Käymme läpi erilaisten ohjelmistokehityksen menetelmien (software development methodologies) historiaa sekä menetelmien heikkouksia ja vahvuuksia. 
-
-Käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon. Lisäksi tarkastelemme menetelmien erityispiirteitä sekä ohjelmistotuotantoon liittyvien erilaisten riskien tunnistamista. Tutkimme myös, miten ohjelmistotuotantoprojektien riskien tunnistaminen helpottaa projektille sopivan menetelmän valinnassa.
+Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen ominaispiirteitä, ohjelmisotuotantoon (software develop\-ment) liittyviä ongelmia ja riskejä. Käymme läpi erilaisia ohjelmistotuotannon menetelmiä, erityisesti iteratiivisia ja ketteriä kehitysmenetelmiä (agile methods). Tarkastelemme erilaisten ohjelmistokehitysmenetelmien (software develop\-ment methodologies) käyntänteitä, sekä käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon.
 
 \section{Ohjelmistotuotannon ongelmat}
 
@@ -145,7 +143,7 @@ Ohjelmistotuotantoon tarvittiin enemmän insinöörejä ja matemaatikkoja kuin o
 
 Ennen 1960-luvun loppua NATO:n tiedekomitea järjesti kaksi ohjelmistotekniikan (software engineering) suurta konferenssia, johon osallistui monia alan ammattilaisia ja johtavia tutkijoita. Nämä konferenssit loivat vahvan pohjan ohjelmistotekniikalle ja -tuotannolle, joita teollisuus ja julkishallinnon organisaatiot käyttivät perustana vaatimuksilleen ohjelmistotuotantoprojekteissa käytettävistä menetelmistä. Oli selvää, että tarvit\-tiin organisoituja ja kurinalaisia käytäntöjä yhä suuremmille projekteille ja tuotteille\cite{BOE06}.
 
-Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutuu. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOM01}.
+Ohjelmakoodia kirjoitettiin usein ilman taustalla olevaa suunnitelmaa. Tällainen menetelmä saattaa toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutuu. Lisäksi virheiden korjaaminen vaikeutuu järjestelmän kasvaessa\cite{FOW01a}.
 
 \subsection{Koordinointi}
 
@@ -220,7 +218,7 @@ Barry Boehm artikkelissaan ''A spiral model of software development and enhancem
   \item Tietojenkäsittelytieteen valmiuksien ylikuormitus\cite{BOE88}.
 \end{enumerate}
 
-\section{Ohjelmistotuotantomenetelmät}
+\section{Suunnitteluperustaiset menetelmät}
 
 \subsection{Vesiputousmalli}
 
@@ -300,7 +298,7 @@ Jostain syystä ohjelmiston suunnitelmaan ja aiottuun toimintaan sovelletaan laa
 
 Lineaaristen ohjelmistotuotantomenetelmien ongelmana oli, että tuottevien ohjelmistojen käyttäjät eivät kyenneet tyhjentävästi kertomaan mitä toiminnallisuuksia he ohjelmistolta halusivat. Asiakas saattaa muuttaa mielensä. Tai hän osaa usein sanoa, nähdessään valmiin tuotteen, mitä olisi ohjelmistolta halunnut\cite{BEC99}. Ongelmana ohjelmistotuotannossa on, että muutosten kustannukset kasvavat ohjelmiston elinkaaren aikana. Mitä pidemmälle projekti etenee sitä kalliimpaa muutosten tekeminen on\cite{HIC01}. 	  
 
-\subsection{Iteratiiviset menetelmät}
+\subsection{Spiraalimalli}
 
 Vaikka monet pitävät iteratiivisia ohjelmistotuotantomenetelmiä nykyaikaisina menetelminä, on niitä sovellettu ohjelmistokehityksessä 1950-luvulta lähtien\cite{LAB03}.
 
@@ -314,9 +312,17 @@ IBM:n FSD osasto kehitti Yhdysvaltain laivastolle suuren mittaluokan asejärjest
 
 Yksi aikainen ja huomiota herättävä esimerkki iteratiivisen ja inkrementaalisen (IDD) ohjelmistotuotannon menetelmien käytöstä oli NASA:n avaruussukkulan ohjelmistojärjestelmä, minkä FSD-osasto rakensi vuosina 1977-1980. Osasto sovelsi IID:tä 17 iteraatiossa 31 kuukauden aikana, keskimäärin kahdeksan viikon iteraatioissa. Heidän motivaationaan välttää vesiputousmallia oli avaruussukkulaohjelmiston vaihtuvat vaatimukset ohjelmistokehityksen aikana\cite{LAB03}.
 
-\subsection*{Spiraalimalli}
-
 Barry Boehm esittelee artikkelissaan ''A Spiral Model of Software Development and Enhancement'' spiraalimallin (spiral model). Mallin tarkoitus oli edistää ohjelmistotuotantoprosessia lähestymällä ohjelmistoa riskiperustaisesti. Tämä mahdollistaa mallin mukautumaan, kohdattavien riskien mukaan, sopivasti yhdistelemällä määrittelyä(specification), prototyyppien valmistusta, simulointia tai muita lähestymistapoja ohjelmiston suunnitteluun\cite{BOE88}.
+
+Kuvassa 2. Barry Boehmin kuvaama spriraalimalli on kehitetty vesiputousmallista saatujen  useiden vuosien kokemuksien perusteella. Malli kuvastaa taustalla olevaa käsitettä, että jokainen vaihe sisältää saman sarjan toimenpiteitä\cite{BOE88}.
+
+\begin{figure}[h!]
+  \caption{Iteratiivinen ohjelmiston elinkaari}
+  \centering
+    \includegraphics[width=\textwidth]{spiral}
+\end{figure}
+
+\subsection*{Suunnittelu ja analysointi}
 
 Spiraalimallissa jokainen vaihe aloitetaan tunnistamalla:
 \begin{itemize}
@@ -325,24 +331,25 @@ Spiraalimallissa jokainen vaihe aloitetaan tunnistamalla:
   \item ohjelmiston eri vaihtoehdoille asettamien rajoitteet (rajapinnat, aikataulu, kustannukset)\cite{BOE88}.
 \end{itemize}
 
-\begin{figure}[h!]
-  \caption{Iteratiivinen ohjelmiston elinkaari}
-  \centering
-    \includegraphics[width=\textwidth]{spiral}
-\end{figure}
-
-Kuvassa 2. Barry Boehmin kuvaama spriraalimalli on kehitetty vesiputousmallista saatujen  useiden vuosien kokemuksien perusteella. Malli kuvastaa taustalla olevaa käsitettä, että jokainen vaihe sisältää saman sarjan toimenpiteitä\cite{BOE88}.
+\subsection*{Riskien tunnistaminen ja protyyppi}
 
 Seuraava askel on arvioida vaihtoehtoja suhteessa ohjelmiston tavoitteisiin ja rajoitteisiin. Usein tämä prosessi tunnistaa epävarmoja alueita, jotka ovat merkittäviä riskin lähteitä. Riskien löytyessä, seuraava askel pitää sisällään kustannustehokkaan strategian muotoilun riskien ratkaisemiseksi. Tähän voi liittyä prototyyppien valmistamista, simulointia, vertailuanalyysia, kyselylomakkeita, analyyttista mallinnusta, tai näiden yhdistelmiä sekä muita riskien ratkaisumenetelmiä\cite{BOE88}.
 
+\subsection*{Suunnittelua ja ohjelmiston kehitystä}
 
 Jos suorituskykyyn tai käyttöliittymään liittyvät riskit voimakkaasti hallitsevat ohjelman kehittämistä, seuraavassa vaiheessa kehityksellisesti (evolutionary), mahdollisimman vaivattomasti, määritellään ohjelmiston yleistä luonnetta, suunnitellaan seuraavan tason prototyyppia ja kehitetään yksityiskohtaisempaa prototyyppia riskien ratkaisemiseksi\cite{BOE88}.
 
 Riskinhallinta huomioiden voidaan määritellä kiinnitettävä aika ja työmäärä toiminnan suunnitteluun (planning), asetuksien hallintaan (configuration management), laadun varmistukseen(quality assurance), muodolliseen todentamiseen (formal verification) ja testaukseen\cite{BOE88}.
 
+\subsection*{Katselmus}
+
 Spiraalimallin tärkeä ominaisuus on, että jokainen iteraatio päätetään katselmukseen tuotteeseen liittyvän henkilöstön tai organisaation kanssa\cite{BOE88}.
 
-\subsection{Ketterät kehitysmenetelmät}
+\subsection*{Testaus}
+
+Barry Boehmin kuvaamassa spriraalimallissa yksikkö-, integraatio- ja hyväksymis\-testit ovat ohjelmiston kehityskaaren lopussa. Spriraalimallin riskiperustaisesta lähestymistavasta huolimatta, ohjelmiston kehitysprosessi sisältää riskejä. Kuten Winston Royce huomauttaa artikkelissaan ''Managing the development of large software systems'' lineaarisen prosessin riskeistä: testausvaiheessa ilmenee ongelmia, joita analysointi vaiheessa ei ollut mahdollista selvittää. Testauksen ollessa vasta kehityskaaren lopussa, ohjelmiston kehitysprosessi saattaa pitkittyä jos ohjelman korjaaminen vaatii mittavia rakennemuutoksia ja ohjelmiston uudelleen suunnittelua\cite{ROY70}.
+
+\section{Ketterät kehitysmenetelmät}
 
 Ketterät menetelmät (agile methods) ovat saavuttaneet suosiota ohjelmistotuotannossa. Usein iteraatiivisia, inkrementaalisia sekä kehityksellisiä (evolutionary) menetelmiä pidetään modernina ohjelmistokehityksenä, mikä on korvannut vesiputousmallin. Mutta näitä menetelmiä on käytetty vuosikymmeniä\cite{LAB03}.
 
@@ -353,8 +360,6 @@ Eroavaisuuksista huolimatta, kaikilla lähestymistavoilla oli yhteistä välttä
 Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomentelmä ei sovi erityisesti interaktiivisiin loppukäyttäjien sovelluksiin. Suunnitelmaperustaiset standardit pakottavat dokumentoimaan yksityiskohtaisesti heikosti ymmärretyt käyttöliittymien vaatimukset\cite{BOE88}.
 
 Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.
-
-\subsection*{Erilaisia ketteriä menetelmiä}
 
 Seurauksena muuttuvista vaatimuksista useat ohjelmistoalan ihmiset ja organisaatiot kehittivät menetelmiä ja käytäntöjä, joille muutokset ovat hyväksyttyjä. Nämä uudet menetelmät toivottavat muutokset tervetulleiksi, ja ohjelmisto kehittyy uusiin vaatimuksiin ja muutoksiin mukautuen\cite{WIC03}. Perinteinen lähestymistapa perustui oletukselle, että aikaisella ja täydellisellä vaatimusmäärittelyllä voidaan pienentää kustannuksia vähentämällä muutoksia. Nykyään muutosten kieltäminen merkitsee reagoimattomuutta liiketoimitaympäristön kehitykselle\cite{HIC01}.
 
@@ -377,38 +382,43 @@ Osallistujat kirjoittivat ''Manifesto for Agile Software Development''-julistuks
  \item Muutoksiin vastaaminen ennen suunnitelman seuraamista\cite{WIC03}.
 \end{itemize}
 
-
-
 Ohjelmistotuotannon parissa työskentelevät huomasivat, että ohjelmistoinsinööritieteet erosivat huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet\cite{WIC03}. Ohjelmistotuotantoprojektit ovat luonteeltaan empiirisiä prosesseja, joiden lopputuloksena syntyy uusia tuotteita. Projektin aikana on oleellista oppia prossessin edetessä ja mukautua, eikä määritellä kaikkea alussa kattavasti. Empiirinen prosessi vaatii "tarkkaile ja mukaudu"-tyyppisen lähestymistavan. Lyhyet iteraatiot auttavat ketteriä menetelmiä mukautumaan ja muuttamaan ohjelmistoteollisuuden ennustamattomien vaatimuksien mukaan\cite{WIC03}.
 
 \subsection{Extreme programming}
 
 XP (Extreme Programming) vähentää ohjelmiston vaatimusten muuttumisen kustannuksia tekemällä koko kehityskaaren aikaisia toimintoja jatkuvasti ohjelmistokehityksen aikana. Perinteisen ohjelmistotuotantoprosessin sijaan suunnitellaan, analysoidaan ja muotoillaan rakennetta vähän kerrallaan\cite{BEC99}.
 
-Asiakas valitsee seuraavan iteraation eniten arvoa tuottavan tarinan (story). Ohjelmoijat jakavat tarinan pieniksi tehtäviksi (task). Ohjelmoijat muuttavat tehtävät joukoksi testejä, jotka osoittavat tehtävän valmistuneen. Parin kanssa työskentelemällä ohjelmoija ajaa testejä ja kehittää samalla mahdollisimman yksinkertaista suunnitelmaa tehtävän ratkaisemiseksi\cite{BEC99}.
+Asiakas valitsee seuraavaan iteraatioon eniten arvoa tuottavat tarinat (story). Ohjelmoijat jakavat tarinat pieniksi tehtäviksi (task). Ohjelmoijat muuttavat tehtävät joukoksi testejä, jotka osoittavat tehtävän valmistuneen. Parin kanssa työskentelemällä ohjelmoija ajaa testejä ja kehittää samalla mahdollisimman yksinkertaista suunnitelmaa tehtävän ratkaisemiseksi\cite{BEC99}.
 
 \subsection*{Julkaisu}
 
 Asiakas valitsee mahdollisimman pienen määrän toiminnallisuuksia, jotka tuottavat eniten arvoa ohjelmistolle ja toimivat julkaistavana ohjelmistona. Määrätyt toiminnallisuudet toteutetaan ensin ja ohjelmisto julkaistaan. Asiakkaan on priorisoitava tärkeimmät toiminnallisuudet, jotka hän haluaa ohjelmistoon toteutettavan ensimmäisenä\cite{BEC99}. 
 
-Suunnitteluprossessin aikana tiimi määrittää toiminnallisuuksille hinnan - aika-arvion. Arvio saadaan jakamalla tiimin tekemät toiminnallisuudet toteutukseen vaaditulla aikayksiköllä. Julkaisun budjetti lasketaan toivottujen toiminnalisuuksien aika-arvioden perusteella. Asiakas voi valita halutut toiminnalisuudet ja pyytää tiimiä laskemaan julkaisupäivän. Tai asiakas voi valita julkaisupäivän ja valita tarinoita julkaisuun kunnes budjetti täyttyy.\cite{BEC99}.
+Suunnitteluprossessin (planning game) aikana tiimi määrittää toiminnallisuuksille hinnan - aika-arvion. Arvio saadaan jakamalla tiimin tekemät toiminnallisuudet toteutukseen vaaditulla aikayksiköllä. Julkaisun budjetti lasketaan toivottujen toiminnalisuuksien aika-arvioden perusteella. Asiakas voi valita halutut toiminnalisuudet ja pyytää tiimiä laskemaan julkaisupäivän. Tai asiakas voi valita julkaisupäivän ja valita tarinoita julkaisuun kunnes budjetti täyttyy.\cite{BEC99}.
+
+Ohjelmisto laitetaan tuotantoon nopealla aikataululla. Uusia versioita julkaistaan usein - kuukausittain tai jopa päivittäin. Uutta ohjelmakoodia integroidaan nykyiseen ohjelmistoon jopa muutaman tunnin välein (continuos integration). Integroidessa uutta koodia koko järjestelmä rakennetaan alusta uudestaan ja kaikki testit ovat läpäistävä, tai kaikki muutokset hylätään\cite{BEC99}.  
 
 
 \subsection*{Iteraatio}
 
 Jokaisen iteraation tarkoituksena on lisätä ohjelmistoon uusia toiminnallisuuksia, jotka ovat testattuja ja valmiita. Prosessi alussa asiakas ja ohjelmoijat suunnittelevat joukon tarinoita, jotka toteutetaan ohjelmistoon. Iteraatiota suunniteltaessa asiakas valitsee eniten arvoa tuottavat toiminnallisuudet. Tiimi pilkkoo toiminnallisuudet pienemmiksi tehtäviksi. Tehtävät ovat toiminnallisuuden osia, jotka yksi ohjelmoija voi toteuttaa muutamassa päivässä. Asiakas laatii hyväksymistestit tarinalle (functional test) ja tiimi toteuttaa vaaditun toiminnallisuuden. Iteraation lopussa testit ajetaan hyväksytysti ja prosessi on valmis seuraavaan iteraatioon\cite{BEC99}.
 
-
-
 \subsection*{Tarina}
 
-Ohjelmistoa suunniteltaessa on päätettävä mitä ohjelman voi tehdä ja mitä sen on tehtävä ensin. Analyysin perusteella muodostetaan tarina (story) - käyttötapaus - joka voidaan kirjoittaa pienelle kortille. Jokainen tarina on oltava arvoa tuottava toiminnallisuus, joka on testattavissa ja arvioitavissa\cite{BEC99}. 
+Ohjelmistoa suunniteltaessa on päätettävä mitä ohjelmalla tehdään ja mitä sen on tehtävä ensin. Analyysin perusteella muodostetaan tarina (story) - käyttötapaus - joka voidaan kirjoittaa pienelle kortille. Jokainen tarina on oltava arvoa tuottava toiminnallisuus, joka on testattavissa ja arvioitavissa\cite{BEC99}.
+
+\subsection*{Tehtävä}
+
+Toteuttaakseen tehtävän (task) ohjelmoijat työskentelevät pareittain, jos ilmenee kysymyksiä toteutuksesta tai toiminnallisuuden laajuudesta pari keskustelee hetken jatkuvasti paikalla olevan asiakkaan (on-site customer) kanssa. Pari tiivistää toiminnallisuuden testitapauksiksi, jotka ovat ajettavissa ennen kuin tehtävä on valmis. Testit luovat pohjan tuotettavalle ohjelmakoodille ja pari pyrkii mahdollisimman yksinkertaiseen tapaan ratkaista testitapaukset. Kun ohjelmakoodi läpäisee testit, ohjelmoijat suunnitelevat rakennetta uudelleen (refaktoring), jos on tarvetta\cite{BEC99}.     
 
 \subsection*{Testit}
 
-XP:ssä testausta painotetaan paljon. Kaikki ohjelmoijat testaavat tehdessään tuotantokoodia. Ohjelmoijat liittävät uudet testitapaukset ja tuotetut toiminnallisuudet ohjelmistoon. Tämä varmistaa jatkuvan integraation ja vaakaan rakennusprosessin\cite{FOM01}.
+XP:ssä testausta painotetaan paljon. Kaikki ohjelmoijat testaavat tehdessään tuotantokoodia. Ohjelmoijat liittävät uudet testitapaukset ja tuotetut toiminnallisuudet ohjelmistoon. Tämä varmistaa jatkuvan integraation (continuos integration) ja vaakaan rakennusprosessin\cite{FOW01a}.
 
 Ohjelmoijat kirjoittavat testin toiminnallisuudelle ennen tuotantokoodia. Testit ovat jatkuvasti osana ohjelmistoa. Iteraation alussa asiakas päättää miten vakuuttaa, että uusi tarina on lisätty onnistuneesti ohjelmistoon. Hänen päätökset, uuden toiminnallisuuden toimivuudesta, muutetaan koko järjestelmän laajuisiksi testeiksi. Testit takaavat ohjelmoijílle ja sidosryhmille, että ohjelmisto toimii ja täyttää odotetut vaatimukset. Testit ovat ajettavissa koko ohjelmiston kehityskaaren ajan, mikä takaa ohjelmiston toimivuuden, kun lisätään uusia toiminnallisuuksia tai ohjelmakoodia refaktoroidaan\cite{BEC99}.
+
+Winston Royce kirjoitti artikkelissaan ''Managing the development of large software systems'', että ohjelmoijan ei tule testata kirjoittamaansa ohjelmakoodia. XP:ssä tätä ongelmaa on lähestytty työskentelemällä jatkuvasti pareittain\cite{BEC99}.
+
 
 \subsection{Scrum}
 
@@ -426,6 +436,10 @@ Tiimin vastuulla on toiminnallisuuksien kehittäminen. Tiimi on monipuolisesti e
 
 Tuoteomistajalla on olemassa tuotettavasta ohjelmistosta näkemys. Tuoteomistajan visio konkretisoituu listana vaatimuksista tuotteen kehitysjonona (product backlog). tuotteen kehitysjono on priorisoitu: toiminnallisuudet jotka tuottavat arvoa ovat ylimpänä listassa. Tuotteen kehitysjono on projektin lähtökohta ja sen sisältö, prioriteetit ja ryhmittely julkaisuihin yleensä muuttuvat projektin käynnistyttyä. Muutokset tuotteen kehitysjonossa heijastavat muuttuvaa liiketoimintaympäristöä ja tiiimin nopeutta toteuttaa toiminnallisuuksia\cite{SCH09}.
 
+\subsection*{Sprintin tehtävälista}
+
+Sprintin tehtävälista (Sprint backlog) sisältää tiimin määrittelevät tehtävät, joita tiimi toteuttaa. Tehtävät ovat tuotteen kehitysjonosta sprinttiin valittuja toiminnallisuuksia, jotka tiimi on pilkkonut pienempiin osiin. Jokainen tehtävä tulisi olla noin 4-16 tunnin pituinen ohjelmointitehtävä. Ainoastaan tiimi voi muuttaa sprintin tehtävälistaa. Sprintin tehtävälista on läpinäkyvä, reaaliaikainen kuva, mitä tiimi pyrkii saavuttamaan kyseessä olevassa sprintissä. Tehtävän yhteydessä on kirjattu arvio ajasta, jonka kyseessä olevaan tehtävään on arvioitu kuluvan, ja henkilö kuka on vastuussa kyseisestä tehtävästä\cite{SCH09}.
+
 \subsection*{Sprintti}
 
 Kaikki työ tehdään 30 päivän iteraatioissa (Sprint). Jokainen sprintti alkaa iteraation suunnittelupalaverilla (Sprint planning meeting), jossa tuoteomistaja ja tiimi yhteistyössä päättävät mitä toteutetaan. Valitsemalla tuotteen kehitysjonosta korkeimman prioriteetin toiminnnallisuudet tuoteomistaja kertoo mitä hän toivoo ja tiimi selvittää miten paljon toivomuksista he voivat muuttaa toiminnallisuuksiksi seuraavassa sprintissä\cite{SCH09}.
@@ -438,24 +452,24 @@ Sprinttikatselmuksen jälkeen ja ennen seuraavan sprintin suunnittelupalaveria, 
 
 Yhdessä sprintin suunnittelupalaveri, päiväpalaveri, sprinttikatselmus ja sprintin retrospektiivi muodostavat scrumista empiirisen, tarkastelevan ja sopeutuvan projektinhallintakehyksen\cite{SCH09}.
 
-\section{Ohjelmistotuotantomenetelmän valinta}
+\subsection*{Julkaisu}
+Scrumissa on kaikkien tiimin jäsenten oltava selvillä määritelmästä ''valmis toiminnallisuus''. Scrum vaatii tuotteeseen lisättävän toiminnallisuuden olevan kattavasti testattu, rakenteeltaan hyvin suunniteltua ja kirjoitettua ohjelmakoodia, ja toiminnallisuus on oltava dokumentoituna operaation käyttäjälle. Tuotteella saattaa olla lisäksi muita vaatimuksia standardien tai käytänteiden muodossa\cite{SCH09}.
 
-***** Mihin Barry Boehmin listaamiin ohjelmistotuotannon ongelmiin ketterät menetelmät vastaavat? *****
+\section{Ohjelmiston laatu}
 
-2. Epärealistinen aikataulu ja budjetti.
-3. Väärien ohjelmiston toiminnallisuuksien kehitys.
-4. Vääränlaisen käyttöliittymän kehitys.
-5. Ohjelmiston ominaisuuksien parantelu vaatimusten täytyttyä.
-6. Jatkuvasti vaihtuvat vaatimukset.
+\subsection{Ohjelmiston suunnittelu}
+Edellä kuvatuissa ohjelmistotuotannon menetelmissä on yhteistä pyrkimys formaalilla tavalla määritellä ohjelmistotuotannon prosessi. Prosessin tarkoituksena on toteuttaa, määritetyssä ajassa,  asiakkaan vaatimusten mukainen ja toimiva ohjelmisto. 
+
+Winston Roycen vesiputousmalli ja Barry Boehmin spriraalimalli perustavat ohjelmistokehityksen vahvasti dokumentti- ja suunnitelmaperustaiselle prosessille, jossa tuotettavaa ohjelmistoa ja ongelma-aluetta pyritään lähestymään analyysin, vaatimusmäärittelyn sekä suunnittelun kautta. Molemmissa malleissa ratkaisuksi ohjelmistotuotannon ongelmiin esitetään prototyypin valmistamista, mitä testaamalla ilmeneviin ongelmiin voidaan reagoida mahdollisimman aikaisin. Royce ehdottaa vesiputousmallissa, että protyypin kehityksen aikataulu on kolmannes varsinaisen tuotteen kehitykseen vaaditusta ajasta\cite{ROY70}. Boehm ei määritellyt iteraatioiden pituutta suhteessa ohjelmistokehitykseen vaadituun aikaan.
+
+Suunnitelmaperustaisissa menetelmissä ohjelmistosuunnittelijat suunnittelevat etukäteen isoa kokonaiskuvaa koko järjestelmästä. Suunnittelijoiden ei tarvitse miettiä jokaista pientä yksityiskohtaa, koska suunnittelutekniikat, kuten UML (unified modeling language) antavat mahdollisuuden työskennellä abstraktimmalla tasolla. Suunnittelijoiden ei tarvitse ottaa huomioon käytännön ohjelmointia ja sen aiheuttamaa entropiaa. Suunnittelijan on kuitenkin mahdotonta ottaa huomioon kaikkia yksityiskohtia, mitä ohjelmoija joutuu ratkaisemaan yksityiskohtaisemmalla tasolla\cite{FOW01b}.
+
+\subsection{Ohjelmiston testaus}
+
+\subsection{Pariohjelmointi}
 
 
-
-\subsection{Ennustettavuus}
-
-\subsection{Muuttuva liiketoimintaympäristö}
-
-\subsection{Organisaation koko}
-
+** TESTAUKSESTA
 % --- Back matter ---
 %
 % bibtex is used to generate the bibliography. The babplain style

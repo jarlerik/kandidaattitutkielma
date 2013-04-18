@@ -25,7 +25,7 @@
   year=1970,
   organization="Los Angeles")
 
-@article(FOM01,
+@article(FOW01,
 year=2001,
 journal="Wuhan University Journal of Natural Sciences",
 volume=6,
@@ -144,6 +144,15 @@ ISSN="0018-9162")
   pages="223--247",
   year="2000",
   publisher="Addison--Wesley Publishing Co., Reading, MA, USA")
+
+@article(FOW01,
+  title="Is design dead?",
+  author="Fowler, Martin",
+  journal="SOFTWARE DEVELOPMENT-SAN FRANCISCO-",
+  volume="9",
+  number="4",
+  pages="42--47",
+  year="2001")
 
 @article{COC00, 
 author={Cockburn, A.}, 

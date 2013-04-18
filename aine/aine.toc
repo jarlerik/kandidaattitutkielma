@@ -6,18 +6,18 @@
 \contentsline {subsection}{\numberline {2.3}Liiketoimintaymp\IeC {\"a}rist\IeC {\"o} ja internet}{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Tekninen kehitys}{6}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Ohjelmistotuotannon riskit}{7}{subsection.2.5}
-\contentsline {section}{\numberline {3}Ohjelmistotuotantomenetelm\IeC {\"a}t}{7}{section.3}
+\contentsline {section}{\numberline {3}Suunnitteluperustaiset menetelm\IeC {\"a}t}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Vesiputousmalli}{7}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Vesiputousmallin vaiheet}{8}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Iteratiiviset menetelm\IeC {\"a}t}{12}{subsection.3.3}
-\contentsline {subsection}{\numberline {3.4}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{14}{subsection.3.4}
-\contentsline {subsection}{\numberline {3.5}Extreme programming}{16}{subsection.3.5}
-\contentsline {subsection}{\numberline {3.6}Scrum}{17}{subsection.3.6}
-\contentsline {section}{\numberline {4}Ohjelmistotuotantomenetelm\IeC {\"a}n valinta}{19}{section.4}
-\contentsline {subsection}{\numberline {4.1}Ennustettavuus}{19}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Muuttuva liiketoimintaymp\IeC {\"a}rist\IeC {\"o}}{19}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Organisaation koko}{19}{subsection.4.3}
-\contentsline {section}{\numberline {5}L\IeC {\"a}hteet}{19}{section.5}
+\contentsline {subsection}{\numberline {3.3}Spiraalimalli}{11}{subsection.3.3}
+\contentsline {section}{\numberline {4}Ketter\IeC {\"a}t kehitysmenetelm\IeC {\"a}t}{14}{section.4}
+\contentsline {subsection}{\numberline {4.1}Extreme programming}{16}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}Scrum}{18}{subsection.4.2}
+\contentsline {section}{\numberline {5}Ohjelmiston laatu}{20}{section.5}
+\contentsline {subsection}{\numberline {5.1}Ohjelmiston suunnittelu}{20}{subsection.5.1}
+\contentsline {subsection}{\numberline {5.2}Ohjelmiston testaus}{21}{subsection.5.2}
+\contentsline {subsection}{\numberline {5.3}Pariohjelmointi}{21}{subsection.5.3}
+\contentsline {section}{\numberline {6}L\IeC {\"a}hteet}{21}{section.6}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}
