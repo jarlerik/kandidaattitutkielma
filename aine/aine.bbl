@@ -128,4 +128,13 @@
   \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
+\bibitem {WIL00}
+\btxnamefont {\btxlastnamefont {Williams}, Laurie}, \btxnamefont
+  {Robert\btxfnamespacelong R \btxlastnamefont {Kessler}}, \btxnamefont {Ward
+  \btxlastnamefont {Cunningham}}\btxandcomma {} \btxandlong {}\ \btxnamefont
+  {Ron \btxlastnamefont {Jeffries}}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Strengthening the case for pair programming}{Strengthening
+  the case for pair programming}}.
+\newblock \btxjournalfont {Software, IEEE}, 17(4):19--25, 2000.
+
 \end{thebibliography}
