@@ -17,7 +17,8 @@
 \contentsline {subsection}{\numberline {5.1}Ohjelmiston suunnittelu}{20}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Ohjelmiston testaus}{21}{subsection.5.2}
 \contentsline {subsection}{\numberline {5.3}Pariohjelmointi}{21}{subsection.5.3}
-\contentsline {section}{\numberline {6}L\IeC {\"a}hteet}{21}{section.6}
+\contentsline {section}{\numberline {6}Johtop\IeC {\"a}\IeC {\"a}t\IeC {\"o}kset}{23}{section.6}
+\contentsline {section}{\numberline {7}L\IeC {\"a}hteet}{23}{section.7}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}

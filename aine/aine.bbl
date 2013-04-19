@@ -56,6 +56,14 @@
   \btxtitlefont {Crystal clear: a human-powered methodology for small teams}.
 \newblock \btxpublisherfont {Addison-Wesley Professional}, 2005.
 
+\bibitem {COC00a}
+\btxnamefont {\btxlastnamefont {Cockburn}, Alistair} \btxandlong {}\
+  \btxnamefont {Laurie \btxlastnamefont {Williams}}\btxauthorcolon\
+  \btxjtitlefont {\btxifchangecase {The costs and benefits of pair
+  programming}{The costs and benefits of pair programming}}.
+\newblock \btxjournalfont {Extreme programming examined}, \btxpageslong {}\
+  223--247, 2000.
+
 \bibitem {FOW01b}
 \btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Is design dead?}{Is design dead?}}
@@ -105,6 +113,15 @@
   system}{Design, development, integration: space shuttle primary flight
   software system}}.
 \newblock \btxjournalfont {Communications of the ACM}, 27:914--925, 1984.
+
+\bibitem {NOS98}
+\btxnamefont {\btxlastnamefont {Nosek}, John\btxfnamespacelong
+  T.}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {The case for
+  collaborative programming}{The case for collaborative programming}}.
+\newblock \btxjournalfont {Commun. ACM}, 41(3):105--108,
+  \btxprintmonthyear{.}{mar}{1998}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0001-0782}}}.
+\newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/272287.272333}}.
 
 \bibitem {ROY70}
 \btxnamefont {\btxlastnamefont {Royce}, Winston\btxfnamespacelong
