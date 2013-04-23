@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  19 APR 2013 18:41
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  23 APR 2013 13:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -981,18 +981,18 @@ s-ta-ja (Pro-duct ow-ner), ke-hitt[]aj[]atiimi
  []
 
 [18] [19] [20] [21]
-Overfull \hbox (7.5217pt too wide) in paragraph at lines 502--504
+Overfull \hbox (7.5217pt too wide) in paragraph at lines 507--509
 []\OT1/lmr/m/n/10.95 (-20) Koehenkil[]ot va-lit-tiin sa-tun-nai-ses-ti ty[]oske
 ntelem[]a[]an pa-reit-tain tes-ti-ryhm[]a[]an
  []
 
-
-Overfull \hbox (8.62271pt too wide) in paragraph at lines 511--512
+[22]
+Overfull \hbox (8.62271pt too wide) in paragraph at lines 516--517
 \OT1/lmr/m/n/10.95 (-20) teens[]a 60% enemm[]an oh-jel-moin-tiai-kaa an-ne-tus-
 ta teht[]av[]ast[]a suoriutumiseen[[]]. 
  []
 
-[22] (./aine.bbl
+(./aine.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1004,25 +1004,26 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
+[23]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 52.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [23])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 540.
- [24]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 540.
+) [24])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 545.
+ [25]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 545.
  (./aine.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 540.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 540.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 545.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 545.
 Package rerunfilecheck Info: File `aine.out' has not changed.
-(rerunfilecheck)             Checksum: 54F7324D3A413A2B9B09CAEF7FECFD42;1295.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 540.
+(rerunfilecheck)             Checksum: 2E46799F8667DD7BDD594502BF5B23AC;1292.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 545.
  ) 
 Here is how much of TeX's memory you used:
- 9512 strings out of 493481
- 139642 string characters out of 3143393
- 272601 words of memory out of 3000000
+ 9513 strings out of 493481
+ 139649 string characters out of 3143393
+ 273601 words of memory out of 3000000
  12446 multiletter control sequences out of 15000+200000
  42951 words of font info for 90 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
@@ -1035,10 +1036,10 @@ f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on aine.pdf (26 pages, 418672 bytes).
+Output written on aine.pdf (27 pages, 422505 bytes).
 PDF statistics:
- 478 PDF objects out of 1000 (max. 8388607)
- 432 compressed objects within 5 object streams
- 100 named destinations out of 1000 (max. 500000)
+ 493 PDF objects out of 1000 (max. 8388607)
+ 446 compressed objects within 5 object streams
+ 101 named destinations out of 1000 (max. 500000)
  11947 words of extra memory for PDF output out of 12000 (max. 10000000)
 

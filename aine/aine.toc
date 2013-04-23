@@ -6,7 +6,7 @@
 \contentsline {subsection}{\numberline {2.3}Liiketoimintaymp\IeC {\"a}rist\IeC {\"o} ja internet}{6}{subsection.2.3}
 \contentsline {subsection}{\numberline {2.4}Tekninen kehitys}{6}{subsection.2.4}
 \contentsline {subsection}{\numberline {2.5}Ohjelmistotuotannon riskit}{7}{subsection.2.5}
-\contentsline {section}{\numberline {3}Suunnitteluperustaiset menetelm\IeC {\"a}t}{7}{section.3}
+\contentsline {section}{\numberline {3}Suunnitelmavetoiset menetelm\IeC {\"a}t}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Vesiputousmalli}{7}{subsection.3.1}
 \contentsline {subsection}{\numberline {3.2}Vesiputousmallin vaiheet}{8}{subsection.3.2}
 \contentsline {subsection}{\numberline {3.3}Spiraalimalli}{11}{subsection.3.3}
@@ -16,9 +16,9 @@
 \contentsline {section}{\numberline {5}Ohjelmiston laatu}{20}{section.5}
 \contentsline {subsection}{\numberline {5.1}Ohjelmiston suunnittelu}{20}{subsection.5.1}
 \contentsline {subsection}{\numberline {5.2}Ohjelmiston testaus}{21}{subsection.5.2}
-\contentsline {subsection}{\numberline {5.3}Pariohjelmointi}{21}{subsection.5.3}
-\contentsline {section}{\numberline {6}Johtop\IeC {\"a}\IeC {\"a}t\IeC {\"o}kset}{23}{section.6}
-\contentsline {section}{\numberline {7}L\IeC {\"a}hteet}{23}{section.7}
+\contentsline {subsection}{\numberline {5.3}Pariohjelmointi}{22}{subsection.5.3}
+\contentsline {section}{\numberline {6}Johtop\IeC {\"a}\IeC {\"a}t\IeC {\"o}kset}{24}{section.6}
+\contentsline {section}{\numberline {7}L\IeC {\"a}hteet}{24}{section.7}
 \select@language {finnish}
 \select@language {finnish}
 \select@language {finnish}

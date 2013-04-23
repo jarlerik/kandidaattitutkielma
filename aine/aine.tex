@@ -131,7 +131,7 @@ Nykyisin vesiputousmallin mukaisia menetelmiä kritisoidaan byrokraattiksi. Mene
 
 Uusia menetelmiä on kehitetty, vesiputousmallin mukaisille, paljon suunnittelua ja dokumentaatiota vaativien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOW01a}.
 
-Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen ominaispiirteitä, ohjelmistotuotantoon (software develop\-ment) liittyviä ongelmia ja riskejä. Käymme läpi erilaisia ohjelmistotuotannon menetelmiä, erityisesti iteratiivisia ja ketteriä kehitysmenetelmiä (agile methods). Tarkastelemme erilaisten ohjelmistokehitysmenetelmien (software develop\-ment methodologies) käytänteitä, sekä käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon.
+Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen ominaispiirteitä, ohjelmistotuotantoon (software develop\-ment) liittyviä ongelmia ja riskejä. Käymme läpi erilaisia ohjelmistotuotannon menetelmiä, erityisesti iteratiivisia ja ketteriä kehitysmenetelmiä (agile methods). Tarkastelemme erilaisten ohjelmistokehitysmenetelmien (software develop\-ment methodologies) käytänteitä, sekä käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon. Tarkastelemme ketterien menetelmien ratkaisumalleja ohjelmistotuotantoa koskeviin ongelmiin. 
 
 \section{Ohjelmistotuotannon ongelmat}
 
@@ -218,7 +218,7 @@ Barry Boehm artikkelissaan ''A spiral model of software development and enhancem
   \item Tietojenkäsittelytieteen valmiuksien ylikuormitus\cite{BOE88}.
 \end{enumerate}
 
-\section{Suunnitteluperustaiset menetelmät}
+\section{Suunnitelmavetoiset menetelmät}
 
 \subsection{Vesiputousmalli}
 
@@ -357,7 +357,7 @@ Monet ohjelmistotuotantoprojektit  (esimerkiksi NASA:n Mercury- ja avaruussukkul
 
 Eroavaisuuksista huolimatta, kaikilla lähestymistavoilla oli yhteistä välttää, lineaarisesta yksi vaihe kerrallaan etenevää, dokumenttiperustaista menetelmää\cite{LAB03}.
 
-Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomenetelmä ei sovi erityisesti interaktiivisiin loppukäyttäjien sovelluksiin. Suunnitelmaperustaiset standardit pakottavat dokumentoimaan yksityiskohtaisesti heikosti ymmärretyt käyttöliittymien vaatimukset\cite{BOE88}.
+Lineaarisesti vaiheesta toiseen etenevän ohjelmistotuotantomenetelmä ei sovi erityisesti interaktiivisiin loppukäyttäjien sovelluksiin. Suunnitelmavetoiset standardit pakottavat dokumentoimaan yksityiskohtaisesti heikosti ymmärretyt käyttöliittymien vaatimukset\cite{BOE88}.
 
 Tästä seurasi käyttökelvottoman ohjelmakoodin suunnittelua ja toteutusta. Lineaarisen ohjelmistotuotantomenetelmän vaiheet olivat tällaisille projekteille selvästi väärässä järjestyksessä. Erityisesti joillekin ohjelmistoille ei ole tarvetta yksityiskohtaiselle dokumentaatiolle ennen toteutusta\cite{BOE88}.
 
@@ -366,7 +366,7 @@ Seurauksena muuttuvista vaatimuksista useat ohjelmistoalan ihmiset ja organisaat
 Menetelmiä kehitettiin useita ja eri maissa: 
 \begin{itemize}
  \item Taipuisa järjestelmän kehitysmenetelmä (Dynamic Systems Development) Euroopassa
- \item toiminnallisuusperustainen kehitysmenetelmä (Feature-Driven Development) Australiassa
+ \item toiminnallisuusvetoinen kehitysmenetelmä (Feature-Driven Development) Australiassa
  \item ja XP (Extreme Programming)\cite{BEC99}, Crystal\cite{COC05}, mukautuva ohjelmistokehitys (Adaptive Software Development) ja Scrum\cite{SCH09} Yhdysvalloissa\cite{WIC03}.
 \end{itemize}
 
@@ -417,7 +417,7 @@ XP:ssä testausta painotetaan paljon. Kaikki ohjelmoijat testaavat tehdessään 
 
 Ohjelmoijat kirjoittavat testin toiminnallisuudelle ennen tuotantokoodia. Testit ovat jatkuvasti osana ohjelmistoa. Iteraation alussa asiakas päättää miten vakuuttaa, että uusi tarina on lisätty onnistuneesti ohjelmistoon. Hänen päätökset, uuden toiminnallisuuden toimivuudesta, muutetaan koko järjestelmän laajuisiksi testeiksi. Testit takaavat ohjelmoijille ja sidosryhmille, että ohjelmisto toimii ja täyttää odotetut vaatimukset. Testit ovat ajettavissa koko ohjelmiston kehityskaaren ajan, mikä takaa ohjelmiston toimivuuden, kun lisätään uusia toiminnallisuuksia tai ohjelmakoodin rakennetta muutetaan\cite{BEC99}.
 
-Winston Royce kirjoitti artikkelissaan ''Managing the development of large software systems'', että ohjelmoijan ei tule testata kirjoittamaansa ohjelmakoodia. XP:ssä tätä ongelmaa on lähestytty työskentelemällä jatkuvasti pareittain\cite{BEC99}.
+Winston Royce kirjoitti artikkelissaan ''Managing the development of large software systems'', että ohjelmoijan ei tule testata kirjoittamaansa ohjelmakoodia. Royce arvioi, että useimmat virheet ovat ilmiselviä ja ovat löydettävissä ohjelmakoodia visuaalisesti tarkastelemalla\cite{ROY70}. XP:ssä tätä ongelmaa on lähestytty työskentelemällä jatkuvasti pareittain\cite{BEC99}. 
 
 
 \subsection{Scrum}
@@ -458,22 +458,27 @@ Scrumissa on kaikkien tiimin jäsenten oltava selvillä määritelmästä ''valm
 \section{Ohjelmiston laatu}
 
 \subsection{Ohjelmiston suunnittelu}
-Edellä kuvatuissa ohjelmistotuotannon menetelmissä on yhteistä pyrkimys formaalilla tavalla määritellä ohjelmistotuotannon prosessi. Prosessin tarkoituksena on toteuttaa, määritetyssä ajassa,  asiakkaan vaatimusten mukainen ja toimiva ohjelmisto. 
 
-Winston Roycen vesiputousmalli ja Barry Boehmin spriraalimalli perustavat ohjelmistokehityksen vahvasti dokumentti- ja suunnitelmaperustaiselle prosessille, jossa tuotettavaa ohjelmistoa ja ongelma-aluetta pyritään lähestymään analyysin, vaatimusmäärittelyn sekä suunnittelun kautta. Molemmissa malleissa ratkaisuksi ohjelmistotuotannon ongelmiin esitetään prototyypin valmistamista, mitä testaamalla ilmeneviin ongelmiin voidaan reagoida mahdollisimman aikaisin. Royce ehdottaa vesiputousmallissa, että prototyypin kehityksen aikataulu on kolmannes varsinaisen tuotteen kehitykseen vaaditusta ajasta\cite{ROY70}. Boehm ei määritellyt iteraatioiden pituutta suhteessa ohjelmistokehitykseen vaadittuun aikaan.
+Suunnitelmavetoisissa menetelmissä ohjelmistosuunnittelijat suunnittelevat etukäteen isoa kokonaiskuvaa koko järjestelmästä. Suunnittelijoiden ei tarvitse miettiä jokaista pientä yksityiskohtaa, koska suunnittelutekniikat, kuten UML (unified modeling language) antavat mahdollisuuden työskennellä abstraktimmalla tasolla. Suunnittelijoiden ei tarvitse ottaa huomioon käytännön ohjelmointia ja sen aiheuttamaa entropiaa. Suunnittelijan on kuitenkin mahdotonta ottaa huomioon kaikkia yksityiskohtia, mitä ohjelmoija joutuu ratkaisemaan yksityiskohtaisemmalla tasolla\cite{FOW01b}.
 
-Suunnitelmaperustaisissa menetelmissä ohjelmistosuunnittelijat suunnittelevat etukäteen isoa kokonaiskuvaa koko järjestelmästä. Suunnittelijoiden ei tarvitse miettiä jokaista pientä yksityiskohtaa, koska suunnittelutekniikat, kuten UML (unified modeling language) antavat mahdollisuuden työskennellä abstraktimmalla tasolla. Suunnittelijoiden ei tarvitse ottaa huomioon käytännön ohjelmointia ja sen aiheuttamaa entropiaa. Suunnittelijan on kuitenkin mahdotonta ottaa huomioon kaikkia yksityiskohtia, mitä ohjelmoija joutuu ratkaisemaan yksityiskohtaisemmalla tasolla\cite{FOW01b}.
+Kehityksellinen suunnittelu, jossa suunnitelma on ainoastaan perättäisiä erillisiä taktisia päätöksiä, johtaa tavallisesti vaikeasti muutettavaan ohjelmakoodiin. Voidaan sanoa ettei tällainen ole suunniteltua ohjelmistokehitystä. Tai ainakin tällainen menettely johtaa huonoon ohjelmiston rakenteeseen. Suunnitelman heikentyessä vaikeutuu kyky tehdä muutoksia tehokkaasti\cite{FOW01b}. 
 
+Ohjelmistoprojektin edetessä ja entropian lisääntyessä ohjelmiston rakenne huononee. Tämä ei ainoastaan vaikeuta ohjelmiston muuttamista, vaan lisää virheiden määrää. Ja virheiden löytäminen sekä niiden poistaminen ohjelmistosta vaikeutuu. Tällainen on ''ohjelmoi ja korjaa''-menetelmän tyypillinen ongelma: ohjelmistovirheiden korjaaminen on eksponentiaalisesti kalliimpaa projektin edetessä\cite{FOW01b}.
 
+Winston Roycen vesiputousmalli\cite{ROY70} ja Barry Boehmin spriraalimalli\cite{BOE88} perustavat ohjelmistokehityksen vahvasti dokumentti- ja suunnitelmavetoisille prosessille, jossa tuotettavaa ohjelmistoa ja ongelma-aluetta pyritään lähestymään analyysin, vaatimusmäärittelyn sekä suunnittelun kautta. Molemmissa malleissa ratkaisuksi ohjelmistotuotannon ongelmiin esitetään prototyypin valmistamista, mitä testaamalla ilmeneviin ongelmiin voidaan reagoida mahdollisimman aikaisin.
+
+Royce ehdottaa vesiputousmallissa, että prototyypin kehityksen aikataulu on kolmannes varsinaisen tuotteen kehitykseen vaaditusta ajasta\cite{ROY70}. Boehm ei määritellyt spiraalimallissa iteraatioiden pituutta suhteessa ohjelmistokehitykseen vaadittuun aikaan. Mutta spiraalimallissa Boehm painottaa vahvasti prototyypin osuutta ohjelmiston kehityskaaren aikana. Varhainen prototyyppi tarjoaa ohjelmiston testattavaksi, jotta virheitä voidaan löytää aikaisessa vaiheessa. Asiakkaan kanssa tehdyssä katselmuksessa saadaan prototyypistä palautetta seuraavan iteraation prototyyppiin\cite{BOE88}.
+
+Erityisesti Royce painotti artikkelissaan ''Managing the development of large software systems'' dokumentoinnin tärkeyttä\cite{ROY70}. Suunnitelmavetoisten prosessien mukautuminen muuttuviin muutoksiin vaikeutuu kattavan dokumentoinnin takia. Nopeasti muuttuvat vaatimukset tekevät dokumenteista vanhentuneita, ja niiden päivittäminen vaati aikaa. Turhien kaavioiden piirtämiseen kuluu kalliita resursseja, kun suunnitelmat muuttuvat. Kaaviot vanhentuvat ja käyvät tarpeettomiksi.
+
+Edellä kuvatuissa ketterissä ohjelmistotuotannon menetelmissä on yhteistä pyrkimys formaalilla tavalla määritellä ohjelmistotuotannon prosessi, jolla voidaan välttää ''ohjelmoi ja korjaa''-menetelmän ja suunnitelmavetoisten prosessien ongelmat. Suunnitelmavetoisissa menetelmissä on pyritty tehostamaan vaatimusmäärittelyprosessia, jotta vaatimukset voidaan kattavasti määritellä ja ettei muutoksille ole tarvetta ohjelmistokehityksen edetessä. Monia odottamattomia muutoksia vaatimuksissa tapahtuu kuitenkin koska liiketoimintaympäristö muuttuu\cite{FOW01b}.
+
+Ketterien menetelmien prosesseissa suunnittelussa painotetaan joustavuutta, jotta suunnitelmaa voidaan helposti muuttaa kun vaatimukset muuttuvat. XP:ssä suunnitelmien ja kaavioiden merkitys on vähäinen: UML kaavioita tulisi käyttää, jos niistä on hyötyä. Äärimäiset XP:n toteuttajat eivät käytä UML-kaavioita lainkaan\cite{FOW01b}. Kaavioiden merkitys on tarjota yhteydenpitoa. Tehokkaan yhteydenpidon takaamiseksi on piirrettävään kaavioon valittava tärkeät asiat ja vältettävä vähemmän tärkeitä. Vain merkitykselliset luokat sekä niiden tärkeimmät attribuutit ja operaatiot tulee kuvata UML-kaavioon\cite{FOW01b}.
 
 \subsection{Ohjelmiston testaus}
 
-Suunnitelmavetoisten prosessimallien heikkous: testit kehityskaaren lopussa!
 
-XP testit ensin: TDD
-
-
-Tutkimustulos pariohjelmoinnista:
+Tutkimustulos pariohjelmoinnista\cite{WIL00}:
 
 \subsection*{Läpäistyt testitapaukset prosentteina}
 \begin{center}
