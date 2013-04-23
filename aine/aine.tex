@@ -71,7 +71,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
 \title{Ketterien menetelmien tarjoamia ratkaisuja suunnitelmavetoisten prosessimallien ongelmiin}
 \author{Jarl-Erik Malmström}
 \date{\today}
-\level{Aine}
+\level{Kandidaatintutkielma}
 \abstract{Tiivistelmä.}
 
 % The following can be used to specify keywords and classification of the paper:
@@ -115,23 +115,21 @@ g% --- Template for thesis / report with tktltiki2 class ---
 
 \section{Johdanto}
  
-Menetelmät ovat olleet ohjelmistoja tuotettaessa käytössä pitkään. Ohjelmistojen parissa työskentelevät olivat muiden alojen insinöörejä ja matemaatikkoja 1950-luvulla. Myös menetelmät olivat omaksuttu muista insinööritieteistä. Tietokoneet olivat kookkaita sekä käyttökustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Koska ohjelmistojen suorittaminen tietokoneilla oli kallista, ohjelmistokehitys vaati tiukkaa suunnittelua sekä järjestelmällisiä käytäntöjä\cite{BOE06}.   
+Ohjelmistotuotannossa (software engineering) käytetään työn suunnitteluun ja organisointiin ohjelmistotuotantomenetelmiä (software development methodologies). Menetelmät määrittelevät formaalin prosessin, jonka lopputuloksena valmistuu toimiva ohjelmisto. Ohjelmistotuotannon menetelmät ovat olleet käytössä pitkään. Ohjelmistojen parissa työskentelevät olivat muiden alojen insinöörejä ja matemaatikkoja ja menetelmät olivat omaksuttu muista insinööritieteistä. Tietokoneet olivat kookkaita sekä käyttökustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Koska ohjelmistojen suorittaminen tietokoneilla oli kallista, ohjelmistokehitys vaati tiukkaa suunnittelua sekä järjestelmällisiä käytäntöjä\cite{BOE06}.   
 
-Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotettiin voimakkaasti ennen toteutusta tehtävää dokumentointia, määrittelyä ja suunnittelua\cite{FOW01a}.
+Menetelmät toivat ohjelmistokehitykseen ennakoitavuutta ja tehokkuutta. Muista insinööritieteistä vaikutteita saaneet menetelmät olivat yksityiskohtaisia prosesseja, joissa painotettiin voimakkaasti dokumentointia, määrittelyä ja suunnittelua, jotka tuli toteuttaa ennen ohjelmiston toteutusta\cite{FOW01a}.
 
-Vuoteen 1960 mennessä ohjelmistojen parissa toimiville ihmisille alkoi selvitä, että ohjelmistoihin liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Ohjelmistoja oli paljon helpompi muuttaa kuin laitteistoja eikä ohjelmistojen kopioiminen vaatinut kalliita tuotantolinjoja. Ohjelmistojen helppo muokattavuus sai monet ihmiset ja organisaatiot omaksumaan ''ohjelmoi ja korjaa'' (''code and fix'') menetelmän\cite{BOE06}.
+Vuoteen 1960 mennessä ohjelmistojen parissa toimiville ihmisille alkoi selvitä, että ohjelmiston kehitykseen liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Ohjelmistoja oli paljon helpompi muuttaa kuin laitteistoja eikä ohjelmistojen kopioiminen vaatinut kalliita tuotantolinjoja. Ohjelmistojen helppo muokattavuus sai monet ihmiset ja organisaatiot omaksumaan \textit{ohjelmoi ja korjaa} (\textit{code and fix}) menetelmän\cite{BOE06}.
 
-Reaktiona 1960-luvun ''ohjelmoi ja korjaa'' lähestymistapaan, laadittiin menetelmiä, joiden prosessit olivat tarkemmin organisoituja. Menetelmissä varsinaista ohjelmointia edelsi tarkka vaatimusmäärittely ja suunnitteluvaihe\cite{BOE06}.
+Reaktiona 1960-luvun \textit{ohjelmoi ja korjaa} lähestymistapaan, laadittiin menetelmiä, mitkä olivat tarkemmin organisoituja. Menetelmissä varsinaista ohjelmointia edelsi tarkka vaatimusmäärittely ja suunnitteluvaihe\cite{BOE06}.
 
-Ohjelmistojen hankintasopimukset, erityisesti Yhdysvaltain hallituksen kanssa, asettivat ohjelmistotuotannon menetelmille selkeät vaatimukset. Yhdysvaltain hallituksen ja puolustusministeriön vaatimien menetelmien, ohjelmistojen tuottamiseksi, tuli koostua puhtaasti peräkkäisistä prosesseista. Suunnittelua ei voitu aloittaa ennen kuin ohjelmiston vaatimukset oli täydellisesti kirjattu eikä ohjelmointia ennen suunnitelman tyhjentävää ja kriittistä tarkastelua. Yhdysvaltain hallituksen luomat standardit prosesseille aiheuttivat tulkinnan, että ohjelmistotuotannon menetelmän täytyy olla vaiheesta seuraavaan etenevä lineaarinen prosessi\cite{BOE06}.
+Ohjelmistojen hankintasopimukset asettivat ohjelmistotuotannon menetelmille selkeät vaatimukset. Yhdysvaltain hallituksen ja puolustusministeriön vaatimien ohjelmistotuotantomenetelmien tuli koostua peräkkäisistä prosesseista. Suunnittelua ei aloitettu ennen kuin ohjelmiston vaatimukset oli täydellisesti kirjattu. Eikä ohjelmointia aloitettu ennen suunnitelman tyhjentävää ja kriittistä tarkastelua. Yhdysvaltain hallituksen luomat standardit prosesseille aiheuttivat tulkinnan, että ohjelmistotuotantomenetelmien täytyy olla vaiheesta seuraavaan etenevä lineaarinen prosessi\cite{BOE06}.
 
-Winston Roycen ajatuksia, artikkelissa “Managing the Development of Large Software Systems”, pidetään vesiputousmallin (waterfall) perustana - menetelmän joka vastasi valtionhallinnon sopimusten vaatimuksiin\cite{LAB03}.
+Winston Roycen artikkelissa ''Managing the Development of Large Software Systems'' esittämiä ajatuksia pidetään vesiputousmallin (waterfall model) perustana. Vesiputousmalli vastasi valtionhallinnon sopimusten vaatimuksiin\cite{LAB03}.
 
-Nykyisin vesiputousmallin mukaisia menetelmiä kritisoidaan byrokraattiksi. Menetelmien toteuttaminen ja seuraaminen vaatii paljon aikaa sekä työtä, ja tästä johtuen ohjelmistokehitysprosessi hidastuu\cite{FOW01a}.
+Uusia menetelmiä on kehitetty vesiputousmallin mukaisille suunnittelua ja dokumentaatiota painottavien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Ketterät menetelmät ovat olleet reaktio byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, \textit{ohjelmoi ja korjaa}-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOW01a}. Ketterät menetelmissä painotetaan ihmisiä sekä heidän välistä viestintää.  Menetelmissä asetetaan luottamus ihmisten taitoon ja lahjakkuuteen
 
-Uusia menetelmiä on kehitetty, vesiputousmallin mukaisille, paljon suunnittelua ja dokumentaatiota vaativien menetelmien tilalle. Näitä kutsutaan yleisesti ketteriksi menetelmiksi (agile methods). Nämä uudet menetelmät ovat olleet reaktiota byrokraattisille ja raskaille menetelmille. Ketterät menetelmät pyrkivät kompromissiin, ''ohjelmoi ja korjaa''-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi\cite{FOW01a}.
-
-Tässä kirjoitelmassa tarkastelemme ohjelmistokehityksen ominaispiirteitä, ohjelmistotuotantoon (software develop\-ment) liittyviä ongelmia ja riskejä. Käymme läpi erilaisia ohjelmistotuotannon menetelmiä, erityisesti iteratiivisia ja ketteriä kehitysmenetelmiä (agile methods). Tarkastelemme erilaisten ohjelmistokehitysmenetelmien (software develop\-ment methodologies) käytänteitä, sekä käymme lyhyesti läpi erilaisten menetelmien lähestymistapoja ohjelmistotuotantoon. Tarkastelemme ketterien menetelmien ratkaisumalleja ohjelmistotuotantoa koskeviin ongelmiin. 
+Tässä tutkielmassa tarkastelemme ohjelmistotuotannon suunnitelmavetoisten prosessimallien ongelmia. Käymme läpi erilaisia dokumentti- ja suunnitelmavetoisia menetelmiä sekä niiden lähestymistapoja ohjelmistotuotantoon. Nykyisin vesiputousmallin mukaisia suunnitelmavetoisia menetelmiä kritisoidaan raskaiksi ja byrokraattisiksi. Menetelmien määrittely- ja suunnitteluvaihe sekä dokumentoinnin painotus hidastavat ohjelmistotuotantoprosessia ohjelmistotuotannossa, jossa vaatimukset muuttuvat\cite{FOW01a}. Tarkastelemme miten ketterät menetelmät (agile methods) ovat pyrkineet ratkaisemaan raskaan suunnitteluvaiheen sisältävien prosessimallien heikkouksia.
 
 \section{Ohjelmistotuotannon ongelmat}
 
@@ -469,28 +467,30 @@ Winston Roycen vesiputousmalli\cite{ROY70} ja Barry Boehmin spriraalimalli\cite{
 
 Royce ehdottaa vesiputousmallissa, että prototyypin kehityksen aikataulu on kolmannes varsinaisen tuotteen kehitykseen vaaditusta ajasta\cite{ROY70}. Boehm ei määritellyt spiraalimallissa iteraatioiden pituutta suhteessa ohjelmistokehitykseen vaadittuun aikaan. Mutta spiraalimallissa Boehm painottaa vahvasti prototyypin osuutta ohjelmiston kehityskaaren aikana. Varhainen prototyyppi tarjoaa ohjelmiston testattavaksi, jotta virheitä voidaan löytää aikaisessa vaiheessa. Asiakkaan kanssa tehdyssä katselmuksessa saadaan prototyypistä palautetta seuraavan iteraation prototyyppiin\cite{BOE88}.
 
-Erityisesti Royce painotti artikkelissaan ''Managing the development of large software systems'' dokumentoinnin tärkeyttä\cite{ROY70}. Suunnitelmavetoisten prosessien mukautuminen muuttuviin muutoksiin vaikeutuu kattavan dokumentoinnin takia. Nopeasti muuttuvat vaatimukset tekevät dokumenteista vanhentuneita, ja niiden päivittäminen vaati aikaa. Turhien kaavioiden piirtämiseen kuluu kalliita resursseja, kun suunnitelmat muuttuvat. Kaaviot vanhentuvat ja käyvät tarpeettomiksi.
+Erityisesti Royce painotti artikkelissaan ''Managing the development of large software systems'' dokumentoinnin tärkeyttä\cite{ROY70}. Suunnitelmavetoisten prosessien mukautuminen muuttuviin muutoksiin vaikeutuu kattavan dokumentoinnin takia. Nopeasti muuttuvat vaatimukset tekevät dokumenteista vanhentuneita, ja niiden päivittäminen vaati aikaa. Turhien kaavioiden piirtämiseen kuluu kalliita resursseja, kun suunnitelmat muuttuvat. Kaaviot vanhentuvat ja käyvät tarpeettomiksi\cite{FOW01b}.
 
 Edellä kuvatuissa ketterissä ohjelmistotuotannon menetelmissä on yhteistä pyrkimys formaalilla tavalla määritellä ohjelmistotuotannon prosessi, jolla voidaan välttää ''ohjelmoi ja korjaa''-menetelmän ja suunnitelmavetoisten prosessien ongelmat. Suunnitelmavetoisissa menetelmissä on pyritty tehostamaan vaatimusmäärittelyprosessia, jotta vaatimukset voidaan kattavasti määritellä ja ettei muutoksille ole tarvetta ohjelmistokehityksen edetessä. Monia odottamattomia muutoksia vaatimuksissa tapahtuu kuitenkin koska liiketoimintaympäristö muuttuu\cite{FOW01b}.
 
 Ketterien menetelmien prosesseissa suunnittelussa painotetaan joustavuutta, jotta suunnitelmaa voidaan helposti muuttaa kun vaatimukset muuttuvat. XP:ssä suunnitelmien ja kaavioiden merkitys on vähäinen: UML kaavioita tulisi käyttää, jos niistä on hyötyä. Äärimäiset XP:n toteuttajat eivät käytä UML-kaavioita lainkaan\cite{FOW01b}. Kaavioiden merkitys on tarjota yhteydenpitoa. Tehokkaan yhteydenpidon takaamiseksi on piirrettävään kaavioon valittava tärkeät asiat ja vältettävä vähemmän tärkeitä. Vain merkitykselliset luokat sekä niiden tärkeimmät attribuutit ja operaatiot tulee kuvata UML-kaavioon\cite{FOW01b}.
 
+Tehtyä kaaviota on pidettävä luonnoksena ei valmiina suunnitelmana. Ohjelmoinnin edetessä usein selviää, että jotkin suunnitelman osa-alueet ovat vääriä. Usein ongelma ei ole suunnitelmien muuttamisessa. Ongelmana on, että usein ihmiset ajattelevat suunnitelman olevan valmis, eivätkä vie ohjelmoidessa saatua tietoa takaisin suunnitelmaan\cite{FOW01b}. 
+
+Suunnitelmien muututtua ei kaaviota tarvitse välttämättä muuttaa. On täysin perusteltua piirtää kaaviota ymmärtääkseen ohjelmiston rakennetta ja heittää kaaviot toteutuksen jälkeen pois. Kaavioiden piirtämisen hyöty on jo saavutettu rakenteen suunnittelulla ja sen ymmärtämisellä. Kaavioiden ei tule olla pysyviä suunnitelman osia\cite{FOW01b}.
+
+Ohjelmoinnin aikaista dokumentointia voidaan muuttuviin vaatimuksiin ja suunnitelmiin sopeuttaa seuraavasti:
+
+\begin{itemize}
+ \item Käytetään vain kaavioita, joita voidaan pitää ajan tasalla helposti 
+ \item Laitetaan kaaviot paikkaan, jossa ne ovat helposti nähtävillä
+ \item Kannustetaan ihmisiä muuttamaan kaavioita
+ \item Heitetään pois kaaviot joita ihmiset eivät käytä\cite{FOW01b}.
+\end{itemize}
+
+Usein UML-kaavioita käytetään välittämään tietoa eri ryhmien välillä. XP:n näkökulmasta UML-kaaviot ovat tarinoita muiden joukossa, joiden arvon määrää asiakas. UML-kaaviot ovat hyödyllisiä vain jos ne auttavat viestinnässä. Ohjelmakoodin varasto (repository) on yksityiskohtaisen tiedon lähde ja kaaviot koostavat ja korostavat tärkeitä asioita\cite{FOW01b}.    
+
+
 \subsection{Ohjelmiston testaus}
 
-
-Tutkimustulos pariohjelmoinnista\cite{WIL00}:
-
-\subsection*{Läpäistyt testitapaukset prosentteina}
-\begin{center}
-    \begin{tabular}{ | l | l | p{5cm} |}
-    \hline
-    Tehtävä & Yksin työskentelevät & Pareittain työskentelevät \\ \hline
-    Ohjelma 1 & 73,4 & 86,4 \\ \hline
-    Ohjelma 2 & 78,1 & 88,6 \\ \hline
-    Ohjelma 3 & 70,4 & 87,1 \\ \hline
-    Ohjelma 4 & 78,1 & 94,4 \\ \hline
-    \end{tabular}
-\end{center}
 
 \subsection{Pariohjelmointi}
 
@@ -517,6 +517,19 @@ Nosekin tekemässä tutkimuksessa pareittain työskentelevät käyttivät, työs
 
 Siirtymäajan jälkeen pareittain työskentelevät opiskelijat paransivat tuloksiaan. Pareittain työskenteleviltä vaadittu ohjelmointiaika oli enää 15\% suurempi kuin yksin työskentelevillä\cite{WIL00}.
 
+Tutkimustulos pariohjelmoinnista\cite{WIL00}:
+
+\subsection*{Läpäistyt testitapaukset prosentteina}
+\begin{center}
+    \begin{tabular}{ | l | l | p{5cm} |}
+    \hline
+    Tehtävä & Yksin työskentelevät & Pareittain työskentelevät \\ \hline
+    Ohjelma 1 & 73,4 & 86,4 \\ \hline
+    Ohjelma 2 & 78,1 & 88,6 \\ \hline
+    Ohjelma 3 & 70,4 & 87,1 \\ \hline
+    Ohjelma 4 & 78,1 & 94,4 \\ \hline
+    \end{tabular}
+\end{center}
 
 
 Laurie Williamsin, Ward Cunninghamin ja Ron Jeffriesin haastattelemat ohjelmoijat sanoivat, että pareittain analysointi ja suunnittelu on merkittävämpää kuin toiminnallisuuden toteuttaminen. Ohjelmoijat usein toteuttavat yksilöllisesti rutiinitehtäviä ja yksinkertaisia ohjelmakoodeja. Tällaisten tehtävien toteuttaminen yksilöllisesti tehtynä tehokkaampaa\cite{WIL00}.
