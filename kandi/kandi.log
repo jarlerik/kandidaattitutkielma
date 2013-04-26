@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  25 APR 2013 15:26
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  26 APR 2013 16:00
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -885,118 +885,112 @@ File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 
 ] [3]
 [4]
-Overfull \hbox (4.5314pt too wide) in paragraph at lines 154--155
+Overfull \hbox (4.5314pt too wide) in paragraph at lines 160--161
 \OT1/lmr/m/n/10.95 (-20) en-si-ker-taa k[]aytt[]av[]at toi-mi-vaa oh-jel-mis-to
 a. T[]all[]oin k[]aytt[]aj[]at usein ymm[]art[]av[]at
  []
 
-
-Overfull \hbox (1.75203pt too wide) in paragraph at lines 156--157
+[5]
+Overfull \hbox (1.75203pt too wide) in paragraph at lines 162--163
 \OT1/lmr/m/n/10.95 (-20) j[]alkeen h[]an kir-joit-taa vaa-ti-muk-set oh-jel-mis
 -toark-ki-teh-deil-le ja -suunnittelijoille,
  []
 
-[5]
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 185.
+[6]
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 191.
 
  (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 185.
- [6]
-Overfull \hbox (42.95274pt too wide) in paragraph at lines 187--188
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 191.
+
+Overfull \hbox (42.95274pt too wide) in paragraph at lines 193--194
 []\OT1/lmr/m/n/10.95 (-20) Jakamalla oh-jel-mis-to-tuo-tan-toa hal-lin-nol-li-s
 es-ti: eriytt[]am[]all[]a vaa-ti-musm[]a[]arittelyn,
  []
 
-
-Overfull \hbox (7.53346pt too wide) in paragraph at lines 208--209
-\OT1/lmr/m/n/10.95 (-20) hen-kil[]ost[]on ja vaa-ti-muk-sien hal-lin-taan, ai-k
-a-tau-luun ja ajoi-tuk-seen, j[]arjestelm[]an
- []
-
-[7]
-Overfull \hbox (10.05563pt too wide) in paragraph at lines 224--225
+[7] [8]
+Overfull \hbox (10.05563pt too wide) in paragraph at lines 229--230
 \OT1/lmr/m/n/10.95 (-20) tan-non suun-ni-tel-ma-ve-toi-siin pro-ses-si-mal-lei-
 hin. Ve-si-pu-tous-mal-lin l[]ahestymistapa
  []
 
-[8] <waterfall.png, id=214, 686.565pt x 423.5825pt>
+<waterfall.png, id=214, 686.565pt x 423.5825pt>
 File: waterfall.png Graphic file (type png)
  <use waterfall.png>
-Package pdftex.def Info: waterfall.png used on input line 233.
+Package pdftex.def Info: waterfall.png used on input line 238.
 (pdftex.def)             Requested size: 360.0pt x 222.09975pt.
 
-Overfull \hbox (12.45688pt too wide) in paragraph at lines 236--237
+Overfull \hbox (12.45688pt too wide) in paragraph at lines 241--242
 \OT1/lmr/m/n/10.95 (-20) jaot-te-li ve-si-pu-tous-mal-lis-sa oh-jel-mis-to-tuo-
 tan-non vai-heet seu-raa-vas-ti: j[]arjestelm[]an
  []
 
 [9 <./waterfall.png>]
-Overfull \hbox (2.92683pt too wide) in paragraph at lines 246--247
+Overfull \hbox (2.92683pt too wide) in paragraph at lines 251--252
 \OT1/lmr/m/n/10.95 (-20) per[]ainen te-kij[]a ky-ke-nee ana-ly-soi-maan ky-sees
 s[]a ole-van vir-heen. K[]aytt[]o[]onotossa
  []
 
 
-Overfull \hbox (15.3154pt too wide) in paragraph at lines 246--247
+Overfull \hbox (15.3154pt too wide) in paragraph at lines 251--252
 \OT1/lmr/m/n/10.95 (-20) il-men-nei-den oh-jel-mis-to-vir-hei-den kor-jaa-mi-se
 s-sa sel-ke[]a do-ku-ment-ti on v[]altt[]am[]at[]on
  []
 
-<spiral.png, id=230, 1141.26375pt x 994.71625pt>
+<spiral.png, id=231, 1141.26375pt x 994.71625pt>
 File: spiral.png Graphic file (type png)
  <use spiral.png>
-Package pdftex.def Info: spiral.png used on input line 260.
+Package pdftex.def Info: spiral.png used on input line 265.
 (pdftex.def)             Requested size: 360.0pt x 313.76227pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (17.50238pt too wide) in paragraph at lines 266--267
+[10]
+Overfull \hbox (17.50238pt too wide) in paragraph at lines 271--272
 []\OT1/lmr/m/n/10.95 (-20) vaihtoehtoiset to-teu-tus-ta-vat (oh-jel-mis-ton os-
 to, oh-jel-mis-ton uu-del-leenk[]aytt[]o,
  []
 
-[10]
-Overfull \hbox (9.02441pt too wide) in paragraph at lines 274--275
+[11 <./spiral.png>]
+Overfull \hbox (9.02441pt too wide) in paragraph at lines 279--280
 []\OT1/lmr/m/n/10.95 (-20) Riskinhallinta huo-mioi-den voi-daan m[]a[]aritell[]
 a kiin-ni-tett[]av[]a ai-ka ja ty[]om[]a[]ar[]a
  []
 
 
-Overfull \hbox (15.21895pt too wide) in paragraph at lines 278--279
+Overfull \hbox (15.21895pt too wide) in paragraph at lines 283--284
 \OT1/lmr/m/n/10.95 (-20) ton ke-hi-tys-kaa-ren lo-pus-sa [[]]. Spri-raa-li-mal-
 lin ris-ki-pe-rus-tai-ses-ta l[]ahestymistavasta
  []
 
-[11 <./spiral.png>]
-Overfull \hbox (3.82552pt too wide) in paragraph at lines 286--287
+
+Overfull \hbox (3.82552pt too wide) in paragraph at lines 291--292
 []\OT1/lmr/m/n/10.95 (-20) Eroavaisuuksista huo-li-mat-ta, kai-kil-la l[]ahesty
 mistavoilla oli yh-teist[]a v[]altt[]a[]a,
  []
 
 [12] [13] [14] [15]
-Overfull \hbox (5.70917pt too wide) in paragraph at lines 348--349
+Overfull \hbox (5.70917pt too wide) in paragraph at lines 353--354
 []\OT1/lmr/m/n/10.95 (-20) Sprintin teht[]av[]alista (Sprint backlog) sis[]alt[
 ]a[]a tii-min m[]a[]arittelev[]at teht[]av[]at,
  []
 
 [16] [17]
-Overfull \hbox (1.02956pt too wide) in paragraph at lines 385--386
+Overfull \hbox (1.02956pt too wide) in paragraph at lines 390--391
 []\OT1/lmr/m/it/10.95 (-20) ohjelmoi ja kor-jaa\OT1/lmr/m/n/10.95 (-20) -menete
 lm[]a, jos-sa suun-ni-tel-ma on ai-noas-taan per[]att[]aisi[]a
  []
 
 [18] [19]
-Overfull \hbox (7.5217pt too wide) in paragraph at lines 430--432
+Overfull \hbox (7.5217pt too wide) in paragraph at lines 435--437
 []\OT1/lmr/m/n/10.95 (-20) Koehenkil[]ot va-lit-tiin sa-tun-nai-ses-ti ty[]oske
 ntelem[]a[]an pa-reit-tain tes-ti-ryhm[]a[]an
  []
 
-[20] (./kandi.bbl
+[20] [21] (./kandi.bbl
 babelbib: Using the BibTeX style's default font for `name'.
 babelbib: Using the BibTeX style's default font for `lastname'.
 babelbib: Using the BibTeX style's default font for `title'.
@@ -1008,36 +1002,35 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[21]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 54.
 
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
+) [22]
 Underfull \hbox (badness 1005) in paragraph at lines 111--117
 \OT1/lmr/m/it/10.95 (+20) get [special is-sues sec-tion]\OT1/lmr/m/n/10.95 (+20
 ) .  Softwa-re, IEEE, 13(1):12--21, 1996,
  []
 
-[22])
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 481.
+)
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 486.
  [23]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 481.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 486.
  (./kandi.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 481.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 481.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 486.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 486.
 Package rerunfilecheck Info: File `kandi.out' has not changed.
-(rerunfilecheck)             Checksum: C054C4BA0E29989C6FE9A069E5893111;1218.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 481.
+(rerunfilecheck)             Checksum: 305D2B07F29315FFFCD3EC69B7DC617B;1218.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 486.
  ) 
 Here is how much of TeX's memory you used:
- 9501 strings out of 493481
- 139499 string characters out of 3143393
- 274704 words of memory out of 3000000
+ 9499 strings out of 493481
+ 139477 string characters out of 3143393
+ 273704 words of memory out of 3000000
  12444 multiletter control sequences out of 15000+200000
- 43459 words of font info for 94 fonts, out of 3000000 for 9000
+ 43332 words of font info for 93 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,9n,35p,1100b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,35p,1013b,592s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
@@ -1046,10 +1039,10 @@ f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
 s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
 usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
 public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on kandi.pdf (25 pages, 420772 bytes).
+Output written on kandi.pdf (25 pages, 421355 bytes).
 PDF statistics:
- 454 PDF objects out of 1000 (max. 8388607)
- 409 compressed objects within 5 object streams
+ 455 PDF objects out of 1000 (max. 8388607)
+ 410 compressed objects within 5 object streams
  83 named destinations out of 1000 (max. 500000)
  11939 words of extra memory for PDF output out of 12000 (max. 10000000)
 
