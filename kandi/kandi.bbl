@@ -134,15 +134,6 @@
   \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
-\bibitem {MWR84}
-\btxnamefont {\btxlastnamefont {Madden}, William\btxfnamespacelong A}
-  \btxandlong {}\ \btxnamefont {Kyle\btxfnamespacelong Y \btxlastnamefont
-  {Rone}}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {Design,
-  development, integration: space shuttle primary flight software
-  system}{Design, development, integration: space shuttle primary flight
-  software system}}.
-\newblock \btxjournalfont {Communications of the ACM}, 27:914--925, 1984.
-
 \bibitem {NOS98}
 \btxnamefont {\btxlastnamefont {Nosek}, John\btxfnamespacelong
   T.}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {The case for
