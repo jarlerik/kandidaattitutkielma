@@ -85,6 +85,16 @@
 \newblock \btxjournalfont {Extreme programming examined}, \btxpageslong {}\
   223--247, 2000.
 
+\bibitem {EDW03}
+\btxnamefont {\btxlastnamefont {Edwards}, Stephen\btxfnamespacelong
+  H}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Using test-driven
+  development in the classroom: Providing students with automatic, concrete
+  feedback on performance}{Using test-driven development in the classroom:
+  Providing students with automatic, concrete feedback on performance}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the International
+  Conference on Education and Information Systems: Technologies and
+  Applications EISTA}, \btxvolumelong {}~\btxvolumefont {3}, 2003.
+
 \bibitem {FOW01b}
 \btxnamefont {\btxlastnamefont {Fowler}, Martin}\btxauthorcolon\ \btxjtitlefont
   {\btxifchangecase {Is design dead?}{Is design dead?}}
@@ -97,6 +107,14 @@
 \newblock \btxjournalfont {Wuhan University Journal of Natural Sciences},
   6:12--24, 2001.
 \newblock {\latintext \btxurlfont{http://dx.doi.org/10.1007/BF03160222}}.
+
+\bibitem {GEW03}
+\btxnamefont {\btxlastnamefont {George}, Boby} \btxandlong {}\ \btxnamefont
+  {Laurie \btxlastnamefont {Williams}}\btxauthorcolon\ \btxtitlefont
+  {\btxifchangecase {An initial investigation of test driven development in
+  industry}{An initial investigation of test driven development in industry}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Proceedings of the 2003 ACM symposium
+  on Applied computing}, \btxpageslong {}\ 1135--1139. ACM, 2003.
 
 \bibitem {HIC01}
 \btxnamefont {\btxlastnamefont {Highsmith}, J.} \btxandlong {}\ \btxnamefont
@@ -133,6 +151,15 @@
 \newblock \btxjournalfont {Computer}, 36(6):47 --56,
   \btxprintmonthyear{.}{june}{2003}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
+\bibitem {MAW03}
+\btxnamefont {\btxlastnamefont {Maximilien}, E\btxfnamespacelong Michael}
+  \btxandlong {}\ \btxnamefont {Laurie \btxlastnamefont
+  {Williams}}\btxauthorcolon\ \btxtitlefont {\btxifchangecase {Assessing
+  test-driven development at ibm}{Assessing test-driven development at IBM}}.
+\newblock \Btxinlong {}\ \btxtitlefont {Software Engineering, 2003.
+  Proceedings. 25th International Conference on}, \btxpageslong {}\ 564--569.
+  IEEE, 2003.
 
 \bibitem {NOS98}
 \btxnamefont {\btxlastnamefont {Nosek}, John\btxfnamespacelong

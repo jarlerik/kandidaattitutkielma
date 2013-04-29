@@ -135,14 +135,6 @@ keywords="Automotive engineering;Collaborative software;Collaborative tools;Cust
 doi="10.1109/MC.2003.1204373", 
 ISSN="0018-9162")
 
-@article(COC00,
-  title="The costs and benefits of pair programming",
-  author="Cockburn, Alistair and Williams, Laurie",
-  journal="Extreme programming examined",
-  pages="223--247",
-  year="2000",
-  publisher="Addison--Wesley Publishing Co., Reading, MA, USA")
-
 @article(FOW01b,
   title="Is design dead?",
   author="Fowler, Martin",
@@ -226,7 +218,45 @@ ISSN="0740-7459")
  acmid = "807736",
  publisher = "IEEE Computer Society Press",
  address = "Los Alamitos, CA, USA",
- keywords = "Management by objectives, Quality assurance, Quality characteristics, Quality metrics, Software engineering, Software measurement and evaluation, Software quality, Software reliability, Software standards, Testing") 
+ keywords = "Management by objectives, Quality assurance, Quality characteristics, Quality metrics, Software engineering, Software measurement and evaluation, Software quality, Software reliability, Software standards, Testing")
+
+@article(EHA05,
+  title="On the effectiveness of test-first approach to programming",
+  author="Erdogmus, Hakan",
+  year="2005")
+
+@inproceedings(MUH02,
+  title="Experiment about test-first programming",
+  author="Muller, M Matthias and Hagner, Oliver",
+  booktitle="Software, IEE Proceedings-",
+  volume="149",
+  number="5",
+  pages="131--136",
+  year="2002",
+  organization="IET")
+
+@inproceedings(MAW03,
+  title="Assessing test-driven development at IBM",
+  author="Maximilien, E Michael and Williams, Laurie",
+  booktitle="Software Engineering, 2003. Proceedings. 25th International Conference on",
+  pages="564--569",
+  year="2003",
+  organization="IEEE")
+
+@inproceedings(EDW03,
+  title="Using test-driven development in the classroom: Providing students with automatic, concrete feedback on performance",
+  author="Edwards, Stephen H",
+  booktitle="Proceedings of the International Conference on Education and Information Systems: Technologies and Applications EISTA",
+  volume="3",
+  year="2003")
+
+@inproceedings(GEW03,
+  title="An initial investigation of test driven development in industry",
+  author="George, Boby and Williams, Laurie",
+  booktitle="Proceedings of the 2003 ACM symposium on Applied computing",
+  pages="1135--1139",
+  year="2003",
+  organization="ACM")
 
 @article{DYD08,
 title = "Empirical studies of agile software development: A systematic review",
