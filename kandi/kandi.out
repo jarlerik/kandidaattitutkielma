@@ -1,17 +1,17 @@
-\BOOKMARK [1][-]{section.1}{Johdanto}{}
-\BOOKMARK [1][-]{section.2}{Ohjelmistotuotannon haasteet}{}
-\BOOKMARK [2][-]{subsection.2.1}{Koordinointi}{section.2}
-\BOOKMARK [2][-]{subsection.2.2}{Suunnittelu ja muuttuvat vaatimukset}{section.2}
-\BOOKMARK [2][-]{subsection.2.3}{Tekninen kehitys ratkaisuna}{section.2}
-\BOOKMARK [1][-]{section.3}{Ohjelmiston laatu}{}
-\BOOKMARK [1][-]{section.4}{Suunnitelmavetoiset menetelm\344t}{}
-\BOOKMARK [2][-]{subsection.4.1}{Vesiputousmalli}{section.4}
-\BOOKMARK [2][-]{subsection.4.2}{Spiraalimalli}{section.4}
-\BOOKMARK [1][-]{section.5}{Ketter\344t kehitysmenetelm\344t}{}
-\BOOKMARK [2][-]{subsection.5.1}{Extreme programming}{section.5}
-\BOOKMARK [2][-]{subsection.5.2}{Scrum}{section.5}
-\BOOKMARK [2][-]{subsection.5.3}{Suunnittelu, muuttuvat vaatimukset ja laatu}{section.5}
-\BOOKMARK [2][-]{subsection.5.4}{Koordinointi}{section.5}
-\BOOKMARK [2][-]{subsection.5.5}{Ohjelmiston testaus}{section.5}
-\BOOKMARK [2][-]{subsection.5.6}{Pariohjelmointi}{section.5}
-\BOOKMARK [1][-]{section.6}{Johtop\344\344t\366kset}{}
+\BOOKMARK [1][-]{section.1}{Johdanto}{}% 1
+\BOOKMARK [1][-]{section.2}{Ohjelmistotuotannon haasteet ja laatu}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Koordinointi}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Suunnittelu ja muuttuvat vaatimukset}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Tekninen kehitys ratkaisuna}{section.2}% 5
+\BOOKMARK [1][-]{section.3}{Suunnitelmavetoiset menetelm\344t ja ketter\344t menetelm\344t}{}% 6
+\BOOKMARK [2][-]{subsection.3.1}{Vesiputousmalli}{section.3}% 7
+\BOOKMARK [2][-]{subsection.3.2}{Spiraalimalli}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.3}{Extreme programming}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.4}{Scrum}{section.3}% 10
+\BOOKMARK [1][-]{section.4}{Ketterien menetelmien ratkaisuja}{}% 11
+\BOOKMARK [2][-]{subsection.4.1}{Suunnittelu, muuttuvat vaatimukset ja laatu}{section.4}% 12
+\BOOKMARK [2][-]{subsection.4.2}{Koordinointi}{section.4}% 13
+\BOOKMARK [2][-]{subsection.4.3}{Ohjelmiston testaus}{section.4}% 14
+\BOOKMARK [2][-]{subsection.4.4}{Pariohjelmointi}{section.4}% 15
+\BOOKMARK [1][-]{section.5}{Johtop\344\344t\366kset}{}% 16
+\BOOKMARK [1][-]{section.6}{L\344hteet}{}% 17
