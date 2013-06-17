@@ -1,20 +1,20 @@
 \select@language {finnish}
 \contentsline {section}{\numberline {1}Johdanto}{1}{section.1}
-\contentsline {section}{\numberline {2}Ohjelmistotuotannon haasteet ja laatu}{2}{section.2}
+\contentsline {section}{\numberline {2}Ohjelmistotuotannon haasteet ja ohjelmistojen laatu}{2}{section.2}
 \contentsline {subsection}{\numberline {2.1}Koordinointi}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Suunnittelu ja muuttuvat vaatimukset}{4}{subsection.2.2}
 \contentsline {subsection}{\numberline {2.3}Tekninen kehitys ratkaisuna}{5}{subsection.2.3}
-\contentsline {subsection}{\numberline {2.4}Ohjelmiston laatu}{5}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Ohjelmistojen laatu}{6}{subsection.2.4}
 \contentsline {section}{\numberline {3}Suunnitelmavetoiset ja ketter\IeC {\"a}t menetelm\IeC {\"a}t}{7}{section.3}
 \contentsline {subsection}{\numberline {3.1}Vesiputousmalli}{8}{subsection.3.1}
-\contentsline {subsection}{\numberline {3.2}Spiraalimalli}{9}{subsection.3.2}
-\contentsline {subsection}{\numberline {3.3}Extreme programming}{12}{subsection.3.3}
+\contentsline {subsection}{\numberline {3.2}Spiraalimalli}{10}{subsection.3.2}
+\contentsline {subsection}{\numberline {3.3}Extreme programming}{13}{subsection.3.3}
 \contentsline {subsection}{\numberline {3.4}Scrum}{13}{subsection.3.4}
-\contentsline {section}{\numberline {4}Ketterien menetelmien ratkaisuja}{13}{section.4}
+\contentsline {section}{\numberline {4}Ketterien menetelmien ratkaisuja}{14}{section.4}
 \contentsline {subsection}{\numberline {4.1}Koordinointi ketteriss\IeC {\"a} menetelmiss\IeC {\"a}}{14}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Suunnittelu ketteriss\IeC {\"a} menetelmiss\IeC {\"a} ja muuttuvat vaatimukset}{15}{subsection.4.2}
-\contentsline {subsection}{\numberline {4.3}Ketter\IeC {\"a}t menetelm\IeC {\"a}t ja laatu}{16}{subsection.4.3}
-\contentsline {subsection}{\numberline {4.4}Ohjelmiston testaus}{17}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.2}Suunnittelu ketteriss\IeC {\"a} menetelmiss\IeC {\"a} ja muuttuvat vaatimukset}{16}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Ketter\IeC {\"a}t menetelm\IeC {\"a}t ja ohjelmistojen laatu}{16}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}Ohjelmistojen testaus}{18}{subsection.4.4}
 \contentsline {subsection}{\numberline {4.5}Pariohjelmointi}{19}{subsection.4.5}
 \contentsline {section}{\numberline {5}Yhteenveto}{21}{section.5}
 \select@language {finnish}

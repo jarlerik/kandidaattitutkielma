@@ -5,37 +5,37 @@ Database file #1: references-fi.bib
 Warning--empty language in BRL03
 You've used 22 entries,
             2788 wiz_defined-function locations,
-            795 strings with 9050 characters,
-and the built_in function-call counts, 8989 in all, are:
-= -- 845
-> -- 256
+            797 strings with 9026 characters,
+and the built_in function-call counts, 8918 in all, are:
+= -- 840
+> -- 250
 < -- 7
-+ -- 108
-- -- 80
-* -- 953
-:= -- 1267
++ -- 106
+- -- 78
+* -- 941
+:= -- 1259
 add.period$ -- 54
 call.type$ -- 22
-change.case$ -- 104
+change.case$ -- 103
 chr.to.int$ -- 0
 cite$ -- 23
-duplicate$ -- 461
-empty$ -- 873
-format.name$ -- 150
-if$ -- 1941
+duplicate$ -- 459
+empty$ -- 869
+format.name$ -- 145
+if$ -- 1928
 int.to.chr$ -- 0
 int.to.str$ -- 22
 missing$ -- 38
 newline$ -- 109
 num.names$ -- 44
-pop$ -- 132
+pop$ -- 131
 preamble$ -- 1
-purify$ -- 84
+purify$ -- 83
 quote$ -- 0
-skip$ -- 261
+skip$ -- 260
 stack$ -- 0
-substring$ -- 520
-swap$ -- 179
+substring$ -- 514
+swap$ -- 177
 text.length$ -- 7
 text.prefix$ -- 0
 top$ -- 0

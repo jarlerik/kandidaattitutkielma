@@ -77,7 +77,7 @@ g% --- Template for thesis / report with tktltiki2 class ---
 % The following can be used to specify keywords and classification of the paper:
 
 \keywords{agile, ketterä, iteraatiivinen, ohjelmistotuotantomenetelmät, ongelmat, haasteet, ratkaisut. laatu}
-\classification{} % classification according to ACM Computing Classification System (http://www.acm.org/about/class/)
+\classification{Software development process management, Software development methods, Agile software development, Waterfall model, Spiral model} % classification according to ACM Computing Classification System (http://www.acm.org/about/class/)
                   % This is probably mostly relevant for computer scientists
 
 % If the automatic page number counting is not working as desired in your case,
@@ -117,58 +117,58 @@ g% --- Template for thesis / report with tktltiki2 class ---
 \setcounter{page}{1}
 \section{Johdanto}
 
-Ohjelmistotuotannossa (software development) käytetään työn suunnitteluun ja organisointiin ohjelmistotuotantomenetelmiä (software development methodologies). Menetelmät määrittelevät muodollisen prosessin, jonka lopputuloksena syntyy toimiva ohjelmistojärjestelmä.
+Ohjelmistotuotannossa (software development) käytetään työn suunnitteluun ja organisointiin ohjelmistotuotantomenetelmiä (software development methodologies). Menetelmät määrittelevät muodollisen prosessin, jonka lopputuloksena syntyy ohjelmistojärjestelmä.
 
-Ohjelmistotuotannon alkuaikoina tietokoneet olivat kookkaita sekä niiden käyttö\-kustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Korkeista kustannuksista johtuen ohjelmistotuotannossa tarvittiin suunnittelua sekä järjestelmällisiä käytäntöjä. Tietojenkäsittelyä ei tutkittu itsenäisenä tieteenalana, ja ohjelmistojen parissa työsken\-televät olivat muiden alojen insinöörejä sekä matemaatikkoja. Menetelmät olivat omaksuttu muista insinööritieteistä \cite{BOE06}.
+Ohjelmistotuotannon alkuaikoina tietokoneet olivat kookkaita sekä niiden käyttö\-kustannukset olivat ohjelmistoja tuottavien insinöörien palkkoihin verrattuna korkeat. Korkeista kustannuksista johtuen ohjelmistotuotannossa tarvittiin suunnittelua sekä järjestelmällisiä käytäntöjä. Tietojenkäsittelyä ei tutkittu itsenäisenä tieteenalana, ja ohjelmistojen parissa työsken\-televät olivat muiden alojen insinöörejä sekä matemaatikkoja. Ohjelmistotuotannon menetelmät olivat omaksuttu muista insinööritieteistä \cite{BOE06}.
 
-Ohjelmistojen merkityksen kasvaessa ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän. Ohjelmistoalalle tarvittiin lisää ihmisiä tuottavaan ja luovaan työhön sekä enemmän insinöörejä ja matemaatikkoja kuin oli saatavilla. Ohjelmistotuotantoprojekteihin palkattiin muiden alojen asiantuntijoita, jotka omaksuivat helposti \textit{ohjelmoi ja korjaa} (code and fix) lähestymistavan insinööri\-menetelmien sijasta \cite{BOE06}. Ohjelmoi ja korjaa mallissa ohjelmoidaan ensin ja mietitään vaatimuksia, rakennetta sekä testausta myöhemmin .\cite{BOE88}.
+Ohjelmistojen merkityksen kasvaessa ihmisten ja tietokoneiden vuorovaikutus korostui yhä enemmän. Ohjelmistoalalle tarvittiin lisää ihmisiä tuottavaan ja luovaan työhön sekä enemmän insinöörejä ja matemaatikkoja kuin oli saatavilla. Ohjelmistotuotantoprojekteihin palkattiin muiden alojen asiantuntijoita, jotka omaksuivat helposti \textit{ohjelmoi ja korjaa} (code and fix) lähestymistavan insinööri\-menetelmien sijasta \cite{BOE06}. Ohjelmoi ja korjaa menetelmällä ohjelmoidaan ensin ja mietitään vaatimuksia, rakennetta sekä testausta myöhemmin .\cite{BOE88}.
+
+Eroavaisuudet perinteisten insinöörimenetelmien ja ohjelmoi ja korjaa asenteiden välillä loi uutta hakkerikulttuuria merkittävien yliopistojen tietojenkäsittelylaitoksille. Nämä auktoriteetteja vastustavat luovat sankariohjelmoijat tekivät ohjelmoi ja korjaa käytänteillä usein vaikeasti muutettavaa ja ylläpidettävää ohjelmakoodia \cite{BOE06}. Tällainen menetelmä saattoi toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutui. Lisäksi virheiden löytäminen ja korjaaminen vaikeutui järjestelmän kasvaessa \cite{FOW01a}.
 
 Ohjelmistotuotannon parissa työskentelevät huomasivat, että ohjelmiston kehitykseen liittyvät ilmiöt poikkesivat huomattavasti laitteistoihin liittyvistä ilmiöistä. Laitteistoille laadituilla luotettavuusmalleilla ei voitu arvioida ohjelmistojen luotettavuutta kattavasti. Ohjelmistoprojektien aikatauluja oli vaikea ennakoida, ja henkilöstön lisääminen aikataulun nopeuttamiseksi saattoi myöhästyttää projektia entisestään \cite{BOE06}.
 
-Eroavaisuudet perinteisten insinöörimenetelmien ja ohjelmoi ja korjaa asenteiden välillä loi uutta hakkerikulttuuria merkittävien yliopistojen tietojenkäsittelylaitoksille. Nämä auktoriteetteja vastustavat luovat sankariohjelmoijat tekivät usein vaikeasti muutettavaa ja ylläpidettävää ohjelmakoodia \cite{BOE06}. Tällainen menetelmä saattoi toimia jos tuotettava ohjelmisto on pieni, mutta järjestelmän kasvaessa uusien toiminnallisuuksien lisääminen vaikeutui. Lisäksi virheiden löytäminen ja korjaaminen vaikeutui järjestelmän kasvaessa \cite{FOW01a}.
+Ohjelmistotuotantoon tarvittiin paremmin organisoituja menetelmiä ja kurinalaisia käytäntöjä yhä suurempien projektien hallinointiin. Reaktiona ohjelmoi ja korjaa menetelmille kehitettiin uusia prosessimalleja, joilla pyrittiin parantamaan 1950-luvun insinöörimenetelmien käytänteitä ohjelmistotuotantoon liittyvillä tekniikoilla. Näissä prosessimalleissa ohjelmointia edelsi kattava suunnittelu- ja analysointivaihe. Näitä menetelmiä kutsutaan suunnitelmavetoisiksi (plan-driven) menetelmiksi \cite{BOE02}.
 
-Ohjelmistotuotantoon tarvittiin paremmin organisoituja menetelmiä ja kurinalaisia käytäntöjä yhä suurempien projektien hallinointiin. Reaktiona ohjelmoi ja korjaa menetelmille kehitettiin uusia prosessimalleja, joilla pyrittiin parantamaan 1950-luvun insinöörimenetelmien käytänteitä ohjelmistotuotantoon liittyvillä tekniikoilla. Näissä prosessimalleissa ohjelmointia edelsi kattava suunnittelu- ja analysointivaihe\cite{BOE06}.
+Internetin laajentuminen ja \textit{hypertekstijärjestelmän} (World Wide Web) ilmaantuminen korostivat ohjelmistojen merkitystä. Ohjelmistojen merkitys yritysten kilpailutekijänä ja liiketoimintaympäristön jatkuvat ja muutokset lisäsivät tarvetta lyhentää ohjelmistotuotantoon kuluvaa aikaa. Suunnittelua, määrittelyä ja dokumentointia painottavat menetelmät eivät sopineet jatkuvasti muuttuvaan liiketoimintaympäristöön ja nopeaan ohjelmistokehitykseen (rapid application development)\cite{BOE06}.
 
-Internetin laajentuminen ja \textit{hypertekstijärjestelmän} (World Wide Web) ilmaantuminen korostivat ohjelmistojen merkitystä. Ohjelmistojen merkitys kilpailutekijänä ja liiketoimintaympäristön nopeutuminen lisäsivät tarvetta lyhentää ohjelmistotuotantoon kuluvaa aikaa. Suunnittelua, määrittelyä ja dokumentointia painottavat menetelmät eivät sopineet jatkuvasti muuttuvaan liiketoimintaympäristöön ja nopeaan ohjelmistokehitykseen (rapid application development)\cite{BOE06}.
+Tässä tutkielmassa tarkastelemme suunnitelmavetoisia ja ketteriä menetelmiä (agile methods). Suunnitelmavetoiset menetelmät painottavat ennen ohjelmiston rakentamista edeltävää analyysi-, määrittely-, ja suunnitteluvaihetta sekä koko ohjelmistotuotantoprojektin aikaista dokumentointia. Suunnitelmavetoiset menetelmät ovat saaneet kritiikkiä osakseen ja ketterät menetelmät ovat olleet reaktio suunnitelmavetoisten menetelmien heikkouksille sopeutua muutoksiin. Ketterät menetelmät pyrkivät kompromissiin, ohjelmoi ja korjaa-menetelmän ja suunnitelmavetoisen menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi \cite{FOW01a}. 
 
-Ketterät menetelmät ovat olleet reaktio dokumentti- ja suunnitelmavetoisten menetelmien heikkouksille sopeutua nopeasti muuttuvaan ympäristöön. Ketterät menetelmät pyrkivät kompromissiin, ohjelmoi ja korjaa-menetelmän ja raskaan menetelmän väliltä, tarjoamalla riittävän prosessin haluttuun lopputulokseen pääsemiseksi \cite{FOW01a}. Ketterissä menetelmissä korostetaan ihmisten välistä viestintää, sekä yhteistoimintaa niin ohjelmoijien kesken kuin asiakkaan kanssa. Ketterien menetelmien keskeisiä arvoja ovat luottamus ihmisten taitoihin sekä heidän sitoutumiseen omaan työhönsä \cite{COH01}.
+Käymme läpi erilaisia suunnitelmavetoisia ja ketteriä menetelmiä sekä näiden lähestymistapoja ohjelmistotuotantoon. Selvitämme ohjelmiston laatuun liittyviä käsitteitä ja tarkastelemme ohjelmistotuotannon haasteita. Esille tuomamme ohjelmistotuotannon haasteet liittyvät erityisesti suunnitelmavetoisten menetelmien käytänteisiin, joita tarkastelemme tutkielmassamme tarkemmin kappaleessa kolme. Esittelemme, miten ketterät menetelmät ratkaisevat esitettyjä ohjelmistotuotannon haasteita ja tarkastelemme onko ketterien menetelmien käytänteillä vaikutusta ohjelmistojen laatuun.
 
-Tässä tutkielmassa tarkastelemme ohjelmiston laatuun liittyviä käsitteitä ja ohjelmistotuotannon haasteita kappaleessa kaksi. Käymme läpi erilaisia suunnitelmavetoisia ja ketteriä menetelmiä sekä näiden lähestymistapoja ohjelmistotuotantoon kappaleessa kolme. Kappaleessa neljä tutkimme suunnitelmavetoisten 
-prosessimallien hyötyjä ohjelmistotuotannon haasteisiin ja selvitämme miten ketterät menetelmät ovat pyrkineet ratkaisemaan suunnitelmavetoisten prosessimallien heikkouksia, ohjelmistotuotannon haasteita ja ohjelmiston laatuun liittyviä ongelmia.
+Tutkielman rakenne on seuraava: Kappaleessa kaksi käsittelemme ohjelmistotuotannon haasteita ja laatuun liittyviä käsitteitä. Kappaleessa kolme käymme läpi erilaisia suunnitelmavetoisia ja ketteriä menetelmiä. Kappaleessa neljä selvitämme ketterien menetelmien ratkaisuja suunnitelmavetoisten menetel\-mien ongelmiin ja ohjelmistotuotannon haasteisiin. 
 
-\section{Ohjelmistotuotannon haasteet ja laatu}
+\section{Ohjelmistotuotannon haasteet ja ohjelmistojen laatu}
 
-Ohjelmistotuotantoprojekteissa saattaa ilmetä monia haasteita projektin koordinointiin sekä ohjelmistolta odotettuun toiminnallisuuteen liittyen. Ohjelmistotuotannossa ilmenevät haasteet voidaan jakaa seuraaviin osa-alueisiin: henkilöstön hallinta, projektin aikataulu ja taloudelliset resurssit, vaatimusten hallinta, tekniset valmiudet ja projektin mahdolliseen ulkoistukseen liittyvät ongelmat \cite{BOE88}.
+Tässä kappaleessa käymme läpi erilaisia ongelmia ja haasteita, joita ohjelmistotuotantoprojekteissa usein ilmenee. Tämän jälkeen selvitämme ohjelmistojen laatuun liittyviä määritelmiä sekä miten ohjelmistojen laatu ja ohjelmistotuotannon haasteet liittyvät toisiinsa.
 
-Ongelmia ohjelmistoprojekteissa ilmenee, kun ohjelmistoprojektiin on palkattu liian vähän pätevää henkilöstöä tai ohjelmiston kehityksen aikataulu tai budjetti ovat arvioitu liian alhaisiksi \cite{BOE88}.
+Ohjelmistotuotantoprojekteissa usein ilmenee monia haasteita projektin koordinointiin sekä valmiin ohjelmiston toimintaan liittyen. Ohjelmistotuotannossa ilmenevät haasteet voidaan jakaa seuraaviin osa-alueisiin: henkilöstön hallinta, projektin aikataulu ja taloudelliset resurssit, vaatimusten hallinta, tekniset valmiudet ja projektin mahdolliseen ulkoistukseen liittyvät ongelmat \cite{BOE88}.
 
-Aikataulu saattaa pitkittyä ja ohjelmistokehityksen kulut lisääntyä, kun toteutettavat toiminnallisuudet eivät täytä käyttäjien vaatimuksia. Ohjelmistotuotannossa on ilmennyt ongelmia asiakkaiden tarpeita tyydyttävien toiminnallisuuksien kehittämisessä \cite{BEC99}. Tämä johtuu siitä, että ohjelmiston toimintaympäristön ja operatiivisen toiminnan analysointi ja määrittely ennen ohjelmiston rakentamista on vaikeaa \cite{BOE88}.
+Suunnitelmavetoisissa menetelmissä asiakas on ohjelmistoprojektissa tiiviissä yhteistyössä kehittäjätiimin kanssa usein vain analyysi- ja määrittely\-vaiheessa. Vähäinen asiakasyhteistyö johtaa useasti ongelmiin: Ohjelmistoon saatetaan kehittää toiminnallisuuksia, joita ei tarvita tai ne ovat väärin määriteltyjä. Käyttöliittymä saattaa olla vaikeakäyttöinen tai puutteellinen. Koska ohjelmoijat eivät ole tiiviissä yhteistyössä asiakkaan kanssa, tarvittavien toiminnallisuuksien yksityiskohdat saattavat olla epäselviä \cite{BOE88}.
 
-Asiakasyhteistyön puutteesta johtuen, ohjelmistoon saatetaan kehittää toiminnallisuuksia, joita ei tarvita tai ne ovat väärin määriteltyjä. Vähäinen asiakasyhteistyö voi johtaa puutteellisen tai vaikean käyttöliittymän toteutukseen \cite{BOE88}.
+Vaadittavien toiminnallisuuksien epäselvyydestä ja ohjelmoijien omasta ammatillisesta kiinnostuksesta johtuen, ohjelmoijat voivat lisätä tarpeettomia toiminnallisuuksia. Väärien ja tarpeettomien toiminnallisuuksien kehitys vie ajallisia ja taloudellisia resursseja ja nostaa ohjelmistokehitykseen vaadittavia kustannuksia. \cite{BOE88}.
 
-Ohjelmoijat voivat myös ammatillisesta kiinnostuksesta lisätä tarpeettomia toiminnallisuuksia. Väärien ja tarpeettomien toiminnallisuuksien kehitys nostaa ohjelmistokehitykseen vaadittavia ajallisia ja taloudellisia kustannuksia. \cite{BOE88}.
+Suunnitelmavetoisissa menetelmissä suunnitteluvaihe on saatava päätökseen ennen ohjelmiston rakentamista. 
+Ohjelmiston suunnittelu ennen ohjelmointivaihetta on kuitenkin vaikeaa, koska ohjelmiston toimintaympäristön ja operatiivisen toiminnan täydellinen analysointi ja määrittely on lähes mahdotonta \cite{BOE88}. Puutteellisista tiedoista johtuen ohjelmistot eivät usein tyydytä käyttäjien tarpeita. Ohjelmistotuotannon kehitys pitkittyy, kun ohjelmistoa on muutettava käyttäjien tarpeita vastaavaksi. Ohjelmistotuotantoon varattu aikataulu ja budjetti kasvaa, kun ohjelmistoprojekti palaa määrittely- ja suunnitteluvaiheeseen ja taas uudelleen ohjelmointivaiheeseen \cite{BEC99}.
 
-Suunnitelmavetoisissa menetelmissä ohjelmistojärjestelmän haluttu toiminta on varmistettu ohjelmistokehityksen loppuvaiheessa tehtävällä ohjelmistotestauksella. Ohjelmistokehitysjakson lopussa vasta testausvaiheessa voi ilmetä ongelmia, joihin analyysilla ja suunnittelulla ei ole osattu varautua. Testauksessa ilmenevät ongelmat saattavat johtaa muutoksiin järjestelmän vaatimusmäärittelyssä ja ohjelmiston suunnittelussa. Lisääntynyt suunnittelu- ja määrittelytyö lisää ohjelmistotuotannon kustannuksia \cite{ROY70}.
+Suunnitelmavetoisissa menetelmissä ohjelmistojärjestelmän haluttu toiminta on varmistettu ohjelmistokehityksen loppuvaiheessa tehtävällä ohjelmistotestauksella. Ohjelmistokehitysjakson lopussa vasta testausvaiheessa voi ilmetä ongelmia, joihin analyysilla ja suunnittelulla ei ole osattu varautua. Testauksessa ilmenevät ongelmat saattavat johtaa muutoksiin järjestelmän vaatimusmäärittelyssä ja ohjelmiston suunnittelussa. Lisääntynyt suunnittelu- ja määrittelytyö johtavat jälleen kohoaviin ohjelmistotuotannon kustannuksiin \cite{ROY70}.
 
 Ohjelmistotestauksessa saattaa ilmetä myös rakennetun järjestelmän odotettua heikompi suorituskyky. Toisaalta tietotekniset mahdollisuudet on voitu arvioida väärin eikä käytössä olevien tietokoneiden laskentakyky riitä suunniteltuun järjestelmään \cite{BOE88}.
 　
 \subsection{Koordinointi}
 
-Tässä tutkielmassa koordinoinnilla tarkoitamme yksilöiden ja ryhmien välistä yhteistoimintaa sekä näihin liittyvää hallinnollista työtä ja toisaalta ohjelmistojärjestelmän eri osien yhteensovittamista sekä ohjelmistoprojektin hallinnointia. Ohjelmistoprojektin koordinointiongelmat liittyvät henkilöstön, vaatimusten sekä ulkoistetun ohjelmistotuotannon hallintaan \cite{KES95}.
+Tässä tutkielmassa koordinoinnilla tarkoitamme yksilöiden ja ryhmien välistä yhteistoimintaa sekä näihin liittyvää hallinnollista työtä ja toisaalta ohjelmistojärjestelmän eri osien yhteensovittamista sekä ohjelmistoprojektin hallinnointia. Ohjelmistoprojektin koordinointiongelmat liittyvät henkilöstön, vaatimusten hallintaan \cite{KES95}.
 
 Yksittäinen henkilö tai pieni ryhmä voi tehokkaasti koordinoida pienen ohjelmistojärjestelmän kehitystä ja hallinoida toteutuksen yksityiskohtia. Yksilöiden tai ryhmän on mahdotonta toteuttaa ja hallinnoida suuria, miljoonien rivien ohjelmakoodien, ohjelmistoja ja useiden vuosien ohjelmistokehitystä yksityiskohtaisesti \cite{KES95}.
 
-Suuriin ohjelmistoprojekteihin saattaa liittyä useita kehittäjä\-organisaatioita ohjelmiston tilaajan lisäksi ja ne onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston kohdealueelta sekä ohjelmistoalalta \cite{KES95}.
+Suuriin ohjelmistoprojekteihin saattaa liittyä useita kehittäjä\-organisaatioita ohjelmiston tilaajan lisäksi. Projektit onnistuvat useimmin jos projektia koordinoi henkilö, jolla on tietoa ohjelmiston kohdealueelta sekä ohjelmistoalalta. Kohdealueen tieto ei ole välttämättä käytössä kaikilla projektiin osallistuvilla, koska suuret projektit johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken ja kohdealueen tietoa katoaa \cite{KES95}.
 
-Suuret projektit johtavat erikoistumiseen ja työn jakamiseen. Organisaatiossa tämä johtaa toisistaan riippuvien tekijöiden jakamiseen osastoihin maantieteellisesti, organisatorisesti, sekä sosiaalisesti. Tämä vähentää mahdollisuuksia ja haluja oppia sekä jakaa tietoa etäisten työtovereiden kesken ja kohdealueen tietoa katoaa \cite{KES95}.
+Koordinointiongelma liittyy myös rakennettavaan ohjelmistojärjestelmään: ohjelmistot ovat pääasiallisesti rakennettu useista osista, jotka on kytkettävä yhteen ja ohjelmistojärjestelmän osien on toimittava koordinoidusti. Ohjelmistojen suuri koko aiheuttaa ongelmia, koska ohjelmisto vaatii sen osajärjestelmien täsmällistä integraatiota, jotta ohjelmisto toimisi oikein  \cite{KES95}.
 
-Ohjelmistojen suuri koko aiheuttaa ongelmia, koska ohjelmisto vaatii sen osajärjestelmien täsmällistä integraatiota. Ohjelmistot ovat pääasiallisesti rakennettu useista osista, jotka on kytkettävä yhteen ja ohjelmistojärjestelmän osien on toimittava koordinoidusti, jotta ohjelmisto toimisi oikein. \cite{KES95}.
-
-Koordinointiongelma liittyy myös ohjelmistoa kehittävän organisaation ja asiakkaan väliseen yhteistyöhön: asiakkaalla on vaatimuksia kehitettävän järjestelmän toiminnallisuuksista, joita ohjelmoijat toteuttavat. Vaikeuksia ilmenee näiden vaatimuksien ymmärtämisessä ja usein vaatimukset muuttuvat projektin edetessä. Vaatimukset muuttuvat koska liiketoimintaympäristöt muuttuvat tai asiakkaat saattavat keksiä toiminnallisuuksia toteutettavalle järjestelmälle \cite{FOW01a}.
+Ohjelmistoa kehittävän organisaation ja asiakkaan välinen koordinointi on myös vaikeaa: asiakkaalla on vaatimuksia kehitettävän järjestelmän toiminnallisuuksista, joita ohjelmoijat toteuttavat. Vaikeuksia ilmenee näiden vaatimuksien ymmärtämisessä ja usein vaatimukset muuttuvat projektin edetessä. Vaatimukset muuttuvat koska liiketoimintaympäristöt muuttuvat tai asiakkaat saattavat keksiä uusia toiminnallisuuksia toteutettavalle järjestelmälle \cite{FOW01a}.
 
 \subsection{Suunnittelu ja muuttuvat vaatimukset}
 
-Ohjelmistotuotannossa asiakkaiden vaatimien toiminnallisuuksien suunnittelu ja toteutus on haasteellista: tyypillisesti ohjelmistotuotantoprojektiin osallistuva henkilö vaihtelevalla kohdealueen tuntemuksella haastattelee asiakkaita ja käyttäjiä. Tämän jälkeen hän kirjoittaa vaatimukset ohjelmistoarkkitehdeille ja -suunnittelijoille, jolloin merkityksellistä kohdealueen tietoa katoaa, koska kaikkia tarpeita ei välttämättä tuoda esille ja jotkin ilmoitetut tarpeet jäävät kirjaamatta. Suuri haaste ohjelmistokehityksessä on, että ohjelmistoarkkitehtien ja -suunnittelijoiden päätöksentekoon tarvitsema tieto ei ole saatavilla \cite{KES95}.
+Ohjelmistotuotannossa asiakkaiden vaatimien toiminnallisuuksien suunnittelu ja toteutus on haasteellista: tyypillisesti suunnitelmavetoisissa menetelmissä ohjelmistotuotantoprojektiin osallistuva henkilö vaihtelevalla kohdealueen tuntemuksella haastattelee asiakkaita ja käyttäjiä. Tämän jälkeen hän kirjoittaa vaatimukset ohjelmistoarkkitehdeille ja -suunnittelijoille, jolloin merkityksellistä kohdealueen tietoa katoaa, koska kaikkia tarpeita ei välttämättä tuoda esille ja jotkin ilmoitetut tarpeet jäävät kirjaamatta. Suuri haaste ohjelmistokehityksessä on, että ohjelmistoarkkitehtien ja -suunnittelijoiden päätöksentekoon tarvitsema tieto ei ole saatavilla \cite{KES95}.
 
 Ohjelmistotuotannon koordinointi vaikeutuu ja epävarmuus lisääntyy, koska ohjelmiston toimintaan liittyvät vaatimukset muuttuvat ohjelmistoprojektin edetessä. Muutoksia ohjelmiston vaatimuksiin esiintyy, koska liiketoiminta, käyttäjien toiveet, tietokoneympäristö, ohjelmiston syötteet ja fyysinen maailma muuttuvat \cite{KES95}.
 
@@ -198,9 +198,7 @@ Nykyään ohjelmistokehittäjät käyttävät laajasti työkaluja, jotka nopeutt
 
 Nykyiset ohjelmistotyökalut eivät ole tarjonneet yksiselitteisiä ratkaisuja haasteisiin. Työkalut lisäävät yksilöiden tuottavuutta, mutta eivät ratkaise ohjelmistotuotannon koordinointiongelmaa. Onnistunut ohjelmistotuotantoprojekti vaatii lisäksi erilaisten näkemysten sekä ohjelmistojärjestelmän osien yhteensovittamista \cite{KES95}.
 
-\subsection{Ohjelmiston laatu}
-
-Seuraavaksi tarkastelemme tässä kappaleessa ohjelmiston laatuun liittyviä määritelmiä ja miten edellä käsitellyt ohjelmistotuotannon haasteet heijastuvat ohjelmiston laatuun. Kappaleessa kolme selvitämme miten suunnitelmavetoiset menetelmät ovat pyrkineet ratkaisemaan ohjelmistotuotannon haasteita \cite{KIP96}.
+\subsection{Ohjelmistojen laatu}
 
 Laatu on monitahoinen käsite ja sitä voidaan kuvailla viidestä eri näkökulmasta: \textit{Täydellisen näkemyksen} (transcendental view) mukaan laatua voidaan kuvailla, mutta ei määritellä eikä täysin toteuttaa. Täydellinen näkemys kuvaa ohjelmiston laatua ihanteena (ideal), mihin ohjelmiston toteutuksessa pyritään \cite{KIP96}. 
 
@@ -213,7 +211,7 @@ Laatu on monitahoinen käsite ja sitä voidaan kuvailla viidestä eri näkökulm
  \textit{Arvovetoinen näkemys} (value-based view) tarkastelee laatua suhteessa siitä aiheutuviin kustannuksiin. Joskus edellä mainitut näkemykset voivat olla keskenään ristiriitaisia. Esimerkiksi jos käyttäjä haluaa uusia toiminnallisuuksia tai muutoksia ohjelmistoon ja toisaalta tuotantonäkemys pyrkii vähentämään muutoksia. Arvovetoinen näkemys auttaa löytämään tasapainon kustannusten ja laadun väliltä \cite{KIP96}.
 
 Oletetaan, että tilattu ohjelmistojärjestelmä toimitetaan ajallaan ilman budjettia ylittäviä kustannuksia, ja se toimii oikein sekä suorittaa tehokkaasti sille määritetyt toiminnallisuudet. Voidaanko tuotteeseen tällöin olla tyytyväisiä? Ei välttämättä kaikissa tapauksissa. Ohjelmistojärjestelmää voi olla vaikea ymmärtää ja muuttaa. Ohjelmistoa ei välttämättä ole helppokäyttöinen. Ohjelmisto voi olla tarpeettoman laitteistoriippuvainen. Nämä seikat johtavat kohtuuttomiin ylläpitokustannuksiin \cite{BBL76}.
-Kansainvälinen standardointiorganisaatio (ISO) on suositellut laadun perustaksi kuusi itsenäistä piirrettä: \cite{KIP96}
+Kansainvälinen standardointiorganisaatio (ISO) on suositellut laadun perustaksi seuraavia itsenäisiä piirteitä: \cite{KIP96}
 
 \begin{enumerate}
 \item toiminnallisuus (functionality)
@@ -224,22 +222,27 @@ Kansainvälinen standardointiorganisaatio (ISO) on suositellut laadun perustaksi
 \item siirrettävyys (portabilty)
 \end{enumerate}
 
-Tässä tutkielmassa määrittelemme toiminnallisuuden ja luotettavuuden seuraavasti: toiminnallisuuksien on tyydytettävä käyttäjän vaatimukset sekä kyettävä ylläpitämään vaadittu suorituskyky vaaditun ajan. Tehokkuudella tarkoitamme suorituskyvyn sekä käytettyjen resurssien suhdetta ja yllä\-pidettävyydellä ohjelmistoon tehtäviin muutoksiin tarvittavaa työmäärää, jotka voivat liittyä korjauksiin, parannuksiin tai ohjelmiston mukauttamista muuttuneisiin olosuhteisiin. Siirrettävyys viittaa ohjelmiston kykyyn toimia erilaisessa ympäristössä: toisessa organisaatiossa, laitteistossa tai ohjelmistoympäristössä \cite{KIP96}.
+Toiminnallisuudella ja luotettavuudella tarkoitamme seuraavaa: toiminnallisuuksien on tyydytettävä käyttäjän vaatimukset sekä kyettävä ylläpitämään vaadittu suorituskyky vaaditun ajan \cite{KIP96}.
 
-Yllä mainitut kansainvälisen standardointiorganisaation laatumallin piirteistä liittyvät käyttäjän näkemykseen (user view) ohjelmistosta ja miten se tyydyttää hänen tarpeensa. Tuotettavan ohjelmistojärjestelmän vaatimuksia edustaa käyttäjän tai asiakkaan tarpeet ja näkemys, joten aikaisemmin tässä kappaleessa esiin tuomamme ohjelmistotuotannon haasteet kytkeytyvät ohjelmiston laatuun. Vaatimusten hallinta liittyy ohjelmiston laadun hallintaan \cite{KIP96}.
+Käytettävyys mittaa ohjelmistojärjestelmän käytöstä aiheutuvan ja käyttäjien olettaman vaivannäön suhdetta \cite{KIP96}. 
 
-Seuraavaksi tarkastelemme suunnitelmavetoisia menetelmiä sekä ketteriä menetelmiä ja niiden tarjoamia ratkaisuja ohjelmistotuotannon haasteisiin ja toisaalta laatuun, koska edellä totesimme niiden liittyvän toisiinsa. 
+Tehokkuudella tarkoitamme suorituskyvyn sekä käytettyjen resurssien suhdetta ja yllä\-pidettävyydellä ohjelmistoon tehtäviin muutoksiin tarvittavaa työmäärää, jotka voivat liittyä korjauksiin, parannuksiin tai ohjelmiston mukauttamista muuttuneisiin olosuhteisiin \cite{KIP96}. 
+
+Siirrettävyys viittaa ohjelmiston kykyyn toimia erilaisessa ympäristössä: toisessa organisaatiossa, laitteistossa tai ohjelmistoympäristössä \cite{KIP96}.
+
+Yllä mainitut kansainvälisen standardointiorganisaation laatumallin piirteistä liittyvät käyttäjän näkemykseen (user view) ohjelmistosta ja miten se tyydyttää hänen tarpeensa. Tuotettavan ohjelmistojärjestelmän vaatimuksia edustaa käyttäjän tai asiakkaan tarpeet ja näkemys. Toimme esille, ohjelmistotuotannon haasteita käsitellessämme, asiakkaiden tarpeiden ja vaatimusten hallinnan aikaisemmin kappaleessa 2.2. Voimme todeta ohjelmistotuotannon haasteiden ja ohjelmiston laadun liittyvän toisiinsa sekä vaatimusten hallinnan liittyvän myös ohjelmiston laadun hallintaan \cite{KIP96}.
+
+Seuraavaksi tarkastelemme suunnitelmavetoisia ja ketteriä menetelmiä sekä näiden käytänteitä. Myöhemmin käymme läpi ketterien menetelmien ratkaisuja ohjelmistotuotannon sekä suunnitelmavetoisten menetelmien haasteisiin.
 
 \section{Suunnitelmavetoiset ja ketterät menetelmät}
 
 Suunnitelmavetoiset ohjelmistotuotantomenetelmät ovat ohjelmistokehityksen yksityiskohtaisia ja kurinalaisia prosesseja, joiden tarkoituksena on tehdä ohjelmistotuotannosta ennustettavaa ja tehokasta sekä välttää ohjelmistotuotantoon liittyviä riskejä. Muista insinööritieteistä vaikutteita saaneet menetelmät ovat yksityiskohtaisia prosesseja, joissa painotetaan ennen ohjelmiston rakentamista tehtävää  suunnittelua \cite{FOW01a}.
 
-Ketterissä menetelmissä kehittäjäorganisaatiot ovat valmiita reagoimaan muutoksiin koko ohjelmistokehityksen ajan: kaikki kehityksen aikana esille tulleet uudet vaatimukset tai muutoksia kaipaavat valmiit toiminnallisuudet otetaan esille asiakkaan toimesta, ja ohjelmistoa kehitetään jatkuvasti yhteistyössä hänen kanssa \cite{WIC03}.
+Suunnitelmavetoisten menetelmien lähestymistapa perustuu oletukselle, että aikaisella ja täydellisellä vaatimusmäärittelyllä voidaan vähentää kehityksen aikana tulevia muutoksia ja niistä aiheutuvia kustannuksia. Ketterien menetelmien näkökulmasta muutosten kieltäminen merkitsee reagoimattomuutta liiketoimintaympäristön kehitykselle \cite{HIC01}.
 
-Suunnitelmavetoisten menetelmien lähestymistapa perustui oletukselle, että aikaisella ja täydellisellä vaatimusmäärittelyllä voidaan vähentää kehityksen aikana tulevia muutoksia ja niistä aiheutuvia kustannuksia .Ketterien menetelmien näkökulmasta muutosten kieltäminen merkitsee reagoimattomuutta liiketoimintaympäristön kehitykselle \cite{HIC01}.
+Ketterissä menetelmissä kehittäjäorganisaatiot ovat valmiimpia reagoimaan muutoksiin ohjelmistokehityksen aikana kuin suunnitelmavetoisissa menetelmissä: kaikki kehityksen aikana esille tulleet uudet vaatimukset tai muutoksia kaipaavat valmiit toiminnallisuudet otetaan esille asiakkaan toimesta, ja ohjelmistoa kehitetään jatkuvasti yhteistyössä hänen kanssa \cite{WIC03}.
 
-
-Käymme seuraavaksi läpi lyhyesti vesiputousmallin (waterfall model) ja spiraalimallin (spiral model) sekä näihin prosessimalleihin liittyviä ongelmia. Myöhemmin tarkastelemme miten ketterät menetelmät ovat pyrkineet ratkaisemaan näissä prosessimalleissa ilmenneitä ongelmia, ohjelmistotuotannon haasteita ja laatuun littyviä ongelmia.
+Käymme seuraavaksi läpi lyhyesti vesiputousmallin (waterfall model) ja spiraalimallin (spiral model) sekä näihin prosessimalleihin liittyviä ongelmia. Myöhemmin tarkastelemme miten ketterät menetelmät ovat pyrkineet ratkaisemaan näissä prosessimalleissa ilmenneitä ongelmia ja ohjelmistotuotannon haasteita.
 
 \subsection{Vesiputousmalli}
 
@@ -320,9 +323,9 @@ Osallistujat määrittelivät käytännöt ketteriksi menetelmiksi ja kirjoittiv
 \item muutoksiin vastaaminen ennen suunnitelman seuraamista.
 \end{itemize}
 
-Ohjelmistotuotannon parissa työskentelevät huomasivat, että ohjelmistoala erosi huomattavasti muista insinööritieteistä. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet \cite{WIC03}.
+Ohjelmistotuotannon parissa työskentelevät huomasivat, että ohjelmistoala erosi huomattavasti muista insinööritieteistä. Ohjelmiston valmistaminen on empiirinen prosessi, jonka lopputuloksena syntyy uusi tuote. Autojen kokoaminen on määriteltävä prosessi. Insinöörit voivat suunnitella prosessin, määritellä kokoonpanojärjestyksen sekä työntekijöiden, koneiden tai robottien toimenpiteet \cite{WIC03}.
 
-Ohjelmistotuotantoprojektit ovat luonteeltaan empiirisiä prosesseja, joiden lopputuloksena syntyy uusia tuotteita. Projektin aikana on oleellista oppia ja mukautua prosessin edetessä, eikä määritellä kaikkea alussa kattavasti. Empiirinen prosessi vaatii \textit{tarkkaile ja mukaudu} (inspect and adapt) tyyppisen lähestymistavan. Lyhyet iteraatiot mahdollistavat ketteriä menetelmiä mukautumaan ja muuttamaa liiketoimintaympäristön ennustamattomien vaatimuksien mukaan. Lyhyt kehityssyklin jälkeen ohjelmistokehityksen suuntaa voidaan tarvittaessa nopeasti muuttaa  \cite{WIC03}.
+Empiirisen ohjelmistotuotantoprojektin aikana on oleellista oppia ja mukautua prosessin edetessä, eikä määritellä kaikkea alussa kattavasti. Empiirinen prosessi vaatii \textit{tarkkaile ja mukaudu} (inspect and adapt) tyyppisen lähestymistavan. Lyhyet iteraatiot mahdollistavat ketteriä menetelmiä mukautumaan ja muuttamaa liiketoimintaympäristön ennustamattomien vaatimuksien mukaan. Lyhyt kehityssyklin jälkeen ohjelmistokehityksen suuntaa voidaan tarvittaessa nopeasti muuttaa  \cite{WIC03}.
 
 Kerromme seuraavaksi lyhyesti kahdesta ketterästä kehitysmenetelmästä. Selvitämme miten suunnittelua on lähestytty näissä menetelmissä ja miten niiden käytänteet ovat pyrkineet ratkaisemaan ohjelmistotuotannon haasteita ja laatuun liittyviä ongelmia. Käsittelemme näiden ketterien menetelmien ratkaisuja toisessa kappaleessa esitettyihin ohjelmistotuotannon haasteisiin. 
 
@@ -345,8 +348,8 @@ Iteraatioita kutsutaan sprinteiksi (sprint). Sprintti on 30 päivän iteraatio, 
 
 Scrumissa on kolme roolia: tuoteomistaja (Product owner), kehittäjätiimi (team) ja scrummaster (Scrum master). Tuoteomistaja on asiakasedustaja, joka rahoittaa ja visioi ohjelmistotuotteen. Kehittäjätiimi vastaa ohjelmiston toteuttamisesta ja scrummaster vastaa käytänteiden toteutumisesta ja opastaa kehittäjätiimiä saavuttamaan tavoitteensa \cite{SCH09}.
 
-Scrum määrittelee neljä ohjelmistokehityksessä käytettävää tuotosta (artifact): tuotteen kehitysjono (product backlog), sprintin tehtävälista (sprint backlog), edistymiskäyrä (burndown chart) ja tuoteversio (increment of potentially shippable product functionality) \cite{SCH09}
-.
+Scrum määrittelee neljä ohjelmistokehityksessä käytettävää tuotosta (artifact): tuotteen kehitysjono (product backlog), sprintin tehtävälista (sprint backlog), edistymiskäyrä (burndown chart) ja tuoteversio (increment of potentially shippable product functionality) \cite{SCH09}.
+
 Asiakkaalta saadut ohjelmistojärjestelmän vaatimukset listataan tuotteen kehitysjonossa, jota käytetään suunnittelussa ja vaatimusten hallinnassa koko ohjelmistokehitysprosessin ajan. Tuoteomistaja on vastuussa tuotteen kehitysjonon sisällöstä ja vaatimusten tärkeysjärjestyksestä \cite{SCH09}.
 
 Sprintin tehtävälista sisältää tehtävät, jotka kehittäjätiimi toteuttaa  julkaistavaksi tuotteen toiminnallisuudeksi. Sprintin tehtävälista on läpinäkyvä reaaliaikainen kuvaus työstä, jonka kehittäjätiimi suunnittelee saavansa valmiiksi sprintin aikana. Tehtävälista pitää sisällään kunkin tehtävän kuvauksen, vastuullisen toteuttajan, tehtävän tilanteen (ei aloitettu, kesken, valmis), sekä jäljellä oleva arvioitu aika työtunteina. \cite{SCH09}.
@@ -365,7 +368,7 @@ XP:n käytäntöihin kuuluu jatkuva pariohjelmointi ja testivetoisuus. Nämä k�
 
 Toisessa kappaleessa totesimme ohjelmistotuotannon haasteiden liittyvän koordinointiin, ja ongelman osa-alueiden olevan muuttuvien vaatimuksien lisäksi henkilöstön hallinta sekä ajallisten ja taloudellisten resurssien käyttö. 
 
-Ketterät menetelmät lähestyvät haasteita suunnitelmavetoisia menetelmiä joustavammin ja ihmisläheisemmin. Ketterät menetelmät hylkäävät ajatuksen, että ihmiset olisivat vaihdettavissa olevia osia. Yksilöiden ajatellaan olevan päteviä ammattilaisia, jotka osaavat suunnitella työnsä ja tietävät keinot saavuttaa paras tulos \cite{FOW01a}.
+Ketterät menetelmät lähestyvät henkilöstöhallintaa suunnitelmavetoisia menetelmiä joustavammin ja ihmisläheisemmin: kehittäjätiimit ovat usein itseorganisoituvia ja he tekevät tekniset ratkaisut itse. Ketterät menetelmät hylkäävät ajatuksen, että ihmiset olisivat vaihdettavissa olevia osia. Yksilöiden ajatellaan olevan päteviä ammattilaisia, jotka osaavat suunnitella työnsä ja tietävät keinot saavuttaa paras tulos \cite{FOW01a}.
 
 Ketterissä menetelmissä kehittäjien on kyettävä tekemään kaikki tekniset ratkaisut \cite{FOW01a}. XP:ssä suunnitteluprosessin (planning game) aikana tiimi arvio omien kokemuksiensa perusteella toiminnallisuuksien kehittämiseen vaadittavan ajan \cite{BEC99}.
 
@@ -407,7 +410,7 @@ Ohjelmakoodin rakennetta on tarpeen vaatiessa jatkuvasti parannettava rakennemuu
 
 Ohjelmistoa on suunniteltava ottaen huomioon, että ohjelmakoodia tullaan myöhemmin muuttamaan. Ohjelmiston rakenteesta on osattava viestiä, ohjelmakoodin, kaavioiden ja ennen kaikkea keskustelun avulla \cite{FOW01b}.
 
-\subsection{Ketterät menetelmät ja laatu}
+\subsection{Ketterät menetelmät ja ohjelmistojen laatu}
 
 Koska muodollinen suunnittelu dokumentaation muodossa on vähäistä ja suunnitelmia heitetään pois \cite{FOW01b}, on aiheellista käsitellä, miten ohjelmiston laatu otetaan huomioon ketterien menetelmien ohjelmistosuunnittelussa.
 
@@ -429,7 +432,7 @@ XP:ssä painotetaan yksinkertaista suunnitelmaa ja rakenteen jatkuvaa parantamis
 Scrumissa kehittäjätiimin määrittelee, milloin toteutettu toiminnallisuus on \textit{valmis}. Määritelmän mukaan toteutettu toiminnallisuus on oltava hyvin suunniteltu (well-structured) ja rakennettu (well-written code) ohjelmakoodi\cite{SCH09}.
 
 
-\subsection{Ohjelmiston testaus}
+\subsection{Ohjelmistojen testaus}
 
 Testaus on XP:n ydinkäytäntöjä: kehittäjätiimin kaikki ohjelmoijat kirjoittavat testitapauksia. Ohjelmoijat varmistavat osaltaan ohjelmakoodin toimivuuden eikä ohjelmakoodia siirretä erilliselle testauksesta vastaavaalle organisaatiolle tai jäsenelle.
 

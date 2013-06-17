@@ -32,6 +32,14 @@
   \btxprintmonthyear{.}{oct}{1999}{long}\ifbtxprintISSN {,
   \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
+\bibitem {BOE02}
+\btxnamefont {\btxlastnamefont {Boehm}, B.}\btxauthorcolon\ \btxjtitlefont
+  {\btxifchangecase {Get ready for agile methods, with care}{Get ready for
+  agile methods, with care}}.
+\newblock \btxjournalfont {Computer}, 35(1):64 --69,
+  \btxprintmonthyear{.}{jan}{2002}{long}\ifbtxprintISSN {,
+  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
+
 \bibitem {BOE88}
 \btxnamefont {\btxlastnamefont {Boehm}, B.\btxfnamespacelong
   W.}\btxauthorcolon\ \btxjtitlefont {\btxifchangecase {A spiral model of
@@ -62,15 +70,6 @@
   York, NY, USA, 2006. \btxpublisherfont {ACM}\ifbtxprintISBN {,
   \mbox{\btxISBN~\btxISBNfont {1-59593-375-1}}}.
 \newblock {\latintext \btxurlfont{http://doi.acm.org/10.1145/1134285.1134288}}.
-
-\bibitem {COH01}
-\btxnamefont {\btxlastnamefont {Cockburn}, A.} \btxandlong {}\ \btxnamefont {J.
-  \btxlastnamefont {Highsmith}}\btxauthorcolon\ \btxjtitlefont
-  {\btxifchangecase {Agile software development, the people factor}{Agile
-  software development, the people factor}}.
-\newblock \btxjournalfont {Computer}, 34(11):131 --133,
-  \btxprintmonthyear{.}{nov}{2001}{long}\ifbtxprintISSN {,
-  \mbox{\btxISSN~\btxISSNfont {0018-9162}}}.
 
 \bibitem {COC05}
 \btxnamefont {\btxlastnamefont {Cockburn}, Alistair}\btxauthorcolon\

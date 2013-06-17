@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.17)  30 MAY 2013 14:16
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.17)  17 JUN 2013 21:20
 entering extended mode
  %&-line parsing enabled.
-**kandi.tex
+**kandi
 (./kandi.tex
 LaTeX2e <2009/09/24>
 Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
@@ -841,7 +841,7 @@ etokonei-den vuorovaiku-
  []
 
 
-Overfull \hbox (4.21732pt too wide) in paragraph at lines 126--127
+Overfull \hbox (4.21732pt too wide) in paragraph at lines 128--129
 \OT1/lmr/m/n/10.95 tyvist[]a il-mi[]oist[]a. Lait-teis-toille laa-di-tu-il-la l
 u-otet-tavu-us-mall-eil-la ei voitu arvioi-
  []
@@ -852,66 +852,84 @@ been already used, duplicate ignored
                    \relax 
 l.133 
        [1]
-Overfull \hbox (11.11348pt too wide) in paragraph at lines 134--135
-\OT1/lmr/m/n/10.95 tois-t-en menetelmien heikkouk-sille sopeu-tua no-peasti muu
-t-tuvaan ymp[]arist[]o[]on.
+Overfull \hbox (9.10327pt too wide) in paragraph at lines 134--135
+[]\OT1/lmr/m/n/10.95 T[]ass[]a tutkiel-mas-sa tarkastelemme su-un-nitel-mave-to
+isia ja ket-teri[]a menetel-
  []
 
 
-Overfull \hbox (3.72276pt too wide) in paragraph at lines 134--135
-\OT1/lmr/m/n/10.95 Ket-ter[]at menetelm[]at pyrkiv[]at kom-pro-mis-si-in, ohjel
--moi ja korjaa-menetelm[]an
+Overfull \hbox (8.29076pt too wide) in paragraph at lines 136--137
+\OT1/lmr/m/n/10.95 n[]aiden l[]ahestymistapoja ohjelmis-to-tuotan-toon. Selvit[
+]amme ohjelmis-ton laatu-
  []
 
 
-Overfull \hbox (2.68585pt too wide) in paragraph at lines 136--138
-[]\OT1/lmr/m/n/10.95 T[]ass[]a tutkiel-mas-sa tarkastelemme ohjelmis-ton laatu-
-un li-it-tyvi[]a k[]asitteit[]a
+Overfull \hbox (8.07265pt too wide) in paragraph at lines 136--137
+\OT1/lmr/m/n/10.95 mave-tois-t-en menetelmien k[]ayt[]anteisiin, joi-ta tarkast
+elemme tutkiel-mas-samme
  []
 
 
-Overfull \hbox (16.83868pt too wide) in paragraph at lines 141--142
-\OT1/lmr/m/n/10.95 ordi-noin-ti-in sek[]a ohjelmis-tol-ta odotet-tuun toimin-na
-l-lisu-u-teen li-it-tyen. Ohjelmis-
+Overfull \hbox (10.90872pt too wide) in paragraph at lines 136--137
+\OT1/lmr/m/n/10.95 tarkem-min kap-paleessa kolme. Esit-telemme, miten ket-ter[]
+at menetelm[]at ratkai-
  []
 
 
-Overfull \hbox (6.37164pt too wide) in paragraph at lines 141--142
+Overfull \hbox (10.26276pt too wide) in paragraph at lines 138--139
+[]\OT1/lmr/m/n/10.95 Tutkielman rakenne on seu-raa-va: Kap-paleessa kak-si k[]a
+sittelemme ohjelmis-
+ []
+
+
+Overfull \hbox (7.19678pt too wide) in paragraph at lines 138--139
+\OT1/lmr/m/n/10.95 k[]aymme l[]api er-i-laisia su-un-nitel-mave-toisia ja ket-t
+eri[]a menetel-mi[]a. Kap-paleessa
+ []
+
+
+Overfull \hbox (10.47433pt too wide) in paragraph at lines 138--139
+\OT1/lmr/m/n/10.95 nelj[]a selvit[]amme ket-te-rien menetelmien ratkaisu-ja su-
+un-nitel-mave-tois-t-en mene-
+ []
+
+
+Overfull \hbox (1.8063pt too wide) in paragraph at lines 142--143
+\OT1/lmr/m/n/10.95 T[]ass[]a kap-paleessa k[]aymme l[]api er-i-laisia on-gelmia
+ ja haastei-ta, joi-ta ohjelmis-
+ []
+
+
+Overfull \hbox (6.37164pt too wide) in paragraph at lines 144--145
 \OT1/lmr/m/n/10.95 henkil[]ost[]on hallinta, pro-jek-tin aikataulu ja taloudel-
 liset resurssit, vaa-timusten
  []
 
 
-Overfull \hbox (3.6629pt too wide) in paragraph at lines 143--144
-\OT1/lmr/m/n/10.95 palkat-tu li-ian v[]ah[]an p[]atev[]a[]a henkil[]ost[]o[]a t
-ai ohjelmis-ton ke-hi-tyk-sen aikataulu
- []
-
-
-Overfull \hbox (3.67053pt too wide) in paragraph at lines 145--146
-\OT1/lmr/m/n/10.95 to-teutet-ta-vat toimin-nal-lisu-udet eiv[]at t[]ayt[]a k[]a
-ytt[]ajien vaa-timuk-sia. Ohjelmis-
- []
-
-
-Overfull \hbox (9.47192pt too wide) in paragraph at lines 145--146
-\OT1/lmr/m/n/10.95 to-tuotan-nos-sa on il-men-nyt on-gelmia asi-akkaiden tarpei
--ta tyy-dytt[]avien toimin-
+Overfull \hbox (40.07228pt too wide) in paragraph at lines 146--147
+\OT1/lmr/m/n/10.95 ivi-iss[]a yhteisty[]oss[]a ke-hitt[]aj[]atiimin kanssa usei
+n vain analyysi- ja m[]a[]arittelyvaiheessa.
  []
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.150 
+l.147 
        [2]
-Overfull \hbox (3.29198pt too wide) in paragraph at lines 151--152
+Overfull \hbox (15.4908pt too wide) in paragraph at lines 150--152
+[]\OT1/lmr/m/n/10.95 Suunnitelmavetoisissa menetelmiss[]a su-un-nit-telu-vai-he
+ on saata-va p[]a[]at[]okseen
+ []
+
+
+Overfull \hbox (3.29198pt too wide) in paragraph at lines 153--154
 []\OT1/lmr/m/n/10.95 Suunnitelmavetoisissa menetelmiss[]a ohjelmis-toj[]arjeste
 lm[]an ha-lut-tu toim-
  []
 
 
-Overfull \hbox (8.17044pt too wide) in paragraph at lines 151--152
+Overfull \hbox (8.17044pt too wide) in paragraph at lines 153--154
 \OT1/lmr/m/n/10.95 vaa-timusm[]a[]arittelyss[]a ja ohjelmis-ton su-un-nit-telus
 -sa. Lis[]a[]antynyt suunnittelu-
  []
@@ -923,58 +941,100 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154 　
+l.156 　
          
 ? 
 
-Overfull \hbox (17.37706pt too wide) in paragraph at lines 153--155
+Overfull \hbox (17.37706pt too wide) in paragraph at lines 155--157
 []\OT1/lmr/m/n/10.95 Ohjelmistotestauksessa saat-taa il-met[]a my[]os raken-net
 un j[]arjestelm[]an odotet-
  []
 
 
-Overfull \hbox (3.93509pt too wide) in paragraph at lines 157--158
+Overfull \hbox (3.93509pt too wide) in paragraph at lines 159--160
 \OT1/lmr/m/n/10.95 T[]ass[]a tutkiel-mas-sa ko-ordi-noin-nil-la tarkoita-mme yk
 -sil[]oiden ja ryh-mien v[]alist[]a
  []
 
 
-Overfull \hbox (2.56715pt too wide) in paragraph at lines 157--158
+Overfull \hbox (2.56715pt too wide) in paragraph at lines 159--160
 \OT1/lmr/m/n/10.95 yhteis-toim-intaa sek[]a n[]aihin li-it-tyv[]a[]a hallinnol-
 lista ty[]ot[]a ja toisaal-ta ohjelmis-
  []
 
 
-Overfull \hbox (13.36455pt too wide) in paragraph at lines 157--158
+Overfull \hbox (13.36455pt too wide) in paragraph at lines 159--160
 \OT1/lmr/m/n/10.95 toj[]arjestelm[]an eri osien yh-teenso-vit-tamista sek[]a oh
 jelmisto-pro-jek-tin hallinnoin-
  []
 
 
-Overfull \hbox (19.24403pt too wide) in paragraph at lines 157--158
+Overfull \hbox (19.24403pt too wide) in paragraph at lines 159--160
 \OT1/lmr/m/n/10.95 tia. Ohjelmisto-pro-jek-tin ko-ordi-noin-tion-gel-mat li-it-
 tyv[]at henkil[]ost[]on, vaa-timusten
  []
 
 
-Overfull \hbox (18.86963pt too wide) in paragraph at lines 159--160
+Overfull \hbox (18.86963pt too wide) in paragraph at lines 161--162
 \OT1/lmr/m/n/10.95 Yk-sil[]oiden tai ryhm[]an on mah-do-ton-ta to-teut-taa ja h
 allinnoi-da su-uria, miljoonien
  []
 
 
-Overfull \hbox (9.0787pt too wide) in paragraph at lines 165--166
-\OT1/lmr/m/n/10.95 raken-net-tu useista os-ista, jot-ka on kytkett[]av[]a yh-te
-en ja ohjelmis-toj[]arjestelm[]an
+Overfull \hbox (7.89206pt too wide) in paragraph at lines 163--164
+\OT1/lmr/m/n/10.95 al-lis-tuvil-la, kos-ka su-uret pro-jek-tit jo-hta-vat eriko
+is-tu-miseen ja ty[]on jakamiseen.
  []
 
 
-Overfull \hbox (13.89012pt too wide) in paragraph at lines 167--168
-\OT1/lmr/m/n/10.95 tuvat pro-jek-tin edet-ess[]a. Vaa-timuk-set muut-tuvat kos-
-ka li-ike-toim-intaymp[]arist[]ot
+Overfull \hbox (7.56502pt too wide) in paragraph at lines 163--164
+\OT1/lmr/m/n/10.95 as-toi-hin maanti-eteel-lis-es-ti, or-gan-isatoris-es-ti, se
+k[]a sosi-aalis-es-ti. T[]am[]a v[]ahent[]a[]a
  []
 
 [3]
+Overfull \hbox (9.4985pt too wide) in paragraph at lines 165--166
+[]\OT1/lmr/m/n/10.95 Koordinointiongelma li-it-tyy my[]os raken-net-tavaan ohje
+lmis-toj[]arjestelm[]a[]an:
+ []
+
+
+Overfull \hbox (7.50063pt too wide) in paragraph at lines 165--166
+\OT1/lmr/m/n/10.95 yh-teen ja ohjelmis-toj[]arjestelm[]an osien on toimit-ta-va
+ ko-ordi-noidusti. Ohjelmis-
+ []
+
+
+Overfull \hbox (16.37709pt too wide) in paragraph at lines 165--166
+\OT1/lmr/m/n/10.95 to-jen su-uri koko ai-heut-taa on-gelmia, kos-ka ohjelmis-to
+ vaatii sen os-aj[]arjestelmien
+ []
+
+
+Overfull \hbox (3.12248pt too wide) in paragraph at lines 167--168
+\OT1/lmr/m/n/10.95 toimin-nal-lisuuk-sista, joi-ta ohjel-moi-jat to-teut-ta-vat
+. Vaikeuk-sia ilme-nee n[]aiden
+ []
+
+
+Overfull \hbox (32.2247pt too wide) in paragraph at lines 167--168
+\OT1/lmr/m/n/10.95 tai asi-akkaat saat-ta-vat kek-si[]a uu-sia toimin-nal-lisuu
+k-sia to-teutet-tavalle j[]arjestelm[]alle
+ []
+
+
+Overfull \hbox (17.53584pt too wide) in paragraph at lines 171--172
+\OT1/lmr/m/n/10.95 telu ja to-teu-tus on haas-teel-lista: tyyp-il-lis-es-ti su-
+un-nitel-mave-toi-sis-sa menetelmiss[]a
+ []
+
+
+Overfull \hbox (3.72368pt too wide) in paragraph at lines 171--172
+\OT1/lmr/m/n/10.95 joit-taa vaa-timuk-set ohjelmis-toarkkite-hdeille ja -suunni
+ttelijoille, jol-loin merk-
+ []
+
+
 Overfull \hbox (14.34486pt too wide) in paragraph at lines 175--176
 \OT1/lmr/m/n/10.95 kek-siv[]at uu-sia toimin-nal-lisuuk-sia ole-mas-sa ol-e-val
 le j[]arjestelm[]alle [[]]. Ohjelmis-
@@ -992,7 +1052,7 @@ Overfull \hbox (16.23048pt too wide) in paragraph at lines 177--178
 -nitel-mave-toi-sis-sa menetelmiss[]a
  []
 
-
+[4]
 Overfull \hbox (1.28554pt too wide) in paragraph at lines 179--180
 []\OT1/lmr/m/n/10.95 Ohjelmistoj[]arjestelm[]alt[]a vaa-dit-tavien toimin-nal-l
 isuuk-sien hallinnoin-ti on
@@ -1028,10 +1088,9 @@ Overfull \hbox (11.30417pt too wide) in paragraph at lines 181--182
 oim-intaymp[]arist[]on[]a vahvis-
  []
 
-[4]
 LaTeX Font Info:    Try loading font information for OMS+lmr on input line 191.
 
- (/usr/share/texmf/tex/latex/lm/omslmr.fd
+(/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
@@ -1043,87 +1102,127 @@ s-ti, es-imerkik-si olio-
  []
 
 [5]
-Overfull \hbox (32.4638pt too wide) in paragraph at lines 205--206
-[]\OT1/lmr/m/n/10.95 Laatu on moni-ta-hoinen k[]asite ja sit[]a voidaan ku-vail
--la vi-idest[]a eri n[]ak[]okulmasta:
+Overfull \hbox (15.4638pt too wide) in paragraph at lines 203--204
+\OT1/lmr/m/n/10.95 Laatu on moni-ta-hoinen k[]asite ja sit[]a voidaan ku-vail-l
+a vi-idest[]a eri n[]ak[]okulmasta:
  []
 
 
-Overfull \hbox (1.77045pt too wide) in paragraph at lines 207--208
+Overfull \hbox (1.77045pt too wide) in paragraph at lines 205--206
 [] \OT1/lmr/m/it/10.95 K[]aytt[]aj[]an[]akemys \OT1/lmr/m/n/10.95 (us-er view) 
 laadus-ta li-it-tyy konkreet-tis-es-ti tuot-teeseen,
  []
 
 
-Overfull \hbox (12.49396pt too wide) in paragraph at lines 207--208
+Overfull \hbox (12.49396pt too wide) in paragraph at lines 205--206
 \OT1/lmr/m/n/10.95 tuot-teen pi-irre, mik[]a li-it-tyy k[]aytt[]aj[]an n[]akemy
 kseen laadus-ta. K[]aytett[]avyydell[]a
  []
 
 
-Overfull \hbox (13.12158pt too wide) in paragraph at lines 207--208
+Overfull \hbox (13.12158pt too wide) in paragraph at lines 205--206
 \OT1/lmr/m/n/10.95 tarkoita-mme ohjelmis-ton k[]ayt[]ost[]a ai-heutu-van todel-
 lisen ja olete-tun vaivann[]a[]on
  []
 
 
-Overfull \hbox (2.36176pt too wide) in paragraph at lines 211--212
-\OT1/lmr/m/n/10.95 ja n[]aiden vaiku-tus-ta sis[]aiseen laatu-un (iter-nal qual
--i-ty). T[]at[]a l[]ahestymistapaa
+Overfull \hbox (8.14082pt too wide) in paragraph at lines 209--210
+\OT1/lmr/m/n/10.95 ja n[]aiden vaiku-tus-ta sis[]aiseen laatu-un (in-ter-nal qu
+al-i-ty). T[]at[]a l[]ahestymistapaa
  []
 
 
-Overfull \hbox (2.96516pt too wide) in paragraph at lines 215--217
+Overfull \hbox (2.96516pt too wide) in paragraph at lines 213--215
 \OT1/lmr/m/n/10.95 bud-jet-tia ylitt[]avi[]a kus-tan-nuk-sia, ja se toimii oike
 in sek[]a suorit-taa tehokkaasti
  []
 
 
-Overfull \hbox (1.24295pt too wide) in paragraph at lines 215--217
+Overfull \hbox (1.24295pt too wide) in paragraph at lines 213--215
 \OT1/lmr/m/n/10.95 pok[]aytt[]oinen. Ohjelmis-to voi ol-la tarpeet-toman lait-t
 eis-tori-ip-pu-vainen. N[]am[]a
  []
 
 
-Overfull \hbox (3.48741pt too wide) in paragraph at lines 215--217
+Overfull \hbox (3.48741pt too wide) in paragraph at lines 213--215
 \OT1/lmr/m/n/10.95 seikat jo-hta-vat ko-htu-ut-tomi-in yll[]apitokustannuksiin 
 [[]]. Kan-sainv[]alinen stan-
  []
 
 [6]
-Overfull \hbox (1.96608pt too wide) in paragraph at lines 229--230
+Overfull \hbox (19.2381pt too wide) in paragraph at lines 225--226
+\OT1/lmr/m/n/10.95 nal-lisuuk-sien on tyy-dytett[]av[]a k[]aytt[]aj[]an vaa-tim
+uk-set sek[]a kyett[]av[]a yll[]apit[]am[]a[]an
+ []
+
+
+Overfull \hbox (26.22992pt too wide) in paragraph at lines 227--228
+[]\OT1/lmr/m/n/10.95 K[]aytett[]avyys mit-taa ohjelmis-toj[]arjestelm[]an k[]ay
+t[]ost[]a ai-heutu-van ja k[]aytt[]ajien
+ []
+
+
+Overfull \hbox (1.96608pt too wide) in paragraph at lines 233--234
 \OT1/lmr/m/n/10.95 se tyy-dytt[]a[]a h[]anen tarpeen-sa. Tuotet-ta-van ohjelmis
 -toj[]arjestelm[]an vaa-timuk-
  []
 
 
-Overfull \hbox (0.49577pt too wide) in paragraph at lines 231--232
-[]\OT1/lmr/m/n/10.95 Seuraavaksi tarkastelemme su-un-nitel-mave-toisia menetel-
-mi[]a sek[]a ket-teri[]a
+Overfull \hbox (4.48412pt too wide) in paragraph at lines 233--234
+\OT1/lmr/m/n/10.95 ohjelmis-to-tuotan-non haastei-ta k[]asitelless[]amme, asi-a
+kkaiden tarpei-den ja vaa-
  []
 
 
-Overfull \hbox (15.31285pt too wide) in paragraph at lines 235--236
+Overfull \hbox (24.00995pt too wide) in paragraph at lines 235--236
+\OT1/lmr/m/n/10.95 ratkaisu-ja ohjelmis-to-tuotan-non sek[]a su-un-nitel-mave-t
+ois-t-en menetelmien haasteisi-
+ []
+
+
+Overfull \hbox (15.31285pt too wide) in paragraph at lines 239--240
 \OT1/lmr/m/n/10.95 menetelm[]at ovat yk-si-tyisko-htaisia pros-esse-ja, jois-sa
  pain-ote-taan en-nen ohjelmis-
  []
 
 [7]
-Overfull \hbox (36.63908pt too wide) in paragraph at lines 246--247
+Overfull \hbox (12.66176pt too wide) in paragraph at lines 243--244
+[]\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a ke-hitt[]aj[]aorganisaatiot ov
+at valmi-impia reagoimaan
+ []
+
+
+Overfull \hbox (25.92633pt too wide) in paragraph at lines 243--244
+\OT1/lmr/m/n/10.95 muu-tok-si-in ohjelmis-toke-hi-tyk-sen aikana kuin su-un-nit
+el-mave-toi-sis-sa menetelmiss[]a:
+ []
+
+
+Overfull \hbox (7.98293pt too wide) in paragraph at lines 243--244
+\OT1/lmr/m/n/10.95 kaik-ki ke-hi-tyk-sen aikana es-ille tulleet uudet vaa-timuk
+-set tai muu-tok-sia kaipaa-
+ []
+
+
+Overfull \hbox (36.63908pt too wide) in paragraph at lines 249--250
 \OT1/lmr/m/n/10.95 lin-eaarisi-in ohjelmis-to-tuotan-non su-un-nitel-mave-toisi
 -in pros-es-si-mallei-hin. Vesiputous-
  []
 
-<waterfall.png, id=219, 686.565pt x 423.5825pt>
+<waterfall.png, id=218, 686.565pt x 423.5825pt>
 File: waterfall.png Graphic file (type png)
  <use waterfall.png>
-Overfull \hbox (42.7477pt too wide) in paragraph at lines 254--255
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (42.7477pt too wide) in paragraph at lines 257--258
 []\OT1/lmr/m/n/10.95 Vesiputousmallissa ohjelmis-to-tuotan-to koos-t-uu seu-raa
 v-ista vai-heista: j[]arjestelm[]an
  []
 
 
-Overfull \hbox (20.14505pt too wide) in paragraph at lines 258--259
+Overfull \hbox (20.14505pt too wide) in paragraph at lines 261--262
 []\OT1/lmr/m/n/10.95 M[]a[]arittely- ja su-un-nit-telu-vai-heen j[]alkeen su-un
 -nitel-laan j[]arjestelm[]an rakenne:
  []
@@ -1133,53 +1232,53 @@ Runaway argument?
 ! Paragraph ended before \@citex was complete.
 <to be read again> 
                    \par 
-l.261 
+l.264 
       
 ? 
 
-Overfull \hbox (4.87468pt too wide) in paragraph at lines 260--261
+Overfull \hbox (4.87468pt too wide) in paragraph at lines 263--264
 []\OT1/lmr/m/n/10.95 Ohjelmointivaiheessa kir-joite-taan ohjel-makoo-di laa-dit
 -tu-jen su-un-nitelmien
  []
 
 
-Overfull \hbox (0.8336pt too wide) in paragraph at lines 260--261
+Overfull \hbox (0.8336pt too wide) in paragraph at lines 263--264
 \OT1/lmr/m/n/10.95 v[]altt[]am[]att[]a ohjel-moi-neet tes-tat-tavaa ohjelmis-to
 n os-aa varmis-ta-vat vi-suaalis-
  []
 
 
-Overfull \hbox (3.57242pt too wide) in paragraph at lines 260--261
+Overfull \hbox (3.57242pt too wide) in paragraph at lines 263--264
 \OT1/lmr/m/n/10.95 es-ti tarkastele-mal-la ja kir-joit-ta-mal-la testi-ta-pauk-
 sia, ett[]a raken-net-tu ohjelmis-
  []
 
-[8 <./waterfall.png>]
-Overfull \hbox (3.53902pt too wide) in paragraph at lines 262--263
+[8]
+Overfull \hbox (3.53902pt too wide) in paragraph at lines 265--266
 []\OT1/lmr/m/n/10.95 Vesiputousmallissa pain-ote-taan doku-mentin t[]arkeytt[]a
 , jot-ta tes-taa-ja voisi
  []
 
 
-Overfull \hbox (16.25655pt too wide) in paragraph at lines 262--263
+Overfull \hbox (16.25655pt too wide) in paragraph at lines 265--266
 \OT1/lmr/m/n/10.95 ilme-nee tes-taus-vai-heessa, ohjelmis-toa k[]aytett[]aess[]
 a sek[]a uudelleen su-un-niteltaes-
  []
 
 
-Overfull \hbox (0.16579pt too wide) in paragraph at lines 262--263
+Overfull \hbox (0.16579pt too wide) in paragraph at lines 265--266
 \OT1/lmr/m/n/10.95 tovirheen alku-per[]ainen tek-ij[]a kyke-nee analysoimaan ky
 -seess[]a ol-e-van virheen.
  []
 
 
-Overfull \hbox (5.7367pt too wide) in paragraph at lines 264--265
+Overfull \hbox (5.7367pt too wide) in paragraph at lines 267--268
 \OT1/lmr/m/n/10.95 toimi-vaa ohjelmis-toa ohjelmis-to-tuotan-to-pro-jek-tin lop
 -pu-vai-heessa. Doku-ment-
  []
 
 
-Overfull \hbox (2.38535pt too wide) in paragraph at lines 264--265
+Overfull \hbox (2.38535pt too wide) in paragraph at lines 267--268
 \OT1/lmr/m/n/10.95 os-aa usein sanoa, n[]ahdess[]a[]an valmi-in tuot-teen, mit[
 ]a olisi ohjelmis-tol-ta halun-
  []
@@ -1191,9 +1290,10 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.268 　
+l.271 　
          
 ? 
+[9 <./waterfall.png>]
 
 ! Package inputenc Error: Unicode char \u8:　 not set up for use with LaTeX.
 
@@ -1201,419 +1301,421 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.272 　
+l.275 　
          
 ? 
-<spiral.png, id=236, 1141.26375pt x 994.71625pt>
+<spiral.png, id=239, 1141.26375pt x 994.71625pt>
 File: spiral.png Graphic file (type png)
  <use spiral.png>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[9]
-Overfull \hbox (25.98984pt too wide) in paragraph at lines 286--287
+Overfull \hbox (25.98984pt too wide) in paragraph at lines 289--290
 []\OT1/lmr/m/n/10.95 vaihtoehtoiset to-teu-tus-ta-vat (ohjelmis-ton os-to, ohje
 lmis-ton uudelleenk[]aytt[]o,
  []
 
-
-Overfull \hbox (16.46825pt too wide) in paragraph at lines 287--287
+[10 <./spiral.png>]
+Overfull \hbox (16.46825pt too wide) in paragraph at lines 290--290
 []\OT1/lmr/m/n/10.95 ohjelmiston eri vai-h-toe-hdoille aset-tamien ra-joit-teet
  (ra-jap-in-nat, aikataulu,
  []
 
-[10 <./spiral.png>]
-Overfull \hbox (6.67033pt too wide) in paragraph at lines 297--298
+
+Overfull \hbox (6.67033pt too wide) in paragraph at lines 300--301
 []\OT1/lmr/m/n/10.95 Spriraalimallin riskien analysoin-nista huoli-mat-ta, ohje
 lmis-ton ke-hi-tyspros-
  []
 
 
-Overfull \hbox (18.83983pt too wide) in paragraph at lines 299--300
+Overfull \hbox (18.83983pt too wide) in paragraph at lines 302--303
 \OT1/lmr/m/n/10.95 nitel-mave-tois-t-en menetelmien pu-ut-tei-ta ja miten ket-t
 er[]at menetelm[]at l[]ahestyv[]at
  []
 
 
-Overfull \hbox (16.76712pt too wide) in paragraph at lines 301--303
+Overfull \hbox (16.76712pt too wide) in paragraph at lines 304--306
 []\OT1/lmr/m/n/10.95 Suunnitelmavetoisten pros-es-si-mallien on-gelmien seu-rau
 k-se-na use-at ohjelmis-
  []
 
-
-Overfull \hbox (10.20924pt too wide) in paragraph at lines 311--313
+[11]
+Overfull \hbox (10.20924pt too wide) in paragraph at lines 314--316
 \OT1/lmr/m/n/10.95 ta [[]]. Helmiku-us-sa 2001 17 ket-te-rien menetelmien ke-hi
 tt[]aj[]a[]a tapasi keskustel-
  []
 
-[11]
-Overfull \hbox (15.98915pt too wide) in paragraph at lines 323--324
-\OT1/lmr/m/n/10.95 m[]a[]aritelt[]av[]a pros-es-si. In-sin[]o[]orit voivat su-u
-n-nitel-la pros-essin, m[]a[]aritell[]a kokoon-
+
+Overfull \hbox (14.18182pt too wide) in paragraph at lines 328--329
+[]\OT1/lmr/m/n/10.95 Empiirisen ohjelmis-to-tuotan-to-pro-jek-tin aikana on ole
+el-lista op-pia ja mukau-
  []
 
 
-Overfull \hbox (8.40508pt too wide) in paragraph at lines 325--326
-[]\OT1/lmr/m/n/10.95 Ohjelmistotuotantoprojektit ovat lu-on-teeltaan em-pi-iris
-i[]a pros-esse-ja, joiden
+Overfull \hbox (8.44485pt too wide) in paragraph at lines 328--329
+\OT1/lmr/m/n/10.95 l[]ahestymistavan. Ly-hyet it-er-aa-tiot mah-dol-lis-ta-vat 
+ket-teri[]a menetel-mi[]a mukau-
  []
 
 
-Overfull \hbox (6.67061pt too wide) in paragraph at lines 325--326
-\OT1/lmr/m/n/10.95 mukau-tu-maan ja muut-ta-maa li-ike-toim-intaymp[]arist[]on 
-en-nus-ta-mat-tomien vaa-
+Overfull \hbox (2.41246pt too wide) in paragraph at lines 328--329
+\OT1/lmr/m/n/10.95 tu-maan ja muut-ta-maa li-ike-toim-intaymp[]arist[]on en-nus
+-ta-mat-tomien vaa-timuk-
  []
 
 
-Overfull \hbox (2.47421pt too wide) in paragraph at lines 327--328
+Overfull \hbox (13.13005pt too wide) in paragraph at lines 328--329
+\OT1/lmr/m/n/10.95 sien mukaan. Ly-hyt ke-hi-tyssyk-lin j[]alkeen ohjelmis-toke
+-hi-tyk-sen su-un-taa voidaan
+ []
+
+
+Overfull \hbox (2.47421pt too wide) in paragraph at lines 330--331
 []\OT1/lmr/m/n/10.95 Kerromme seu-raavak-si ly-hyesti kahdes-ta ket-ter[]ast[]a
  ke-hi-tys-menetelm[]ast[]a.
  []
 
 
-Overfull \hbox (3.90195pt too wide) in paragraph at lines 331--332
+Overfull \hbox (3.90195pt too wide) in paragraph at lines 334--335
 \OT1/lmr/m/n/10.95 XP (Ex-treme Pro-gram-ming) v[]ahent[]a[]a ohjelmis-ton vaa-
 timusten muut-tumisen
  []
 
-
-Overfull \hbox (20.17987pt too wide) in paragraph at lines 335--336
+[12]
+Overfull \hbox (20.17987pt too wide) in paragraph at lines 338--339
 \OT1/lmr/m/n/10.95 poikkeaa merkitt[]av[]asti su-un-nitel-mave-toi-sista menete
 lmist[]a, jois-sa vas-ta valmista
  []
 
 
-Overfull \hbox (7.31087pt too wide) in paragraph at lines 337--338
+Overfull \hbox (7.31087pt too wide) in paragraph at lines 340--341
 \OT1/lmr/m/n/10.95 samal-la mah-dol-lisim-man yksinker-taista su-un-nitel-maa t
 eht[]av[]an ratkaisemisek-
  []
 
-[12]
-Overfull \hbox (20.8127pt too wide) in paragraph at lines 343--345
+
+Overfull \hbox (20.8127pt too wide) in paragraph at lines 346--348
 []\OT1/lmr/m/n/10.95 Scrum hallinnoi ohjelmis-to-tuotan-non mon-imutkaisu-ut-ta
  seu-raav-il-la yksinker-
  []
 
 
-Overfull \hbox (0.12975pt too wide) in paragraph at lines 343--345
+Overfull \hbox (0.12975pt too wide) in paragraph at lines 346--348
 \OT1/lmr/m/n/10.95 p[]aiv[]an it-er-aa-tio, jon-ka ai-ka tuote-taan \OT1/lmr/m/
 it/10.95 valmi-in \OT1/lmr/m/n/10.95 (done) m[]a[]aritelm[]an mukainen
  []
 
 
-Overfull \hbox (0.56007pt too wide) in paragraph at lines 346--347
+Overfull \hbox (0.56007pt too wide) in paragraph at lines 349--350
 []\OT1/lmr/m/n/10.95 Scrumissa on kolme roo-lia: tuo-teomis-ta-ja (Prod-uct own
 -er), ke-hitt[]aj[]atiimi
  []
 
-
-Overfull \hbox (8.22412pt too wide) in paragraph at lines 352--353
+[13]
+Overfull \hbox (8.22412pt too wide) in paragraph at lines 355--356
 []\OT1/lmr/m/n/10.95 Sprintin teht[]av[]alista sis[]alt[]a[]a teht[]av[]at, jot
 -ka ke-hitt[]aj[]atiimi to-teut-taa julka-
  []
 
 
-Overfull \hbox (8.07431pt too wide) in paragraph at lines 352--353
+Overfull \hbox (8.07431pt too wide) in paragraph at lines 355--356
 \OT1/lmr/m/n/10.95 reaali-aikainen ku-vaus ty[]ost[]a, jon-ka ke-hitt[]aj[]atii
 mi su-un-nit-telee saa-vansa valmi-
  []
 
-[13]
-Overfull \hbox (5.33888pt too wide) in paragraph at lines 362--363
+
+Overfull \hbox (5.33888pt too wide) in paragraph at lines 365--366
 []\OT1/lmr/m/n/10.95 XP:n k[]ayt[]ant[]oihin ku-u-luu jatku-va par-i-o-hjel-moi
 n-ti ja tes-tive-toisu-us. N[]am[]a
  []
 
 
-Overfull \hbox (1.3496pt too wide) in paragraph at lines 370--371
+Overfull \hbox (1.3496pt too wide) in paragraph at lines 373--374
 []\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a ke-hitt[]ajien on kyett[]av[]a
  tekem[]a[]an kaik-ki tekniset
  []
 
 
-Overfull \hbox (0.61987pt too wide) in paragraph at lines 372--373
+Overfull \hbox (0.61987pt too wide) in paragraph at lines 375--376
 \OT1/lmr/m/n/10.95 p[]a[]aomalle asetet-ta-vat tavoit-teet (ROI) ja julka-is-us
 u-un-nitel-mat (re-lese plans)
  []
 
-
-Overfull \hbox (1.07317pt too wide) in paragraph at lines 376--377
+[14]
+Overfull \hbox (1.07317pt too wide) in paragraph at lines 379--380
 []\OT1/lmr/m/n/10.95 Kehitt[]aj[]atiimi kokoon-tuu kokoon-tuu jo-ka p[]aiv[]a 1
 5 min-uutin tapaamiseen
  []
 
 
-Overfull \hbox (15.59319pt too wide) in paragraph at lines 376--377
+Overfull \hbox (15.59319pt too wide) in paragraph at lines 379--380
 \OT1/lmr/m/n/10.95 - p[]aiv[]apalaveriin (Dai-ly Scrum). Jokainen ti-imin j[]as
 en vas-taa kolmeen kysymyk-
  []
 
 
-Overfull \hbox (2.42342pt too wide) in paragraph at lines 378--379
+Overfull \hbox (2.42342pt too wide) in paragraph at lines 381--382
 \OT1/lmr/m/n/10.95 ke-hi-tysjonon kaut-ta. Ke-hitt[]aj[]atiimin tulee pit[]a[]a
  p[]aiv[]apalaverit sek[]a yll[]apit[]a[]a
  []
 
 
-Overfull \hbox (16.5973pt too wide) in paragraph at lines 378--379
+Overfull \hbox (16.5973pt too wide) in paragraph at lines 381--382
 \OT1/lmr/m/n/10.95 sprint-in teht[]av[]alistaa ja edis-tymisk[]ayr[]a[]a. Ke-hi
 tt[]aj[]atiimille on taat-ta-va ty[]orauha
  []
 
-[14]
-Overfull \hbox (5.63536pt too wide) in paragraph at lines 382--383
+
+Overfull \hbox (5.63536pt too wide) in paragraph at lines 385--386
 []\OT1/lmr/m/n/10.95 Scrumissa sprint-tikat-sel-muk-sess-sa ti-i-mi esit-telee 
 tuo-teomis-ta-jalle ja muille
  []
 
 
-Overfull \hbox (38.46768pt too wide) in paragraph at lines 382--383
+Overfull \hbox (38.46768pt too wide) in paragraph at lines 385--386
 \OT1/lmr/m/n/10.95 halukkaille si-dos-ryh-mille, it-er-aa-tion aikana, ke-hite-
 tyt toimin-nal-lisu-udet. Tapaamisen
  []
 
-
-Overfull \hbox (25.68875pt too wide) in paragraph at lines 393--395
+[15]
+Overfull \hbox (25.68875pt too wide) in paragraph at lines 396--398
 []\OT1/lmr/m/n/10.95 XP:n n[]ak[]okulmasta kaavioiden tarkoi-tus on tar-jo-ta y
 htey-den-pitoa. Tehokkaan
  []
 
-[15]
-Overfull \hbox (15.18742pt too wide) in paragraph at lines 405--407
+
+Overfull \hbox (15.18742pt too wide) in paragraph at lines 408--410
 []\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a su-un-nit-telua tehd[]a[]an ko
 ko ohjelmis-toke-hi-tyskaaren
  []
 
 
-Overfull \hbox (10.78072pt too wide) in paragraph at lines 405--407
+Overfull \hbox (10.78072pt too wide) in paragraph at lines 408--410
 \OT1/lmr/m/n/10.95 Ohjel-makood-in raken-net-ta on tarpeen vaaties-sa jatku-vas
 ti paran-net-ta-va raken-
  []
 
 
-Overfull \hbox (11.02861pt too wide) in paragraph at lines 405--407
+Overfull \hbox (11.02861pt too wide) in paragraph at lines 408--410
 \OT1/lmr/m/n/10.95 nemuu-tok-sil-la (refac-tor-ing). Ohjel-moi-jien on ymm[]arr
 ett[]av[]a su-un-nit-telumallien
  []
 
-
-Overfull \hbox (12.44814pt too wide) in paragraph at lines 414--415
+[16]
+Overfull \hbox (12.44814pt too wide) in paragraph at lines 417--418
 []\OT1/lmr/m/n/10.95 Kolmannessa kap-paleessa m[]a[]arittelimme laadun kan-sain
 v[]alisen stan-daroin-
  []
 
 
-Overfull \hbox (3.30487pt too wide) in paragraph at lines 414--415
+Overfull \hbox (3.30487pt too wide) in paragraph at lines 417--418
 \OT1/lmr/m/n/10.95 tior-gan-isaa-tion laatupi-irtei-den mukaises-ti. Ni-ist[]a 
 toimin-nal-lisu-us, lu-otet-tavu-
  []
 
 
-Overfull \hbox (10.39218pt too wide) in paragraph at lines 414--415
+Overfull \hbox (10.39218pt too wide) in paragraph at lines 417--418
 \OT1/lmr/m/n/10.95 tuotet-tavas-ta ohjelmis-to-j[]arjestelm[]ast[]a [[]]. Laatu
 pi-ir-teet li-it-tyv[]at vaa-timusten
  []
 
 
-Overfull \hbox (5.39673pt too wide) in paragraph at lines 416--417
+Overfull \hbox (5.39673pt too wide) in paragraph at lines 419--420
 \OT1/lmr/m/n/10.95 tok-set tuot-teen ke-hi-tysjonos-sa hei-jas-ta-vat muut-tuva
 a li-ike-toim-intaymp[]arist[]o[]a
  []
 
 
-Overfull \hbox (17.19794pt too wide) in paragraph at lines 420--421
+Overfull \hbox (17.19794pt too wide) in paragraph at lines 423--424
 \OT1/lmr/m/n/10.95 simm[]aisen it-er-aa-tion j[]alkeen, sill[]a jokainen to-teu
 tet-ta-va toimin-nal-lisu-us tehd[]a[]an
  []
 
 
-Overfull \hbox (10.23305pt too wide) in paragraph at lines 420--421
+Overfull \hbox (10.23305pt too wide) in paragraph at lines 423--424
 \OT1/lmr/m/n/10.95 mah-dol-liset pu-ut-teet toimin-nal-lisu-udessa ja k[]aytt[]
 o-li-it-tym[]an k[]ay-tett[]avyydess[]a.
  []
 
-[16]
-Overfull \hbox (6.60934pt too wide) in paragraph at lines 426--427
+
+Overfull \hbox (6.60934pt too wide) in paragraph at lines 429--430
 []\OT1/lmr/m/n/10.95 Tarkkailemalla pois-tet-ta-van ohjel-makood-in m[]a[]ar[]a
 []a, voidaan n[]ahd[]a tapah-
  []
 
 
-Overfull \hbox (3.15413pt too wide) in paragraph at lines 426--427
+Overfull \hbox (3.15413pt too wide) in paragraph at lines 429--430
 \OT1/lmr/m/n/10.95 tuuko tarpeek-si su-un-nit-telua. Ohjelmisto-pro-jek-tis-sa,
  jos-sa tehd[]a[]an ri-itt[]av[]asti
  []
 
 
-Overfull \hbox (24.07854pt too wide) in paragraph at lines 428--430
+Overfull \hbox (24.07854pt too wide) in paragraph at lines 431--433
 \OT1/lmr/m/n/10.95 i-in. Jos ohjel-moi-jat n[]akev[]at toimin-nal-lisu-udelle p
 arem-man ratkaisun hyv[]aksytysti
  []
 
 
-Overfull \hbox (9.74475pt too wide) in paragraph at lines 428--430
+Overfull \hbox (9.74475pt too wide) in paragraph at lines 431--433
 \OT1/lmr/m/n/10.95 un-nitel-tu (well-structured) ja raken-net-tu (well-written 
 code) ohjelmakoodi[[]]. 
  []
 
 
-Overfull \hbox (10.75633pt too wide) in paragraph at lines 434--435
+Overfull \hbox (10.75633pt too wide) in paragraph at lines 437--438
 \OT1/lmr/m/n/10.95 ta-vat testi-ta-pauk-sia. Ohjel-moi-jat varmis-ta-vat os-alt
 aan ohjel-makood-in toimivu-
  []
 
-
-Overfull \hbox (24.40755pt too wide) in paragraph at lines 436--437
+[17]
+Overfull \hbox (24.40755pt too wide) in paragraph at lines 439--440
 \OT1/lmr/m/n/10.95 makood-ia ohjelmis-toon, kaik-ki aikaisem-min tehdyt ja uude
 t testit ovat l[]ap[]aist[]av[]a.
  []
 
 
-Overfull \hbox (0.13258pt too wide) in paragraph at lines 440--441
+Overfull \hbox (0.13258pt too wide) in paragraph at lines 443--444
 []\OT1/lmr/m/n/10.95 Hyv[]aksym[]atestit k[]aytt[]av[]at j[]arjestelm[]a[]a ohj
 el-mallis-es-ti k[]aytt[]aj[]an tavoin:
  []
 
 
-Overfull \hbox (5.21301pt too wide) in paragraph at lines 440--441
+Overfull \hbox (5.21301pt too wide) in paragraph at lines 443--444
 \OT1/lmr/m/n/10.95 ohjelmis-ton ke-hi-tyskaaren ajan ja ne takaa-vat ohjelmis-t
 on toimivu-u-den jatku-
  []
 
-[17]
-Overfull \hbox (17.65146pt too wide) in paragraph at lines 442--443
+
+Overfull \hbox (17.65146pt too wide) in paragraph at lines 445--446
 []\OT1/lmr/m/n/10.95 Scrumissa on kaikil-la pro-jek-ti-in os-al-lis-tu-vien on 
 yhteis-es-ti so-vit-ta-va m[]a[]aritel-
  []
 
-
-Overfull \hbox (5.33148pt too wide) in paragraph at lines 449--450
+[18]
+Overfull \hbox (5.33148pt too wide) in paragraph at lines 452--453
 []\OT1/lmr/m/n/10.95 Testivetoinen menetelm[]a eroaa merkitt[]av[]asti su-un-ni
 tel-mave-toi-sista mene-
  []
 
 
-Overfull \hbox (7.28893pt too wide) in paragraph at lines 449--450
+Overfull \hbox (7.28893pt too wide) in paragraph at lines 452--453
 \OT1/lmr/m/n/10.95 lo-pus-sa. T[]ast[]a jo-htuen on tarpeen tarkastel-la tar-jo
 aako tes-tive-toinen ohjelmis-
  []
 
 
-Overfull \hbox (8.44354pt too wide) in paragraph at lines 449--450
+Overfull \hbox (8.44354pt too wide) in paragraph at lines 452--453
 \OT1/lmr/m/n/10.95 toisu-us ohjelmis-ton laat-ua. K[]asittelemme seu-raavak-si 
 l[]oyt[]ami[]amme tutkimuk-
  []
 
 
-Overfull \hbox (6.7951pt too wide) in paragraph at lines 451--452
+Overfull \hbox (6.7951pt too wide) in paragraph at lines 454--455
 \OT1/lmr/m/n/10.95 k[]aviv[]at vuon-na 2003 ohjel-moin-tikurssin nou-dat-taen t
 es-tive-toista menetelm[]a[]a.
  []
 
 
-Overfull \hbox (34.62294pt too wide) in paragraph at lines 453--454
+Overfull \hbox (34.62294pt too wide) in paragraph at lines 456--457
 []\OT1/lmr/m/n/10.95 IBM kokeili er[]a[]ass[]a ohjelmis-toke-hi-tys-ryhm[]ass[]
 a tes-tive-toista ke-hi-tys-menetelm[]a[]a,
  []
 
 
-Overfull \hbox (18.36201pt too wide) in paragraph at lines 453--454
+Overfull \hbox (18.36201pt too wide) in paragraph at lines 456--457
 \OT1/lmr/m/n/10.95 kun aikaisem-mat laadun-varmis-tuk-set eiv[]at tuot-ta-neet 
 toiv-ot-tua tu-losta. K[]aytt[]a-
  []
 
-[18]
-Overfull \hbox (7.64334pt too wide) in paragraph at lines 462--463
+
+Overfull \hbox (7.64334pt too wide) in paragraph at lines 465--466
 []\OT1/lmr/m/n/10.95 Pariohjelmoinnissa kak-si ohjel-moi-jaa yhdess[]a ty[]ost[
 ]av[]at yht[]a ohjel-makood-
  []
 
-
-Overfull \hbox (14.4579pt too wide) in paragraph at lines 466--468
+[19]
+Overfull \hbox (14.4579pt too wide) in paragraph at lines 469--471
 []\OT1/lmr/m/n/10.95 Koehenkil[]ot valit-ti-in sat-un-nais-es-ti ty[]oskentelem
 []a[]an pare-it-tain te-stiryhm[]a[]an
  []
 
 
-Overfull \hbox (14.43912pt too wide) in paragraph at lines 466--468
+Overfull \hbox (14.43912pt too wide) in paragraph at lines 469--471
 \OT1/lmr/m/n/10.95 Ratkaisu-ista pisteytet-ti-in luet-tavu-us v[]alilt[]a 0-2. 
 Lukuar-vo 0 tarkoit-ti lukukelvo-
  []
 
 
-Overfull \hbox (17.47308pt too wide) in paragraph at lines 471--473
+Overfull \hbox (17.47308pt too wide) in paragraph at lines 474--476
 \OT1/lmr/m/n/10.95 opiske-li-jaa muo-dosti kon-trol-liryhm[]an, jos-sa opiske-l
 i-jat ty[]oskenteliv[]at it-sen[]aisesti
  []
 
 
-Overfull \hbox (0.37898pt too wide) in paragraph at lines 471--473
+Overfull \hbox (0.37898pt too wide) in paragraph at lines 474--476
 \OT1/lmr/m/n/10.95 suo-ri-u-tu-miseen vaa-dit-tua aikaa, tuot-tavu-ut-ta ja suo
 ritet-tu-jen teht[]avien laat-
  []
 
-[19]
-Overfull \hbox (3.4194pt too wide) in paragraph at lines 490--491
+[20]
+Overfull \hbox (3.4194pt too wide) in paragraph at lines 493--494
 \OT1/lmr/m/n/10.95 ohjel-moi-jat sanoi-vat, ett[]a pare-it-tain analysoin-ti ja
  su-un-nit-telu on t[]arke[]amp[]a[]a
  []
 
 
-Overfull \hbox (12.42984pt too wide) in paragraph at lines 490--491
+Overfull \hbox (12.42984pt too wide) in paragraph at lines 493--494
 \OT1/lmr/m/n/10.95 sil[]ollisesti ru-ti-inite-ht[]avi[]a ja yksinker-taisia ohj
 el-makood-e-ja. T[]allaisten teht[]avien
  []
 
 
-Overfull \hbox (3.0817pt too wide) in paragraph at lines 492--493
+Overfull \hbox (3.0817pt too wide) in paragraph at lines 495--496
 []\OT1/lmr/m/n/10.95 Pareittain ty[]oskentelev[]at tuot-ta-vat luet-tavam-paa o
 hjel-makood-ia ja toimi-
  []
 
 
-Overfull \hbox (1.50923pt too wide) in paragraph at lines 492--493
+Overfull \hbox (1.50923pt too wide) in paragraph at lines 495--496
 \OT1/lmr/m/n/10.95 vampia ratkaisu-ja kuin yksin toimi-vat ohjel-moi-jat. Ryh-m
 iss[]a toimi-vat ratkai-
  []
 
 
-Overfull \hbox (2.78647pt too wide) in paragraph at lines 492--493
+Overfull \hbox (2.78647pt too wide) in paragraph at lines 495--496
 \OT1/lmr/m/n/10.95 se-vat on-gelmia keskim[]a[]arin no-peam-min kuin yk-sil[]ot
 . Lis[]aksi pare-it-tain toimi-
  []
 
 
-Overfull \hbox (0.59758pt too wide) in paragraph at lines 494--495
+Overfull \hbox (0.59758pt too wide) in paragraph at lines 497--498
 \OT1/lmr/m/n/10.95 emm[]an vai-h-toe-hto-ja ja yhtyv[]at no-peasti to-teutet-ta
 vaan ratkaisu-un. Ideoiden
  []
 
 
-Overfull \hbox (8.0187pt too wide) in paragraph at lines 494--495
+Overfull \hbox (8.0187pt too wide) in paragraph at lines 497--498
 \OT1/lmr/m/n/10.95 vai-h-to parin v[]alill[]a v[]ahent[]a[]a huonon su-un-nitel
 -man to-denn[]ak[]oisyytt[]a. Yhdess[]a
  []
 
-[20]
-Overfull \hbox (1.77568pt too wide) in paragraph at lines 496--497
+
+Overfull \hbox (1.77568pt too wide) in paragraph at lines 499--500
 \OT1/lmr/m/n/10.95 par-i-o-hjel-moin-nin sis[]allytt[]aminen ohjelmis-to-tuotan
 -toon kaksinker-tais-taa kus-
  []
 
 
-Overfull \hbox (2.8178pt too wide) in paragraph at lines 496--497
+Overfull \hbox (2.8178pt too wide) in paragraph at lines 499--500
 \OT1/lmr/m/n/10.95 tan-nuk-set jos henkil[]ost[]om[]a[]ar[]a[]a on lis[]att[]av
 []a samas-sa suh-teessa. John Nosekin
  []
 
 
-Overfull \hbox (0.95467pt too wide) in paragraph at lines 496--497
+Overfull \hbox (0.95467pt too wide) in paragraph at lines 499--500
 \OT1/lmr/m/n/10.95 Laadun-varmis-tuk-ses-ta ai-heutu-vat kus-tan-nuk-set huomio
 iden pare-it-tain ohjel-
  []
 
-
-Overfull \hbox (0.6499pt too wide) in paragraph at lines 506--507
+[21]
+Overfull \hbox (0.6499pt too wide) in paragraph at lines 509--510
 \OT1/lmr/m/n/10.95 isatorisil-la rak-en-teil-la ratkaisu-ja ohjelmis-to-tuotan-
 non haasteisi-in ja ohjelmis-
  []
@@ -1630,44 +1732,43 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
-[21]
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 54.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 62.
 
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [22]
-Underfull \hbox (badness 2790) in paragraph at lines 187--194
+Underfull \hbox (badness 2790) in paragraph at lines 186--193
 []\OT1/lmr/m/n/10.95 Williams, L. ja A. Cock-burn: \OT1/lmr/m/it/10.95 Ag-ile s
 oft-ware de-vel-op-ment: it's
  []
 
 
-Underfull \hbox (badness 1454) in paragraph at lines 187--194
+Underfull \hbox (badness 1454) in paragraph at lines 186--193
 \OT1/lmr/m/it/10.95 about feed-back and change\OT1/lmr/m/n/10.95 .  Com-put-er,
  36(6):39--43, june 2003,
  []
 
-) [23] (./kandi.aux) ) 
+[23]) [24] (./kandi.aux) ) 
 Here is how much of TeX's memory you used:
- 6647 strings out of 495061
- 91745 string characters out of 1182621
+ 6648 strings out of 495061
+ 91752 string characters out of 1182621
  180952 words of memory out of 3000000
  9599 multiletter control sequences out of 15000+50000
  38402 words of font info for 39 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 38i,9n,36p,748b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/sh
-are/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm
-/lm-rm.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/tex
-mf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmt
-t10.pfb>
-Output written on kandi.pdf (28 pages, 468272 bytes).
+ 38i,9n,36p,744b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/us
+r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
+s/lm/lm-rm.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.p
+fb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/t
+ype1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
+blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share
+/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
+/lmtt10.pfb>
+Output written on kandi.pdf (29 pages, 470526 bytes).
 PDF statistics:
- 458 PDF objects out of 1000 (max. 8388607)
- 74 named destinations out of 1000 (max. 500000)
+ 461 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
  155 words of extra memory for PDF output out of 10000 (max. 10000000)
 
