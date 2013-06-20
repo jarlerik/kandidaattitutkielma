@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  20 JUN 2013 11:16
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  20 JUN 2013 12:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -16,22 +16,6 @@ speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
 lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
 celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, uk
 english, loaded.
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.1 g
-     % --- Template for thesis / report with tktltiki2 class ---
-? 
-Missing character: There is no g in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
-[] 
- []
-
 (./tktltiki2.cls
 Document Class: tktltiki2 2013/01/09 v1.0 Template for theses and seminar paper
 s at University of Helsinki CS department
@@ -108,7 +92,7 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \abovecaptionskip=\skip44
 \belowcaptionskip=\skip45
 \bibindent=\dimen113
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]))
+))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks16
@@ -804,7 +788,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 107.
 [1
 
 
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 Package hyperref Info: Option `pageanchor' set `true' on input line 107.
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
@@ -843,7 +827,8 @@ Package hyperref Info: Option `pageanchor' set `true' on input line 107.
 
 ] (./kandi.toc
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
+
+(/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 4.
@@ -912,12 +897,6 @@ an oh-jel-mis-toj[]arjestelm[]a[]an:
  []
 
 
-Overfull \hbox (9.26941pt too wide) in paragraph at lines 166--167
-\OT1/lmr/m/n/10.95 (-20) to-jen suu-ri ko-ko ai-heut-taa on-gel-mia, kos-ka oh-
-jel-mis-to vaa-tii sen osaj[]arjestelmien
- []
-
-
 Overfull \hbox (6.17317pt too wide) in paragraph at lines 168--169
 \OT1/lmr/m/n/10.95 (-20) jel-mis-to-ke-hi-tyk-sess[]a haas-te on, ett[]a oh-jel
 -mis-toark-ki-teh-tien ja -suunnittelijoiden
@@ -955,7 +934,7 @@ Overfull \hbox (19.1313pt too wide) in paragraph at lines 225--226
 an k[]ayt[]ost[]a ai-heu-tu-van ja k[]aytt[]ajien
  []
 
-[7] <waterfall.png, id=220, 686.565pt x 423.5825pt>
+[7] <waterfall.png, id=216, 686.565pt x 423.5825pt>
 File: waterfall.png Graphic file (type png)
  <use waterfall.png>
 Package pdftex.def Info: waterfall.png used on input line 252.
@@ -981,7 +960,7 @@ Type  H <return>  for immediate help.
 l.273 　
          
 ? 
-<spiral.png, id=242, 1141.26375pt x 994.71625pt>
+<spiral.png, id=238, 1141.26375pt x 994.71625pt>
 File: spiral.png Graphic file (type png)
  <use spiral.png>
 Package pdftex.def Info: spiral.png used on input line 280.
@@ -992,13 +971,7 @@ Overfull \hbox (17.50238pt too wide) in paragraph at lines 287--288
 to, oh-jel-mis-ton uu-del-leenk[]aytt[]o,
  []
 
-[11] [12] [13] [14] [15] [16]
-Overfull \hbox (8.01996pt too wide) in paragraph at lines 417--418
-\OT1/lmr/m/n/10.95 (-20) ta-vuus, k[]aytett[]avyys ja te-hok-kuus yh-dis-tyy as
-iak-kaan toi-vei-siin ja n[]akemykseen
- []
-
-[17] [18] [19]
+[11] [12] [13] [14] [15] [16] [17] [18] [19]
 Overfull \hbox (7.5217pt too wide) in paragraph at lines 470--472
 []\OT1/lmr/m/n/10.95 (-20) Koehenkil[]ot va-lit-tiin sa-tun-nai-ses-ti ty[]oske
 ntelem[]a[]an pa-reit-tain tes-ti-ryhm[]a[]an
@@ -1040,30 +1013,36 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
  (./kandi.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
-Package rerunfilecheck Info: File `kandi.out' has not changed.
-(rerunfilecheck)             Checksum: 3D0EB19EAD6A8FBC8D7DD1C6B1A7D2E1;1354.
+
+
+Package rerunfilecheck Warning: File `kandi.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `kandi.out':
+(rerunfilecheck)             Before: 3D0EB19EAD6A8FBC8D7DD1C6B1A7D2E1;1354
+(rerunfilecheck)             After:  3646F0E15E5382DB03365DF5836CD647;1358.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 532.
  ) 
 Here is how much of TeX's memory you used:
- 9514 strings out of 493481
- 139677 string characters out of 3143393
- 274478 words of memory out of 3000000
+ 9508 strings out of 493481
+ 139617 string characters out of 3143393
+ 275507 words of memory out of 3000000
  12447 multiletter control sequences out of 15000+200000
- 44338 words of font info for 103 fonts, out of 3000000 for 9000
+ 44089 words of font info for 100 fonts, out of 3000000 for 9000
  965 hyphenation exceptions out of 8191
- 32i,9n,35p,823b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 32i,9n,35p,827b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
 dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/sha
-re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
-f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
-12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/font
-s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
-public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on kandi.pdf (28 pages, 436493 bytes).
+re/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/
+lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/tex
+mf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on kandi.pdf (27 pages, 429064 bytes).
 PDF statistics:
- 469 PDF objects out of 1000 (max. 8388607)
- 421 compressed objects within 5 object streams
+ 463 PDF objects out of 1000 (max. 8388607)
+ 417 compressed objects within 5 object streams
  75 named destinations out of 1000 (max. 500000)
  11939 words of extra memory for PDF output out of 12000 (max. 10000000)
 
