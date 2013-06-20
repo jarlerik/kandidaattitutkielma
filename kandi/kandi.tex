@@ -342,7 +342,7 @@ XP:n käytäntöihin kuuluu myös jatkuva pariohjelmointi (pair programming). Pa
 
 Scrum on empiirinen, tarkkaileva ja mukautuva prosessi, jonka edetessä sitä pyritään parantamaan saatujen havaintojen perusteella. Scrum perustaa kaiken käytännön iteratiiviselle ja inkrementaaliselle prosessille: Jokaisen kehityssyklin tulos on valmiin ohjelmistotuotteen kehitys ja mahdollisesti julkaistavissa oleva ohjelmisto. \cite{SCH09}.
 
-Scrum hallinnoi ohjelmistotuotannon monimutkaisuutta seuraavilla yksinkertaisilla käytänteillä: Iteraatioita kutsutaan sprinteiksi (sprint). Sprintti on 30 päivän iteraatio, jonka aika tuotetaan \textit{valmiin} (done) määritelmän mukainen ohjelmisto. Määritelmästä valmis sopii kehittäjätiimi, mitä sillä kyseessä olevassa projektissa tarkoitetaan. Usein se tarkoittaa, että toiminnallisuudet tulee olla kattavasti testattu ja ohjelmakoodi rakenteellisesti hyvää ohjelmakoodia (clean code) \cite{SCH09}. 
+Scrum hallinnoi ohjelmistotuotannon monimutkaisuutta seuraavilla yksinkertaisilla käytänteillä: Iteraatioita kutsutaan sprinteiksi (sprint). Sprintti on 30 päivän iteraatio, jonka aika tuotetaan \textit{valmiin} (done) määritelmän mukainen ohjelmisto. Määritelmästä valmis sopii kehittäjätiimi, mitä sillä kyseessä olevassa projektissa tarkoitetaan. Usein se tarkoittaa, että toiminnallisuudet tulee olla kattavasti testattu ja ohjelmakoodi rakenteellisesti selkeää ohjelmakoodia (clean code) \cite{SCH09}. 
 
 Sprintti aloitetaan sprintin suunnittelupalaverilla (sprint planning meeting), jossa valitaan kehitettävät toiminnallisuudet. Sprintin lopussa pidetään sprinttikatselmus (sprint review meeting), jossa ohjelmistoversio esitellään sidosryhmille \cite{SCH09}.
 
@@ -405,7 +405,7 @@ Ohjelmoinnin aikaista dokumentointia voidaan muuttuviin vaatimuksiin ja suunnite
 
 Usein kaavioita käytetään välittämään tietoa eri ryhmien välillä. XP:tä toteuttaville kaaviot ovat toiminnallisuuksia muiden joukossa, joiden arvon määrää asiakas. Kaaviot ovat hyödyllisiä vain jos ne auttavat viestinnässä. Ohjelmakoodin varasto (repository) on yksityiskohtaisen tiedon lähde ja kaaviot koostavat ja korostavat tärkeitä asioita \cite{FOW01b}.
 
-Ketterissä menetelmissä suunnittelua tehdään koko ohjelmistokehityskaaren aikana: jos ohjelmistokoodi on vaikea muuttaa, ei projektin aikana tehdä riittävästi rakenteeseen liittyvää suunnittelua. Ohjelmistokehityksen aikana ohjelmakoodi on pidettävä yksinkertaisena ja selkeänä (clean code) \cite{FOW01b}.
+Ketterissä menetelmissä suunnittelua tehdään koko ohjelmistokehityskaaren aikana: jos ohjelmistokoodi on vaikea muuttaa, ei projektin aikana tehdä riittävästi rakenteeseen liittyvää suunnittelua. Ohjelmistokehityksen aikana ohjelmakoodi on pidettävä yksinkertaisena ja selkeänä \cite{FOW01b}.
 Ohjelmakoodin rakennetta on tarpeen vaatiessa jatkuvasti parannettava rakennemuutoksilla (refactoring). Ohjelmoijien on ymmärrettävä suunnittelumallien (design patterns) tarjoamat ratkaisut sekä osattava käyttää niitä. Suunnittelumallit ovat hyväksi havaittuja ratkaisuja ohjelmistokehityksessä usein esiityviin suunnitteluongelmiin \cite{FOW01b}.
 
 Ohjelmistoa on suunniteltava ottaen huomioon, että ohjelmakoodia tullaan myöhemmin muuttamaan. Ohjelmiston rakenteesta on osattava viestiä, ohjelmakoodin, kaavioiden ja ennen kaikkea keskustelun avulla \cite{FOW01b}.
@@ -462,7 +462,7 @@ Yllä mainitut tutkimukset osoittavat, että testivetoinen ohjelmistokehitys par
 
 Pariohjelmointi on toinen käytäntö, mikä erottaa XP:n muista ohjelmistotuotannon menetelmistä. Pariohjelmoinnin vaikutuksia haasteisiin ja laatuun on syytä tarkastella lähemmin. Kappaleessa 2.1 toimme haasteista esille muun muassa henkilöstön hallinnan, aikataulun ja taloudellisten resurssien käytön. Kappaleessa 2.4 käsittelimme ohjelmiston laatua. Tarkastelemme seuraavaksi pariohjelmoinnista löytämiämme tutkimuksia ja niiden tuloksia erityisesti laatuun sekä hieman myös kustannuksiin liittyen.
 
-Pariohjelmoinnissa kaksi ohjelmoijaa yhdessä työstävät yhtä ohjelmakoodia, algoritmia tai suunnitelmaa. Toinen parista, ajaja, ohjelmoi ja toinen aktiivisesti tarkkailee ajajan työtä, etsien virheitä, miettien vaihtoehtoja, tutkien lähteitä ja miettien strategisia toteutustapoja. Parit vaihtavat roolejaan jaksoittain. Molemmat ovat tasavertaisia ja aktiivisia osallistujia \cite{WIL00}.
+Pariohjelmoinnissa kaksi ohjelmoijaa yhdessä työstävät yhtä ohjelmakoodia, algoritmia tai suunnitelmaa. Toinen parista ohjelmoi ja toinen heistä tarkkailee etsien virheitä, miettien vaihtoehtoja, tutkien lähteitä ja miettien erilaisia toteutustapoja. Parit vaihtavat roolejaan ajoittain. Molemmat ovat tasavertaisia ja aktiivisia osallistujia \cite{WIL00}.
 
 Vuonna 1998 John Nosek teki tutkimuksen, jossa kokeneet ohjelmoijat työskentelivät haastavien, omalle organisaatiolleen tärkeiden, tehtävien parissa omassa työskentely-ympäristössään. Kukaan osallistujista ei ollut työskennellyt annetun tehtävän kaltaisen ongelman parissa aikaisemmin. Annetun tehtävän kaltaista ongelmaa pidettiin organisaatiolle menestykselle tärkeänä ja niin vaativana, että yleensä tehtäviin palkattiin ulkopuolisia konsultteja \cite{NOS98}.
 

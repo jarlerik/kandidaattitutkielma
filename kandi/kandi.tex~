@@ -342,7 +342,7 @@ XP:n käytäntöihin kuuluu myös jatkuva pariohjelmointi (pair programming). Pa
 
 Scrum on empiirinen, tarkkaileva ja mukautuva prosessi, jonka edetessä sitä pyritään parantamaan saatujen havaintojen perusteella. Scrum perustaa kaiken käytännön iteratiiviselle ja inkrementaaliselle prosessille: Jokaisen kehityssyklin tulos on valmiin ohjelmistotuotteen kehitys ja mahdollisesti julkaistavissa oleva ohjelmisto. \cite{SCH09}.
 
-Scrum hallinnoi ohjelmistotuotannon monimutkaisuutta seuraavilla yksinkertaisilla käytänteillä: Iteraatioita kutsutaan sprinteiksi (sprint). Sprintti on 30 päivän iteraatio, jonka aika tuotetaan \textit{valmiin} (done) määritelmän mukainen ohjelmisto. Määritelmästä valmis sopii kehittäjätiimi, mitä sillä kyseessä olevassa projektissa tarkoitetaan. Usein se tarkoittaa, että toiminnallisuudet tulee olla kattavasti testattu ja ohjelmakoodi rakenteellisesti hyvää ohjelmakoodia (clean code) \cite{SCH09}. 
+Scrum hallinnoi ohjelmistotuotannon monimutkaisuutta seuraavilla yksinkertaisilla käytänteillä: Iteraatioita kutsutaan sprinteiksi (sprint). Sprintti on 30 päivän iteraatio, jonka aika tuotetaan \textit{valmiin} (done) määritelmän mukainen ohjelmisto. Määritelmästä valmis sopii kehittäjätiimi, mitä sillä kyseessä olevassa projektissa tarkoitetaan. Usein se tarkoittaa, että toiminnallisuudet tulee olla kattavasti testattu ja ohjelmakoodi rakenteellisesti selkeää ohjelmakoodia (clean code) \cite{SCH09}. 
 
 Sprintti aloitetaan sprintin suunnittelupalaverilla (sprint planning meeting), jossa valitaan kehitettävät toiminnallisuudet. Sprintin lopussa pidetään sprinttikatselmus (sprint review meeting), jossa ohjelmistoversio esitellään sidosryhmille \cite{SCH09}.
 
@@ -372,7 +372,7 @@ Ketterät menetelmät lähestyvät henkilöstöhallintaa suunnitelmavetoisia men
 
 Ketterissä menetelmissä kehittäjien on kyettävä tekemään kaikki tekniset ratkaisut \cite{FOW01a}. XP:ssä suunnitteluprosessin (planning game) aikana tiimi arvio omien kokemuksiensa perusteella toiminnallisuuksien kehittämiseen vaadittavan ajan \cite{BEC99}.
 
-Scrumissa kaikki projektin hallinnolliset vastuut on jaettu kolmen, kappaleessa 5.2 mainittujen, roolien kesken. Tuoteomistajan vastuu on esitellä kehittäjätiimille ja muille projektiin osallistuville tuotteelle asetettavat vaatimukset. Tuoteomistaja laatii alustavan vaatimusmäärittelyn, sijoitettavalle pääomalle asetettavat tavoitteet (ROI) ja julkaisusuunnitelmat (relese plans) \cite{SCH09}.
+Scrumissa kaikki projektin hallinnolliset vastuut on jaettu kolmen, kappaleessa 3.4 mainittujen, roolien kesken. Tuoteomistajan vastuu on esitellä kehittäjätiimille ja muille projektiin osallistuville tuotteelle asetettavat vaatimukset. Tuoteomistaja laatii alustavan vaatimusmäärittelyn, sijoitettavalle pääomalle asetettavat tavoitteet (ROI) ja julkaisusuunnitelmat (relese plans) \cite{SCH09}.
 
 Kehittäjätiimin vastuulla on toiminnallisuuksien kehittäminen. Ohjelmoijat päättävät, miten uusi toiminnallisuus toteutetaan ja työskentelevät rauhassan lopun iteraation ajan. Kehitystiimi on eri alojen asiantuntemuksesta koostuva itseorganisoituva ryhmä. Kehitystiimi on yhdessä vastuussa jokaisen iteraation onnistumisesta \cite{SCH09}.
 
