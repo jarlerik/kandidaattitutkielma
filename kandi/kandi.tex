@@ -72,11 +72,11 @@ g% --- Template for thesis / report with tktltiki2 class ---
 \author{Jarl-Erik Malmström}
 \date{\today}
 \level{Kandidaatintutkielma}
-\abstract{Suunnitelmavetoiset menetelmät eivät sovi nopeasti muuttuvaan internet-aikakauden liiketoimintaympäristöön. Tarvitaan nopeasti reagoivia ja mukautuvia kehitysmenetelmiä. Ketterät menetelmät tarjoavat ratkaisuja muuttuviin vaatimuksiin ohjelmistokehityksen aikaisella kevyellä suunnitteluprosessilla. Ketterillä menetelmillä voidaan laatua unohtamatta toteuttaa käyttäjien toiveita vastaava ohjelmistojärjestelmä. Osa ketterien menetelmien käytänteistä parantaa ohjelmiston laatua.}
+\abstract{Suunnitelmavetoiset menetelmät eivät sovi nopeasti muuttuvaan internet-aikakauden liiketoimintaympäristöön. Tarvitaan nopeasti reagoivia ja mukautuvia kehitysmenetelmiä. Ketterät menetelmät tarjoavat ratkaisuja muuttuviin vaatimuksiin ohjelmistokehityksen aikaisella kevyellä suunnitteluprosessilla. Ketterillä menetelmillä voidaan laatua unohtamatta toteuttaa käyttäjien toiveita vastaava ohjelmistojärjestelmä. Osa ketterien menetelmien käytänteistä parantaa ohjelmiston laatua ja ovat kustannustehokkaita kun otetaan huomioon laadunvarmistuksen kustannukset.}
 
 % The following can be used to specify keywords and classification of the paper:
 
-\keywords{agile, ketterä, iteraatiivinen, ohjelmistotuotantomenetelmät, ongelmat, haasteet, ratkaisut. laatu}
+\keywords{agile, ketterä, iteraatiivinen, vesiputousmalli, spiraalimalli, pariohjelmointi, testivetoisuus}
 \classification{Software development process management, Software development methods, Agile software development, Waterfall model, Spiral model} % classification according to ACM Computing Classification System (http://www.acm.org/about/class/)
                   % This is probably mostly relevant for computer scientists
 
@@ -192,7 +192,7 @@ Voidaan sanoa, että aikaisemmat korjaustoimenpiteet ovat lähestyneet ongelmia 
 \item Formalisoimalla teknisiä menettelytapoja, esimerkiksi versionhallinta, testisuunnitelma ja vaatimusmäärittelydokumentit \cite{KES95}.
 \end{itemize}
 
-Nykyään ohjelmistokehittäjät käyttävät laajasti työkaluja, jotka nopeuttavat suunnittelu- ja ohjelmointiprosessia. Uuden teknologian työkalut tarjoavat toimintoja, jotka ennen oli toimitettava itse. Erilaiset ohjelmistokehykset (frameworks) tekevät osan ohjelmiston kehitystä. Ohjelmistokehitystä voidaan nopeuttaa komponenttien uudelleenkäytöllä. Sen sijaan, että rakennettaisiin ohjelmisto alusta alkaen itse, valmiita komponentteja hankintaan, yhdistetään ja kootaan nopeasti \cite{BRL03}.
+Nykyään ohjelmistokehittäjät käyttävät laajasti työkaluja, jotka nopeuttavat suunnittelu- ja ohjelmointiprosessia. Uuden teknologian työkalut tarjoavat toimintoja, jotka ennen oli toimitettava itse. Erilaiset ohjelmistokehykset (frameworks) tekevät osan ohjelmiston kehitystä. Ohjelmistokehitystä voidaan nopeuttaa komponenttien uudelleen\-käytöllä. Sen sijaan, että rakennettaisiin ohjelmisto alusta alkaen itse, valmiita komponentteja hankintaan, yhdistetään ja kootaan nopeasti \cite{BRL03}.
 
 Nykyiset ohjelmistotyökalut eivät ole tarjonneet yksiselitteisiä ratkaisuja haasteisiin. Työkalut lisäävät yksilöiden tuottavuutta, mutta eivät ratkaise ohjelmistotuotannon koordinointiongelmaa. Onnistunut ohjelmistotuotantoprojekti vaatii lisäksi erilaisten näkemysten sekä ohjelmistojärjestelmän osien yhteensovittamista \cite{KES95}.
 
@@ -260,7 +260,7 @@ Määrittely- ja suunnitteluvaiheen jälkeen suunnitellaan järjestelmän rakenn
 
 Ohjelmointivaiheessa kirjoitetaan ohjelmakoodi laadittujen suunnitelmien perusteella ja testausvaiheessa ohjelmistojärjestelmän oikeanlainen toiminta varmistetaan etsimällä selviä virheitä tuotantokoodista visuaalisesti tarkastelemalla ja kirjoittamalla testitapauksia tuotantokoodin osille. Testitapaukset testaavat järjestelmän osia erilaisilla syötteillä sekä tarkastavat, että tulosteet ja järjestelmän tila ovat oikein  \cite{ROY70}.
 
-Vesiputousmallissa painotetaan dokumentin tärkeyttä: Hyvän dokumentoinnin todellinen arvo ilmenee testausvaiheessa, ohjelmistoa käytettäessä sekä uudelleen suunniteltaessa. Hyvän dokumentin avulla esimies voi keskittää henkilöstön ohjelmistossa ilmenneisiin virheisiin. Ilman hyvää dokumenttia, ainoastaan ohjelmistovirheen alkuperäinen tekijä kykenee analysoimaan kyseessä olevan virheen. Dokumentin avulla ohjelmistojärjestelmää testaava henkilö voi ymmärtää järjestelmän toimintaa paremmin. Käyttöönotossa ilmenneiden ohjelmistovirheiden korjaamisessa selkeä dokumentti on välttämätön \cite{ROY70}.
+Vesiputousmallissa painotetaan dokumentin tärkeyttä: Hyvän dokumentoinnin todellinen arvo ilmenee testausvaiheessa, ohjelmistoa käytettäessä sekä uudelleen suunniteltaessa. Hyvän dokumentin avulla esimies voi keskittää henkilöstön ohjelmistossa ilmenneisiin virheisiin. Ilman hyvää dokumenttia, ainoastaan ohjelmistovirheen alkuperäinen tekijä kykenee analysoimaan kyseessä olevan virheen. Dokumentin avulla ohjelmistojärjestelmää testaava henkilö voi ymmärtää järjestelmän toimintaa paremmin. Käyttöönotossa ilmenneiden ohjelmistovirheiden korjaamisessa selkeä dokumentti on välttä\-mätön \cite{ROY70}.
 
 Vesiputousmallin ongelmana on dokumentaation korostuminen valmistumiskriteerinä aikaisille vaatimuksille ja suunnitteluvaiheille. Menetelmä ei sovi erityisesti interaktiivisiin loppukäyttäjien sovelluksiin, koska käyttäjät näkevät toimivaa ohjelmistoa ohjelmistotuotantoprojektin loppuvaiheessa. Dokumenttivetoisuus pakottaa kirjaamaan käyttö\-liittymien vaatimukset yksityiskohtaisesti, mutta käyttäjät eivät kykene tyhjentävästi kertomaan mitä toiminnallisuuksia ohjelmistolta haluavat. Asiakas saattaa muuttaa mielensä. Tai hän osaa usein sanoa, nähdessään valmiin tuotteen, mitä olisi ohjelmistolta halunnut \cite{BEC99}.
 

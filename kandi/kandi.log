@@ -1,11 +1,21 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=pdflatex 2012.9.17)  17 JUN 2013 21:20
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/Debian) (format=pdflatex 2013.1.22)  20 JUN 2013 11:16
 entering extended mode
+ restricted \write18 enabled.
  %&-line parsing enabled.
 **kandi
 (./kandi.tex
-LaTeX2e <2009/09/24>
-Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
-yphenation, loaded.
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, et
+hiopic, farsi, arabic, pinyin, croatian, bulgarian, ukrainian, russian, slovak,
+ czech, danish, dutch, usenglishmax, ukenglish, finnish, french, basque, ngerma
+n, german, swissgerman, ngerman-x-2012-05-30, german-x-2012-05-30, monogreek, g
+reek, ibycus, ancientgreek, hungarian, bengali, tamil, hindi, telugu, gujarati,
+ sanskrit, malayalam, kannada, assamese, marathi, oriya, panjabi, italian, lati
+n, latvian, lithuanian, mongolian, mongolianlmc, nynorsk, bokmal, indonesian, e
+speranto, coptic, welsh, irish, interlingua, serbian, serbianc, slovenian, friu
+lan, romansh, estonian, romanian, armenian, uppersorbian, turkish, afrikaans, i
+celandic, kurmanji, polish, portuguese, galician, catalan, spanish, swedish, uk
+english, loaded.
 
 ! LaTeX Error: Missing \begin{document}.
 
@@ -25,7 +35,7 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 1--2
 (./tktltiki2.cls
 Document Class: tktltiki2 2013/01/09 v1.0 Template for theses and seminar paper
 s at University of Helsinki CS department
-(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count79
 \calc@Bcount=\count80
@@ -38,20 +48,23 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \calc@Ccount=\count81
 \calc@Cskip=\skip43
 )
-(/usr/share/texmf-texlive/tex/latex/geometry/geometry.sty
-Package: geometry 2008/12/21 v4.2 Page Geometry
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifpdf.sty
-Package: ifpdf 2009/04/10 v2.0 Provides the ifpdf switch (HO)
-Package ifpdf Info: pdfTeX in pdf mode detected.
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifvtex.sty
-Package: ifvtex 2008/11/04 v1.4 Switches for detecting VTeX and its modes (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count82
 \Gm@cntv=\count83
@@ -60,36 +73,28 @@ Package ifvtex Info: VTeX not detected.
 \Gm@wd@mp=\dimen105
 \Gm@odd@mp=\dimen106
 \Gm@even@mp=\dimen107
+\Gm@layoutwidth=\dimen108
+\Gm@layoutheight=\dimen109
+\Gm@layouthoffset=\dimen110
+\Gm@layoutvoffset=\dimen111
 \Gm@dimlist=\toks15
 )
+(/var/lib/texmf/tex/generic/babel/babel.sty
+Package: babel 2008/07/08 v3.8m The Babel package
 
-LaTeX Warning: You have requested, on input line 4, version
-               `2010/09/12 v5.6 Page Geometry' of package geometry,
-               but only version
-               `2008/12/21 v4.2 Page Geometry'
-               is available.
-
-(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
-Package: babel 2008/07/06 v3.8l The Babel package
-
-(/usr/share/texmf-texlive/tex/generic/babel/finnish.ldf
+(/usr/share/texlive/texmf-dist/tex/generic/babel/finnish.ldf
 Language: finnish 2007/10/20 v1.3q Finnish support from the babel system
 
-(/usr/share/texmf-texlive/tex/generic/babel/babel.def
-File: babel.def 2008/07/06 v3.8l Babel common definitions
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
+File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count85
-\U@D=\dimen108
+\U@D=\dimen112
 )
-
-Package babel Warning: No hyphenation patterns were loaded for
-(babel)                the language `Finnish'
-(babel)                I will use the patterns loaded for \language=0 instead.
-
-\l@finnish = a dialect from \language0
 Package babel Info: Making " an active character on input line 89.
-)) (/usr/share/texmf-texlive/tex/latex/base/article.cls
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
 File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count86
@@ -102,31 +107,21 @@ File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \c@table=\count93
 \abovecaptionskip=\skip44
 \belowcaptionskip=\skip45
-\bibindent=\dimen109
- [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}])
-
-! Package babel Error: You haven't defined the language swedish yet.
-
-See the babel package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.89 \iflanguage{swedish}
-                         {
-? 
-) (/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+\bibindent=\dimen113
+ [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]))
+(/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
 
-(/usr/share/texmf-texlive/tex/latex/base/utf8.def
+(/usr/share/texlive/texmf-dist/tex/latex/base/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(/usr/share/texmf-texlive/tex/latex/base/t1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -276,7 +271,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(/usr/share/texmf-texlive/tex/latex/base/ot1enc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -307,7 +302,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(/usr/share/texmf-texlive/tex/latex/base/omsenc.dfu
+(/usr/share/texlive/texmf-dist/tex/latex/base/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -366,301 +361,289 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2010/01/10 v2.4 Micro-typography with pdfTeX (RS)
+\MT@toks=\toks18
+\MT@count=\count94
+LaTeX Info: Redefining \lsstyle on input line 1597.
+LaTeX Info: Redefining \lslig on input line 1597.
+\MT@outer@space=\skip46
+LaTeX Info: Redefining \textls on input line 1605.
+\MT@outer@kern=\dimen114
+LaTeX Info: Redefining \textmicrotypecontext on input line 2156.
+Package microtype Info: Loading configuration file microtype.cfg.
 
-! LaTeX Error: File `microtype.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amsfonts.sty
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
-\@emptytoks=\toks18
+\@emptytoks=\toks19
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsmath.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
-\@mathmargin=\skip46
+\@mathmargin=\skip47
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texmf-texlive/tex/latex/amsmath/amstext.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsgen.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
-\@emptytoks=\toks19
-\ex@=\dimen110
+\@emptytoks=\toks20
+\ex@=\dimen115
 ))
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsbsy.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
-\pmbraise@=\dimen111
+\pmbraise@=\dimen116
 )
-(/usr/share/texmf-texlive/tex/latex/amsmath/amsopn.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
-\inf@bad=\count94
+\inf@bad=\count95
 LaTeX Info: Redefining \frac on input line 211.
-\uproot@=\count95
-\leftroot@=\count96
+\uproot@=\count96
+\leftroot@=\count97
 LaTeX Info: Redefining \overline on input line 307.
-\classnum@=\count97
-\DOTSCASE@=\count98
+\classnum@=\count98
+\DOTSCASE@=\count99
 LaTeX Info: Redefining \ldots on input line 379.
 LaTeX Info: Redefining \dots on input line 382.
 LaTeX Info: Redefining \cdots on input line 467.
 \Mathstrutbox@=\box26
 \strutbox@=\box27
-\big@size=\dimen112
+\big@size=\dimen117
 LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
-\macc@depth=\count99
-\c@MaxMatrixCols=\count100
+\macc@depth=\count100
+\c@MaxMatrixCols=\count101
 \dotsspace@=\muskip10
-\c@parentequation=\count101
-\dspbrk@lvl=\count102
-\tag@help=\toks20
-\row@=\count103
-\column@=\count104
-\maxfields@=\count105
-\andhelp@=\toks21
-\eqnshift@=\dimen113
-\alignsep@=\dimen114
-\tagshift@=\dimen115
-\tagwidth@=\dimen116
-\totwidth@=\dimen117
-\lineht@=\dimen118
-\@envbody=\toks22
-\multlinegap=\skip47
-\multlinetaggap=\skip48
-\mathdisplay@stack=\toks23
+\c@parentequation=\count102
+\dspbrk@lvl=\count103
+\tag@help=\toks21
+\row@=\count104
+\column@=\count105
+\maxfields@=\count106
+\andhelp@=\toks22
+\eqnshift@=\dimen118
+\alignsep@=\dimen119
+\tagshift@=\dimen120
+\tagwidth@=\dimen121
+\totwidth@=\dimen122
+\lineht@=\dimen123
+\@envbody=\toks23
+\multlinegap=\skip48
+\multlinetaggap=\skip49
+\mathdisplay@stack=\toks24
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(/usr/share/texmf-texlive/tex/latex/amsfonts/amssymb.sty
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2009/06/22 v3.00
 )
-(/usr/share/texmf-texlive/tex/latex/amscls/amsthm.sty
-Package: amsthm 2004/08/06 v2.20
-\thm@style=\toks24
-\thm@bodyfont=\toks25
-\thm@headfont=\toks26
-\thm@notefont=\toks27
-\thm@headpunct=\toks28
-\thm@preskip=\skip49
-\thm@postskip=\skip50
-\thm@headsep=\skip51
-\dth@everypar=\toks29
+(/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
+Package: amsthm 2009/07/02 v2.20.1
+\thm@style=\toks25
+\thm@bodyfont=\toks26
+\thm@headfont=\toks27
+\thm@notefont=\toks28
+\thm@headpunct=\toks29
+\thm@preskip=\skip50
+\thm@postskip=\skip51
+\thm@headsep=\skip52
+\dth@everypar=\toks30
 )
-
-! LaTeX Error: File `booktabs.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texmf-texlive/tex/latex/graphics/color.sty
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen124
+\lightrulewidth=\dimen125
+\cmidrulewidth=\dimen126
+\belowrulesep=\dimen127
+\belowbottomsep=\dimen128
+\aboverulesep=\dimen129
+\abovetopsep=\dimen130
+\cmidrulesep=\dimen131
+\cmidrulekern=\dimen132
+\defaultaddspace=\dimen133
+\@cmidla=\count107
+\@cmidlb=\count108
+\@aboverulesep=\dimen134
+\@belowrulesep=\dimen135
+\@thisruleclass=\count109
+\@lastruleclass=\count110
+\@thisrulewidth=\dimen136
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(/etc/texmf/tex/latex/config/color.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 
-(/usr/share/texmf-texlive/tex/latex/pdftex-def/pdftex.def
-File: pdftex.def 2010/03/12 v0.04p Graphics/color for pdfTeX
-\Gread@gobject=\count106
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count111
 ))
-
-! LaTeX Error: File `enumitem.sty' not found.
-
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
-
-Enter file name: 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2011/09/28 v3.5.2 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen137
+\enit@toks=\toks31
+\enit@inbox=\box28
+\enitdp@description=\count112
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/etc/texmf/tex/latex/config/graphics.cfg
-File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 )
-\Gin@req@height=\dimen119
-\Gin@req@width=\dimen120
+\Gin@req@height=\dimen138
+\Gin@req@width=\dimen139
 )
-(/usr/share/texmf-texlive/tex/latex/hyperref/hyperref.sty
-Package: hyperref 2009/10/09 v6.79a Hypertext links for LaTeX
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2012/05/13 v6.82q Hypertext links for LaTeX
 
-(/usr/share/texmf-texlive/tex/generic/ifxetex/ifxetex.sty
-Package: ifxetex 2009/01/23 v0.5 Provides ifxetex conditional
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/hycolor.sty
-Package: hycolor 2009/10/02 v1.5 Code for color options of hyperref/bookmark (H
-O)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/xcolor-patch.sty
-Package: xcolor-patch 2009/10/02 xcolor patch
-))
-\@linkdim=\dimen121
-\Hy@linkcounter=\count107
-\Hy@pagecounter=\count108
 
-(/usr/share/texmf-texlive/tex/latex/hyperref/pd1enc.def
-File: pd1enc.def 2009/10/09 v6.79a Hyperref: PDFDocEncoding definition (HO)
-Now handling font encoding PD1 ...
-... no UTF-8 mapping file for font encoding PD1
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2007/12/12 v1.2 Prefix for e-TeX command names (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/infwarerr.sty
-Package: infwarerr 2007/09/09 v1.2 Providing info/warning/message (HO)
-)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
+Package hobsub Info: Skipping package `infwarerr' (already loaded).
+Package hobsub Info: Skipping package `ltxcmds' (already loaded).
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package hobsub Info: Skipping package `ifvtex' (already loaded).
+Package: intcalc 2007/09/27 v1.1 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
 (etexcmds)             That can mean that you are not using pdfTeX 1.50 or
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
-)
-(/usr/share/texmf-texlive/tex/latex/latexconfig/hyperref.cfg
-File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
-)
-(/usr/share/texmf-texlive/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2009/08/13 v3.4 Keyval support for LaTeX options (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2009/07/30 v1.5 Key value parser with default handler suppor
-t (HO)
-))
-
-! Package keyval Error: hidelinks undefined.
-
-See the keyval package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.2864 \ProcessKeyvalOptions{Hyp}
-                                 
-? 
-Package hyperref Info: Hyper figures OFF on input line 2975.
-Package hyperref Info: Link nesting OFF on input line 2980.
-Package hyperref Info: Hyper index ON on input line 2983.
-Package hyperref Info: Plain pages OFF on input line 2990.
-Package hyperref Info: Backreferencing OFF on input line 2995.
-Implicit mode ON; LaTeX internals redefined
-Package hyperref Info: Bookmarks ON on input line 3191.
-(/usr/share/texmf-texlive/tex/latex/ltxmisc/url.sty
-\Urlmuskip=\muskip11
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
-)
-LaTeX Info: Redefining \url on input line 3428.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bitset.sty
-Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/intcalc.sty
-Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/bigintcalc.sty
-Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2009/09/23 v0.6 LuaTeX support for pdfTeX utility functions
- (HO)
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2009/04/17 v1.2 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-(/usr/share/texmf-texlive/tex/generic/oberdiek/ltxcmds.sty
-Package: ltxcmds 2009/08/05 v1.0 Some LaTeX kernel commands for general use (HO
-)
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-)))
-\Fld@menulength=\count109
-\Field@Width=\dimen122
-\Fld@charsize=\dimen123
-\Field@toks=\toks30
-Package hyperref Info: Hyper figures OFF on input line 4377.
-Package hyperref Info: Link nesting OFF on input line 4382.
-Package hyperref Info: Hyper index ON on input line 4385.
-Package hyperref Info: backreferencing OFF on input line 4392.
-Package hyperref Info: Link coloring OFF on input line 4397.
-Package hyperref Info: Link coloring with OCG OFF on input line 4402.
-Package hyperref Info: PDF/A mode OFF on input line 4407.
-
-(/usr/share/texmf-texlive/tex/generic/oberdiek/atbegshi.sty
-Package: atbegshi 2008/07/31 v1.9 At begin shipout hook (HO)
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2011/11/25 v1.13 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2012/04/08 v1.3 Expandable calculations on big integers (HO
 )
-\Hy@abspage=\count110
-\c@Item=\count111
-\c@Hfootnote=\count112
+Package: bitset 2011/01/30 v1.1 Handle bit-vector datatype (HO)
+Package: uniquecounter 2011/01/30 v1.2 Provide unlimited unique counter (HO)
 )
-*hyperref using driver hpdftex*
-(/usr/share/texmf-texlive/tex/latex/hyperref/hpdftex.def
-File: hpdftex.def 2009/10/09 v6.79a Hyperref driver for pdfTeX
-\Fld@listcount=\count113
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2010/09/02 v1.4 Let assignment for LaTeX macros (HO)
+Package: hopatch 2012/05/28 v1.2 Wrapper for package hooks (HO)
+Package: xcolor-patch 2011/01/30 xcolor patch
+Package: atveryend 2011/06/30 v1.8 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
+Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
+Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(/usr/share/texmf-texlive/tex/latex/babelbib/babelbib.sty
-Package: babelbib 2009/10/10 v1.29 babelbib: multilingual bibliographies (HH)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+)
+\@linkdim=\dimen140
+\Hy@linkcounter=\count113
+\Hy@pagecounter=\count114
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2012/05/13 v6.82q Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count115
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Hyper figures OFF on input line 4062.
+Package hyperref Info: Link nesting OFF on input line 4067.
+Package hyperref Info: Hyper index ON on input line 4070.
+Package hyperref Info: Plain pages OFF on input line 4077.
+Package hyperref Info: Backreferencing OFF on input line 4082.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4300.
+\c@Hy@tempcnt=\count116
+
+(/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip11
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4653.
+\Fld@menulength=\count117
+\Field@Width=\dimen141
+\Fld@charsize=\dimen142
+Package hyperref Info: Hyper figures OFF on input line 5773.
+Package hyperref Info: Link nesting OFF on input line 5778.
+Package hyperref Info: Hyper index ON on input line 5781.
+Package hyperref Info: backreferencing OFF on input line 5788.
+Package hyperref Info: Link coloring OFF on input line 5793.
+Package hyperref Info: Link coloring with OCG OFF on input line 5798.
+Package hyperref Info: PDF/A mode OFF on input line 5803.
+LaTeX Info: Redefining \ref on input line 5843.
+LaTeX Info: Redefining \pageref on input line 5847.
+\Hy@abspage=\count118
+\c@Item=\count119
+\c@Hfootnote=\count120
 )
 
-! LaTeX Error: File `tocbibind.sty' not found.
+Package hyperref Message: Driver: hpdftex.
 
-Type X to quit or <RETURN> to proceed,
-or enter new name. (Default extension: sty)
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2012/05/13 v6.82q Hyperref driver for pdfTeX
+\Fld@listcount=\count121
+\c@bookmark@seq@number=\count122
 
-Enter file name: 
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+)
+\Hy@SectionHShift=\skip54
+)
+(/usr/share/texlive/texmf-dist/tex/latex/babelbib/babelbib.sty
+Package: babelbib 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
+\c@btxromaniannumeral=\count123
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tocbibind/tocbibind.sty
+Package: tocbibind 2010/10/13 v1.5k extra ToC listings
+Package tocbibind Info: The document has section divisions on input line 50.
 
-! LaTeX Error: Unknown option `nottoc' for package `tocbibind'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \settocbibname
-                   {Lähteet}
-? 
+Package tocbibind Note: Using section or other style headings.
 
-! LaTeX Error: Unknown option `numbib' for package `tocbibind'.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \settocbibname
-                   {Lähteet}
-? 
-! Undefined control sequence.
-<recently read> \settocbibname 
-                               
-l.48 \settocbibname
-                   {Lähteet}
-? 
-
-! LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.48 \settocbibname{L
-                     ähteet}
-? 
-\c@lau=\count114
-\c@ong=\count115
-(./kandi.aux)
+)
+\c@lau=\count124
+\c@ong=\count125
+ (./kandi.aux)
 \openout1 = `kandi.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
@@ -682,65 +665,99 @@ LaTeX Font Info:    Try loading font information for OT1+lmr on input line 103.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-*geometry auto-detecting driver*
-*geometry detected driver: pdftex*
--------------------- Geometry parameters
-'pass' is specified!! (disables the geometry layouter)
--------------------- Page layout dimensions and switches
-\paperwidth  597.50787pt
-\paperheight 845.04684pt
-\textwidth  360.0pt
-\textheight 595.80026pt
-\oddsidemargin  46.0pt
-\evensidemargin 46.0pt
-\topmargin  18.0pt
-\headheight 12.0pt
-\headsep    25.0pt
-\footskip   30.0pt
-\marginparwidth 50.0pt
-\marginparsep   10.0pt
-\columnsep  10.0pt
-\skip\footins  10.0pt plus 4.0pt minus 2.0pt
-\hoffset 0.0pt
-\voffset 0.0pt
-\mag 1000
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* pass: disregarded the geometry package!
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=360.0pt
+* \textheight=595.80026pt
+* \oddsidemargin=46.0pt
+* \evensidemargin=46.0pt
+* \topmargin=18.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(1in=72.27pt, 1cm=28.45pt)
------------------------
-(/usr/share/texmf-texlive/tex/context/base/supp-pdf.mkii
+LaTeX Info: Redefining \microtypecontext on input line 103.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `basictext'.
+Package microtype Info: No tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-cmr.cfg
+File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
+(RS)
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count116
-\scratchdimen=\dimen124
-\scratchbox=\box28
-\nofMPsegments=\count117
-\nofMParguments=\count118
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count119
-\MPscratchDim=\dimen125
-\MPnumerator=\count120
-\everyMPtoPDFconversion=\toks32
-)
-Package hyperref Info: Link coloring OFF on input line 103.
- (/usr/share/texmf-texlive/tex/latex/hyperref/nameref.sty
-Package: nameref 2007/05/29 v2.31 Cross-referencing by name of section
+\scratchcounter=\count126
+\scratchdimen=\dimen143
+\scratchbox=\box29
+\nofMPsegments=\count127
+\nofMParguments=\count128
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count129
+\MPscratchDim=\dimen144
+\MPnumerator=\count130
+\makeMPintoPDFobject=\count131
+\everyMPtoPDFconversion=\toks33
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(/usr/share/texmf-texlive/tex/latex/oberdiek/refcount.sty
-Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
-\c@section@level=\count121
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box30
+Package hyperref Info: Link coloring OFF on input line 103.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
+)
+\c@section@level=\count132
 )
 LaTeX Info: Redefining \ref on input line 103.
 LaTeX Info: Redefining \pageref on input line 103.
- (./kandi.out)
-(./kandi.out)
+LaTeX Info: Redefining \nameref on input line 103.
+
+(./kandi.out) (./kandi.out)
 \@outlinefile=\write3
 \openout3 = `kandi.out'.
 
-\AtBeginShipoutBox=\box29
 
 babelbib: Set bibliography fall-back language to finnish
-(/usr/share/texmf-texlive/tex/latex/babelbib/finnish.bdf
-File: finnish.bdf 2009/10/10 v1.29 babelbib: multilingual bibliographies (HH)
+(/usr/share/texlive/texmf-dist/tex/latex/babelbib/finnish.bdf
+File: finnish.bdf 2012/01/03 v1.31 babelbib: multilingual bibliographies (HH)
 
 babelbib extension \btxifchangecaseoff added to \extrasfinnish
 )
@@ -748,53 +765,83 @@ babelbib: Load BibTeX extensions \bibsfinnish for finnish
 babelbib: Set language for keywords in the bibliography fixed to finnish
 babelbib: Set language for keywords in the bibliography fixed to finnish
 Package hyperref Info: Option `pageanchor' set `false' on input line 107.
-[2
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* hratio: 1:1
+* vratio:  1:1
+* modes: 
+* h-part:(L,W,R)=(89.62709pt, 418.25368pt, 89.6271pt)
+* v-part:(T,H,B)=(126.75832pt, 591.5302pt, 126.75833pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=418.25368pt
+* \textheight=591.5302pt
+* \oddsidemargin=17.3571pt
+* \evensidemargin=17.3571pt
+* \topmargin=17.48833pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+\sideindent=\skip55
+\lowerspace=\skip56
+[1
+
 
 ]
-! Undefined control sequence.
-\@maketitle -> \begin {titlepage}{ \newgeometry 
-                                                {scale=0.7,marginratio={1:1,...
-l.107 \maketitle
-                        % title page
-? 
-\sideindent=\skip52
-\lowerspace=\skip53
-
-Overfull \hbox (2.88177pt too wide) in paragraph at lines 107--107
-[]\OT1/lmr/bx/n/14.4 Ketterien menetelmien ratkaisu-ja ohjelmis-to-tuotan-
- []
-
-! Undefined control sequence.
-\@maketitle ... \@city ,\ \@date \restoregeometry 
-                                                  } \end {titlepage}\par 
-l.107 \maketitle
-                        % title page
-? 
-[1]
 Package hyperref Info: Option `pageanchor' set `true' on input line 107.
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(8.75394pt, 580.0pt, 8.75394pt)
+* v-part:(T,H,B)=(0.01874pt, 845.0pt, 0.0281pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=580.0pt
+* \textheight=845.0pt
+* \oddsidemargin=-63.51605pt
+* \evensidemargin=-63.51605pt
+* \topmargin=-109.25125pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=11.0pt
+* \footskip=30.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-! Undefined control sequence.
-\makeabstract ...ispagestyle {empty} \newgeometry 
-                                                  {textwidth=580pt, textheig...
-l.108 \makeabstract
-                        % abstract page
-? 
-! Undefined control sequence.
-\makeabstract ... \end {picture} \restoregeometry 
-                                                  \newpage 
-l.108 \makeabstract
-                        % abstract page
-? 
-
-Overfull \hbox (410.37738pt too wide) in paragraph at lines 108--108
-[]\OT1/lmr/m/n/10.95 textwidth=580pt, tex-theight=845pt [] 
- []
+ [1
 
 
-Overfull \vbox (249.19974pt too high) has occurred while \output is active []
-
-
-[1] (./kandi.toc
+] (./kandi.toc
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 4.
  (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -817,123 +864,37 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 4.
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsa.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
 
-(/usr/share/texmf-texlive/tex/latex/amsfonts/umsb.fd
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+(/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 ))
 \tf@toc=\write4
 \openout4 = `kandi.toc'.
 
- [2]
-Overfull \hbox (18.87862pt too wide) in paragraph at lines 122--123
-\OT1/lmr/m/n/10.95 nos-sa tarvit-ti-in su-un-nit-telua sek[]a j[]arjestelm[]all
-isi[]a k[]ayt[]ant[]oj[]a. Ti-eto-jenk[]asittely[]a
- []
+ [2
 
-
-Overfull \hbox (10.86877pt too wide) in paragraph at lines 124--125
-[]\OT1/lmr/m/n/10.95 Ohjelmistojen merk-i-tyk-sen kas-vaes-sa ih-mis-ten ja ti-
-etokonei-den vuorovaiku-
- []
-
-
-Overfull \hbox (4.21732pt too wide) in paragraph at lines 128--129
-\OT1/lmr/m/n/10.95 tyvist[]a il-mi[]oist[]a. Lait-teis-toille laa-di-tu-il-la l
-u-otet-tavu-us-mall-eil-la ei voitu arvioi-
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
-been already used, duplicate ignored
+]pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
+ been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.133 
-       [1]
-Overfull \hbox (9.10327pt too wide) in paragraph at lines 134--135
-[]\OT1/lmr/m/n/10.95 T[]ass[]a tutkiel-mas-sa tarkastelemme su-un-nitel-mave-to
-isia ja ket-teri[]a menetel-
- []
-
-
-Overfull \hbox (8.29076pt too wide) in paragraph at lines 136--137
-\OT1/lmr/m/n/10.95 n[]aiden l[]ahestymistapoja ohjelmis-to-tuotan-toon. Selvit[
-]amme ohjelmis-ton laatu-
- []
-
-
-Overfull \hbox (8.07265pt too wide) in paragraph at lines 136--137
-\OT1/lmr/m/n/10.95 mave-tois-t-en menetelmien k[]ayt[]anteisiin, joi-ta tarkast
-elemme tutkiel-mas-samme
- []
-
-
-Overfull \hbox (10.90872pt too wide) in paragraph at lines 136--137
-\OT1/lmr/m/n/10.95 tarkem-min kap-paleessa kolme. Esit-telemme, miten ket-ter[]
-at menetelm[]at ratkai-
- []
-
-
-Overfull \hbox (10.26276pt too wide) in paragraph at lines 138--139
-[]\OT1/lmr/m/n/10.95 Tutkielman rakenne on seu-raa-va: Kap-paleessa kak-si k[]a
-sittelemme ohjelmis-
- []
-
-
-Overfull \hbox (7.19678pt too wide) in paragraph at lines 138--139
-\OT1/lmr/m/n/10.95 k[]aymme l[]api er-i-laisia su-un-nitel-mave-toisia ja ket-t
-eri[]a menetel-mi[]a. Kap-paleessa
- []
-
-
-Overfull \hbox (10.47433pt too wide) in paragraph at lines 138--139
-\OT1/lmr/m/n/10.95 nelj[]a selvit[]amme ket-te-rien menetelmien ratkaisu-ja su-
-un-nitel-mave-tois-t-en mene-
- []
-
-
-Overfull \hbox (1.8063pt too wide) in paragraph at lines 142--143
-\OT1/lmr/m/n/10.95 T[]ass[]a kap-paleessa k[]aymme l[]api er-i-laisia on-gelmia
- ja haastei-ta, joi-ta ohjelmis-
- []
-
-
-Overfull \hbox (6.37164pt too wide) in paragraph at lines 144--145
-\OT1/lmr/m/n/10.95 henkil[]ost[]on hallinta, pro-jek-tin aikataulu ja taloudel-
-liset resurssit, vaa-timusten
- []
-
-
-Overfull \hbox (40.07228pt too wide) in paragraph at lines 146--147
-\OT1/lmr/m/n/10.95 ivi-iss[]a yhteisty[]oss[]a ke-hitt[]aj[]atiimin kanssa usei
-n vain analyysi- ja m[]a[]arittelyvaiheessa.
- []
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
-been already used, duplicate ignored
+l.132 I
+       nternetin laajentuminen ja \textit{hypertekstijärjestelmän} (World ...
+[1]pdfTeX warning (ext4): destination with the same identifier (name{page.2}) h
+as been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.147 
        [2]
-Overfull \hbox (15.4908pt too wide) in paragraph at lines 150--152
-[]\OT1/lmr/m/n/10.95 Suunnitelmavetoisissa menetelmiss[]a su-un-nit-telu-vai-he
- on saata-va p[]a[]at[]okseen
- []
-
-
-Overfull \hbox (3.29198pt too wide) in paragraph at lines 153--154
-[]\OT1/lmr/m/n/10.95 Suunnitelmavetoisissa menetelmiss[]a ohjelmis-toj[]arjeste
-lm[]an ha-lut-tu toim-
- []
-
-
-Overfull \hbox (8.17044pt too wide) in paragraph at lines 153--154
-\OT1/lmr/m/n/10.95 vaa-timusm[]a[]arittelyss[]a ja ohjelmis-ton su-un-nit-telus
--sa. Lis[]a[]antynyt suunnittelu-
- []
-
 
 ! Package inputenc Error: Unicode char \u8:　 not set up for use with LaTeX.
 
@@ -941,358 +902,74 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.156 　
+l.157 　
          
 ? 
-
-Overfull \hbox (17.37706pt too wide) in paragraph at lines 155--157
-[]\OT1/lmr/m/n/10.95 Ohjelmistotestauksessa saat-taa il-met[]a my[]os raken-net
-un j[]arjestelm[]an odotet-
- []
-
-
-Overfull \hbox (3.93509pt too wide) in paragraph at lines 159--160
-\OT1/lmr/m/n/10.95 T[]ass[]a tutkiel-mas-sa ko-ordi-noin-nil-la tarkoita-mme yk
--sil[]oiden ja ryh-mien v[]alist[]a
- []
-
-
-Overfull \hbox (2.56715pt too wide) in paragraph at lines 159--160
-\OT1/lmr/m/n/10.95 yhteis-toim-intaa sek[]a n[]aihin li-it-tyv[]a[]a hallinnol-
-lista ty[]ot[]a ja toisaal-ta ohjelmis-
- []
-
-
-Overfull \hbox (13.36455pt too wide) in paragraph at lines 159--160
-\OT1/lmr/m/n/10.95 toj[]arjestelm[]an eri osien yh-teenso-vit-tamista sek[]a oh
-jelmisto-pro-jek-tin hallinnoin-
- []
-
-
-Overfull \hbox (19.24403pt too wide) in paragraph at lines 159--160
-\OT1/lmr/m/n/10.95 tia. Ohjelmisto-pro-jek-tin ko-ordi-noin-tion-gel-mat li-it-
-tyv[]at henkil[]ost[]on, vaa-timusten
- []
-
-
-Overfull \hbox (18.86963pt too wide) in paragraph at lines 161--162
-\OT1/lmr/m/n/10.95 Yk-sil[]oiden tai ryhm[]an on mah-do-ton-ta to-teut-taa ja h
-allinnoi-da su-uria, miljoonien
- []
-
-
-Overfull \hbox (7.89206pt too wide) in paragraph at lines 163--164
-\OT1/lmr/m/n/10.95 al-lis-tuvil-la, kos-ka su-uret pro-jek-tit jo-hta-vat eriko
-is-tu-miseen ja ty[]on jakamiseen.
- []
-
-
-Overfull \hbox (7.56502pt too wide) in paragraph at lines 163--164
-\OT1/lmr/m/n/10.95 as-toi-hin maanti-eteel-lis-es-ti, or-gan-isatoris-es-ti, se
-k[]a sosi-aalis-es-ti. T[]am[]a v[]ahent[]a[]a
- []
-
 [3]
-Overfull \hbox (9.4985pt too wide) in paragraph at lines 165--166
-[]\OT1/lmr/m/n/10.95 Koordinointiongelma li-it-tyy my[]os raken-net-tavaan ohje
-lmis-toj[]arjestelm[]a[]an:
+Overfull \hbox (1.08472pt too wide) in paragraph at lines 166--167
+[]\OT1/lmr/m/n/10.95 (-20) Koordinointiongelma liit-tyy my[]os ra-ken-net-ta-va
+an oh-jel-mis-toj[]arjestelm[]a[]an:
  []
 
 
-Overfull \hbox (7.50063pt too wide) in paragraph at lines 165--166
-\OT1/lmr/m/n/10.95 yh-teen ja ohjelmis-toj[]arjestelm[]an osien on toimit-ta-va
- ko-ordi-noidusti. Ohjelmis-
+Overfull \hbox (9.26941pt too wide) in paragraph at lines 166--167
+\OT1/lmr/m/n/10.95 (-20) to-jen suu-ri ko-ko ai-heut-taa on-gel-mia, kos-ka oh-
+jel-mis-to vaa-tii sen osaj[]arjestelmien
  []
 
 
-Overfull \hbox (16.37709pt too wide) in paragraph at lines 165--166
-\OT1/lmr/m/n/10.95 to-jen su-uri koko ai-heut-taa on-gelmia, kos-ka ohjelmis-to
- vaatii sen os-aj[]arjestelmien
- []
-
-
-Overfull \hbox (3.12248pt too wide) in paragraph at lines 167--168
-\OT1/lmr/m/n/10.95 toimin-nal-lisuuk-sista, joi-ta ohjel-moi-jat to-teut-ta-vat
-. Vaikeuk-sia ilme-nee n[]aiden
- []
-
-
-Overfull \hbox (32.2247pt too wide) in paragraph at lines 167--168
-\OT1/lmr/m/n/10.95 tai asi-akkaat saat-ta-vat kek-si[]a uu-sia toimin-nal-lisuu
-k-sia to-teutet-tavalle j[]arjestelm[]alle
- []
-
-
-Overfull \hbox (17.53584pt too wide) in paragraph at lines 171--172
-\OT1/lmr/m/n/10.95 telu ja to-teu-tus on haas-teel-lista: tyyp-il-lis-es-ti su-
-un-nitel-mave-toi-sis-sa menetelmiss[]a
- []
-
-
-Overfull \hbox (3.72368pt too wide) in paragraph at lines 171--172
-\OT1/lmr/m/n/10.95 joit-taa vaa-timuk-set ohjelmis-toarkkite-hdeille ja -suunni
-ttelijoille, jol-loin merk-
- []
-
-
-Overfull \hbox (14.34486pt too wide) in paragraph at lines 175--176
-\OT1/lmr/m/n/10.95 kek-siv[]at uu-sia toimin-nal-lisuuk-sia ole-mas-sa ol-e-val
-le j[]arjestelm[]alle [[]]. Ohjelmis-
- []
-
-
-Overfull \hbox (21.02963pt too wide) in paragraph at lines 175--176
-\OT1/lmr/m/n/10.95 ton toimin-nal-lisuuk-sien ar-vo-ja on vaikea n[]ahd[]a en-n
-en kuin ohjelmis-toa k[]aytet[]a[]an
- []
-
-
-Overfull \hbox (16.23048pt too wide) in paragraph at lines 177--178
-\OT1/lmr/m/n/10.95 ta su-un-nit-telus-ta ja vaa-timusm[]a[]arittelyst[]a. Su-un
--nitel-mave-toi-sis-sa menetelmiss[]a
+Overfull \hbox (6.17317pt too wide) in paragraph at lines 168--169
+\OT1/lmr/m/n/10.95 (-20) jel-mis-to-ke-hi-tyk-sess[]a haas-te on, ett[]a oh-jel
+-mis-toark-ki-teh-tien ja -suunnittelijoiden
  []
 
 [4]
-Overfull \hbox (1.28554pt too wide) in paragraph at lines 179--180
-[]\OT1/lmr/m/n/10.95 Ohjelmistoj[]arjestelm[]alt[]a vaa-dit-tavien toimin-nal-l
-isuuk-sien hallinnoin-ti on
- []
+LaTeX Font Info:    Try loading font information for OMS+lmr on input line 189.
 
-
-Overfull \hbox (5.24803pt too wide) in paragraph at lines 179--180
-\OT1/lmr/m/n/10.95 asi-akkaan kannal-ta on-gel-mallista: er-i-lais-ten vai-h-to
-e-hto-jen ver-tailu on vaikeaa,
- []
-
-
-Overfull \hbox (10.26326pt too wide) in paragraph at lines 179--180
-\OT1/lmr/m/n/10.95 kos-ka ohjelmis-toke-hitt[]aj[]at eiv[]at yleens[]a tar-joa 
-hinta-arvioita er-i-lai-sista toimin-
- []
-
-
-Overfull \hbox (12.84373pt too wide) in paragraph at lines 181--182
-[]\OT1/lmr/m/n/10.95 Teknologian ja li-ike-toimin-nan vaa-timusten muuttues-sa 
-vaa-timusm[]a[]arittelyt
- []
-
-
-Overfull \hbox (5.61542pt too wide) in paragraph at lines 181--182
-\OT1/lmr/m/n/10.95 ja su-un-nitel-mat van-hen-tu-vat no-peasti [[]]. Alku-per[]
-aisen vaa-timusm[]a[]arittelyn
- []
-
-
-Overfull \hbox (11.30417pt too wide) in paragraph at lines 181--182
-\OT1/lmr/m/n/10.95 tuvien tarpei-den tyy-dytt[]aminen [[]]. In-ter-net li-ike-t
-oim-intaymp[]arist[]on[]a vahvis-
- []
-
-LaTeX Font Info:    Try loading font information for OMS+lmr on input line 191.
-
-(/usr/share/texmf/tex/latex/lm/omslmr.fd
+ (/usr/share/texmf/tex/latex/lm/omslmr.fd
 File: omslmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OMS/lmr/m/n' in size <10.95> not available
-(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 191.
-
-Overfull \hbox (3.14566pt too wide) in paragraph at lines 192--193
-[]\OT1/lmr/m/n/10.95 Jakamalla ohjelmis-to osi-in (mod-u-lar-iza-tion) teknis-e
-s-ti, es-imerkik-si olio-
- []
-
-[5]
-Overfull \hbox (15.4638pt too wide) in paragraph at lines 203--204
-\OT1/lmr/m/n/10.95 Laatu on moni-ta-hoinen k[]asite ja sit[]a voidaan ku-vail-l
-a vi-idest[]a eri n[]ak[]okulmasta:
+(Font)              Font shape `OMS/lmsy/m/n' tried instead on input line 189.
+ [5]
+Overfull \hbox (6.90099pt too wide) in paragraph at lines 201--202
+\OT1/lmr/m/n/10.95 (-20) Laatu on mo-ni-ta-hoi-nen k[]asite ja sit[]a voi-daan 
+ku-vail-la vii-dest[]a eri n[]ak[]okulmasta:
  []
 
 
-Overfull \hbox (1.77045pt too wide) in paragraph at lines 205--206
-[] \OT1/lmr/m/it/10.95 K[]aytt[]aj[]an[]akemys \OT1/lmr/m/n/10.95 (us-er view) 
-laadus-ta li-it-tyy konkreet-tis-es-ti tuot-teeseen,
- []
-
-
-Overfull \hbox (12.49396pt too wide) in paragraph at lines 205--206
-\OT1/lmr/m/n/10.95 tuot-teen pi-irre, mik[]a li-it-tyy k[]aytt[]aj[]an n[]akemy
-kseen laadus-ta. K[]aytett[]avyydell[]a
- []
-
-
-Overfull \hbox (13.12158pt too wide) in paragraph at lines 205--206
-\OT1/lmr/m/n/10.95 tarkoita-mme ohjelmis-ton k[]ayt[]ost[]a ai-heutu-van todel-
-lisen ja olete-tun vaivann[]a[]on
- []
-
-
-Overfull \hbox (8.14082pt too wide) in paragraph at lines 209--210
-\OT1/lmr/m/n/10.95 ja n[]aiden vaiku-tus-ta sis[]aiseen laatu-un (in-ter-nal qu
-al-i-ty). T[]at[]a l[]ahestymistapaa
- []
-
-
-Overfull \hbox (2.96516pt too wide) in paragraph at lines 213--215
-\OT1/lmr/m/n/10.95 bud-jet-tia ylitt[]avi[]a kus-tan-nuk-sia, ja se toimii oike
-in sek[]a suorit-taa tehokkaasti
- []
-
-
-Overfull \hbox (1.24295pt too wide) in paragraph at lines 213--215
-\OT1/lmr/m/n/10.95 pok[]aytt[]oinen. Ohjelmis-to voi ol-la tarpeet-toman lait-t
-eis-tori-ip-pu-vainen. N[]am[]a
- []
-
-
-Overfull \hbox (3.48741pt too wide) in paragraph at lines 213--215
-\OT1/lmr/m/n/10.95 seikat jo-hta-vat ko-htu-ut-tomi-in yll[]apitokustannuksiin 
-[[]]. Kan-sainv[]alinen stan-
+Overfull \hbox (1.13715pt too wide) in paragraph at lines 207--208
+\OT1/lmr/m/n/10.95 (-20) ja n[]aiden vai-ku-tus-ta sis[]aiseen laa-tuun (in-ter
+-nal qua-li-ty). T[]at[]a l[]ahestymistapaa
  []
 
 [6]
-Overfull \hbox (19.2381pt too wide) in paragraph at lines 225--226
-\OT1/lmr/m/n/10.95 nal-lisuuk-sien on tyy-dytett[]av[]a k[]aytt[]aj[]an vaa-tim
-uk-set sek[]a kyett[]av[]a yll[]apit[]am[]a[]an
+Overfull \hbox (11.96365pt too wide) in paragraph at lines 223--224
+\OT1/lmr/m/n/10.95 (-20) nal-li-suuk-sien on tyy-dy-tett[]av[]a k[]aytt[]aj[]an
+ vaa-ti-muk-set sek[]a kyett[]av[]a yll[]apit[]am[]a[]an
  []
 
 
-Overfull \hbox (26.22992pt too wide) in paragraph at lines 227--228
-[]\OT1/lmr/m/n/10.95 K[]aytett[]avyys mit-taa ohjelmis-toj[]arjestelm[]an k[]ay
-t[]ost[]a ai-heutu-van ja k[]aytt[]ajien
+Overfull \hbox (19.1313pt too wide) in paragraph at lines 225--226
+[]\OT1/lmr/m/n/10.95 (-20) K[]aytett[]avyys mit-taa oh-jel-mis-toj[]arjestelm[]
+an k[]ayt[]ost[]a ai-heu-tu-van ja k[]aytt[]ajien
  []
 
-
-Overfull \hbox (1.96608pt too wide) in paragraph at lines 233--234
-\OT1/lmr/m/n/10.95 se tyy-dytt[]a[]a h[]anen tarpeen-sa. Tuotet-ta-van ohjelmis
--toj[]arjestelm[]an vaa-timuk-
- []
-
-
-Overfull \hbox (4.48412pt too wide) in paragraph at lines 233--234
-\OT1/lmr/m/n/10.95 ohjelmis-to-tuotan-non haastei-ta k[]asitelless[]amme, asi-a
-kkaiden tarpei-den ja vaa-
- []
-
-
-Overfull \hbox (24.00995pt too wide) in paragraph at lines 235--236
-\OT1/lmr/m/n/10.95 ratkaisu-ja ohjelmis-to-tuotan-non sek[]a su-un-nitel-mave-t
-ois-t-en menetelmien haasteisi-
- []
-
-
-Overfull \hbox (15.31285pt too wide) in paragraph at lines 239--240
-\OT1/lmr/m/n/10.95 menetelm[]at ovat yk-si-tyisko-htaisia pros-esse-ja, jois-sa
- pain-ote-taan en-nen ohjelmis-
- []
-
-[7]
-Overfull \hbox (12.66176pt too wide) in paragraph at lines 243--244
-[]\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a ke-hitt[]aj[]aorganisaatiot ov
-at valmi-impia reagoimaan
- []
-
-
-Overfull \hbox (25.92633pt too wide) in paragraph at lines 243--244
-\OT1/lmr/m/n/10.95 muu-tok-si-in ohjelmis-toke-hi-tyk-sen aikana kuin su-un-nit
-el-mave-toi-sis-sa menetelmiss[]a:
- []
-
-
-Overfull \hbox (7.98293pt too wide) in paragraph at lines 243--244
-\OT1/lmr/m/n/10.95 kaik-ki ke-hi-tyk-sen aikana es-ille tulleet uudet vaa-timuk
--set tai muu-tok-sia kaipaa-
- []
-
-
-Overfull \hbox (36.63908pt too wide) in paragraph at lines 249--250
-\OT1/lmr/m/n/10.95 lin-eaarisi-in ohjelmis-to-tuotan-non su-un-nitel-mave-toisi
--in pros-es-si-mallei-hin. Vesiputous-
- []
-
-<waterfall.png, id=218, 686.565pt x 423.5825pt>
+[7] <waterfall.png, id=220, 686.565pt x 423.5825pt>
 File: waterfall.png Graphic file (type png)
  <use waterfall.png>
+Package pdftex.def Info: waterfall.png used on input line 252.
+(pdftex.def)             Requested size: 360.0pt x 222.09975pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (42.7477pt too wide) in paragraph at lines 257--258
-[]\OT1/lmr/m/n/10.95 Vesiputousmallissa ohjelmis-to-tuotan-to koos-t-uu seu-raa
-v-ista vai-heista: j[]arjestelm[]an
- []
-
-
-Overfull \hbox (20.14505pt too wide) in paragraph at lines 261--262
-[]\OT1/lmr/m/n/10.95 M[]a[]arittely- ja su-un-nit-telu-vai-heen j[]alkeen su-un
--nitel-laan j[]arjestelm[]an rakenne:
- []
-
-Runaway argument?
-{ROY70 
-! Paragraph ended before \@citex was complete.
-<to be read again> 
-                   \par 
-l.264 
-      
-? 
-
-Overfull \hbox (4.87468pt too wide) in paragraph at lines 263--264
-[]\OT1/lmr/m/n/10.95 Ohjelmointivaiheessa kir-joite-taan ohjel-makoo-di laa-dit
--tu-jen su-un-nitelmien
- []
-
-
-Overfull \hbox (0.8336pt too wide) in paragraph at lines 263--264
-\OT1/lmr/m/n/10.95 v[]altt[]am[]att[]a ohjel-moi-neet tes-tat-tavaa ohjelmis-to
-n os-aa varmis-ta-vat vi-suaalis-
- []
-
-
-Overfull \hbox (3.57242pt too wide) in paragraph at lines 263--264
-\OT1/lmr/m/n/10.95 es-ti tarkastele-mal-la ja kir-joit-ta-mal-la testi-ta-pauk-
-sia, ett[]a raken-net-tu ohjelmis-
- []
-
 [8]
-Overfull \hbox (3.53902pt too wide) in paragraph at lines 265--266
-[]\OT1/lmr/m/n/10.95 Vesiputousmallissa pain-ote-taan doku-mentin t[]arkeytt[]a
-, jot-ta tes-taa-ja voisi
+Overfull \hbox (3.0545pt too wide) in paragraph at lines 263--264
+\OT1/lmr/m/n/10.95 (-20) taa-va hen-kil[]o voi ymm[]art[]a[]a j[]arjestelm[]an 
+toi-min-taa pa-rem-min. K[]aytt[]o[]onotossa
  []
 
-
-Overfull \hbox (16.25655pt too wide) in paragraph at lines 265--266
-\OT1/lmr/m/n/10.95 ilme-nee tes-taus-vai-heessa, ohjelmis-toa k[]aytett[]aess[]
-a sek[]a uudelleen su-un-niteltaes-
- []
-
-
-Overfull \hbox (0.16579pt too wide) in paragraph at lines 265--266
-\OT1/lmr/m/n/10.95 tovirheen alku-per[]ainen tek-ij[]a kyke-nee analysoimaan ky
--seess[]a ol-e-van virheen.
- []
-
-
-Overfull \hbox (5.7367pt too wide) in paragraph at lines 267--268
-\OT1/lmr/m/n/10.95 toimi-vaa ohjelmis-toa ohjelmis-to-tuotan-to-pro-jek-tin lop
--pu-vai-heessa. Doku-ment-
- []
-
-
-Overfull \hbox (2.38535pt too wide) in paragraph at lines 267--268
-\OT1/lmr/m/n/10.95 os-aa usein sanoa, n[]ahdess[]a[]an valmi-in tuot-teen, mit[
-]a olisi ohjelmis-tol-ta halun-
- []
-
-
-! Package inputenc Error: Unicode char \u8:　 not set up for use with LaTeX.
-
-See the inputenc package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.271 　
-         
-? 
 [9 <./waterfall.png>]
 
 ! Package inputenc Error: Unicode char \u8:　 not set up for use with LaTeX.
@@ -1301,423 +978,36 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.275 　
+l.273 　
          
 ? 
-<spiral.png, id=239, 1141.26375pt x 994.71625pt>
+<spiral.png, id=242, 1141.26375pt x 994.71625pt>
 File: spiral.png Graphic file (type png)
  <use spiral.png>
-Overfull \hbox (25.98984pt too wide) in paragraph at lines 289--290
-[]\OT1/lmr/m/n/10.95 vaihtoehtoiset to-teu-tus-ta-vat (ohjelmis-ton os-to, ohje
-lmis-ton uudelleenk[]aytt[]o,
+Package pdftex.def Info: spiral.png used on input line 280.
+(pdftex.def)             Requested size: 360.0pt x 313.76227pt.
+ [10 <./spiral.png>]
+Overfull \hbox (17.50238pt too wide) in paragraph at lines 287--288
+[]\OT1/lmr/m/n/10.95 (-20) vaihtoehtoiset to-teu-tus-ta-vat (oh-jel-mis-ton os-
+to, oh-jel-mis-ton uu-del-leenk[]aytt[]o,
  []
 
-[10 <./spiral.png>]
-Overfull \hbox (16.46825pt too wide) in paragraph at lines 290--290
-[]\OT1/lmr/m/n/10.95 ohjelmiston eri vai-h-toe-hdoille aset-tamien ra-joit-teet
- (ra-jap-in-nat, aikataulu,
+[11] [12] [13] [14] [15] [16]
+Overfull \hbox (8.01996pt too wide) in paragraph at lines 417--418
+\OT1/lmr/m/n/10.95 (-20) ta-vuus, k[]aytett[]avyys ja te-hok-kuus yh-dis-tyy as
+iak-kaan toi-vei-siin ja n[]akemykseen
  []
 
-
-Overfull \hbox (6.67033pt too wide) in paragraph at lines 300--301
-[]\OT1/lmr/m/n/10.95 Spriraalimallin riskien analysoin-nista huoli-mat-ta, ohje
-lmis-ton ke-hi-tyspros-
- []
-
-
-Overfull \hbox (18.83983pt too wide) in paragraph at lines 302--303
-\OT1/lmr/m/n/10.95 nitel-mave-tois-t-en menetelmien pu-ut-tei-ta ja miten ket-t
-er[]at menetelm[]at l[]ahestyv[]at
- []
-
-
-Overfull \hbox (16.76712pt too wide) in paragraph at lines 304--306
-[]\OT1/lmr/m/n/10.95 Suunnitelmavetoisten pros-es-si-mallien on-gelmien seu-rau
-k-se-na use-at ohjelmis-
- []
-
-[11]
-Overfull \hbox (10.20924pt too wide) in paragraph at lines 314--316
-\OT1/lmr/m/n/10.95 ta [[]]. Helmiku-us-sa 2001 17 ket-te-rien menetelmien ke-hi
-tt[]aj[]a[]a tapasi keskustel-
- []
-
-
-Overfull \hbox (14.18182pt too wide) in paragraph at lines 328--329
-[]\OT1/lmr/m/n/10.95 Empiirisen ohjelmis-to-tuotan-to-pro-jek-tin aikana on ole
-el-lista op-pia ja mukau-
- []
-
-
-Overfull \hbox (8.44485pt too wide) in paragraph at lines 328--329
-\OT1/lmr/m/n/10.95 l[]ahestymistavan. Ly-hyet it-er-aa-tiot mah-dol-lis-ta-vat 
-ket-teri[]a menetel-mi[]a mukau-
- []
-
-
-Overfull \hbox (2.41246pt too wide) in paragraph at lines 328--329
-\OT1/lmr/m/n/10.95 tu-maan ja muut-ta-maa li-ike-toim-intaymp[]arist[]on en-nus
--ta-mat-tomien vaa-timuk-
- []
-
-
-Overfull \hbox (13.13005pt too wide) in paragraph at lines 328--329
-\OT1/lmr/m/n/10.95 sien mukaan. Ly-hyt ke-hi-tyssyk-lin j[]alkeen ohjelmis-toke
--hi-tyk-sen su-un-taa voidaan
- []
-
-
-Overfull \hbox (2.47421pt too wide) in paragraph at lines 330--331
-[]\OT1/lmr/m/n/10.95 Kerromme seu-raavak-si ly-hyesti kahdes-ta ket-ter[]ast[]a
- ke-hi-tys-menetelm[]ast[]a.
- []
-
-
-Overfull \hbox (3.90195pt too wide) in paragraph at lines 334--335
-\OT1/lmr/m/n/10.95 XP (Ex-treme Pro-gram-ming) v[]ahent[]a[]a ohjelmis-ton vaa-
-timusten muut-tumisen
- []
-
-[12]
-Overfull \hbox (20.17987pt too wide) in paragraph at lines 338--339
-\OT1/lmr/m/n/10.95 poikkeaa merkitt[]av[]asti su-un-nitel-mave-toi-sista menete
-lmist[]a, jois-sa vas-ta valmista
- []
-
-
-Overfull \hbox (7.31087pt too wide) in paragraph at lines 340--341
-\OT1/lmr/m/n/10.95 samal-la mah-dol-lisim-man yksinker-taista su-un-nitel-maa t
-eht[]av[]an ratkaisemisek-
- []
-
-
-Overfull \hbox (20.8127pt too wide) in paragraph at lines 346--348
-[]\OT1/lmr/m/n/10.95 Scrum hallinnoi ohjelmis-to-tuotan-non mon-imutkaisu-ut-ta
- seu-raav-il-la yksinker-
- []
-
-
-Overfull \hbox (0.12975pt too wide) in paragraph at lines 346--348
-\OT1/lmr/m/n/10.95 p[]aiv[]an it-er-aa-tio, jon-ka ai-ka tuote-taan \OT1/lmr/m/
-it/10.95 valmi-in \OT1/lmr/m/n/10.95 (done) m[]a[]aritelm[]an mukainen
- []
-
-
-Overfull \hbox (0.56007pt too wide) in paragraph at lines 349--350
-[]\OT1/lmr/m/n/10.95 Scrumissa on kolme roo-lia: tuo-teomis-ta-ja (Prod-uct own
--er), ke-hitt[]aj[]atiimi
- []
-
-[13]
-Overfull \hbox (8.22412pt too wide) in paragraph at lines 355--356
-[]\OT1/lmr/m/n/10.95 Sprintin teht[]av[]alista sis[]alt[]a[]a teht[]av[]at, jot
--ka ke-hitt[]aj[]atiimi to-teut-taa julka-
- []
-
-
-Overfull \hbox (8.07431pt too wide) in paragraph at lines 355--356
-\OT1/lmr/m/n/10.95 reaali-aikainen ku-vaus ty[]ost[]a, jon-ka ke-hitt[]aj[]atii
-mi su-un-nit-telee saa-vansa valmi-
- []
-
-
-Overfull \hbox (5.33888pt too wide) in paragraph at lines 365--366
-[]\OT1/lmr/m/n/10.95 XP:n k[]ayt[]ant[]oihin ku-u-luu jatku-va par-i-o-hjel-moi
-n-ti ja tes-tive-toisu-us. N[]am[]a
- []
-
-
-Overfull \hbox (1.3496pt too wide) in paragraph at lines 373--374
-[]\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a ke-hitt[]ajien on kyett[]av[]a
- tekem[]a[]an kaik-ki tekniset
- []
-
-
-Overfull \hbox (0.61987pt too wide) in paragraph at lines 375--376
-\OT1/lmr/m/n/10.95 p[]a[]aomalle asetet-ta-vat tavoit-teet (ROI) ja julka-is-us
-u-un-nitel-mat (re-lese plans)
- []
-
-[14]
-Overfull \hbox (1.07317pt too wide) in paragraph at lines 379--380
-[]\OT1/lmr/m/n/10.95 Kehitt[]aj[]atiimi kokoon-tuu kokoon-tuu jo-ka p[]aiv[]a 1
-5 min-uutin tapaamiseen
- []
-
-
-Overfull \hbox (15.59319pt too wide) in paragraph at lines 379--380
-\OT1/lmr/m/n/10.95 - p[]aiv[]apalaveriin (Dai-ly Scrum). Jokainen ti-imin j[]as
-en vas-taa kolmeen kysymyk-
- []
-
-
-Overfull \hbox (2.42342pt too wide) in paragraph at lines 381--382
-\OT1/lmr/m/n/10.95 ke-hi-tysjonon kaut-ta. Ke-hitt[]aj[]atiimin tulee pit[]a[]a
- p[]aiv[]apalaverit sek[]a yll[]apit[]a[]a
- []
-
-
-Overfull \hbox (16.5973pt too wide) in paragraph at lines 381--382
-\OT1/lmr/m/n/10.95 sprint-in teht[]av[]alistaa ja edis-tymisk[]ayr[]a[]a. Ke-hi
-tt[]aj[]atiimille on taat-ta-va ty[]orauha
- []
-
-
-Overfull \hbox (5.63536pt too wide) in paragraph at lines 385--386
-[]\OT1/lmr/m/n/10.95 Scrumissa sprint-tikat-sel-muk-sess-sa ti-i-mi esit-telee 
-tuo-teomis-ta-jalle ja muille
- []
-
-
-Overfull \hbox (38.46768pt too wide) in paragraph at lines 385--386
-\OT1/lmr/m/n/10.95 halukkaille si-dos-ryh-mille, it-er-aa-tion aikana, ke-hite-
-tyt toimin-nal-lisu-udet. Tapaamisen
- []
-
-[15]
-Overfull \hbox (25.68875pt too wide) in paragraph at lines 396--398
-[]\OT1/lmr/m/n/10.95 XP:n n[]ak[]okulmasta kaavioiden tarkoi-tus on tar-jo-ta y
-htey-den-pitoa. Tehokkaan
- []
-
-
-Overfull \hbox (15.18742pt too wide) in paragraph at lines 408--410
-[]\OT1/lmr/m/n/10.95 Ketteriss[]a menetelmiss[]a su-un-nit-telua tehd[]a[]an ko
-ko ohjelmis-toke-hi-tyskaaren
- []
-
-
-Overfull \hbox (10.78072pt too wide) in paragraph at lines 408--410
-\OT1/lmr/m/n/10.95 Ohjel-makood-in raken-net-ta on tarpeen vaaties-sa jatku-vas
-ti paran-net-ta-va raken-
- []
-
-
-Overfull \hbox (11.02861pt too wide) in paragraph at lines 408--410
-\OT1/lmr/m/n/10.95 nemuu-tok-sil-la (refac-tor-ing). Ohjel-moi-jien on ymm[]arr
-ett[]av[]a su-un-nit-telumallien
- []
-
-[16]
-Overfull \hbox (12.44814pt too wide) in paragraph at lines 417--418
-[]\OT1/lmr/m/n/10.95 Kolmannessa kap-paleessa m[]a[]arittelimme laadun kan-sain
-v[]alisen stan-daroin-
- []
-
-
-Overfull \hbox (3.30487pt too wide) in paragraph at lines 417--418
-\OT1/lmr/m/n/10.95 tior-gan-isaa-tion laatupi-irtei-den mukaises-ti. Ni-ist[]a 
-toimin-nal-lisu-us, lu-otet-tavu-
- []
-
-
-Overfull \hbox (10.39218pt too wide) in paragraph at lines 417--418
-\OT1/lmr/m/n/10.95 tuotet-tavas-ta ohjelmis-to-j[]arjestelm[]ast[]a [[]]. Laatu
-pi-ir-teet li-it-tyv[]at vaa-timusten
- []
-
-
-Overfull \hbox (5.39673pt too wide) in paragraph at lines 419--420
-\OT1/lmr/m/n/10.95 tok-set tuot-teen ke-hi-tysjonos-sa hei-jas-ta-vat muut-tuva
-a li-ike-toim-intaymp[]arist[]o[]a
- []
-
-
-Overfull \hbox (17.19794pt too wide) in paragraph at lines 423--424
-\OT1/lmr/m/n/10.95 simm[]aisen it-er-aa-tion j[]alkeen, sill[]a jokainen to-teu
-tet-ta-va toimin-nal-lisu-us tehd[]a[]an
- []
-
-
-Overfull \hbox (10.23305pt too wide) in paragraph at lines 423--424
-\OT1/lmr/m/n/10.95 mah-dol-liset pu-ut-teet toimin-nal-lisu-udessa ja k[]aytt[]
-o-li-it-tym[]an k[]ay-tett[]avyydess[]a.
- []
-
-
-Overfull \hbox (6.60934pt too wide) in paragraph at lines 429--430
-[]\OT1/lmr/m/n/10.95 Tarkkailemalla pois-tet-ta-van ohjel-makood-in m[]a[]ar[]a
-[]a, voidaan n[]ahd[]a tapah-
- []
-
-
-Overfull \hbox (3.15413pt too wide) in paragraph at lines 429--430
-\OT1/lmr/m/n/10.95 tuuko tarpeek-si su-un-nit-telua. Ohjelmisto-pro-jek-tis-sa,
- jos-sa tehd[]a[]an ri-itt[]av[]asti
- []
-
-
-Overfull \hbox (24.07854pt too wide) in paragraph at lines 431--433
-\OT1/lmr/m/n/10.95 i-in. Jos ohjel-moi-jat n[]akev[]at toimin-nal-lisu-udelle p
-arem-man ratkaisun hyv[]aksytysti
- []
-
-
-Overfull \hbox (9.74475pt too wide) in paragraph at lines 431--433
-\OT1/lmr/m/n/10.95 un-nitel-tu (well-structured) ja raken-net-tu (well-written 
-code) ohjelmakoodi[[]]. 
- []
-
-
-Overfull \hbox (10.75633pt too wide) in paragraph at lines 437--438
-\OT1/lmr/m/n/10.95 ta-vat testi-ta-pauk-sia. Ohjel-moi-jat varmis-ta-vat os-alt
-aan ohjel-makood-in toimivu-
- []
-
-[17]
-Overfull \hbox (24.40755pt too wide) in paragraph at lines 439--440
-\OT1/lmr/m/n/10.95 makood-ia ohjelmis-toon, kaik-ki aikaisem-min tehdyt ja uude
-t testit ovat l[]ap[]aist[]av[]a.
- []
-
-
-Overfull \hbox (0.13258pt too wide) in paragraph at lines 443--444
-[]\OT1/lmr/m/n/10.95 Hyv[]aksym[]atestit k[]aytt[]av[]at j[]arjestelm[]a[]a ohj
-el-mallis-es-ti k[]aytt[]aj[]an tavoin:
- []
-
-
-Overfull \hbox (5.21301pt too wide) in paragraph at lines 443--444
-\OT1/lmr/m/n/10.95 ohjelmis-ton ke-hi-tyskaaren ajan ja ne takaa-vat ohjelmis-t
-on toimivu-u-den jatku-
- []
-
-
-Overfull \hbox (17.65146pt too wide) in paragraph at lines 445--446
-[]\OT1/lmr/m/n/10.95 Scrumissa on kaikil-la pro-jek-ti-in os-al-lis-tu-vien on 
-yhteis-es-ti so-vit-ta-va m[]a[]aritel-
- []
-
-[18]
-Overfull \hbox (5.33148pt too wide) in paragraph at lines 452--453
-[]\OT1/lmr/m/n/10.95 Testivetoinen menetelm[]a eroaa merkitt[]av[]asti su-un-ni
-tel-mave-toi-sista mene-
- []
-
-
-Overfull \hbox (7.28893pt too wide) in paragraph at lines 452--453
-\OT1/lmr/m/n/10.95 lo-pus-sa. T[]ast[]a jo-htuen on tarpeen tarkastel-la tar-jo
-aako tes-tive-toinen ohjelmis-
- []
-
-
-Overfull \hbox (8.44354pt too wide) in paragraph at lines 452--453
-\OT1/lmr/m/n/10.95 toisu-us ohjelmis-ton laat-ua. K[]asittelemme seu-raavak-si 
-l[]oyt[]ami[]amme tutkimuk-
- []
-
-
-Overfull \hbox (6.7951pt too wide) in paragraph at lines 454--455
-\OT1/lmr/m/n/10.95 k[]aviv[]at vuon-na 2003 ohjel-moin-tikurssin nou-dat-taen t
-es-tive-toista menetelm[]a[]a.
- []
-
-
-Overfull \hbox (34.62294pt too wide) in paragraph at lines 456--457
-[]\OT1/lmr/m/n/10.95 IBM kokeili er[]a[]ass[]a ohjelmis-toke-hi-tys-ryhm[]ass[]
-a tes-tive-toista ke-hi-tys-menetelm[]a[]a,
- []
-
-
-Overfull \hbox (18.36201pt too wide) in paragraph at lines 456--457
-\OT1/lmr/m/n/10.95 kun aikaisem-mat laadun-varmis-tuk-set eiv[]at tuot-ta-neet 
-toiv-ot-tua tu-losta. K[]aytt[]a-
- []
-
-
-Overfull \hbox (7.64334pt too wide) in paragraph at lines 465--466
-[]\OT1/lmr/m/n/10.95 Pariohjelmoinnissa kak-si ohjel-moi-jaa yhdess[]a ty[]ost[
-]av[]at yht[]a ohjel-makood-
- []
-
-[19]
-Overfull \hbox (14.4579pt too wide) in paragraph at lines 469--471
-[]\OT1/lmr/m/n/10.95 Koehenkil[]ot valit-ti-in sat-un-nais-es-ti ty[]oskentelem
-[]a[]an pare-it-tain te-stiryhm[]a[]an
- []
-
-
-Overfull \hbox (14.43912pt too wide) in paragraph at lines 469--471
-\OT1/lmr/m/n/10.95 Ratkaisu-ista pisteytet-ti-in luet-tavu-us v[]alilt[]a 0-2. 
-Lukuar-vo 0 tarkoit-ti lukukelvo-
- []
-
-
-Overfull \hbox (17.47308pt too wide) in paragraph at lines 474--476
-\OT1/lmr/m/n/10.95 opiske-li-jaa muo-dosti kon-trol-liryhm[]an, jos-sa opiske-l
-i-jat ty[]oskenteliv[]at it-sen[]aisesti
- []
-
-
-Overfull \hbox (0.37898pt too wide) in paragraph at lines 474--476
-\OT1/lmr/m/n/10.95 suo-ri-u-tu-miseen vaa-dit-tua aikaa, tuot-tavu-ut-ta ja suo
-ritet-tu-jen teht[]avien laat-
- []
-
-[20]
-Overfull \hbox (3.4194pt too wide) in paragraph at lines 493--494
-\OT1/lmr/m/n/10.95 ohjel-moi-jat sanoi-vat, ett[]a pare-it-tain analysoin-ti ja
- su-un-nit-telu on t[]arke[]amp[]a[]a
- []
-
-
-Overfull \hbox (12.42984pt too wide) in paragraph at lines 493--494
-\OT1/lmr/m/n/10.95 sil[]ollisesti ru-ti-inite-ht[]avi[]a ja yksinker-taisia ohj
-el-makood-e-ja. T[]allaisten teht[]avien
- []
-
-
-Overfull \hbox (3.0817pt too wide) in paragraph at lines 495--496
-[]\OT1/lmr/m/n/10.95 Pareittain ty[]oskentelev[]at tuot-ta-vat luet-tavam-paa o
-hjel-makood-ia ja toimi-
- []
-
-
-Overfull \hbox (1.50923pt too wide) in paragraph at lines 495--496
-\OT1/lmr/m/n/10.95 vampia ratkaisu-ja kuin yksin toimi-vat ohjel-moi-jat. Ryh-m
-iss[]a toimi-vat ratkai-
- []
-
-
-Overfull \hbox (2.78647pt too wide) in paragraph at lines 495--496
-\OT1/lmr/m/n/10.95 se-vat on-gelmia keskim[]a[]arin no-peam-min kuin yk-sil[]ot
-. Lis[]aksi pare-it-tain toimi-
- []
-
-
-Overfull \hbox (0.59758pt too wide) in paragraph at lines 497--498
-\OT1/lmr/m/n/10.95 emm[]an vai-h-toe-hto-ja ja yhtyv[]at no-peasti to-teutet-ta
-vaan ratkaisu-un. Ideoiden
- []
-
-
-Overfull \hbox (8.0187pt too wide) in paragraph at lines 497--498
-\OT1/lmr/m/n/10.95 vai-h-to parin v[]alill[]a v[]ahent[]a[]a huonon su-un-nitel
--man to-denn[]ak[]oisyytt[]a. Yhdess[]a
- []
-
-
-Overfull \hbox (1.77568pt too wide) in paragraph at lines 499--500
-\OT1/lmr/m/n/10.95 par-i-o-hjel-moin-nin sis[]allytt[]aminen ohjelmis-to-tuotan
--toon kaksinker-tais-taa kus-
- []
-
-
-Overfull \hbox (2.8178pt too wide) in paragraph at lines 499--500
-\OT1/lmr/m/n/10.95 tan-nuk-set jos henkil[]ost[]om[]a[]ar[]a[]a on lis[]att[]av
-[]a samas-sa suh-teessa. John Nosekin
- []
-
-
-Overfull \hbox (0.95467pt too wide) in paragraph at lines 499--500
-\OT1/lmr/m/n/10.95 Laadun-varmis-tuk-ses-ta ai-heutu-vat kus-tan-nuk-set huomio
-iden pare-it-tain ohjel-
+[17] [18] [19]
+Overfull \hbox (7.5217pt too wide) in paragraph at lines 470--472
+[]\OT1/lmr/m/n/10.95 (-20) Koehenkil[]ot va-lit-tiin sa-tun-nai-ses-ti ty[]oske
+ntelem[]a[]an pa-reit-tain tes-ti-ryhm[]a[]an
  []
 
-[21]
-Overfull \hbox (0.6499pt too wide) in paragraph at lines 509--510
-\OT1/lmr/m/n/10.95 isatorisil-la rak-en-teil-la ratkaisu-ja ohjelmis-to-tuotan-
-non haasteisi-in ja ohjelmis-
+[20] [21]
+Overfull \hbox (0.33904pt too wide) in paragraph at lines 506--507
+[]\OT1/lmr/m/n/10.95 (-20) Ketterien me-ne-tel-mien k[]ayt[]anteist[]a ja vai-k
+u-tuk-ses-ta laa-tuun k[]asittelimme
  []
 
 (./kandi.bbl
@@ -1732,43 +1022,48 @@ babelbib: Using the BibTeX style's default font for `ISBN'.
 babelbib: Using the BibTeX style's default font for `ISSN'.
 babelbib: Using the BibTeX style's default font for `url'.
 babelbib: Using the BibTeX style's default font for `numeral'.
+[22]
 LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 62.
 
-(/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [22]
-Underfull \hbox (badness 2790) in paragraph at lines 186--193
-[]\OT1/lmr/m/n/10.95 Williams, L. ja A. Cock-burn: \OT1/lmr/m/it/10.95 Ag-ile s
-oft-ware de-vel-op-ment: it's
+)
+Underfull \hbox (badness 1005) in paragraph at lines 128--134
+\OT1/lmr/m/it/10.95 (+20) get [special is-sues sec-tion]\OT1/lmr/m/n/10.95 (+20
+) .  Softwa-re, IEEE, 13(1):12--21, 1996,
  []
 
-
-Underfull \hbox (badness 1454) in paragraph at lines 186--193
-\OT1/lmr/m/it/10.95 about feed-back and change\OT1/lmr/m/n/10.95 .  Com-put-er,
- 36(6):39--43, june 2003,
- []
-
-[23]) [24] (./kandi.aux) ) 
+[23])
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 532.
+ [24]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 532.
+ (./kandi.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 532.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 532.
+Package rerunfilecheck Info: File `kandi.out' has not changed.
+(rerunfilecheck)             Checksum: 3D0EB19EAD6A8FBC8D7DD1C6B1A7D2E1;1354.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 532.
+ ) 
 Here is how much of TeX's memory you used:
- 6648 strings out of 495061
- 91752 string characters out of 1182621
- 180952 words of memory out of 3000000
- 9599 multiletter control sequences out of 15000+50000
- 38402 words of font info for 39 fonts, out of 3000000 for 9000
- 28 hyphenation exceptions out of 8191
- 38i,9n,36p,744b,528s stack positions out of 5000i,500n,10000p,200000b,50000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/us
-r/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvip
-s/lm/lm-rm.enc}</usr/share/texmf-texlive/fonts/type1/public/amsfonts/cm/cmr10.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/t
-ype1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></u
-sr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/pu
-blic/lm/lmr6.pfb></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share
-/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm
-/lmtt10.pfb>
-Output written on kandi.pdf (29 pages, 470526 bytes).
+ 9514 strings out of 493481
+ 139677 string characters out of 3143393
+ 274478 words of memory out of 3000000
+ 12447 multiletter control sequences out of 15000+200000
+ 44338 words of font info for 103 fonts, out of 3000000 for 9000
+ 965 hyphenation exceptions out of 8191
+ 32i,9n,35p,823b,598s stack positions out of 5000i,500n,10000p,200000b,50000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}{/usr/share/texmf/fonts/enc/
+dvips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/sha
+re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texm
+f/fonts/type1/public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx
+12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/font
+s/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr6.pfb></
+usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/
+public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on kandi.pdf (28 pages, 436493 bytes).
 PDF statistics:
- 461 PDF objects out of 1000 (max. 8388607)
+ 469 PDF objects out of 1000 (max. 8388607)
+ 421 compressed objects within 5 object streams
  75 named destinations out of 1000 (max. 500000)
- 155 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 11939 words of extra memory for PDF output out of 12000 (max. 10000000)
 
